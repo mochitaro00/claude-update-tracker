@@ -67,6 +67,31 @@ def get_existing_ids(data):
     return {u["id"] for u in data["updates"]}
 
 
+def git_push(count):
+    """変更を commit & push"""
+    import subprocess
+
+    repo_dir = SCRIPT_DIR.parent
+    today = date.today().isoformat()
+
+    try:
+        subprocess.run(
+            ["git", "add", "data/updates.json"],
+            cwd=repo_dir, check=True, capture_output=True,
+        )
+        subprocess.run(
+            ["git", "commit", "-m", f"auto-update: {count} new entries ({today})"],
+            cwd=repo_dir, check=True, capture_output=True,
+        )
+        subprocess.run(
+            ["git", "push"],
+            cwd=repo_dir, check=True, capture_output=True,
+        )
+        log(f"Git push 完了（{count}件の新規エントリ）")
+    except subprocess.CalledProcessError as e:
+        log(f"Git push エラー: {e.stderr.decode() if e.stderr else e}")
+
+
 # ============================================================
 # Source 1: Claude Code CHANGELOG
 # ============================================================
@@ -431,6 +456,10 @@ def main():
 
         data["updates"].extend(new_entries)
         save_updates(data, dry_run=dry_run)
+
+        # Git commit & push（GitHub Pages 自動デプロイ）
+        if not dry_run:
+            git_push(len(new_entries))
     else:
         log("新規エントリなし。updates.json は変更しません。")
 
