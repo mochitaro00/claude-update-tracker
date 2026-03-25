@@ -1,0 +1,2766 @@
+{
+  "meta": {
+    "lastUpdated": "2026-03-25",
+    "version": "1.0.0"
+  },
+  "updates": [
+    {
+      "id": "2026-03-24-figma-mcp-canvas-write",
+      "date": "2026-03-24",
+      "title": "Figma MCP 大型アップデート — AIエージェントがキャンバスに直接書き込み可能に",
+      "titleEn": "Figma MCP Major Update — Agents Can Now Write to Figma Canvas",
+      "description": "新ツール use_figma により、Claude Code・Codex・Cursor等のAIエージェントがFigmaキャンバスにネイティブのデザインアセット（フレーム、コンポーネント、Auto Layout等）を直接生成・編集可能に。Skills機能でエージェントの動作を制御でき、Code Connectも強化。ベータ期間中は無料。",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "figma",
+        "mcp",
+        "design",
+        "canvas",
+        "code-connect",
+        "agent"
+      ],
+      "link": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/"
+    },
+    {
+      "id": "2026-03-24-claude-computer-use-mac",
+      "date": "2026-03-24",
+      "title": "Claude Computer Use on Mac リサーチプレビュー — Macを遠隔操作可能に",
+      "titleEn": "Claude Computer Use on Mac — Research Preview",
+      "description": "ClaudeがmacOS上でマウス操作・キーボード入力・ブラウザ操作を自動実行する「Computer Use on Mac」をリサーチプレビューとして提供開始。Dispatch機能でiPhoneからQRコードでMacとペアリングし、外出先からタスクを指示して結果を受け取ることが可能。Pro・Maxプラン対象。",
+      "source": "apps",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "computer-use",
+        "mac",
+        "dispatch",
+        "remote",
+        "agent",
+        "cowork"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2026-03-20-claude-code-v2-1-81",
+      "date": "2026-03-20",
+      "title": "Claude Code v2.1.81 — --bare フラグ・Voice Mode改善",
+      "titleEn": "Claude Code v2.1.81 — --bare flag, Voice Mode fixes",
+      "description": "スクリプト用の --bare フラグ（hooks・LSP・プラグイン同期スキップ）追加。--channels でスマホへの権限承認プロンプト転送対応。Voice Modeのリトライ・WebSocket切断時の回復を修正。MCP read/searchツールの表示を1行に折りたたむUI改善。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "bare",
+        "voice-mode",
+        "channels",
+        "mcp"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-17-claude-code-v2-1-77",
+      "date": "2026-03-17",
+      "title": "Claude Code v2.1.77 — Opus 4.6 出力トークン上限引き上げ",
+      "titleEn": "Claude Code v2.1.77 — Opus 4.6 max output tokens increased",
+      "description": "Opus 4.6のデフォルト最大出力トークンを64Kに、上限を128Kに引き上げ。より長い応答の生成が可能に。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "opus",
+        "output-tokens"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-14-claude-code-v2-1-76",
+      "date": "2026-03-14",
+      "title": "Claude Code v2.1.76 — MCP Elicitation・/effort コマンド追加",
+      "titleEn": "Claude Code v2.1.76 — MCP Elicitation, /effort command",
+      "description": "MCPサーバーが対話的に構造化入力を要求できるElicitation機能に対応。推論の深さを調整する /effort コマンドを追加。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "mcp",
+        "elicitation",
+        "effort"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2025-01-24-computer-use-update",
+      "date": "2025-01-24",
+      "title": "Computer Use ツール アップデート",
+      "titleEn": "Updated Computer Use Tool",
+      "description": "Computer Useツールに hold_key、left_mouse_down、left_mouse_up、scroll、triple_click、wait などの新コマンドを追加。computer-use-2025-01-24 ベータヘッダーが必要。",
+      "source": "platform",
+      "platforms": [
+        "api",
+        "bedrock",
+        "vertex"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "computer-use",
+        "tool-use",
+        "beta"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-01-24-bash-text-editor-tools",
+      "date": "2025-01-24",
+      "title": "Bash・テキストエディタツールの独立リリース",
+      "titleEn": "Standalone Bash and Text Editor Tools",
+      "description": "BashツールとText Editorツールがcomputer useから独立し、ベータヘッダー不要で利用可能に。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "tool-use",
+        "bash",
+        "text-editor"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-02-24-claude-3-7-sonnet",
+      "date": "2025-02-24",
+      "title": "Claude 3.7 Sonnet リリース — 拡張思考モード搭載",
+      "titleEn": "Claude 3.7 Sonnet Released with Extended Thinking",
+      "description": "ハイブリッド推論モデル Claude 3.7 Sonnet をリリース。即座の応答と段階的な拡張思考の両モードを1つのモデルで実現。数学・コーディング・指示追従で大幅な性能向上。価格は$3/$15（入力/出力 per MTok）。",
+      "source": "blog",
+      "platforms": [
+        "api",
+        "claude-ai",
+        "bedrock",
+        "vertex",
+        "model"
+      ],
+      "category": "model-release",
+      "importance": "major",
+      "tags": [
+        "model",
+        "extended-thinking",
+        "hybrid-reasoning",
+        "sonnet"
+      ],
+      "link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "id": "2025-02-24-claude-code-preview",
+      "date": "2025-02-24",
+      "title": "Claude Code プレビューリリース",
+      "titleEn": "Claude Code Preview Launch",
+      "description": "ターミナルで動作するエージェント型コーディングツール Claude Code をリサーチプレビューとして公開。コードベースの理解、ルーティン作業の自動化、Git操作を自然言語で実行可能。",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "claude-code",
+        "agentic-coding",
+        "terminal",
+        "preview"
+      ],
+      "link": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "id": "2025-03-25-extended-thinking-ga",
+      "date": "2025-03-25",
+      "title": "拡張思考モード 一般提供開始",
+      "titleEn": "Extended Thinking Generally Available",
+      "description": "Claude 3.7 Sonnet の拡張思考モードがベータから正式リリースに移行。思考トークンも出力トークンと同じ価格で課金。",
+      "source": "platform",
+      "platforms": [
+        "api",
+        "claude-ai"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "extended-thinking",
+        "ga"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-04-09-claude-max-plan",
+      "date": "2025-04-09",
+      "title": "Claude Max プラン提供開始",
+      "titleEn": "Claude Max Plan Launch",
+      "description": "月額$100（5倍利用量）と$200（20倍利用量）の2つのMaxプランを開始。新モデルへの優先アクセス、Claude Code、ボイスモードなどを提供。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop",
+        "mobile"
+      ],
+      "category": "pricing",
+      "importance": "major",
+      "tags": [
+        "pricing",
+        "max-plan",
+        "subscription"
+      ],
+      "link": "https://claude.com/pricing/max"
+    },
+    {
+      "id": "2025-05-07-web-search-api",
+      "date": "2025-05-07",
+      "title": "Web Search ツール API提供開始",
+      "titleEn": "Web Search Tool API Launch",
+      "description": "Claude がウェブ検索を実行できるAPIツールを公開。開発者はリアルタイム情報を活用したアプリを構築可能に。1,000検索あたり$10。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "web-search",
+        "tool-use",
+        "api"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-05-22-claude-4-sonnet-opus",
+      "date": "2025-05-22",
+      "title": "Claude Opus 4 & Claude Sonnet 4 リリース",
+      "titleEn": "Claude Opus 4 & Claude Sonnet 4 Release",
+      "description": "次世代モデル Claude Opus 4 と Claude Sonnet 4 を同時リリース。Opus 4 は SWE-bench 72.5% で世界最高のコーディングモデル。両モデルとも拡張思考・並列ツール使用に対応。Opus 4: $15/$75、Sonnet 4: $3/$15。",
+      "source": "blog",
+      "platforms": [
+        "api",
+        "claude-ai",
+        "desktop",
+        "mobile",
+        "bedrock",
+        "vertex",
+        "model"
+      ],
+      "category": "model-release",
+      "importance": "major",
+      "tags": [
+        "model",
+        "opus",
+        "sonnet",
+        "coding",
+        "extended-thinking"
+      ],
+      "link": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "id": "2025-05-22-code-execution-tool",
+      "date": "2025-05-22",
+      "title": "コード実行ツール パブリックベータ",
+      "titleEn": "Code Execution Tool Public Beta",
+      "description": "Claude がサンドボックス環境で Python コードを実行できるツールをパブリックベータとして提供開始。1日50時間の無料枠、超過分は$0.05/時間。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "code-execution",
+        "sandbox",
+        "python",
+        "beta"
+      ],
+      "link": "https://claude.com/blog/agent-capabilities-api"
+    },
+    {
+      "id": "2025-05-22-files-api",
+      "date": "2025-05-22",
+      "title": "Files API パブリックベータ",
+      "titleEn": "Files API Public Beta",
+      "description": "ファイルをアップロードし、Messages API やコード実行ツールから参照できる Files API をパブリックベータとして提供開始。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "files-api",
+        "file-upload",
+        "beta"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-05-22-mcp-connector",
+      "date": "2025-05-22",
+      "title": "MCP コネクタ パブリックベータ",
+      "titleEn": "MCP Connector Public Beta",
+      "description": "Messages API からリモート MCP サーバーに直接接続できるコネクタをパブリックベータとして提供。接続管理・ツール検出・エラーハンドリングを自動化。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "mcp",
+        "connector",
+        "tool-use",
+        "beta"
+      ],
+      "link": "https://claude.com/blog/agent-capabilities-api"
+    },
+    {
+      "id": "2025-05-22-claude-code-ga",
+      "date": "2025-05-22",
+      "title": "Claude Code 一般提供開始（GA）",
+      "titleEn": "Claude Code Generally Available",
+      "description": "Claude Code がプレビューから正式版として一般提供開始。ターミナルベースのエージェント型コーディングツールとして多くの企業で採用が拡大。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "claude-code",
+        "ga",
+        "agentic-coding"
+      ],
+      "link": "https://www.anthropic.com/news/claude-4"
+    },
+    {
+      "id": "2025-05-27-voice-mode",
+      "date": "2025-05-27",
+      "title": "Claude ボイスモード提供開始",
+      "titleEn": "Claude Voice Mode Launch",
+      "description": "Claude モバイルアプリでボイスモードをベータ提供開始。音声による会話が可能に。Pro・Max・Team・Enterprise プランで追加料金なし。",
+      "source": "apps",
+      "platforms": [
+        "mobile",
+        "claude-ai"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "voice-mode",
+        "mobile",
+        "beta"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2025-06-01-claude-gov",
+      "date": "2025-06-01",
+      "title": "Claude Gov 発表",
+      "titleEn": "Claude Gov Announced",
+      "description": "政府機関向けの Claude Gov モデルを発表。高セキュリティ環境での AI 利用を可能にする専用モデル。",
+      "source": "blog",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-gov",
+        "government",
+        "security",
+        "compliance"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2025-06-15-artifacts-app-building",
+      "date": "2025-06-15",
+      "title": "Artifacts アプリ構築機能 強化",
+      "titleEn": "Artifacts App-Building Capabilities Upgrade",
+      "description": "Artifacts がシンプルなプレビューパネルからフルマイクロアプリ開発環境に進化。永続ストレージ、API呼び出し、MCP連携をサポート。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "artifacts",
+        "app-building",
+        "mcp"
+      ],
+      "link": "https://www.infoq.com/news/2025/06/anthropic-artifacts-app/"
+    },
+    {
+      "id": "2025-07-10-prompt-caching-1hr-ga",
+      "date": "2025-07-10",
+      "title": "プロンプトキャッシュ 1時間 TTL 正式リリース",
+      "titleEn": "1-Hour Prompt Cache TTL Generally Available",
+      "description": "プロンプトキャッシュの1時間キャッシュ有効期間がベータヘッダー不要で一般利用可能に。キャッシュヒットは標準入力価格の10%。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "prompt-caching",
+        "cost-optimization",
+        "ga"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-07-15-token-counting-api",
+      "date": "2025-07-15",
+      "title": "トークンカウント API 提供開始",
+      "titleEn": "Token Counting API Launch",
+      "description": "メッセージ送信前にトークン数を計算できる Token Counting API を提供開始。コスト管理とレート制限の最適化に活用可能。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "token-counting",
+        "api",
+        "cost-management"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-07-20-citations-api",
+      "date": "2025-07-20",
+      "title": "Citations（引用）機能 API提供開始",
+      "titleEn": "Citations API Launch",
+      "description": "Claude がソース帰属（引用元）を明示できる Citations 機能を API で提供開始。RAG アプリケーションでの正確な出典表示が可能に。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "citations",
+        "rag",
+        "api"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-08-05-claude-opus-4-1",
+      "date": "2025-08-05",
+      "title": "Claude Opus 4.1 リリース",
+      "titleEn": "Claude Opus 4.1 Release",
+      "description": "Claude Opus 4 のインクリメンタルアップデート。SWE-bench 74.5%（Opus 4の72.5%から向上）を達成。エージェント推論・リサーチ能力が強化。価格はOpus 4と同じ$15/$75。",
+      "source": "blog",
+      "platforms": [
+        "api",
+        "claude-ai",
+        "bedrock",
+        "vertex",
+        "model"
+      ],
+      "category": "model-release",
+      "importance": "major",
+      "tags": [
+        "model",
+        "opus",
+        "coding",
+        "agentic"
+      ],
+      "link": "https://www.anthropic.com/news/claude-opus-4-1"
+    },
+    {
+      "id": "2025-09-15-mobile-file-creation",
+      "date": "2025-09-15",
+      "title": "モバイルアプリ プロフェッショナルファイル作成機能",
+      "titleEn": "Mobile Professional File Creation Features",
+      "description": "Pro・Max プランのモバイルユーザー向けに、ビジネスドキュメントの作成・編集機能を追加。モバイルアプリが完全な生産性プラットフォームに進化。",
+      "source": "apps",
+      "platforms": [
+        "mobile"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "mobile",
+        "file-creation",
+        "productivity"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2025-09-29-claude-sonnet-4-5",
+      "date": "2025-09-29",
+      "title": "Claude Sonnet 4.5 リリース — 世界最高のコーディングモデル",
+      "titleEn": "Claude Sonnet 4.5 Released — World's Best Coding Model",
+      "description": "SWE-bench Verified で77.2%を達成し世界最高スコアを記録。複雑なエージェント構築、コンピューター操作、推論・数学で大幅な性能向上。30時間超のフォーカスウィンドウに対応。$3/$15。",
+      "source": "blog",
+      "platforms": [
+        "api",
+        "claude-ai",
+        "desktop",
+        "mobile",
+        "bedrock",
+        "vertex",
+        "model"
+      ],
+      "category": "model-release",
+      "importance": "major",
+      "tags": [
+        "model",
+        "sonnet",
+        "coding",
+        "swe-bench",
+        "agent"
+      ],
+      "link": "https://www.anthropic.com/news/claude-sonnet-4-5"
+    },
+    {
+      "id": "2025-10-02-agent-skills",
+      "date": "2025-10-02",
+      "title": "Agent Skills ベータ提供開始",
+      "titleEn": "Agent Skills Beta Launch",
+      "description": "Claude の能力を拡張する Agent Skills をベータリリース。指示・スクリプト・リソースをフォルダにまとめ、Claude が動的にロードして特殊タスクを実行。PowerPoint、Excel、Word、PDF用の公式スキルと、カスタムスキルAPIを提供。",
+      "source": "platform",
+      "platforms": [
+        "api",
+        "claude-ai"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "agent-skills",
+        "extensibility",
+        "office",
+        "pdf",
+        "beta"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-10-15-claude-haiku-4-5",
+      "date": "2025-10-15",
+      "title": "Claude Haiku 4.5 リリース",
+      "titleEn": "Claude Haiku 4.5 Released",
+      "description": "最速かつ最もインテリジェントな Haiku モデル。フロンティア級の性能を実現し、リアルタイムアプリ・大量処理・コスト重視のデプロイに最適。$1/$5。",
+      "source": "blog",
+      "platforms": [
+        "api",
+        "claude-ai",
+        "bedrock",
+        "vertex",
+        "model"
+      ],
+      "category": "model-release",
+      "importance": "major",
+      "tags": [
+        "model",
+        "haiku",
+        "fast",
+        "cost-effective"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2025-10-15-thinking-block-clearing",
+      "date": "2025-10-15",
+      "title": "拡張思考 コンテキスト編集（thinking block clearing）",
+      "titleEn": "Extended Thinking Context Editing (clear_thinking)",
+      "description": "clear_thinking_20251015 により thinking ブロックの自動管理が可能に。コンテキスト効率を向上させるための思考ブロッククリアリング機能。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "extended-thinking",
+        "context-editing",
+        "optimization"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-10-20-claude-code-web",
+      "date": "2025-10-20",
+      "title": "Claude Code Web版 提供開始",
+      "titleEn": "Claude Code Web Launch",
+      "description": "Claude Code がブラウザからも利用可能に。ターミナル版に加えてWeb版が追加され、アクセシビリティが向上。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "web",
+        "browser"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2025-10-24-artifacts-inline-editing",
+      "date": "2025-10-24",
+      "title": "Artifacts インライン編集 3-4倍高速化",
+      "titleEn": "Artifacts Inline Editing 3-4x Faster",
+      "description": "Artifacts の更新がフルコード再生成からインラインテキスト置換に変更され、3-4倍高速化。小さな変更には的確なインライン編集を使い分け。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "artifacts",
+        "performance",
+        "editing"
+      ],
+      "link": "https://claude.com"
+    },
+    {
+      "id": "2025-11-13-structured-outputs",
+      "date": "2025-11-13",
+      "title": "Structured Outputs パブリックベータ",
+      "titleEn": "Structured Outputs Public Beta",
+      "description": "Claude の応答に対するスキーマ準拠を保証する Structured Outputs をパブリックベータとして提供開始。JSONスキーマ出力やstrict tool useでの利用が可能。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "structured-outputs",
+        "json",
+        "schema",
+        "beta"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-11-24-claude-opus-4-5",
+      "date": "2025-11-24",
+      "title": "Claude Opus 4.5 リリース — 最も知的なモデル",
+      "titleEn": "Claude Opus 4.5 Released — Most Intelligent Model",
+      "description": "最大能力と実用的性能を兼ね備えた最もインテリジェントなモデル。ビジョン・コーディング・コンピューター操作で飛躍的改善。価格を$5/$25に引き下げ、Opus級の能力をより多くのユーザーに提供。",
+      "source": "blog",
+      "platforms": [
+        "api",
+        "claude-ai",
+        "desktop",
+        "mobile",
+        "claude-code-cli",
+        "bedrock",
+        "vertex",
+        "model"
+      ],
+      "category": "model-release",
+      "importance": "major",
+      "tags": [
+        "model",
+        "opus",
+        "vision",
+        "coding",
+        "computer-use",
+        "pricing"
+      ],
+      "link": "https://www.anthropic.com/news/claude-opus-4-5"
+    },
+    {
+      "id": "2025-12-01-claude-code-2-0",
+      "date": "2025-12-01",
+      "title": "Claude Code 2.0 リリース — VS Code拡張・大規模リニューアル",
+      "titleEn": "Claude Code 2.0 — Native VS Code Extension & Major Redesign",
+      "description": "ネイティブ VS Code 拡張機能、UI全面刷新、/rewind（コード変更の取消）、/usage（プラン制限確認）、Tab で thinking トグル、Ctrl-R 履歴検索、Claude Agent SDK への移行など多数の新機能。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "claude-code",
+        "vscode",
+        "ui-redesign",
+        "agent-sdk"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2025-12-05-claude-code-skills-support",
+      "date": "2025-12-05",
+      "title": "Claude Code Skills サポート追加",
+      "titleEn": "Claude Code Skills Support",
+      "description": "Claude Code が Agent Skills に対応。Claude Code セッション内で Skills を動的にロードし、Office ファイル操作等の特殊タスクを実行可能に。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "agent-skills",
+        "extensibility"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2025-12-10-claude-code-plugin-system",
+      "date": "2025-12-10",
+      "title": "Claude Code プラグインシステム リリース",
+      "titleEn": "Claude Code Plugin System Released",
+      "description": "マーケットプレイスからカスタムコマンド、エージェント、フック、MCPサーバーを拡張できるプラグインシステムをリリース。/plugin install、/plugin marketplace コマンドで管理。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "claude-code",
+        "plugins",
+        "marketplace",
+        "extensibility"
+      ],
+      "link": "https://www.anthropic.com/news/claude-code-plugins"
+    },
+    {
+      "id": "2025-12-15-sonnet-3-5-retirement",
+      "date": "2025-12-15",
+      "title": "Claude Sonnet 3.5 モデル 提供終了",
+      "titleEn": "Claude Sonnet 3.5 Models Retired",
+      "description": "Claude Sonnet 3.5 の全バージョンが提供終了。該当モデルへのリクエストはエラーを返すように。Sonnet 4以降への移行を推奨。",
+      "source": "platform",
+      "platforms": [
+        "api",
+        "bedrock",
+        "vertex"
+      ],
+      "category": "deprecation",
+      "importance": "major",
+      "tags": [
+        "deprecation",
+        "sonnet-3-5",
+        "migration"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2025-12-15-mcp-linux-foundation",
+      "date": "2025-12-15",
+      "title": "MCP を Linux Foundation に寄贈",
+      "titleEn": "MCP Donated to Linux Foundation",
+      "description": "Anthropic が Model Context Protocol (MCP) を Linux Foundation 傘下の Agentic AI Foundation に寄贈。オープンスタンダードとしての発展を推進。",
+      "source": "blog",
+      "platforms": [
+        "api"
+      ],
+      "category": "infrastructure",
+      "importance": "major",
+      "tags": [
+        "mcp",
+        "open-source",
+        "linux-foundation",
+        "standards"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2025-12-18-claude-sonnet-4-6",
+      "date": "2025-12-18",
+      "title": "Claude Sonnet 4.6 リリース",
+      "titleEn": "Claude Sonnet 4.6 Released",
+      "description": "最も高性能な Sonnet モデル。コーディング、コンピューター操作、長文コンテキスト推論、エージェント計画、ナレッジワーク、デザインの全領域でスキルを向上。1Mトークンコンテキストウィンドウ（ベータ）。$3/$15。",
+      "source": "blog",
+      "platforms": [
+        "api",
+        "claude-ai",
+        "desktop",
+        "mobile",
+        "claude-code-cli",
+        "bedrock",
+        "vertex",
+        "model"
+      ],
+      "category": "model-release",
+      "importance": "major",
+      "tags": [
+        "model",
+        "sonnet",
+        "1m-context",
+        "coding",
+        "computer-use"
+      ],
+      "link": "https://www.anthropic.com/news/claude-sonnet-4-6"
+    },
+    {
+      "id": "2025-12-20-claude-code-custom-agents",
+      "date": "2025-12-20",
+      "title": "Claude Code カスタムサブエージェント機能",
+      "titleEn": "Claude Code Custom Subagents",
+      "description": "Claude Code で /agents コマンドからカスタムサブエージェントを作成可能に。特殊タスク用のエージェントを定義し、モデルやツールを個別にカスタマイズ。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "subagents",
+        "customization"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2025-12-25-claude-code-hooks",
+      "date": "2025-12-25",
+      "title": "Claude Code Hooks システム拡充",
+      "titleEn": "Claude Code Hooks System Expansion",
+      "description": "SessionStart、SessionEnd、PreToolUse、PostToolUse など多種のフックイベントに対応。外部連携やカスタムワークフローの自動化が可能に。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "hooks",
+        "automation",
+        "extensibility"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-01-10-voice-mode-free",
+      "date": "2026-01-10",
+      "title": "ボイスモード 無料プラン開放",
+      "titleEn": "Voice Mode Free for All Plan Tiers",
+      "description": "以前は有料プラン限定だったボイスモードが全プラン（無料含む）で利用可能に。",
+      "source": "apps",
+      "platforms": [
+        "mobile",
+        "claude-ai"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "voice-mode",
+        "free",
+        "accessibility"
+      ],
+      "link": "https://claude.com"
+    },
+    {
+      "id": "2026-01-15-hipaa-enterprise",
+      "date": "2026-01-15",
+      "title": "HIPAA対応 Enterprise プラン",
+      "titleEn": "HIPAA-Ready Enterprise Plan",
+      "description": "Enterprise プランで保護対象医療情報（PHI）を処理するための HIPAA 対応版を提供開始。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "hipaa",
+        "enterprise",
+        "healthcare",
+        "compliance"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2026-01-20-claude-cowork",
+      "date": "2026-01-20",
+      "title": "Claude Cowork リサーチプレビュー",
+      "titleEn": "Claude Cowork Research Preview",
+      "description": "Claude Cowork をリサーチプレビューとして公開。macOS上でマルチステップタスクを計画・実行するデスクトップエージェント。ファイル整理、レシート処理、レポート作成等をノーコードで自動化。",
+      "source": "apps",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "cowork",
+        "desktop-agent",
+        "macos",
+        "automation"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2026-01-26-mcp-integrations-claude-ai",
+      "date": "2026-01-26",
+      "title": "Claude.ai MCP統合拡大 — Slack、Figma、Asana等",
+      "titleEn": "Claude.ai MCP Integrations Expansion",
+      "description": "Claude.ai のチャットインターフェース内で Asana、Box、Canva、Figma、Hex、monday.com、Slack などの外部ツールを直接利用可能に。MCP統合が大幅に拡大。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "mcp",
+        "integrations",
+        "slack",
+        "figma",
+        "productivity"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2026-02-01-data-residency",
+      "date": "2026-02-01",
+      "title": "データ居住地制御（Data Residency）",
+      "titleEn": "Data Residency Controls",
+      "description": "inference_geo パラメータでモデル推論の実行場所を指定可能に。US限定推論は1.1倍の価格。2026年2月1日以降リリースのモデルで利用可能。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "data-residency",
+        "compliance",
+        "infrastructure"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2026-02-05-claude-opus-4-6",
+      "date": "2026-02-05",
+      "title": "Claude Opus 4.6 リリース — 1Mコンテキスト標準価格",
+      "titleEn": "Claude Opus 4.6 Released — 1M Context at Standard Pricing",
+      "description": "エージェント型コーディング、コンピューター操作、ツール使用、検索、金融分析で業界をリード。100万トークンコンテキストウィンドウを長文追加料金なしの標準価格$5/$25で提供。",
+      "source": "blog",
+      "platforms": [
+        "api",
+        "claude-ai",
+        "desktop",
+        "mobile",
+        "claude-code-cli",
+        "bedrock",
+        "vertex",
+        "model"
+      ],
+      "category": "model-release",
+      "importance": "major",
+      "tags": [
+        "model",
+        "opus",
+        "1m-context",
+        "pricing",
+        "coding"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2026-02-10-long-context-pricing-removal",
+      "date": "2026-02-10",
+      "title": "長文コンテキスト追加料金 撤廃",
+      "titleEn": "Long-Context Pricing Surcharge Removed",
+      "description": "Claude Opus 4.6 および Sonnet 4.6 で100万トークンコンテキストウィンドウの追加料金を撤廃。標準のトークン単価で長文コンテキストが利用可能に。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "pricing",
+      "importance": "major",
+      "tags": [
+        "pricing",
+        "long-context",
+        "1m-context",
+        "cost-reduction"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2026-02-15-claude-powerpoint-addin",
+      "date": "2026-02-15",
+      "title": "Claude PowerPoint アドイン",
+      "titleEn": "Claude PowerPoint Add-in",
+      "description": "Microsoft PowerPoint 用の Claude アドインが利用可能に。プレゼンテーション作成・編集をAIがアシスト。",
+      "source": "apps",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "powerpoint",
+        "add-in",
+        "office",
+        "productivity"
+      ],
+      "link": "https://www.anthropic.com/news"
+    },
+    {
+      "id": "2026-02-17-claude-sonnet-4-6-update",
+      "date": "2026-02-17",
+      "title": "Claude Sonnet 4.6 アップデート",
+      "titleEn": "Claude Sonnet 4.6 Update",
+      "description": "エージェント検索のパフォーマンスが向上し、トークン消費を削減。拡張思考と1Mコンテキストウィンドウ（ベータ）に対応。価格はSonnet 4.5と同じ$3/$15。",
+      "source": "blog",
+      "platforms": [
+        "api",
+        "claude-ai",
+        "model"
+      ],
+      "category": "model-release",
+      "importance": "minor",
+      "tags": [
+        "model",
+        "sonnet",
+        "update",
+        "efficiency"
+      ],
+      "link": "https://www.anthropic.com/news/claude-sonnet-4-6"
+    },
+    {
+      "id": "2026-02-20-web-search-web-fetch-ga",
+      "date": "2026-02-20",
+      "title": "Web Search・プログラマティックツール呼出し 正式リリース",
+      "titleEn": "Web Search & Programmatic Tool Calling GA",
+      "description": "Web Search ツールとプログラマティックツール呼び出しがベータヘッダー不要で一般利用可能に。動的フィルタリングとコード実行によるフィルタリングも追加。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "web-search",
+        "tool-use",
+        "ga",
+        "dynamic-filtering"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2026-02-25-web-fetch-beta",
+      "date": "2026-02-25",
+      "title": "Web Fetch ツール ベータ提供開始",
+      "titleEn": "Web Fetch Tool Beta Launch",
+      "description": "指定URLからウェブページやPDFの全文コンテンツを取得できる Web Fetch ツールをベータとして提供開始。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "web-fetch",
+        "tool-use",
+        "beta"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2026-02-28-code-execution-free-with-search",
+      "date": "2026-02-28",
+      "title": "Web Search/Fetch利用時のコード実行 無料化",
+      "titleEn": "Free Code Execution with Web Search/Fetch",
+      "description": "Web Search または Web Fetch と組み合わせた場合のコード実行が無料に。サンドボックスでのコード実行により、モデルの能力とトークン効率が向上。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "pricing",
+      "importance": "minor",
+      "tags": [
+        "code-execution",
+        "web-search",
+        "free",
+        "cost-reduction"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2026-03-01-claude-haiku-3-deprecation",
+      "date": "2026-03-01",
+      "title": "Claude Haiku 3 非推奨化（4月19日提供終了予定）",
+      "titleEn": "Claude Haiku 3 Deprecation Notice",
+      "description": "Claude Haiku 3（claude-3-haiku-20240307）が非推奨に。2026年4月19日に提供終了予定。Claude Haiku 4.5への移行を推奨。",
+      "source": "platform",
+      "platforms": [
+        "api",
+        "bedrock",
+        "vertex"
+      ],
+      "category": "deprecation",
+      "importance": "minor",
+      "tags": [
+        "deprecation",
+        "haiku-3",
+        "migration"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2026-03-05-extended-thinking-display",
+      "date": "2026-03-05",
+      "title": "拡張思考 display フィールド追加",
+      "titleEn": "Extended Thinking Display Field",
+      "description": "thinking.display: \"omitted\" を設定することで、思考コンテンツを省略した高速ストリーミングが可能に。シグネチャは保持されるため、マルチターンの継続性は維持。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "extended-thinking",
+        "streaming",
+        "optimization"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview"
+    },
+    {
+      "id": "2026-03-10-claude-code-sandbox",
+      "date": "2026-03-10",
+      "title": "Claude Code BashTool サンドボックスモード",
+      "titleEn": "Claude Code BashTool Sandbox Mode",
+      "description": "Linux・Mac で BashTool のサンドボックスモードをリリース。セキュリティを強化しつつ、ファイルシステムアクセスの制御が可能に。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "sandbox",
+        "security",
+        "bash"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-10-inline-visualizations",
+      "date": "2026-03-10",
+      "title": "Claude インライン可視化（チャート・ダイアグラム）",
+      "titleEn": "Claude Inline Visualizations",
+      "description": "Claude が応答内にカスタムチャート、ダイアグラム、その他の可視化をインラインで生成できるように。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "visualization",
+        "charts",
+        "diagrams"
+      ],
+      "link": "https://claude.com"
+    },
+    {
+      "id": "2026-03-15-claude-code-voice-mode",
+      "date": "2026-03-15",
+      "title": "Claude Code ボイスモード",
+      "titleEn": "Claude Code Voice Mode",
+      "description": "Claude Code でボイスモードが利用可能に。音声でコーディング指示を行い、ハンズフリーでの開発ワークフローが実現。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "voice-mode",
+        "accessibility"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-20-advanced-tool-use",
+      "date": "2026-03-20",
+      "title": "Advanced Tool Use — Tool Search Tool",
+      "titleEn": "Advanced Tool Use — Tool Search Tool",
+      "description": "Claude がツールを動的に発見・学習・実行できる Advanced Tool Use を提供。Tool Search Tool によりトークン使用量を85%削減しつつ、フルツールライブラリへのアクセスを維持。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "tool-use",
+        "tool-search",
+        "token-efficiency",
+        "agentic"
+      ],
+      "link": "https://www.anthropic.com/engineering/advanced-tool-use"
+    },
+    {
+      "id": "2026-03-20-claude-code-opus-4-6-1m",
+      "date": "2026-03-20",
+      "title": "Claude Code Opus 4.6 1Mコンテキスト 全プラン解放",
+      "titleEn": "Claude Code Opus 4.6 1M Context for All Plans",
+      "description": "Max、Team、Enterpriseプランで Claude Opus 4.6 の1Mコンテキストウィンドウがデフォルトで有効に。/color コマンド、プロンプトバーにセッション名表示、メモリのタイムスタンプ表示など追加。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "opus",
+        "1m-context",
+        "ui"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-24-health-fitness-data",
+      "date": "2026-03-24",
+      "title": "Claude ヘルス＆フィットネスデータ分析",
+      "titleEn": "Claude Health & Fitness Data Analysis",
+      "description": "iOS・Android で健康・フィットネスデータの読み取りと分析が可能に。活動パターン、ワークアウト傾向、睡眠の質のインサイトを提供。Pro・Max プラン対象（米国限定）。",
+      "source": "apps",
+      "platforms": [
+        "mobile"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "health",
+        "fitness",
+        "mobile",
+        "data-analysis"
+      ],
+      "link": "https://claude.com"
+    },
+    {
+      "id": "2026-03-18-platform-march-18-2026",
+      "date": "2026-03-18",
+      "title": "We've added model capability fields to theModels API.GET /v1/modelsandGET /v1...",
+      "titleEn": "We've added model capability fields to theModels API.GET /v1/modelsandGET /v1...",
+      "description": "We've added model capability fields to theModels API.GET /v1/modelsandGET /v1/models/{model_id}now returnmax_input_tokens,max_tokens, and acapabilitiesobject. Query the API to discover what each model supports.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#march-18-2026"
+    },
+    {
+      "id": "2026-03-16-platform-march-16-2026",
+      "date": "2026-03-16",
+      "title": "We've launched thedisplayfield for extended thinking, letting you omit thinki...",
+      "titleEn": "We've launched thedisplayfield for extended thinking, letting you omit thinki...",
+      "description": "We've launched thedisplayfield for extended thinking, letting you omit thinking content from responses for faster streaming. Setthinking.display: \"omitted\"to receive thinking blocks with an emptythinkingfield and thesignaturepreserved for multi-turn continuity. Billing is unchanged. Learn more inControlling thinking display.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#march-16-2026"
+    },
+    {
+      "id": "2026-03-13-platform-march-13-2026",
+      "date": "2026-03-13",
+      "title": "The1M token context windowis now generally available for Claude Opus 4.6 and ...",
+      "titleEn": "The1M token context windowis now generally available for Claude Opus 4.6 and ...",
+      "description": "The1M token context windowis now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4. / We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length. / We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#march-13-2026"
+    },
+    {
+      "id": "2026-02-19-platform-february-19-2026",
+      "date": "2026-02-19",
+      "title": "We've launchedautomatic cachingfor the Messages API. Add a singlecache_contro...",
+      "titleEn": "We've launchedautomatic cachingfor the Messages API. Add a singlecache_contro...",
+      "description": "We've launchedautomatic cachingfor the Messages API. Add a singlecache_controlfield to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more inPrompt caching. / We've retired the Claude Sonnet 3.7 model (claude-3-7-sonnet-20250219) and the Claude Haiku 3.5 model (claude-3-5-haiku-20241022). All requests to these models will now return an error. We recommend upgrading toClaude Sonnet 4.6andClaude Haiku 4.5respectively. Researchers can request ongoing access through theExternal Researcher Access Program. / We announced the deprecation of the Claude Haiku 3 model (claude-3-haiku-20240307), with retirement scheduled for April 19, 2026. We recommend migrating toClaude Haiku 4.5. Read more inmodel deprecations.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#february-19-2026"
+    },
+    {
+      "id": "2026-02-17-platform-february-17-2026",
+      "date": "2026-02-17",
+      "title": "We've launchedClaude Sonnet 4.6, our latest balanced model combining speed an...",
+      "titleEn": "We've launchedClaude Sonnet 4.6, our latest balanced model combining speed an...",
+      "description": "We've launchedClaude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supportsextended thinkingand a1M token context window(beta). SeeModels & Pricingfor details. / APIcode executionis nowfree when used with web search or web fetch. Sandboxed code execution improves model capability and token efficiency. See thepricing detailsfor standalone usage. / Theweb search toolandprogrammatic tool callingare now generally available (no beta header required). Web search and web fetch now supportdynamic filtering, which uses code execution to filter results before they reach the context window for better performance and reduced token cost. / Thecode execution tool,web fetch tool,tool search tool,tool use examples, andmemory toolare now generally available (no beta header required).",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#february-17-2026"
+    },
+    {
+      "id": "2026-02-07-platform-february-7-2026",
+      "date": "2026-02-07",
+      "title": "We've launchedfast modein research preview for Opus 4.6, providing significan...",
+      "titleEn": "We've launchedfast modein research preview for Opus 4.6, providing significan...",
+      "description": "We've launchedfast modein research preview for Opus 4.6, providing significantly faster output token generation via thespeedparameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join thewaitlist.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#february-7-2026"
+    },
+    {
+      "id": "2026-02-05-platform-february-5-2026",
+      "date": "2026-02-05",
+      "title": "We've launchedClaude Opus 4.6, our most intelligent model for complex agentic...",
+      "titleEn": "We've launchedClaude Opus 4.6, our most intelligent model for complex agentic...",
+      "description": "We've launchedClaude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommendsadaptive thinking(thinking: {type: \"adaptive\"}); manual thinking (type: \"enabled\"withbudget_tokens) is deprecated. Opus 4.6 does not support prefilling assistant messages. Learn more inWhat's new in Claude 4.6. / Theeffort parameteris now generally available (no beta header required) and supports Claude Opus 4.6. Effort replacesbudget_tokensfor controlling thinking depth on new models. / We've launched thecompaction APIin beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6. / We've introduceddata residency controls, allowing you to specify where model inference runs with theinference_geoparameter. US-only inference is available at 1.1x pricing for models released after February 1, 2026. / The1M token context windowis now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4.Long context pricingapplies to requests exceeding 200k input tokens. / Fine-grained tool streamingis now generally available on all models and platforms (no beta header required). Theoutput_formatparameter forstructured outputshas been moved tooutput_config.format.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#february-5-2026"
+    },
+    {
+      "id": "2026-01-29-platform-january-29-2026",
+      "date": "2026-01-29",
+      "title": "Structured outputsare now generally available on the Claude API for Claude So...",
+      "titleEn": "Structured outputsare now generally available on the Claude API for Claude So...",
+      "description": "Structured outputsare now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. Theoutput_formatparameter has moved tooutput_config.format. Existing beta users can continue using the beta header during the transition period. Structured outputs remain in public beta on Amazon Bedrock and Microsoft Foundry.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#january-29-2026"
+    },
+    {
+      "id": "2026-01-12-platform-january-12-2026",
+      "date": "2026-01-12",
+      "title": "console.anthropic.comnow redirects toplatform.claude.com. The Claude Console ...",
+      "titleEn": "console.anthropic.comnow redirects toplatform.claude.com. The Claude Console ...",
+      "description": "console.anthropic.comnow redirects toplatform.claude.com. The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see theSeptember 16, 2025 announcement.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#january-12-2026"
+    },
+    {
+      "id": "2026-01-05-platform-january-5-2026",
+      "date": "2026-01-05",
+      "title": "We've retired the Claude Opus 3 model (claude-3-opus-20240229). All requests ...",
+      "titleEn": "We've retired the Claude Opus 3 model (claude-3-opus-20240229). All requests ...",
+      "description": "We've retired the Claude Opus 3 model (claude-3-opus-20240229). All requests to this model will now return an error. We recommend upgrading toClaude Opus 4.5, which offers significantly improved intelligence at a third of the cost. Researchers can request ongoing access to Claude Opus 3 on the API through theExternal Researcher Access Program.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#january-5-2026"
+    },
+    {
+      "id": "2025-12-19-platform-december-19-2025",
+      "date": "2025-12-19",
+      "title": "We announced the deprecation of the Claude Haiku 3.5 model. Read more inModel...",
+      "titleEn": "We announced the deprecation of the Claude Haiku 3.5 model. Read more inModel...",
+      "description": "We announced the deprecation of the Claude Haiku 3.5 model. Read more inModel deprecations.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#december-19-2025"
+    },
+    {
+      "id": "2025-12-04-platform-december-4-2025",
+      "date": "2025-12-04",
+      "title": "Structured outputsnow supports Claude Haiku 4.5.",
+      "titleEn": "Structured outputsnow supports Claude Haiku 4.5.",
+      "description": "Structured outputsnow supports Claude Haiku 4.5.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#december-4-2025"
+    },
+    {
+      "id": "2025-11-24-platform-november-24-2025",
+      "date": "2025-11-24",
+      "title": "We've launchedClaude Opus 4.5, our most intelligent model combining maximum c...",
+      "titleEn": "We've launchedClaude Opus 4.5, our most intelligent model combining maximum c...",
+      "description": "We've launchedClaude Opus 4.5, our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change improvements in vision, coding, and computer use at a more accessible price point than previous Opus models. Learn more inModels overview. / We've launchedprogrammatic tool callingin public beta, allowing Claude to call tools from within code execution to reduce latency and token usage in multi-tool workflows. / We've launched thetool search toolin public beta, enabling Claude to dynamically discover and load tools on-demand from large tool catalogs. / We've launched theeffort parameterin public beta for Claude Opus 4.5, allowing you to control token usage by trading off between response thoroughness and efficiency. / We've addedclient-side compactionto our Python and TypeScript SDKs, automatically managing conversation context through summarization when usingtool_runner.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#november-24-2025"
+    },
+    {
+      "id": "2025-11-21-platform-november-21-2025",
+      "date": "2025-11-21",
+      "title": "Search result content blocks are now generally available on Amazon Bedrock. L...",
+      "titleEn": "Search result content blocks are now generally available on Amazon Bedrock. L...",
+      "description": "Search result content blocks are now generally available on Amazon Bedrock. Learn more inSearch results.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#november-21-2025"
+    },
+    {
+      "id": "2025-11-19-platform-november-19-2025",
+      "date": "2025-11-19",
+      "title": "We've launched anew documentation platformatplatform.claude.com/docs. Our doc...",
+      "titleEn": "We've launched anew documentation platformatplatform.claude.com/docs. Our doc...",
+      "description": "We've launched anew documentation platformatplatform.claude.com/docs. Our documentation now lives side by side with the Claude Console, providing a unified developer experience. The previous docs site at docs.claude.com will redirect to the new location.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#november-19-2025"
+    },
+    {
+      "id": "2025-11-18-platform-november-18-2025",
+      "date": "2025-11-18",
+      "title": "We've launchedClaude in Microsoft Foundry, bringing Claude models to Azure cu...",
+      "titleEn": "We've launchedClaude in Microsoft Foundry, bringing Claude models to Azure cu...",
+      "description": "We've launchedClaude in Microsoft Foundry, bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, Files API, Agent Skills, and tool use. Learn more inClaude in Microsoft Foundry.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#november-18-2025"
+    },
+    {
+      "id": "2025-11-14-platform-november-14-2025",
+      "date": "2025-11-14",
+      "title": "We've launchedstructured outputsin public beta, providing guaranteed schema c...",
+      "titleEn": "We've launchedstructured outputsin public beta, providing guaranteed schema c...",
+      "description": "We've launchedstructured outputsin public beta, providing guaranteed schema conformance for Claude's responses. Use JSON outputs for structured data responses or strict tool use for validated tool inputs. Available for Claude Sonnet 4.5 and Claude Opus 4.1. To enable, use the beta headerstructured-outputs-2025-11-13.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#november-14-2025"
+    },
+    {
+      "id": "2025-10-28-platform-october-28-2025",
+      "date": "2025-10-28",
+      "title": "We announced the deprecation of the Claude Sonnet 3.7 model. Read more inMode...",
+      "titleEn": "We announced the deprecation of the Claude Sonnet 3.7 model. Read more inMode...",
+      "description": "We announced the deprecation of the Claude Sonnet 3.7 model. Read more inModel deprecations. / We've retired the Claude Sonnet 3.5 models. All requests to these models will now return an error. / We've expanded context editing with thinking block clearing (clear_thinking_20251015), enabling automatic management of thinking blocks. Learn more inContext editing.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#october-28-2025"
+    },
+    {
+      "id": "2025-10-16-platform-october-16-2025",
+      "date": "2025-10-16",
+      "title": "We've launchedAgent Skills(skills-2025-10-02beta), a new way to extend Claude...",
+      "titleEn": "We've launchedAgent Skills(skills-2025-10-02beta), a new way to extend Claude...",
+      "description": "We've launchedAgent Skills(skills-2025-10-02beta), a new way to extend Claude's capabilities. Skills are organized folders of instructions, scripts, and resources that Claude loads dynamically to perform specialized tasks. The initial release includes:Anthropic-managed Skills: Pre-built Skills for working with PowerPoint (.pptx), Excel (.xlsx), Word (.docx), and PDF filesCustom Skills: Upload your own Skills via the Skills API (/v1/skillsendpoints) to package domain expertise and organizational workflowsSkills require thecode execution toolto be enabledLearn more inAgent SkillsandAPI reference",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#october-16-2025"
+    },
+    {
+      "id": "2025-10-15-platform-october-15-2025",
+      "date": "2025-10-15",
+      "title": "We've launchedClaude Haiku 4.5, our fastest and most intelligent Haiku model ...",
+      "titleEn": "We've launchedClaude Haiku 4.5, our fastest and most intelligent Haiku model ...",
+      "description": "We've launchedClaude Haiku 4.5, our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Learn more inModels overview.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#october-15-2025"
+    },
+    {
+      "id": "2025-09-29-platform-september-29-2025",
+      "date": "2025-09-29",
+      "title": "We've launchedClaude Sonnet 4.5, our best model for complex agents and coding...",
+      "titleEn": "We've launchedClaude Sonnet 4.5, our best model for complex agents and coding...",
+      "description": "We've launchedClaude Sonnet 4.5, our best model for complex agents and coding, with the highest intelligence across most tasks. Learn more in themodels overview. / We've introducedglobal endpoint pricingfor AWS Bedrock and Google Vertex AI. The Claude API (1P) pricing is unaffected. / We've introduced a new stop reasonmodel_context_window_exceededthat allows you to request the maximum possible tokens without calculating input size. Learn more inHandling stop reasons. / We've launched the memory tool in beta, enabling Claude to store and consult information across conversations. Learn more inMemory tool. / We've launched context editing in beta, providing strategies to automatically manage conversation context. The initial release supports clearing older tool results and calls when approaching token limits. Learn more inContext editing.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#september-29-2025"
+    },
+    {
+      "id": "2025-09-17-platform-september-17-2025",
+      "date": "2025-09-17",
+      "title": "We've launched tool helpers in beta for the Python and TypeScript SDKs, simpl...",
+      "titleEn": "We've launched tool helpers in beta for the Python and TypeScript SDKs, simpl...",
+      "description": "We've launched tool helpers in beta for the Python and TypeScript SDKs, simplifying tool creation and execution with type-safe input validation and a tool runner for automated tool handling in conversations. For details, see the documentation forthe Python SDKandthe TypeScript SDK.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#september-17-2025"
+    },
+    {
+      "id": "2025-09-16-platform-september-16-2025",
+      "date": "2025-09-16",
+      "title": "We've unified our developer offerings under the Claude brand. You should see ...",
+      "titleEn": "We've unified our developer offerings under the Claude brand. You should see ...",
+      "description": "We've unified our developer offerings under the Claude brand. You should see updated naming and URLs across our platform and documentation, butour developer interfaces will remain the same. Here are some notable changes:Claude Console (console.anthropic.com) → Claude Console (platform.claude.com). The console will be available at both URLs until January 12, 2026. After that date,console.anthropic.comwill automatically redirect toplatform.claude.com.Anthropic Docs (docs.claude.com) → Claude Docs (docs.claude.com)Anthropic Help Center (support.claude.com) → Claude Help Center (support.claude.com)API endpoints, headers, environment variables, and SDKs remain the same. Your existing integrations will continue working without any changes.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#september-16-2025"
+    },
+    {
+      "id": "2025-09-10-platform-september-10-2025",
+      "date": "2025-09-10",
+      "title": "We've launched the web fetch tool in beta, allowing Claude to retrieve full c...",
+      "titleEn": "We've launched the web fetch tool in beta, allowing Claude to retrieve full c...",
+      "description": "We've launched the web fetch tool in beta, allowing Claude to retrieve full content from specified web pages and PDF documents. Learn more inWeb fetch tool. / We've launched theClaude Code Analytics API, enabling organizations to programmatically access daily aggregated usage metrics for Claude Code, including productivity metrics, tool usage statistics, and cost data.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#september-10-2025"
+    },
+    {
+      "id": "2025-09-08-platform-september-8-2025",
+      "date": "2025-09-08",
+      "title": "We launched a beta version of theC# SDK.",
+      "titleEn": "We launched a beta version of theC# SDK.",
+      "description": "We launched a beta version of theC# SDK.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#september-8-2025"
+    },
+    {
+      "id": "2025-09-05-platform-september-5-2025",
+      "date": "2025-09-05",
+      "title": "We've launchedrate limit chartsin the ConsoleUsagepage, allowing you to monit...",
+      "titleEn": "We've launchedrate limit chartsin the ConsoleUsagepage, allowing you to monit...",
+      "description": "We've launchedrate limit chartsin the ConsoleUsagepage, allowing you to monitor your API rate limit usage and caching rates over time.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#september-5-2025"
+    },
+    {
+      "id": "2025-09-03-platform-september-3-2025",
+      "date": "2025-09-03",
+      "title": "We've launched support for citable documents in client-side tool results. Lea...",
+      "titleEn": "We've launched support for citable documents in client-side tool results. Lea...",
+      "description": "We've launched support for citable documents in client-side tool results. Learn more inHow to implement tool use.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#september-3-2025"
+    },
+    {
+      "id": "2025-09-02-platform-september-2-2025",
+      "date": "2025-09-02",
+      "title": "We've launched v2 of theCode Execution Toolin public beta, replacing the orig...",
+      "titleEn": "We've launched v2 of theCode Execution Toolin public beta, replacing the orig...",
+      "description": "We've launched v2 of theCode Execution Toolin public beta, replacing the original Python-only tool with Bash command execution and direct file manipulation capabilities, including writing code in other languages.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#september-2-2025"
+    },
+    {
+      "id": "2025-08-27-platform-august-27-2025",
+      "date": "2025-08-27",
+      "title": "We launched a beta version of thePHP SDK.",
+      "titleEn": "We launched a beta version of thePHP SDK.",
+      "description": "We launched a beta version of thePHP SDK.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-27-2025"
+    },
+    {
+      "id": "2025-08-26-platform-august-26-2025",
+      "date": "2025-08-26",
+      "title": "We've increased rate limits on the1M token context windowfor Claude Sonnet 4 ...",
+      "titleEn": "We've increased rate limits on the1M token context windowfor Claude Sonnet 4 ...",
+      "description": "We've increased rate limits on the1M token context windowfor Claude Sonnet 4 on the Claude API. / The 1M token context window is now available on Google Cloud's Vertex AI. For more information, seeClaude on Vertex AI.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-26-2025"
+    },
+    {
+      "id": "2025-08-19-platform-august-19-2025",
+      "date": "2025-08-19",
+      "title": "Request IDs are now included directly in error response bodies alongside the ...",
+      "titleEn": "Request IDs are now included directly in error response bodies alongside the ...",
+      "description": "Request IDs are now included directly in error response bodies alongside the existingrequest-idheader. Learn more inErrors.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-19-2025"
+    },
+    {
+      "id": "2025-08-18-platform-august-18-2025",
+      "date": "2025-08-18",
+      "title": "We've released theUsage & Cost API, allowing administrators to programmatical...",
+      "titleEn": "We've released theUsage & Cost API, allowing administrators to programmatical...",
+      "description": "We've released theUsage & Cost API, allowing administrators to programmatically monitor their organization's usage and cost data. / We've added a new endpoint to the Admin API for retrieving organization information. For details, see theOrganization Info Admin API reference.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-18-2025"
+    },
+    {
+      "id": "2025-08-13-platform-august-13-2025",
+      "date": "2025-08-13",
+      "title": "We announced the deprecation of the Claude Sonnet 3.5 models (claude-3-5-sonn...",
+      "titleEn": "We announced the deprecation of the Claude Sonnet 3.5 models (claude-3-5-sonn...",
+      "description": "We announced the deprecation of the Claude Sonnet 3.5 models (claude-3-5-sonnet-20240620andclaude-3-5-sonnet-20241022). These models will be retired on October 28, 2025. We recommend migrating to Claude Sonnet 4.5 (claude-sonnet-4-5-20250929) for improved performance and capabilities. Read more inModel deprecations. / The 1-hour cache duration for prompt caching is now generally available. You can now use the extended cache TTL without a beta header. Learn more inPrompt caching.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-13-2025"
+    },
+    {
+      "id": "2025-08-12-platform-august-12-2025",
+      "date": "2025-08-12",
+      "title": "We've launched beta support for a1M token context windowin Claude Sonnet 4 on...",
+      "titleEn": "We've launched beta support for a1M token context windowin Claude Sonnet 4 on...",
+      "description": "We've launched beta support for a1M token context windowin Claude Sonnet 4 on the Claude API and Amazon Bedrock.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-12-2025"
+    },
+    {
+      "id": "2025-08-11-platform-august-11-2025",
+      "date": "2025-08-11",
+      "title": "Some customers might encounter 429 (rate_limit_error)errorsfollowing a sharp ...",
+      "titleEn": "Some customers might encounter 429 (rate_limit_error)errorsfollowing a sharp ...",
+      "description": "Some customers might encounter 429 (rate_limit_error)errorsfollowing a sharp increase in API usage due to acceleration limits on the API. Previously, 529 (overloaded_error) errors would occur in similar scenarios.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-11-2025"
+    },
+    {
+      "id": "2025-08-08-platform-august-8-2025",
+      "date": "2025-08-08",
+      "title": "Search result content blocks are now generally available on the Claude API an...",
+      "titleEn": "Search result content blocks are now generally available on the Claude API an...",
+      "description": "Search result content blocks are now generally available on the Claude API and Google Cloud's Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. The beta headersearch-results-2025-06-09is no longer required. Learn more inSearch results.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-8-2025"
+    },
+    {
+      "id": "2025-08-05-platform-august-5-2025",
+      "date": "2025-08-05",
+      "title": "We've launchedClaude Opus 4.1, an incremental update to Claude Opus 4 with en...",
+      "titleEn": "We've launchedClaude Opus 4.1, an incremental update to Claude Opus 4 with en...",
+      "description": "We've launchedClaude Opus 4.1, an incremental update to Claude Opus 4 with enhanced capabilities and performance improvements.*Learn more inModels overview.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-5-2025"
+    },
+    {
+      "id": "2025-07-28-platform-july-28-2025",
+      "date": "2025-07-28",
+      "title": "We've releasedtext_editor_20250728, an updated text editor tool that fixes so...",
+      "titleEn": "We've releasedtext_editor_20250728, an updated text editor tool that fixes so...",
+      "description": "We've releasedtext_editor_20250728, an updated text editor tool that fixes some issues from the previous versions and adds an optionalmax_charactersparameter that allows you to control the truncation length when viewing large files.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-28-2025"
+    },
+    {
+      "id": "2025-07-24-platform-july-24-2025",
+      "date": "2025-07-24",
+      "title": "We've increasedrate limitsfor Claude Opus 4 on the Claude API to give you mor...",
+      "titleEn": "We've increasedrate limitsfor Claude Opus 4 on the Claude API to give you mor...",
+      "description": "We've increasedrate limitsfor Claude Opus 4 on the Claude API to give you more capacity to build and scale with Claude. For customers withusage tier 1-4 rate limits, these changes apply immediately to your account - no action needed.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-24-2025"
+    },
+    {
+      "id": "2025-07-21-platform-july-21-2025",
+      "date": "2025-07-21",
+      "title": "We've retired the Claude 2.0, Claude 2.1, and Claude Sonnet 3 models. All req...",
+      "titleEn": "We've retired the Claude 2.0, Claude 2.1, and Claude Sonnet 3 models. All req...",
+      "description": "We've retired the Claude 2.0, Claude 2.1, and Claude Sonnet 3 models. All requests to these models will now return an error. Read more inModel deprecations.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-21-2025"
+    },
+    {
+      "id": "2025-07-17-platform-july-17-2025",
+      "date": "2025-07-17",
+      "title": "We've increasedrate limitsfor Claude Sonnet 4 on the Claude API to give you m...",
+      "titleEn": "We've increasedrate limitsfor Claude Sonnet 4 on the Claude API to give you m...",
+      "description": "We've increasedrate limitsfor Claude Sonnet 4 on the Claude API to give you more capacity to build and scale with Claude. For customers withusage tier 1-4 rate limits, these changes apply immediately to your account - no action needed.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-17-2025"
+    },
+    {
+      "id": "2025-07-03-platform-july-3-2025",
+      "date": "2025-07-03",
+      "title": "We've launched search result content blocks in beta, enabling natural citatio...",
+      "titleEn": "We've launched search result content blocks in beta, enabling natural citatio...",
+      "description": "We've launched search result content blocks in beta, enabling natural citations for RAG applications. Tools can now return search results with proper source attribution, and Claude will automatically cite these sources in its responses - matching the citation quality of web search. This eliminates the need for document workarounds in custom knowledge base applications. Learn more inSearch results. To enable this feature, use the beta headersearch-results-2025-06-09.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-3-2025"
+    },
+    {
+      "id": "2025-06-30-platform-june-30-2025",
+      "date": "2025-06-30",
+      "title": "We announced the deprecation of the Claude Opus 3 model. Read more inModel de...",
+      "titleEn": "We announced the deprecation of the Claude Opus 3 model. Read more inModel de...",
+      "description": "We announced the deprecation of the Claude Opus 3 model. Read more inModel deprecations.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-30-2025"
+    },
+    {
+      "id": "2025-06-23-platform-june-23-2025",
+      "date": "2025-06-23",
+      "title": "Console users with the Developer role can now access theCostpage. Previously,...",
+      "titleEn": "Console users with the Developer role can now access theCostpage. Previously,...",
+      "description": "Console users with the Developer role can now access theCostpage. Previously, the Developer role allowed access to theUsagepage, but not the Cost page.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-23-2025"
+    },
+    {
+      "id": "2025-06-11-platform-june-11-2025",
+      "date": "2025-06-11",
+      "title": "We've launchedfine-grained tool streamingin public beta, a feature that enabl...",
+      "titleEn": "We've launchedfine-grained tool streamingin public beta, a feature that enabl...",
+      "description": "We've launchedfine-grained tool streamingin public beta, a feature that enables Claude to stream tool use parameters without buffering / JSON validation. To enable fine-grained tool streaming, use thebeta headerfine-grained-tool-streaming-2025-05-14.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-11-2025"
+    },
+    {
+      "id": "2025-05-22-platform-may-22-2025",
+      "date": "2025-05-22",
+      "title": "We've launchedClaude Opus 4 and Claude Sonnet 4, our latest models with exten...",
+      "titleEn": "We've launchedClaude Opus 4 and Claude Sonnet 4, our latest models with exten...",
+      "description": "We've launchedClaude Opus 4 and Claude Sonnet 4, our latest models with extended thinking capabilities. Learn more inModels overview. / The default behavior ofextended thinkingin Claude 4 models returns a summary of Claude's full thinking process, with the full thinking encrypted and returned in thesignaturefield ofthinkingblock output. / We've launchedinterleaved thinkingin public beta, a feature that enables Claude to think in between tool calls. To enable interleaved thinking, use thebeta headerinterleaved-thinking-2025-05-14. / We've launched theFiles APIin public beta, enabling you to upload files and reference them in the Messages API and code execution tool. / We've launched theCode execution toolin public beta, a tool that enables Claude to execute Python code in a secure, sandboxed environment. / We've launched theMCP connectorin public beta, a feature that allows you to connect to remote MCP servers directly from the Messages API. / To increase answer quality and decrease tool errors, we've changed the default value for thetop_pnucleus samplingparameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, settop_pto 0.999.\nAdditionally, when extended thinking is enabled, you can now settop_pto values between 0.95 and 1. / We've moved ourGo SDKfrom beta to GA. / We've included minute and hour level granularity to theUsagepage of Console alongside 429 error rates on the Usage page.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-22-2025"
+    },
+    {
+      "id": "2025-05-21-platform-may-21-2025",
+      "date": "2025-05-21",
+      "title": "We've moved ourRuby SDKfrom beta to GA.",
+      "titleEn": "We've moved ourRuby SDKfrom beta to GA.",
+      "description": "We've moved ourRuby SDKfrom beta to GA.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-21-2025"
+    },
+    {
+      "id": "2025-05-07-platform-may-7-2025",
+      "date": "2025-05-07",
+      "title": "We've launched a web search tool in the API, allowing Claude to access up-to-...",
+      "titleEn": "We've launched a web search tool in the API, allowing Claude to access up-to-...",
+      "description": "We've launched a web search tool in the API, allowing Claude to access up-to-date information from the web. Learn more inWeb search tool.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-7-2025"
+    },
+    {
+      "id": "2025-05-01-platform-may-1-2025",
+      "date": "2025-05-01",
+      "title": "Cache control must now be specified directly in the parentcontentblock oftool...",
+      "titleEn": "Cache control must now be specified directly in the parentcontentblock oftool...",
+      "description": "Cache control must now be specified directly in the parentcontentblock oftool_resultanddocument.source. For backwards compatibility, if cache control is detected on the last block intool_result.contentordocument.source.content, it will be automatically applied to the parent block instead. Cache control on any other blocks withintool_result.contentanddocument.source.contentwill result in a validation error.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-1-2025"
+    },
+    {
+      "id": "2026-03-23-apps-computer-use-research-preview-in-cowork-and-claude",
+      "date": "2026-03-23",
+      "title": "Computer use research preview in Cowork and Claude Code + Dispatch improvements",
+      "titleEn": "",
+      "description": "Users on Pro and Max plans can give Claude access to computer use. Claude can open files, run dev tools, point, click, and navigate to what’s on your screen to perform tasks itself—with no setup required. Claude’s new computer use capability makes Dispatch even more helpful by allowing it to use your computer on your behalf while you’re away. For more information, see Let Claude use your computer in Cowork or our blog post: Put Claude to work on your computer.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-03-17-apps-control-cowork-from-your-phone-with-a-persistent-t",
+      "date": "2026-03-17",
+      "title": "Control Cowork from your phone with a persistent thread (research preview for...",
+      "titleEn": "",
+      "description": "Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage tasks in Cowork. We're rolling this out to Max plans starting today, and Pro plans over the next two days. For more information, see Assign tasks to Claude from anywhere in Cowork.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop",
+        "mobile"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-03-12-apps-claude-creates-interactive-charts-diagrams-and-vi",
+      "date": "2026-03-12",
+      "title": "Claude creates interactive charts, diagrams and visualizations",
+      "titleEn": "",
+      "description": "Claude can now create custom charts, diagrams and other visualizations in-line in its responses. For more information, see Custom visuals in chat.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-03-11-apps-work-across-excel-and-powerpoint",
+      "date": "2026-03-11",
+      "title": "Work across Excel and PowerPoint",
+      "titleEn": "",
+      "description": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conversation, so every action Claude takes in one application is informed by everything that’s happened in the other. We also added support for skills in the add-ins, and the ability for Amazon Bedrock, Google Cloud’s Vertex AI, or Microsoft Foundry users to connect to them via an LLM gateway. For more information, refer to the following articles:",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-03-02-apps-memory-for-free-users",
+      "date": "2026-03-02",
+      "title": "Memory for free users",
+      "titleEn": "",
+      "description": "Memory from chat history is now available for all Claude users, including free users. For more information, refer to the following articles:",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-02-25-apps-scheduled-tasks-in-cowork",
+      "date": "2026-02-25",
+      "title": "Scheduled tasks in Cowork",
+      "titleEn": "",
+      "description": "We introduced the ability to create and schedule both recurring and on-demand tasks in Cowork, as well as a new Customize section in Claude Desktop that groups skills, plugins, and connectors in one place. For more information, see Schedule recurring tasks in Cowork.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-02-24-apps-cowork-plugins-and-admin-controls",
+      "date": "2026-02-24",
+      "title": "Cowork plugins and admin controls",
+      "titleEn": "",
+      "description": "We launched a new plugin marketplace and admin controls for Team and Enterprise plans. For more information, refer to these articles:",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-02-17-apps-claude-sonnet-4-6-launch",
+      "date": "2026-02-17",
+      "title": "Claude Sonnet 4.6 launch",
+      "titleEn": "",
+      "description": "We launched our most capable Sonnet model yet, with a full upgrade of the model’s skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Sonnet 4.6 also features a 1M token context window in beta. Read our blog post for more information: Introducing Claude Sonnet 4.6.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-02-13-apps-analytics-api-for-enterprise-plans",
+      "date": "2026-02-13",
+      "title": "Analytics API for Enterprise plans",
+      "titleEn": "",
+      "description": "The Enterprise Analytics API provides programmatic access to usage and engagement data for Claude and Claude Code Remote usage within your organization. Data is aggregated per organization, per day, and each endpoint returns a snapshot for a single date that you specify. For more information, see Access usage data with the Analytics API.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-02-12-apps-self-serve-enterprise-plans",
+      "date": "2026-02-12",
+      "title": "Self-serve Enterprise plans",
+      "titleEn": "",
+      "description": "Previously, Enterprise plans were only available to customers working with our Sales team. Now, any organization can purchase an Enterprise plan directly on our website with no Sales conversation required. Self-serve Enterprise plans have a single seat type that includes access to Claude, Claude Code, and Cowork. For more information, refer to our blog post or What is the Enterprise plan?",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-02-05-apps-claude-opus-4-6-launch",
+      "date": "2026-02-05",
+      "title": "Claude Opus 4.6 launch",
+      "titleEn": "",
+      "description": "We’ve upgraded our smartest model and improved its coding skills. Read our blog post for more information: Introducing Claude Opus 4.6. Introducing Claude for PowerPoint",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-01-16-apps-cowork-research-preview-expanded-to-pro-plans",
+      "date": "2026-01-16",
+      "title": "Cowork research preview expanded to Pro plans",
+      "titleEn": "",
+      "description": "Cowork is now available to Pro plan users on Claude Desktop (macOS only). Claude Code access added to Team plan Standard seats",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-01-12-apps-cowork-research-preview-on-claude-desktop-macos-o",
+      "date": "2026-01-12",
+      "title": "Cowork research preview on Claude Desktop (macOS only) for Max plans",
+      "titleEn": "",
+      "description": "Cowork brings Claude Code's agentic capabilities to the Claude desktop app for knowledge work beyond coding. It runs locally on your computer in an isolated VM, enabling direct access to local files and MCP integrations. Refer to this article to learn more: Getting started with Cowork.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop",
+        "mobile"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-12-18-apps-skills-for-organizations-partners-and-the-ecosys",
+      "date": "2025-12-18",
+      "title": "Skills for organizations, partners, and the ecosystem",
+      "titleEn": "",
+      "description": "In October, we introduced skills—a way to teach Claude repeatable workflows tailored to how you work. Skills are now easier to deploy, discover, and build with organization-wide management for Team and Enterprise plans, a directory of partner-built skills, and an open standard (Agent Skills) so skills work across AI platforms. Claude in Chrome updates",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-11-24-apps-claude-opus-4-5-launch",
+      "date": "2025-11-24",
+      "title": "Claude Opus 4.5 launch",
+      "titleEn": "",
+      "description": "We released our most powerful frontier model to date. Read our blog post for more information: Introducing Claude Opus 4.5. Claude for Excel beta release",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-10-23-apps-claude-s-memory-on-max-and-pro-plans",
+      "date": "2025-10-23",
+      "title": "Claude’s memory on Max and Pro plans",
+      "titleEn": "",
+      "description": "Max plan users can now access Claude’s memory capabilities. This feature will roll out to Pro plans gradually over the next two weeks.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-10-15-apps-claude-haiku-4-5-launch",
+      "date": "2025-10-15",
+      "title": "Claude Haiku 4.5 launch",
+      "titleEn": "",
+      "description": "We released our fastest, most cost-efficient model – Claude Haiku 4.5. Our latest small model matches Sonnet 4’s performance on coding, computer use, and agent tasks. Claude in Chrome updates",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-09-29-apps-claude-sonnet-4-5-launch",
+      "date": "2025-09-29",
+      "title": "Claude Sonnet 4.5 launch",
+      "titleEn": "",
+      "description": "We released our newest model, Sonnet 4.5. This is the best model in the world for real-world agents, coding, and computer use. Read our blog post here: Claude Sonnet 4.5. Creating and editing files with Claude for Pro plans and mobile",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop",
+        "mobile"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-09-18-apps-claude-s-memory-on-enterprise-plans",
+      "date": "2025-09-18",
+      "title": "Claude’s memory on Enterprise plans",
+      "titleEn": "",
+      "description": "Users on Enterprise plans can leverage memory; Claude can now remember relevant context from your chats and generate a memory summary. Incognito chats give you a way to exclude conversations from Claude’s memory. Refer to the following articles for more information:",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-09-16-apps-claude-in-chrome-expansion",
+      "date": "2025-09-16",
+      "title": "Claude in Chrome expansion",
+      "titleEn": "",
+      "description": "Claude in Chrome expanded to 10,000 Max plan users with the release of new capabilities:",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-09-11-apps-claude-s-memory-on-team-plans-and-incognito-chats",
+      "date": "2025-09-11",
+      "title": "Claude’s memory on Team plans and incognito chats for free, Pro, Max, and Tea...",
+      "titleEn": "",
+      "description": "Claude can now remember relevant context from your chats and will generate a memory summary. Incognito chats give you a way to exclude conversations from Claude’s memory. Refer to the following new articles for more information:",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-09-09-apps-creating-and-editing-files-with-claude",
+      "date": "2025-09-09",
+      "title": "Creating and editing files with Claude",
+      "titleEn": "",
+      "description": "Claude can now create and edit Excel spreadsheets, PowerPoint slide decks, documents, and PDFs directly in the Claude app. Refer to the following two articles for more information:",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-09-03-apps-location-maps-and-calendar-access-on-claude-for",
+      "date": "2025-09-03",
+      "title": "Location, maps, and calendar access on Claude for iOS and Android",
+      "titleEn": "",
+      "description": "Claude can now connect with iOS and Android apps to draft calendar events, help you find locations, and manage reminders (iOS only). See updates to the following two articles for more information:",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop",
+        "mobile"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-08-27-apps-code-execution-tool",
+      "date": "2025-08-27",
+      "title": "Code Execution Tool",
+      "titleEn": "",
+      "description": "A new API tool that allows Claude to execute Python code in a secure, sandboxed environment. Refer to our docs for more information: Code execution tool.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-08-26-apps-claude-in-chrome",
+      "date": "2025-08-26",
+      "title": "Claude in Chrome",
+      "titleEn": "",
+      "description": "An experimental browser extension that allows Claude to read, click, and navigate websites alongside you. See Getting Started with Claude in Chrome.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-08-21-apps-admin-controls-for-desktop-extensions",
+      "date": "2025-08-21",
+      "title": "Admin controls for desktop extensions",
+      "titleEn": "",
+      "description": "Allows Team and Enterprise plans to enable/disable public desktop extensions and upload custom extensions. See Admin Controls for Desktop Extensions. Making shared artifacts embeddable",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-08-20-apps-premium-seats-with-claude-code-for-team-and-enterp",
+      "date": "2025-08-20",
+      "title": "Premium seats with Claude Code for Team and Enterprise plans",
+      "titleEn": "",
+      "description": "Introduced a premium seat tier for Team and Enterprise plans offering more usage and access to Claude Code. Refer to the following articles for more information: Extra usage for Team and Enterprise plans",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-08-15-apps-ability-to-change-monthly-team-plan-billing-to-ann",
+      "date": "2025-08-15",
+      "title": "Ability to change monthly Team plan billing to annual",
+      "titleEn": "",
+      "description": "Allowing Team plan organizations with monthly billing to upgrade to annual billing. See How to change your Team plan from monthly to annual billing.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-08-12-apps-1m-token-context-window",
+      "date": "2025-08-12",
+      "title": "1M token context window",
+      "titleEn": "",
+      "description": "The 1M token context window for Claude Sonnet 4 is currently in beta for API organizations in usage tier 4, or with custom rate limits. See 1M token context window in our docs for more information.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-08-11-apps-ability-to-search-past-conversations",
+      "date": "2025-08-11",
+      "title": "Ability to search past conversations",
+      "titleEn": "",
+      "description": "Users on Max, Team, Enterprise plans can prompt Claude to search over past chats, allowing finer-grained context continuation and synthesizing across topics. See Searching past chats.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-08-06-apps-claude-code-security-reviews",
+      "date": "2025-08-06",
+      "title": "Claude Code Security Reviews",
+      "titleEn": "",
+      "description": "Two new cybersecurity features were added to Claude Code: See Automated Security Reviews in Claude Code.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-08-05-apps-claude-opus-4-1",
+      "date": "2025-08-05",
+      "title": "Claude Opus 4.1",
+      "titleEn": "",
+      "description": "Claude Opus 4.1 (an incremental update to Opus 4) brings enhanced performance as our most capable model for complex reasoning, analysis, and creative tasks.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2025-08-01-apps-project-sharing",
+      "date": "2025-08-01",
+      "title": "Project Sharing",
+      "titleEn": "",
+      "description": "Enabled project permissions and sharing for Team and Enterprise plans. See Organization-wide sharing for more information.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    }
+  ]
+}

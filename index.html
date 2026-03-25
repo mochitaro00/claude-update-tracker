@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Update Tracker</title>
+  <meta name="description" content="Claudeの全アップデート情報を一元管理。CLI、デスクトップ、Web版の最新情報をまとめてチェック。">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F4CB;</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <h1><span>Claude</span> Update Tracker</h1>
+      <div class="header-meta">読み込み中...</div>
+    </div>
+  </header>
+
+  <!-- Search -->
+  <div class="search-section">
+    <div class="search-bar">
+      <span class="search-icon">&#x1F50D;</span>
+      <input type="text" id="search-input" placeholder="キーワードで検索（例: extended thinking, Claude Code, ボイス）">
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters-section">
+    <div class="filter-group">
+      <span class="filter-label">プラットフォーム</span>
+      <div class="filter-chips" id="group-chips"></div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">種別</span>
+      <div class="filter-chips" id="category-chips"></div>
+    </div>
+  </div>
+
+  <!-- Results Info -->
+  <div class="results-info">
+    <span class="results-count"></span>
+    <button class="clear-filters">フィルタをクリア</button>
+  </div>
+
+  <!-- Loading -->
+  <div class="loading">
+    <div class="loading-spinner"></div>
+    <p>データを読み込んでいます...</p>
+  </div>
+
+  <!-- Timeline -->
+  <div class="timeline"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>
+      データソース:
+      <a href="https://docs.anthropic.com/en/release-notes/overview" target="_blank" rel="noopener">API Platform Release Notes</a> /
+      <a href="https://support.claude.com/en/articles/12138966-release-notes" target="_blank" rel="noopener">Claude Apps Release Notes</a> /
+      <a href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" target="_blank" rel="noopener">Claude Code CHANGELOG</a>
+    </p>
+    <p style="margin-top: 0.25rem">カードをクリックすると詳細が表示されます</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
