@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-25",
+    "lastUpdated": "2026-03-26",
     "version": "1.0.0"
   },
   "updates": [
@@ -2754,6 +2754,747 @@
       "platforms": [
         "claude-ai",
         "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-03-26-claude-code-v2-1-84",
+      "date": "2026-03-26",
+      "title": "Claude Code v2.1.84",
+      "titleEn": "Claude Code v2.1.84",
+      "description": "Added PowerShell tool for Windows as an opt-in preview. L...、Added `ANTHROPIC_DEFAULT_{OPUS,SONNET,HAIKU}_MODEL_SUPPOR...、Added `CLAUDE_STREAM_IDLE_TIMEOUT_MS` env var to configur...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.84"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-25-claude-code-v2-1-83",
+      "date": "2026-03-25",
+      "title": "Claude Code v2.1.83",
+      "titleEn": "Claude Code v2.1.83",
+      "description": "Added `managed-settings.d/` drop-in directory alongside `...、Added `CwdChanged` and `FileChanged` hook events for reac...、Added `sandbox.failIfUnavailable` setting to exit with an...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.83"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-19-claude-code-v2-1-80",
+      "date": "2026-03-19",
+      "title": "Claude Code v2.1.80",
+      "titleEn": "Claude Code v2.1.80",
+      "description": "Added `rate_limits` field to statusline scripts for displ...、Added `source: 'settings'` plugin marketplace source、Added CLI tool usage detection to plugin tips, in additio...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.80"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-18-claude-code-v2-1-79",
+      "date": "2026-03-18",
+      "title": "Claude Code v2.1.79",
+      "titleEn": "Claude Code v2.1.79",
+      "description": "Added `--console` flag to `claude auth login` for Anthrop...、Added \"Show turn duration\" toggle to the `/config` menu、Fixed `claude -p` hanging when spawned as a subprocess wi...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.79"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-17-claude-code-v2-1-78",
+      "date": "2026-03-17",
+      "title": "Claude Code v2.1.78",
+      "titleEn": "Claude Code v2.1.78",
+      "description": "Added `StopFailure` hook event that fires when the turn e...、Added `${CLAUDE_PLUGIN_DATA}` variable for plugin persist...、Added `effort`, `maxTurns`, and `disallowedTools` frontma...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.78"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-12-claude-code-v2-1-75",
+      "date": "2026-03-12",
+      "title": "Claude Code v2.1.75",
+      "titleEn": "Claude Code v2.1.75",
+      "description": "Added 1M context window for Opus 4.6 by default for Max, ...、Added `/color` command for all users to set a prompt-bar ...、Added session name display on the prompt bar when using `...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.75"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-12-claude-code-v2-1-74",
+      "date": "2026-03-12",
+      "title": "Claude Code v2.1.74",
+      "titleEn": "Claude Code v2.1.74",
+      "description": "Added actionable suggestions to `/context` command、Added `autoMemoryDirectory` setting to configure a custom...、Fixed memory leak where streaming API response buffers we...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.74"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-11-claude-code-v2-1-73",
+      "date": "2026-03-11",
+      "title": "Claude Code v2.1.73",
+      "titleEn": "Claude Code v2.1.73",
+      "description": "Added `modelOverrides` setting to map model picker entrie...、Added actionable guidance when OAuth login or connectivit...、Fixed freezes and 100% CPU loops triggered by permission ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.73"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-10-claude-code-v2-1-72",
+      "date": "2026-03-10",
+      "title": "Claude Code v2.1.72",
+      "titleEn": "Claude Code v2.1.72",
+      "description": "Fixed tool search to activate even with `ANTHROPIC_BASE_U...、Added `w` key in `/copy` to write the focused selection d...、Added optional description argument to `/plan` (e.g., `/p...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.72"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-07-claude-code-v2-1-71",
+      "date": "2026-03-07",
+      "title": "Claude Code v2.1.71",
+      "titleEn": "Claude Code v2.1.71",
+      "description": "Added `/loop` command to run a prompt or slash command on...、Added cron scheduling tools for recurring prompts within ...、Added `voice:pushToTalk` keybinding to make the voice act...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.71"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-06-claude-code-v2-1-70",
+      "date": "2026-03-06",
+      "title": "Claude Code v2.1.70",
+      "titleEn": "Claude Code v2.1.70",
+      "description": "Fixed API 400 errors when using `ANTHROPIC_BASE_URL` with...、Fixed `API Error: 400 This model does not support the eff...、Fixed empty model responses immediately after `ToolSearch`",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.70"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-05-claude-code-v2-1-69",
+      "date": "2026-03-05",
+      "title": "Claude Code v2.1.69",
+      "titleEn": "Claude Code v2.1.69",
+      "description": "Added the `/claude-api` skill for building applications w...、Added Ctrl+U on an empty bash prompt (`!`) to exit bash m...、Added numeric keypad support for selecting options in Cla...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.69"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-04-claude-code-v2-1-68",
+      "date": "2026-03-04",
+      "title": "Claude Code v2.1.68",
+      "titleEn": "Claude Code v2.1.68",
+      "description": "Opus 4.6 now defaults to medium effort for Max and Team s...、Re-introduced the \"ultrathink\" keyword to enable high eff...、Removed Opus 4 and 4.1 from Claude Code on the first-part...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.68"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-04-claude-code-v2-1-66",
+      "date": "2026-03-04",
+      "title": "Claude Code v2.1.66",
+      "titleEn": "Claude Code v2.1.66",
+      "description": "Reduced spurious error logging",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.66"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-28-claude-code-v2-1-63",
+      "date": "2026-02-28",
+      "title": "Claude Code v2.1.63",
+      "titleEn": "Claude Code v2.1.63",
+      "description": "Added `/simplify` and `/batch` bundled slash commands、Fixed local slash command output like /cost appearing as ...、Project configs & auto memory now shared across git workt...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.63"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-26-claude-code-v2-1-59",
+      "date": "2026-02-26",
+      "title": "Claude Code v2.1.59",
+      "titleEn": "Claude Code v2.1.59",
+      "description": "Claude automatically saves useful context to auto-memory....、Added `/copy` command to show an interactive picker when ...、Improved \"always allow\" prefix suggestions for compound b...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.59"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-25-claude-code-v2-1-58",
+      "date": "2026-02-25",
+      "title": "Claude Code v2.1.58",
+      "titleEn": "Claude Code v2.1.58",
+      "description": "Expand Remote Control to more users",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.58"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-25-claude-code-v2-1-56",
+      "date": "2026-02-25",
+      "title": "Claude Code v2.1.56",
+      "titleEn": "Claude Code v2.1.56",
+      "description": "VS Code: Fixed another cause of \"command 'claude-vscode.e...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.56"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-25-claude-code-v2-1-53",
+      "date": "2026-02-25",
+      "title": "Claude Code v2.1.53",
+      "titleEn": "Claude Code v2.1.53",
+      "description": "Fixed a UI flicker where user input would briefly disappe...、Fixed bulk agent kill (ctrl+f) to send a single aggregate...、Fixed graceful shutdown sometimes leaving stale sessions ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.53"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-24-claude-code-v2-1-52",
+      "date": "2026-02-24",
+      "title": "Claude Code v2.1.52",
+      "titleEn": "Claude Code v2.1.52",
+      "description": "VS Code: Fixed extension crash on Windows (\"command 'clau...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.52"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-24-claude-code-v2-1-51",
+      "date": "2026-02-24",
+      "title": "Claude Code v2.1.51",
+      "titleEn": "Claude Code v2.1.51",
+      "description": "Added `claude remote-control` subcommand for external bui...、Updated plugin marketplace default git timeout from 30s t...、Added support for custom npm registries and specific vers...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.51"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-20-claude-code-v2-1-50",
+      "date": "2026-02-20",
+      "title": "Claude Code v2.1.50",
+      "titleEn": "Claude Code v2.1.50",
+      "description": "Added support for `startupTimeout` configuration for LSP ...、Added `WorktreeCreate` and `WorktreeRemove` hook events, ...、Fixed a bug where resumed sessions could be invisible whe...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.50"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-19-claude-code-v2-1-49",
+      "date": "2026-02-19",
+      "title": "Claude Code v2.1.49",
+      "titleEn": "Claude Code v2.1.49",
+      "description": "Improved MCP OAuth authentication with step-up auth suppo...、Added `--worktree` (`-w`) flag to start Claude in an isol...、Subagents support `isolation: \"worktree\"` for working in ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.49"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-18-claude-code-v2-1-47",
+      "date": "2026-02-18",
+      "title": "Claude Code v2.1.47",
+      "titleEn": "Claude Code v2.1.47",
+      "description": "Fixed FileWriteTool line counting to preserve intentional...、Fixed Windows terminal rendering bugs caused by `os.EOL` ...、Improved VS Code plan preview: auto-updates as Claude ite...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.47"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-17-claude-code-v2-1-45",
+      "date": "2026-02-17",
+      "title": "Claude Code v2.1.45",
+      "titleEn": "Claude Code v2.1.45",
+      "description": "Added support for Claude Sonnet 4.6、Added support for reading `enabledPlugins` and `extraKnow...、Added `spinnerTipsOverride` setting to customize spinner ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.45"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-13-claude-code-v2-1-42",
+      "date": "2026-02-13",
+      "title": "Claude Code v2.1.42",
+      "titleEn": "Claude Code v2.1.42",
+      "description": "Improved startup performance by deferring Zod schema cons...、Improved prompt cache hit rates by moving date out of sys...、Added one-time Opus 4.6 effort callout for eligible users",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.42"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-13-claude-code-v2-1-41",
+      "date": "2026-02-13",
+      "title": "Claude Code v2.1.41",
+      "titleEn": "Claude Code v2.1.41",
+      "description": "Added guard against launching Claude Code inside another ...、Fixed Agent Teams using wrong model identifier for Bedroc...、Fixed a crash when MCP tools return image content during ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.41"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-10-claude-code-v2-1-39",
+      "date": "2026-02-10",
+      "title": "Claude Code v2.1.39",
+      "titleEn": "Claude Code v2.1.39",
+      "description": "Improved terminal rendering performance、Fixed fatal errors being swallowed instead of displayed、Fixed process hanging after session close",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.39"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-10-claude-code-v2-1-38",
+      "date": "2026-02-10",
+      "title": "Claude Code v2.1.38",
+      "titleEn": "Claude Code v2.1.38",
+      "description": "Fixed VS Code terminal scroll-to-top regression introduce...、Fixed Tab key queueing slash commands instead of autocomp...、Fixed bash permission matching for commands using environ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.38"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-07-claude-code-v2-1-36",
+      "date": "2026-02-07",
+      "title": "Claude Code v2.1.36",
+      "titleEn": "Claude Code v2.1.36",
+      "description": "Fast mode is now available for Opus 4.6. Learn more at ht...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.36"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-06-claude-code-v2-1-33",
+      "date": "2026-02-06",
+      "title": "Claude Code v2.1.33",
+      "titleEn": "Claude Code v2.1.33",
+      "description": "Fixed agent teammate sessions in tmux to send and receive...、Fixed warnings about agent teams not being available on y...、Added `TeammateIdle` and `TaskCompleted` hook events for ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.33"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-05-claude-code-v2-1-32",
+      "date": "2026-02-05",
+      "title": "Claude Code v2.1.32",
+      "titleEn": "Claude Code v2.1.32",
+      "description": "Claude Opus 4.6 is now available!、Added research preview agent teams feature for multi-agen...、Claude now automatically records and recalls memories as ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.32"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-04-claude-code-v2-1-31",
+      "date": "2026-02-04",
+      "title": "Claude Code v2.1.31",
+      "titleEn": "Claude Code v2.1.31",
+      "description": "Added session resume hint on exit, showing how to continu...、Added support for full-width (zenkaku) space input from J...、Fixed PDF too large errors permanently locking up session...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.31"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-02-03-claude-code-v2-1-30",
+      "date": "2026-02-03",
+      "title": "Claude Code v2.1.30",
+      "titleEn": "Claude Code v2.1.30",
+      "description": "Added `pages` parameter to the Read tool for PDFs, allowi...、Added pre-configured OAuth client credentials for MCP ser...、Added `/debug` for Claude to help troubleshoot the curren...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.30"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-01-30-claude-code-v2-1-27",
+      "date": "2026-01-30",
+      "title": "Claude Code v2.1.27",
+      "titleEn": "Claude Code v2.1.27",
+      "description": "Added tool call failures and denials to debug logs、Fixed context management validation error for gateway use...、Added `--from-pr` flag to resume sessions linked to a spe...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.27"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-01-29-claude-code-v2-1-23",
+      "date": "2026-01-29",
+      "title": "Claude Code v2.1.23",
+      "titleEn": "Claude Code v2.1.23",
+      "description": "Added customizable spinner verbs setting (`spinnerVerbs`)、Fixed mTLS and proxy connectivity for users behind corpor...、Fixed per-user temp directory isolation to prevent permis...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.23"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-01-28-claude-code-v2-1-21",
+      "date": "2026-01-28",
+      "title": "Claude Code v2.1.21",
+      "titleEn": "Claude Code v2.1.21",
+      "description": "Added support for full-width (zenkaku) number input from ...、Fixed shell completion cache files being truncated on exit、Fixed API errors when resuming sessions that were interru...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.21"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-01-27-claude-code-v2-1-20",
+      "date": "2026-01-27",
+      "title": "Claude Code v2.1.20",
+      "titleEn": "Claude Code v2.1.20",
+      "description": "Added arrow key history navigation in vim normal mode whe...、Added external editor shortcut (Ctrl+G) to the help menu ...、Added PR review status indicator to the prompt footer, sh...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.20"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-25-apps-interactive-apps-in-claude-for-ios-and-android",
+      "date": "2026-03-25",
+      "title": "Interactive apps in Claude for iOS and Android",
+      "titleEn": "",
+      "description": "The Claude mobile app can now connect to fully interactive apps. Pull up live charts, sketch diagrams, and build shareable assets, all rendered visually right in your conversation. For more information, see Use interactive connectors in Claude.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop",
+        "mobile"
       ],
       "category": "feature",
       "importance": "minor",
