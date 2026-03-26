@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-26",
+    "lastUpdated": "2026-03-27",
     "version": "1.0.0"
   },
   "updates": [
@@ -3502,6 +3502,25 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-03-26-claude-code-v2-1-85",
+      "date": "2026-03-26",
+      "title": "Claude Code v2.1.85",
+      "titleEn": "Claude Code v2.1.85",
+      "description": "Added `CLAUDE_CODE_MCP_SERVER_NAME` and `CLAUDE_CODE_MCP_...、Added conditional `if` field for hooks using permission r...、Added timestamp markers in transcripts when scheduled tas...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.85"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
