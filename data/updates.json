@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-30",
+    "lastUpdated": "2026-03-31",
     "version": "1.0.0"
   },
   "updates": [
@@ -3540,6 +3540,24 @@
         "v2.1.86"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-03-30-platform-march-30-2026",
+      "date": "2026-03-30",
+      "title": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Cla...",
+      "titleEn": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Cla...",
+      "description": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 onApril 30, 2026. After that date, requests that include thecontext-1m-2025-08-07beta header on these models will return a 400 error. To continue using 1M context windows, migrate toClaude Sonnet 4.6orClaude Opus 4.6, which support the full 1M token context window at standard pricing with no beta header required.",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#march-30-2026"
     }
   ]
 }
