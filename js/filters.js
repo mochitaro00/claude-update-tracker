@@ -7,6 +7,7 @@ export class FilterEngine {
     this.activeGroups = new Set();
     this.activeSubs = new Set(); // Desktop sub-filters
     this.activeCategories = new Set();
+    this.activeOS = null; // "mac" | "windows" | null
   }
 
   toggleGroup(group) {
@@ -39,6 +40,16 @@ export class FilterEngine {
     }
   }
 
+  toggleOS(os) {
+    if (this.activeOS === os) {
+      this.activeOS = null;
+      return false;
+    } else {
+      this.activeOS = os;
+      return true;
+    }
+  }
+
   clearSubs() {
     this.activeSubs.clear();
   }
@@ -47,13 +58,15 @@ export class FilterEngine {
     this.activeGroups.clear();
     this.activeSubs.clear();
     this.activeCategories.clear();
+    this.activeOS = null;
   }
 
   hasActiveFilters() {
     return (
       this.activeGroups.size > 0 ||
       this.activeSubs.size > 0 ||
-      this.activeCategories.size > 0
+      this.activeCategories.size > 0 ||
+      this.activeOS !== null
     );
   }
 
@@ -62,6 +75,7 @@ export class FilterEngine {
    * - Groups: OR within groups (show if update belongs to ANY selected group)
    * - Subs: If desktop is selected AND subs are active, further narrow to those subs
    * - Categories: AND with groups (must match both group AND category)
+   * - OS: Show selected OS + OS-agnostic entries
    */
   apply(updates, searchIds = null) {
     return updates.filter((update) => {
@@ -84,8 +98,6 @@ export class FilterEngine {
           this.activeSubs.size > 0 &&
           mapped.groups.includes("desktop")
         ) {
-          // If the update is in the "desktop" group, check sub-match
-          // But only filter out if no other selected group matches
           const matchesOtherGroup = mapped.groups.some(
             (g) => g !== "desktop" && this.activeGroups.has(g)
           );
@@ -103,6 +115,14 @@ export class FilterEngine {
         if (!this.activeCategories.has(update.category)) return false;
       }
 
+      // OS filter: show selected OS entries + OS-agnostic (no os field)
+      if (this.activeOS !== null) {
+        const updateOS = update.os || []; // empty = OS-agnostic
+        if (updateOS.length > 0 && !updateOS.includes(this.activeOS)) {
+          return false;
+        }
+      }
+
       return true;
     });
   }
@@ -112,6 +132,7 @@ export class FilterEngine {
       groups: [...this.activeGroups],
       subs: [...this.activeSubs],
       categories: [...this.activeCategories],
+      os: this.activeOS,
     };
   }
 
@@ -119,5 +140,6 @@ export class FilterEngine {
     this.activeGroups = new Set(state.groups || []);
     this.activeSubs = new Set(state.subs || []);
     this.activeCategories = new Set(state.categories || []);
+    this.activeOS = state.os || null;
   }
 }

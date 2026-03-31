@@ -3,7 +3,7 @@
 // ============================================
 
 import { SearchEngine } from "./search.js";
-import { FilterEngine } from "./filters.js";
+import { FilterEngine } from "./filters.js?v=2";
 
 // --- Platform Group Hierarchy ---
 const GROUPS = {
@@ -120,6 +120,7 @@ async function init() {
     search.buildIndex(allUpdates);
     renderGroupChips();
     renderCategoryChips();
+    renderOSChips();
     restoreFromHash();
     render();
 
@@ -221,6 +222,56 @@ function renderCategoryChips() {
       render();
     });
     container.appendChild(chip);
+  }
+}
+
+// --- Render OS Chips ---
+const OS_LABELS = { mac: "Mac", windows: "Windows" };
+
+function renderOSChips() {
+  const container = $("#os-chips");
+  const counts = { mac: 0, windows: 0 };
+
+  for (const u of allUpdates) {
+    const os = u.os || [];
+    for (const o of os) {
+      if (counts[o] !== undefined) counts[o]++;
+    }
+  }
+
+  for (const [key, label] of Object.entries(OS_LABELS)) {
+    const id = `os-${key}`;
+    const wrapper = document.createElement("label");
+    wrapper.className = "os-label";
+    wrapper.htmlFor = id;
+
+    const input = document.createElement("input");
+    input.type = "radio";
+    input.name = "os-filter";
+    input.id = id;
+    input.className = "os-radio";
+    input.dataset.os = key;
+    input.addEventListener("click", () => {
+      if (filters.activeOS === key) {
+        // 同じものをクリック → 解除
+        input.checked = false;
+        filters.activeOS = null;
+      } else {
+        filters.activeOS = key;
+      }
+      updateHash();
+      render();
+    });
+
+    const text = document.createTextNode(` ${label} `);
+    const count = document.createElement("span");
+    count.className = "os-count";
+    count.textContent = counts[key];
+
+    wrapper.appendChild(input);
+    wrapper.appendChild(text);
+    wrapper.appendChild(count);
+    container.appendChild(wrapper);
   }
 }
 
@@ -419,6 +470,7 @@ function updateHash() {
   if (state.groups.length) params.set("g", state.groups.join(","));
   if (state.subs.length) params.set("s", state.subs.join(","));
   if (state.categories.length) params.set("c", state.categories.join(","));
+  if (state.os) params.set("os", state.os);
   if (query) params.set("q", query);
 
   const hash = params.toString();
@@ -437,6 +489,7 @@ function restoreFromHash() {
       groups,
       subs: params.has("s") ? params.get("s").split(",") : [],
       categories: params.has("c") ? params.get("c").split(",") : [],
+      os: params.get("os") || null,
     });
     for (const chip of $$("#group-chips .chip[data-group]")) {
       const isActive = groups.includes(chip.dataset.group);
@@ -458,6 +511,13 @@ function restoreFromHash() {
     const categories = params.get("c").split(",");
     for (const chip of $$("#category-chips .chip")) {
       chip.classList.toggle("active", categories.includes(chip.dataset.category));
+    }
+  }
+
+  if (params.has("os")) {
+    const os = params.get("os");
+    for (const cb of $$("#os-chips .os-radio")) {
+      cb.checked = cb.dataset.os === os;
     }
   }
 

@@ -263,6 +263,33 @@ body {
 /* Sub chips */
 .chip[data-sub].active { background: var(--color-desktop); }
 
+/* OS checkboxes */
+.os-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.os-label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  user-select: none;
+}
+
+.os-radio {
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.os-count {
+  font-size: 0.62rem;
+  color: var(--text-muted);
+}
+
 /* Category chip colors when active */
 .chip[data-category="model-release"].active { background: var(--color-model-release); }
 .chip[data-category="feature"].active { background: var(--color-feature); }

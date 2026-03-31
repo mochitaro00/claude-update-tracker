@@ -47,7 +47,10 @@
         "agent",
         "cowork"
       ],
-      "link": "https://www.anthropic.com/news"
+      "link": "https://www.anthropic.com/news",
+      "os": [
+        "mac"
+      ]
     },
     {
       "id": "2026-03-20-claude-code-v2-1-81",
@@ -930,7 +933,10 @@
         "macos",
         "automation"
       ],
-      "link": "https://www.anthropic.com/news"
+      "link": "https://www.anthropic.com/news",
+      "os": [
+        "mac"
+      ]
     },
     {
       "id": "2026-01-26-mcp-integrations-claude-ai",
@@ -2180,7 +2186,10 @@
       "tags": [
         "apps"
       ],
-      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+      "link": "https://support.claude.com/en/articles/12138966-release-notes",
+      "os": [
+        "mac"
+      ]
     },
     {
       "id": "2026-03-17-apps-control-cowork-from-your-phone-with-a-persistent-t",
@@ -2379,7 +2388,10 @@
       "tags": [
         "apps"
       ],
-      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+      "link": "https://support.claude.com/en/articles/12138966-release-notes",
+      "os": [
+        "mac"
+      ]
     },
     {
       "id": "2026-01-12-apps-cowork-research-preview-on-claude-desktop-macos-o",
@@ -2398,7 +2410,10 @@
       "tags": [
         "apps"
       ],
-      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+      "link": "https://support.claude.com/en/articles/12138966-release-notes",
+      "os": [
+        "mac"
+      ]
     },
     {
       "id": "2025-12-18-apps-skills-for-organizations-partners-and-the-ecosys",
@@ -2779,7 +2794,10 @@
         "claude-code",
         "v2.1.84"
       ],
-      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+      "os": [
+        "windows"
+      ]
     },
     {
       "id": "2026-03-25-claude-code-v2-1-83",
@@ -3140,7 +3158,10 @@
         "claude-code",
         "v2.1.52"
       ],
-      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+      "os": [
+        "windows"
+      ]
     },
     {
       "id": "2026-02-24-claude-code-v2-1-51",
@@ -3579,7 +3600,10 @@
         "dispatch",
         "agent"
       ],
-      "link": "https://claude.com/blog/dispatch-and-computer-use"
+      "link": "https://claude.com/blog/dispatch-and-computer-use",
+      "os": [
+        "mac"
+      ]
     }
   ]
 }
