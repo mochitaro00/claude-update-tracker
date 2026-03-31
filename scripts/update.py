@@ -401,89 +401,55 @@ def fetch_apps_notes():
 
 
 # ============================================================
-# Translation: English → Japanese via Claude API
+# Translation: English → Japanese via Google Translate (free)
 # ============================================================
-ANTHROPIC_KEY_FILE = Path.home() / ".config" / "claude-update-tracker" / "anthropic-key.txt"
+def translate_text(text):
+    """Google翻訳で英語→日本語に翻訳"""
+    from deep_translator import GoogleTranslator
 
-def load_anthropic_key():
-    """APIキーをファイルから読み込む"""
-    if ANTHROPIC_KEY_FILE.exists():
-        return ANTHROPIC_KEY_FILE.read_text().strip()
-    # 環境変数フォールバック
-    return os.environ.get("ANTHROPIC_API_KEY", "")
+    if not text or len(text.strip()) == 0:
+        return text
+
+    # deep-translator は5000文字制限があるので長い場合はカット
+    if len(text) > 4500:
+        text = text[:4500]
+
+    try:
+        return GoogleTranslator(source="en", target="ja").translate(text)
+    except Exception:
+        return text  # 失敗時は原文をそのまま返す
 
 
 def translate_entries(entries):
     """新規エントリの title / description を日本語に翻訳する"""
-    api_key = load_anthropic_key()
-    if not api_key:
-        log("WARNING: Anthropic APIキーが見つかりません。翻訳をスキップします。")
-        log(f"  キーを {ANTHROPIC_KEY_FILE} に保存するか、ANTHROPIC_API_KEY 環境変数を設定してください。")
+    try:
+        from deep_translator import GoogleTranslator
+    except ImportError:
+        log("WARNING: deep-translator がインストールされていません。翻訳をスキップします。")
+        log("  pip3 install deep-translator")
         return
 
-    import requests as req
-
-    # バッチで翻訳（全エントリを1リクエストで）
-    items = []
+    count = 0
     for e in entries:
-        items.append({"id": e["id"], "title": e["title"], "description": e["description"]})
+        try:
+            # 英語原文を保存
+            e["titleEn"] = e["title"]
 
-    prompt = f"""以下のClaude関連のアップデート情報を英語から日本語に翻訳してください。
+            # タイトル翻訳
+            title_ja = translate_text(e["title"])
+            if title_ja:
+                e["title"] = title_ja
 
-ルール:
-- titleは簡潔な日本語タイトルにする（製品名 Claude Code, Claude Opus 4.6, API, SDK 等は英語のまま）
-- descriptionは自然な日本語にする
-- HTMLタグのようなアーティファクトは除去してクリーンなテキストにする
-- 技術用語（extended thinking, prompt caching, tool use, structured outputs 等）は英語のまま
-- Claude Code vX.X.XX のタイトルは「Claude Code vX.X.XX — 主要変更の要約」形式にする
+            # description翻訳
+            desc_ja = translate_text(e["description"])
+            if desc_ja:
+                e["description"] = desc_ja
 
-入力データ:
-{json.dumps(items, ensure_ascii=False)}
+            count += 1
+        except Exception as ex:
+            log(f"  翻訳エラー（{e['id']}）: {ex}")
 
-JSON配列で返してください。各要素は {{"id": "...", "title": "日本語タイトル", "description": "日本語説明"}} の形式です。
-JSONのみ返し、他の文字は含めないでください。"""
-
-    try:
-        resp = req.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "x-api-key": api_key,
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            json={
-                "model": "claude-haiku-4-5-20251001",
-                "max_tokens": 4096,
-                "messages": [{"role": "user", "content": prompt}],
-            },
-            timeout=60,
-        )
-        resp.raise_for_status()
-        result = resp.json()
-        text = result["content"][0]["text"]
-
-        # JSONをパース（コードブロックで囲まれている場合に対応）
-        text = text.strip()
-        if text.startswith("```"):
-            text = re.sub(r"^```(?:json)?\n?", "", text)
-            text = re.sub(r"\n?```$", "", text)
-
-        translated = json.loads(text)
-        tr_map = {t["id"]: t for t in translated}
-
-        count = 0
-        for e in entries:
-            if e["id"] in tr_map:
-                tr = tr_map[e["id"]]
-                e["titleEn"] = e["title"]  # 英語原文を保存
-                e["title"] = tr["title"]
-                e["description"] = tr["description"]
-                count += 1
-
-        log(f"  → {count}件を日本語に翻訳しました")
-
-    except Exception as ex:
-        log(f"WARNING: 翻訳エラー（エントリはそのまま保存）: {ex}")
+    log(f"  → {count}件を日本語に翻訳しました（Google翻訳）")
 
 
 # ============================================================
