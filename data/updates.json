@@ -3558,6 +3558,28 @@
         "platform"
       ],
       "link": "https://docs.anthropic.com/en/release-notes/overview#march-30-2026"
+    },
+    {
+      "id": "2026-03-24-claude-code-computer-use",
+      "date": "2026-03-24",
+      "title": "Claude Code が Computer Use に対応 — CLI/VSCode からMacを直接操作可能に",
+      "titleEn": "Claude Code now supports Computer Use — control your Mac from CLI/VSCode",
+      "description": "Claude Code（CLI・VSCode拡張）で Computer Use がリサーチプレビューとして利用可能に。Claudeが必要なツールにアクセスできない場合、画面上のマウス・キーボード・ブラウザを直接操作してタスクを実行する。Dispatch と組み合わせてiPhoneからMacにタスクを指示し、完了後に結果を確認することも可能。macOS限定、Pro/Maxプラン対象。",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "claude-code",
+        "computer-use",
+        "mac",
+        "dispatch",
+        "agent"
+      ],
+      "link": "https://claude.com/blog/dispatch-and-computer-use"
     }
   ]
 }
