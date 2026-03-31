@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-01",
     "version": "1.0.0"
   },
   "updates": [
@@ -3604,6 +3604,281 @@
       "os": [
         "mac"
       ]
+    },
+    {
+      "id": "2026-03-30-blog-audit-claude-platform-activity-with-the-compliance-api",
+      "date": "2026-03-30",
+      "title": "コンプライアンス API を使用して Claude プラットフォームのアクティビティを監査する",
+      "titleEn": "Audit Claude Platform activity with the Compliance API",
+      "description": "コンプライアンス API を使用して Claude プラットフォームのアクティビティを監査する",
+      "source": "blog",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-platform-compliance-api"
+    },
+    {
+      "id": "2026-03-24-blog-auto-mode-for-claude-code",
+      "date": "2026-03-24",
+      "title": "クロードコードの自動モード",
+      "titleEn": "Auto mode for Claude Code",
+      "description": "クロードコードの自動モード",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/auto-mode"
+    },
+    {
+      "id": "2026-03-23-blog-put-claude-to-work-on-your-computer",
+      "date": "2026-03-23",
+      "title": "クロードをコンピュータで動作させる",
+      "titleEn": "Put Claude to work on your computer",
+      "description": "クロードをコンピュータで動作させる",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/dispatch-and-computer-use"
+    },
+    {
+      "id": "2026-03-19-blog-product-management-on-the-ai-exponential",
+      "date": "2026-03-19",
+      "title": "AI エクスポネンシャルによる製品管理",
+      "titleEn": "Product management on the AI exponential",
+      "description": "AI エクスポネンシャルによる製品管理",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/product-management-on-the-ai-exponential"
+    },
+    {
+      "id": "2026-03-18-blog-code-with-claude-comes-to-san-francisco-london-and-tokyo",
+      "date": "2026-03-18",
+      "title": "Code with Claude がサンフランシスコ、ロンドン、東京に登場",
+      "titleEn": "Code with Claude comes to San Francisco, London, and Tokyo",
+      "description": "Code with Claude がサンフランシスコ、ロンドン、東京に登場",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/code-with-claude-san-francisco-london-tokyo"
+    },
+    {
+      "id": "2026-03-13-blog-1m-context-is-now-generally-available-for-opus-4-6-and-sonne",
+      "date": "2026-03-13",
+      "title": "1M コンテキストが Opus 4.6 および Sonnet 4.6 で一般利用可能になりました",
+      "titleEn": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+      "description": "1M コンテキストが Opus 4.6 および Sonnet 4.6 で一般利用可能になりました",
+      "source": "blog",
+      "platforms": [
+        "model"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/1m-context-ga"
+    },
+    {
+      "id": "2026-03-12-blog-claude-now-creates-interactive-charts-diagrams-and-visualiz",
+      "date": "2026-03-12",
+      "title": "クロードは現在、インタラクティブなチャート、ダイアグラム、視覚エフェクトを作成しています。",
+      "titleEn": "Claude now creates interactive charts, diagrams and visualizations",
+      "description": "クロードは現在、インタラクティブなチャート、ダイアグラム、視覚エフェクトを作成しています。",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-builds-visuals"
+    },
+    {
+      "id": "2026-03-11-blog-advancing-claude-for-excel-and-powerpoint",
+      "date": "2026-03-11",
+      "title": "Excel および PowerPoint 用のクロードの進歩",
+      "titleEn": "Advancing Claude for Excel and PowerPoint",
+      "description": "Excel および PowerPoint 用のクロードの進歩",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-excel-powerpoint-updates"
+    },
+    {
+      "id": "2026-03-09-blog-bringing-code-review-to-claude-code",
+      "date": "2026-03-09",
+      "title": "クロードコードにコードレビューを導入",
+      "titleEn": "Bringing Code Review to Claude Code",
+      "description": "クロードコードにコードレビューを導入",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/code-review"
+    },
+    {
+      "id": "2026-03-05-blog-common-workflow-patterns-for-ai-agents-and-when-to-use-them",
+      "date": "2026-03-05",
+      "title": "AI エージェントの一般的なワークフロー パターンとそれらをいつ使用するか",
+      "titleEn": "Common workflow patterns for AI agents—and when to use them",
+      "description": "AI エージェントの一般的なワークフロー パターンとそれらをいつ使用するか",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "agent"
+      ],
+      "link": "https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them"
+    },
+    {
+      "id": "2026-03-03-blog-improving-skill-creator-test-measure-and-refine-agent-ski",
+      "date": "2026-03-03",
+      "title": "スキルクリエーターの向上: エージェントのスキルをテスト、測定、改良する",
+      "titleEn": "Improving skill-creator: Test, measure, and refine Agent Skills",
+      "description": "スキルクリエーターの向上: エージェントのスキルをテスト、測定、改良する",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "agent"
+      ],
+      "link": "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills"
+    },
+    {
+      "id": "2026-02-24-blog-cowork-and-plugins-for-finance",
+      "date": "2026-02-24",
+      "title": "Cowork と金融用プラグイン",
+      "titleEn": "Cowork and plugins for finance",
+      "description": "Cowork と金融用プラグイン",
+      "source": "blog",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork"
+      ],
+      "link": "https://claude.com/blog/cowork-plugins-finance"
+    },
+    {
+      "id": "2026-02-24-blog-cowork-and-plugins-for-teams-across-the-enterprise",
+      "date": "2026-02-24",
+      "title": "企業全体のチームのためのコワークとプラグイン",
+      "titleEn": "Cowork and plugins for teams across the enterprise",
+      "description": "企業全体のチームのためのコワークとプラグイン",
+      "source": "blog",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork"
+      ],
+      "link": "https://claude.com/blog/cowork-plugins-across-enterprise"
+    },
+    {
+      "id": "2026-02-23-blog-how-ai-helps-break-the-cost-barrier-to-cobol-modernization",
+      "date": "2026-02-23",
+      "title": "AI が COBOL モダナイゼーションのコスト障壁を突破する方法",
+      "titleEn": "How AI helps break the cost barrier to COBOL modernization",
+      "description": "AI が COBOL モダナイゼーションのコスト障壁を突破する方法",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization"
+    },
+    {
+      "id": "2026-02-20-blog-bringing-automated-preview-review-and-merge-to-claude-code",
+      "date": "2026-02-20",
+      "title": "デスクトップ上の Claude Code に自動プレビュー、レビュー、マージを導入",
+      "titleEn": "Bringing automated preview, review, and merge to Claude Code on desktop",
+      "description": "デスクトップ上の Claude Code に自動プレビュー、レビュー、マージを導入",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/preview-review-and-merge-with-claude-code"
     }
   ]
 }
