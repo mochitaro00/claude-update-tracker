@@ -565,41 +565,6 @@ mark {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- Language Switch --- */
-.lang-switch {
-  display: flex;
-  gap: 0;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
-.lang-btn {
-  padding: 0.2rem 0.55rem;
-  font-size: 0.68rem;
-  font-weight: 600;
-  border: none;
-  background: var(--bg-secondary);
-  color: var(--text-muted);
-  cursor: pointer;
-  transition: all var(--transition);
-  letter-spacing: 0.03em;
-}
-
-.lang-btn:not(:last-child) {
-  border-right: 1px solid var(--border);
-}
-
-.lang-btn.active {
-  background: var(--accent);
-  color: #fff;
-}
-
-.lang-btn:hover:not(.active) {
-  background: var(--bg-card-hover);
-}
-
 /* --- Pagination --- */
 .pagination {
   display: flex;

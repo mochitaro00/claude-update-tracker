@@ -14,7 +14,7 @@
   <header class="header">
     <div class="header-inner">
       <h1><span>Claude</span> Update Tracker</h1>
-      <div class="header-meta">...</div>
+      <div class="header-meta">読み込み中...</div>
     </div>
   </header>
 
@@ -22,18 +22,18 @@
   <div class="search-section">
     <div class="search-bar">
       <span class="search-icon">&#x1F50D;</span>
-      <input type="text" id="search-input">
+      <input type="text" id="search-input" placeholder="キーワードで検索（例: extended thinking, Claude Code, ボイス）">
     </div>
   </div>
 
   <!-- Filters -->
   <div class="filters-section">
     <div class="filter-group">
-      <span class="filter-label"></span>
+      <span class="filter-label">プラットフォーム</span>
       <div class="filter-chips" id="group-chips"></div>
     </div>
     <div class="filter-group">
-      <span class="filter-label"></span>
+      <span class="filter-label">種別</span>
       <div class="filter-chips" id="category-chips"></div>
     </div>
   </div>
@@ -41,13 +41,13 @@
   <!-- Results Info -->
   <div class="results-info">
     <span class="results-count"></span>
-    <button class="clear-filters"></button>
+    <button class="clear-filters">フィルタをクリア</button>
   </div>
 
   <!-- Loading -->
   <div class="loading">
     <div class="loading-spinner"></div>
-    <p></p>
+    <p>データを読み込んでいます...</p>
   </div>
 
   <!-- Timeline -->
