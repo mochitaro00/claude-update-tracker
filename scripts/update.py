@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 Claude Update Tracker - Auto Update Script
-公式3ソースから最新のアップデート情報を取得し、updates.json に追記する。
+公式4ソースから最新のアップデート情報を取得し、updates.json に追記する。
 
 データソース:
   1. Claude Code CHANGELOG (GitHub raw)
   2. API Platform Release Notes (HTML)
   3. Claude Apps Release Notes (Intercom JSON)
+  4. Claude Blog (claude.com/blog) — 製品アップデート記事
 
 Usage:
   python3 update.py           # 通常実行
@@ -29,6 +30,7 @@ LOG_FILE = SCRIPT_DIR / "update.log"
 CHANGELOG_URL = "https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md"
 PLATFORM_URL = "https://docs.anthropic.com/en/release-notes/overview"
 APPS_URL = "https://support.claude.com/en/articles/12138966-release-notes"
+BLOG_URL = "https://claude.com/blog"
 GITHUB_TAGS_URL = "https://api.github.com/repos/anthropics/claude-code/tags?per_page=50"
 
 # --- Logging ---
@@ -401,6 +403,110 @@ def fetch_apps_notes():
 
 
 # ============================================================
+# Source 4: Claude Blog (claude.com/blog)
+# ============================================================
+def fetch_blog_posts():
+    """Claude ブログの記事一覧をスクレイピング"""
+    import requests
+    from bs4 import BeautifulSoup
+
+    log("Claude Blog を取得中...")
+    resp = requests.get(BLOG_URL, timeout=30)
+    resp.raise_for_status()
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    results = []
+
+    # article タグまたは .blog_cms_item から記事を取得
+    items = soup.select("article, .blog_cms_item")
+
+    for item in items:
+        # タイトル取得
+        title_el = item.select_one("h3, h2")
+        if not title_el:
+            continue
+        title = title_el.get_text(strip=True)
+        if not title:
+            continue
+
+        # リンク取得
+        link_el = item.find("a", href=True)
+        if not link_el:
+            continue
+        href = link_el["href"]
+        if href.startswith("/"):
+            href = f"https://claude.com{href}"
+
+        # 日付取得: まず専用要素を探し、なければテキスト全体から正規表現で抽出
+        entry_date = None
+        all_text = item.get_text(" ", strip=True)
+
+        # "March 24, 2026" or "Mar 24, 2026" 形式を探す
+        date_match = re.search(r"[A-Z][a-z]+ \d{1,2}, \d{4}", all_text)
+        if date_match:
+            for fmt in ("%B %d, %Y", "%b %d, %Y"):
+                try:
+                    entry_date = datetime.strptime(date_match.group(), fmt).strftime("%Y-%m-%d")
+                    break
+                except ValueError:
+                    continue
+
+        if not entry_date:
+            continue
+
+        # スラッグ生成
+        slug = re.sub(r"[^a-z0-9]+", "-", title[:60].lower()).strip("-")
+        entry_id = f"{entry_date}-blog-{slug}"
+
+        # プラットフォーム推定（タイトルからキーワード判定）
+        title_lower = title.lower()
+        platforms = []
+        if "claude code" in title_lower or "cli" in title_lower:
+            platforms.extend(["claude-code-cli", "claude-code-vscode"])
+        if "cowork" in title_lower or "desktop" in title_lower:
+            platforms.append("desktop")
+        if "mobile" in title_lower or "ios" in title_lower:
+            platforms.append("mobile")
+        if "api" in title_lower or "sdk" in title_lower:
+            platforms.append("api")
+        if "model" in title_lower or "opus" in title_lower or "sonnet" in title_lower or "haiku" in title_lower:
+            platforms.append("model")
+        if not platforms:
+            platforms = ["claude-ai", "desktop"]  # デフォルト
+
+        # タグ生成
+        tags = ["blog"]
+        for kw in ["computer-use", "dispatch", "cowork", "voice", "mcp", "agent", "search", "code"]:
+            if kw in title_lower:
+                tags.append(kw)
+
+        results.append({
+            "id": entry_id,
+            "date": entry_date,
+            "title": title,
+            "titleEn": title,
+            "description": title,  # ブログ本文は取得しないのでタイトルをそのまま使用
+            "source": "blog",
+            "platforms": platforms,
+            "category": "feature",
+            "importance": "major",
+            "tags": tags,
+            "link": href,
+        })
+
+    # ID重複を排除（article と .blog_cms_item の両方にマッチする場合）
+    seen = set()
+    deduped = []
+    for r in results:
+        if r["id"] not in seen:
+            seen.add(r["id"])
+            deduped.append(r)
+
+    log(f"  → {len(deduped)}件のエントリを取得")
+    return deduped
+
+
+# ============================================================
 # Translation: English → Japanese via Google Translate (free)
 # ============================================================
 def translate_text(text):
@@ -499,6 +605,13 @@ def main():
                 new_entries.append(entry)
     except Exception as e:
         log(f"ERROR (Apps): {e}")
+
+    try:
+        for entry in fetch_blog_posts():
+            if entry["id"] not in existing_ids:
+                new_entries.append(entry)
+    except Exception as e:
+        log(f"ERROR (Blog): {e}")
 
     # 結果
     if new_entries:
