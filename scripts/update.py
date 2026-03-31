@@ -401,6 +401,92 @@ def fetch_apps_notes():
 
 
 # ============================================================
+# Translation: English → Japanese via Claude API
+# ============================================================
+ANTHROPIC_KEY_FILE = Path.home() / ".config" / "claude-update-tracker" / "anthropic-key.txt"
+
+def load_anthropic_key():
+    """APIキーをファイルから読み込む"""
+    if ANTHROPIC_KEY_FILE.exists():
+        return ANTHROPIC_KEY_FILE.read_text().strip()
+    # 環境変数フォールバック
+    return os.environ.get("ANTHROPIC_API_KEY", "")
+
+
+def translate_entries(entries):
+    """新規エントリの title / description を日本語に翻訳する"""
+    api_key = load_anthropic_key()
+    if not api_key:
+        log("WARNING: Anthropic APIキーが見つかりません。翻訳をスキップします。")
+        log(f"  キーを {ANTHROPIC_KEY_FILE} に保存するか、ANTHROPIC_API_KEY 環境変数を設定してください。")
+        return
+
+    import requests as req
+
+    # バッチで翻訳（全エントリを1リクエストで）
+    items = []
+    for e in entries:
+        items.append({"id": e["id"], "title": e["title"], "description": e["description"]})
+
+    prompt = f"""以下のClaude関連のアップデート情報を英語から日本語に翻訳してください。
+
+ルール:
+- titleは簡潔な日本語タイトルにする（製品名 Claude Code, Claude Opus 4.6, API, SDK 等は英語のまま）
+- descriptionは自然な日本語にする
+- HTMLタグのようなアーティファクトは除去してクリーンなテキストにする
+- 技術用語（extended thinking, prompt caching, tool use, structured outputs 等）は英語のまま
+- Claude Code vX.X.XX のタイトルは「Claude Code vX.X.XX — 主要変更の要約」形式にする
+
+入力データ:
+{json.dumps(items, ensure_ascii=False)}
+
+JSON配列で返してください。各要素は {{"id": "...", "title": "日本語タイトル", "description": "日本語説明"}} の形式です。
+JSONのみ返し、他の文字は含めないでください。"""
+
+    try:
+        resp = req.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": api_key,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model": "claude-haiku-4-5-20251001",
+                "max_tokens": 4096,
+                "messages": [{"role": "user", "content": prompt}],
+            },
+            timeout=60,
+        )
+        resp.raise_for_status()
+        result = resp.json()
+        text = result["content"][0]["text"]
+
+        # JSONをパース（コードブロックで囲まれている場合に対応）
+        text = text.strip()
+        if text.startswith("```"):
+            text = re.sub(r"^```(?:json)?\n?", "", text)
+            text = re.sub(r"\n?```$", "", text)
+
+        translated = json.loads(text)
+        tr_map = {t["id"]: t for t in translated}
+
+        count = 0
+        for e in entries:
+            if e["id"] in tr_map:
+                tr = tr_map[e["id"]]
+                e["titleEn"] = e["title"]  # 英語原文を保存
+                e["title"] = tr["title"]
+                e["description"] = tr["description"]
+                count += 1
+
+        log(f"  → {count}件を日本語に翻訳しました")
+
+    except Exception as ex:
+        log(f"WARNING: 翻訳エラー（エントリはそのまま保存）: {ex}")
+
+
+# ============================================================
 # Main
 # ============================================================
 def main():
@@ -453,6 +539,9 @@ def main():
         log(f"\n新規エントリ: {len(new_entries)}件")
         for e in new_entries:
             log(f"  + [{e['date']}] {e['title']}")
+
+        # 日本語に翻訳
+        translate_entries(new_entries)
 
         data["updates"].extend(new_entries)
         save_updates(data, dry_run=dry_run)

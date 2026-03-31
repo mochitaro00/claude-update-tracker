@@ -1224,7 +1224,7 @@
     {
       "id": "2026-03-20-advanced-tool-use",
       "date": "2026-03-20",
-      "title": "Advanced Tool Use — Tool Search Tool",
+      "title": "Advanced Tool Use — Tool Search Tool でツールを動的に発見・実行",
       "titleEn": "Advanced Tool Use — Tool Search Tool",
       "description": "Claude がツールを動的に発見・学習・実行できる Advanced Tool Use を提供。Tool Search Tool によりトークン使用量を85%削減しつつ、フルツールライブラリへのアクセスを維持。",
       "source": "platform",
@@ -1285,9 +1285,9 @@
     {
       "id": "2026-03-18-platform-march-18-2026",
       "date": "2026-03-18",
-      "title": "We've added model capability fields to theModels API.GET /v1/modelsandGET /v1...",
+      "title": "Models API にモデル機能フィールドを追加",
       "titleEn": "We've added model capability fields to theModels API.GET /v1/modelsandGET /v1...",
-      "description": "We've added model capability fields to theModels API.GET /v1/modelsandGET /v1/models/{model_id}now returnmax_input_tokens,max_tokens, and acapabilitiesobject. Query the API to discover what each model supports.",
+      "description": "Models API にモデル機能フィールドを追加しました。GET /v1/models および GET /v1/models/{model_id} が max_input_tokens、max_tokens、および capabilities オブジェクトを返すようになりました。API をクエリして各モデルがサポートする機能を確認できます。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1303,9 +1303,9 @@
     {
       "id": "2026-03-16-platform-march-16-2026",
       "date": "2026-03-16",
-      "title": "We've launched thedisplayfield for extended thinking, letting you omit thinki...",
+      "title": "Extended thinking の display フィールドをリリース",
       "titleEn": "We've launched thedisplayfield for extended thinking, letting you omit thinki...",
-      "description": "We've launched thedisplayfield for extended thinking, letting you omit thinking content from responses for faster streaming. Setthinking.display: \"omitted\"to receive thinking blocks with an emptythinkingfield and thesignaturepreserved for multi-turn continuity. Billing is unchanged. Learn more inControlling thinking display.",
+      "description": "Extended thinking の display フィールドをリリースしました。thinking.display: \"omitted\" を設定することで、レスポンスから思考内容を省略してストリーミングを高速化できます。thinking ブロックは空の thinking フィールドと signature が保持され、マルチターンの継続性を維持します。課金に変更はありません。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1321,9 +1321,9 @@
     {
       "id": "2026-03-13-platform-march-13-2026",
       "date": "2026-03-13",
-      "title": "The1M token context windowis now generally available for Claude Opus 4.6 and ...",
+      "title": "1M token context window が Claude Opus 4.6 / Sonnet 4.6 で GA",
       "titleEn": "The1M token context windowis now generally available for Claude Opus 4.6 and ...",
-      "description": "The1M token context windowis now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4. / We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length. / We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.",
+      "description": "1M token context window が Claude Opus 4.6 および Sonnet 4.6 で標準料金にて一般提供（GA）になりました。200k トークンを超えるリクエストはベータヘッダー不要で自動的に動作します。専用の 1M レート制限は廃止され、標準のアカウント制限がすべてのコンテキスト長に適用されます。また、1M context window 使用時のメディア制限がリクエストあたり画像・PDFページ 100 から 600 に引き上げられました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1339,9 +1339,9 @@
     {
       "id": "2026-02-19-platform-february-19-2026",
       "date": "2026-02-19",
-      "title": "We've launchedautomatic cachingfor the Messages API. Add a singlecache_contro...",
+      "title": "Messages API の自動キャッシュ・Claude Sonnet 3.7 / Haiku 3.5 廃止",
       "titleEn": "We've launchedautomatic cachingfor the Messages API. Add a singlecache_contro...",
-      "description": "We've launchedautomatic cachingfor the Messages API. Add a singlecache_controlfield to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more inPrompt caching. / We've retired the Claude Sonnet 3.7 model (claude-3-7-sonnet-20250219) and the Claude Haiku 3.5 model (claude-3-5-haiku-20241022). All requests to these models will now return an error. We recommend upgrading toClaude Sonnet 4.6andClaude Haiku 4.5respectively. Researchers can request ongoing access through theExternal Researcher Access Program. / We announced the deprecation of the Claude Haiku 3 model (claude-3-haiku-20240307), with retirement scheduled for April 19, 2026. We recommend migrating toClaude Haiku 4.5. Read more inmodel deprecations.",
+      "description": "Messages API の自動キャッシュをリリースしました。リクエストボディに cache_control フィールドを1つ追加するだけで、最後のキャッシュ可能ブロックが自動的にキャッシュされ、会話の成長に合わせてキャッシュポイントが前方に移動します。手動のブレークポイント管理は不要です。Claude API および Azure AI Foundry（プレビュー）で利用可能です。また、Claude Sonnet 3.7（claude-3-7-sonnet-20250219）および Claude Haiku 3.5（claude-3-5-haiku-20241022）を廃止しました。それぞれ Claude Sonnet 4.6 および Claude Haiku 4.5 への移行を推奨します。Claude Haiku 3（claude-3-haiku-20240307）の非推奨化も発表し、2026年4月19日に廃止予定です。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1357,9 +1357,9 @@
     {
       "id": "2026-02-17-platform-february-17-2026",
       "date": "2026-02-17",
-      "title": "We've launchedClaude Sonnet 4.6, our latest balanced model combining speed an...",
+      "title": "Claude Sonnet 4.6 リリース・Web search / Code execution GA 化",
       "titleEn": "We've launchedClaude Sonnet 4.6, our latest balanced model combining speed an...",
-      "description": "We've launchedClaude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supportsextended thinkingand a1M token context window(beta). SeeModels & Pricingfor details. / APIcode executionis nowfree when used with web search or web fetch. Sandboxed code execution improves model capability and token efficiency. See thepricing detailsfor standalone usage. / Theweb search toolandprogrammatic tool callingare now generally available (no beta header required). Web search and web fetch now supportdynamic filtering, which uses code execution to filter results before they reach the context window for better performance and reduced token cost. / Thecode execution tool,web fetch tool,tool search tool,tool use examples, andmemory toolare now generally available (no beta header required).",
+      "description": "Claude Sonnet 4.6 をリリースしました。速度と知性を兼ね備えた最新のバランスモデルで、エージェント検索性能が向上しトークン消費を削減。Extended thinking と 1M token context window（ベータ）をサポートします。API code execution が web search / web fetch との併用時に無料になりました。Web search tool と programmatic tool calling が GA（ベータヘッダー不要）になりました。Code execution tool、web fetch tool、tool search tool、tool use examples、memory tool も GA になりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1375,9 +1375,9 @@
     {
       "id": "2026-02-07-platform-february-7-2026",
       "date": "2026-02-07",
-      "title": "We've launchedfast modein research preview for Opus 4.6, providing significan...",
+      "title": "Opus 4.6 向け fast mode（リサーチプレビュー）",
       "titleEn": "We've launchedfast modein research preview for Opus 4.6, providing significan...",
-      "description": "We've launchedfast modein research preview for Opus 4.6, providing significantly faster output token generation via thespeedparameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join thewaitlist.",
+      "description": "Opus 4.6 向けの fast mode をリサーチプレビューとしてリリースしました。speed パラメータにより出力トークン生成を大幅に高速化します。最大2.5倍の速度をプレミアム料金で提供します。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1393,9 +1393,9 @@
     {
       "id": "2026-02-05-platform-february-5-2026",
       "date": "2026-02-05",
-      "title": "We've launchedClaude Opus 4.6, our most intelligent model for complex agentic...",
+      "title": "Claude Opus 4.6 リリース・Compaction API・データレジデンシー",
       "titleEn": "We've launchedClaude Opus 4.6, our most intelligent model for complex agentic...",
-      "description": "We've launchedClaude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommendsadaptive thinking(thinking: {type: \"adaptive\"}); manual thinking (type: \"enabled\"withbudget_tokens) is deprecated. Opus 4.6 does not support prefilling assistant messages. Learn more inWhat's new in Claude 4.6. / Theeffort parameteris now generally available (no beta header required) and supports Claude Opus 4.6. Effort replacesbudget_tokensfor controlling thinking depth on new models. / We've launched thecompaction APIin beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6. / We've introduceddata residency controls, allowing you to specify where model inference runs with theinference_geoparameter. US-only inference is available at 1.1x pricing for models released after February 1, 2026. / The1M token context windowis now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4.Long context pricingapplies to requests exceeding 200k input tokens. / Fine-grained tool streamingis now generally available on all models and platforms (no beta header required). Theoutput_formatparameter forstructured outputshas been moved tooutput_config.format.",
+      "description": "Claude Opus 4.6 をリリースしました。複雑なエージェントタスクと長期的作業に最適な最高知性モデルです。Adaptive thinking（thinking: {type: \"adaptive\"}）を推奨し、手動 thinking（type: \"enabled\" + budget_tokens）は非推奨です。Effort パラメータが GA になり Opus 4.6 をサポート。Compaction API をベータリリースし、サーバーサイドのコンテキスト要約で事実上無限の会話が可能に。データレジデンシーコントロール（inference_geo パラメータ）を導入し、US のみの推論が 1.1 倍の料金で利用可能。1M token context window が Opus 4.6 でもベータ提供開始。Fine-grained tool streaming が全モデル・プラットフォームで GA になりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1411,9 +1411,9 @@
     {
       "id": "2026-01-29-platform-january-29-2026",
       "date": "2026-01-29",
-      "title": "Structured outputsare now generally available on the Claude API for Claude So...",
+      "title": "Structured outputs が Claude API で GA",
       "titleEn": "Structured outputsare now generally available on the Claude API for Claude So...",
-      "description": "Structured outputsare now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. Theoutput_formatparameter has moved tooutput_config.format. Existing beta users can continue using the beta header during the transition period. Structured outputs remain in public beta on Amazon Bedrock and Microsoft Foundry.",
+      "description": "Structured outputs が Claude Sonnet 4.5、Claude Opus 4.5、Claude Haiku 4.5 の Claude API で一般提供（GA）になりました。スキーマサポートの拡充、文法コンパイル遅延の改善、ベータヘッダー不要の簡素化された統合パスを提供します。output_format パラメータは output_config.format に移動しました。Amazon Bedrock および Microsoft Foundry ではパブリックベータのままです。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1429,9 +1429,9 @@
     {
       "id": "2026-01-12-platform-january-12-2026",
       "date": "2026-01-12",
-      "title": "console.anthropic.comnow redirects toplatform.claude.com. The Claude Console ...",
+      "title": "console.anthropic.com が platform.claude.com にリダイレクト開始",
       "titleEn": "console.anthropic.comnow redirects toplatform.claude.com. The Claude Console ...",
-      "description": "console.anthropic.comnow redirects toplatform.claude.com. The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see theSeptember 16, 2025 announcement.",
+      "description": "console.anthropic.com が platform.claude.com にリダイレクトされるようになりました。Claude ブランド統合の一環として Claude Console が新しい場所に移転しました。既存のブックマークやリンクは自動リダイレクトにより引き続き機能します。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1447,9 +1447,9 @@
     {
       "id": "2026-01-05-platform-january-5-2026",
       "date": "2026-01-05",
-      "title": "We've retired the Claude Opus 3 model (claude-3-opus-20240229). All requests ...",
+      "title": "Claude Opus 3 廃止",
       "titleEn": "We've retired the Claude Opus 3 model (claude-3-opus-20240229). All requests ...",
-      "description": "We've retired the Claude Opus 3 model (claude-3-opus-20240229). All requests to this model will now return an error. We recommend upgrading toClaude Opus 4.5, which offers significantly improved intelligence at a third of the cost. Researchers can request ongoing access to Claude Opus 3 on the API through theExternal Researcher Access Program.",
+      "description": "Claude Opus 3（claude-3-opus-20240229）を廃止しました。このモデルへのリクエストはエラーを返します。コストが3分の1で大幅に知性が向上した Claude Opus 4.5 への移行を推奨します。研究者は External Researcher Access Program を通じて引き続きアクセスをリクエストできます。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1465,9 +1465,9 @@
     {
       "id": "2025-12-19-platform-december-19-2025",
       "date": "2025-12-19",
-      "title": "We announced the deprecation of the Claude Haiku 3.5 model. Read more inModel...",
+      "title": "Claude Haiku 3.5 の非推奨化を発表",
       "titleEn": "We announced the deprecation of the Claude Haiku 3.5 model. Read more inModel...",
-      "description": "We announced the deprecation of the Claude Haiku 3.5 model. Read more inModel deprecations.",
+      "description": "Claude Haiku 3.5 モデルの非推奨化を発表しました。詳細はモデル非推奨化ページをご確認ください。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1483,9 +1483,9 @@
     {
       "id": "2025-12-04-platform-december-4-2025",
       "date": "2025-12-04",
-      "title": "Structured outputsnow supports Claude Haiku 4.5.",
+      "title": "Structured outputs が Claude Haiku 4.5 に対応",
       "titleEn": "Structured outputsnow supports Claude Haiku 4.5.",
-      "description": "Structured outputsnow supports Claude Haiku 4.5.",
+      "description": "Structured outputs が Claude Haiku 4.5 をサポートするようになりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1501,9 +1501,9 @@
     {
       "id": "2025-11-24-platform-november-24-2025",
       "date": "2025-11-24",
-      "title": "We've launchedClaude Opus 4.5, our most intelligent model combining maximum c...",
+      "title": "Claude Opus 4.5 リリース・Tool search / Effort パラメータ等",
       "titleEn": "We've launchedClaude Opus 4.5, our most intelligent model combining maximum c...",
-      "description": "We've launchedClaude Opus 4.5, our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change improvements in vision, coding, and computer use at a more accessible price point than previous Opus models. Learn more inModels overview. / We've launchedprogrammatic tool callingin public beta, allowing Claude to call tools from within code execution to reduce latency and token usage in multi-tool workflows. / We've launched thetool search toolin public beta, enabling Claude to dynamically discover and load tools on-demand from large tool catalogs. / We've launched theeffort parameterin public beta for Claude Opus 4.5, allowing you to control token usage by trading off between response thoroughness and efficiency. / We've addedclient-side compactionto our Python and TypeScript SDKs, automatically managing conversation context through summarization when usingtool_runner.",
+      "description": "Claude Opus 4.5 をリリースしました。最大の能力と実用的パフォーマンスを兼ね備えた最も知性の高いモデルです。ビジョン、コーディング、computer use で飛躍的な改善を実現。Programmatic tool calling をパブリックベータでリリースし、code execution 内からツール呼び出しが可能に。Tool search tool をパブリックベータでリリース。Effort パラメータをパブリックベータでリリースし、レスポンスの詳細さとトークン効率のトレードオフを制御可能に。Python / TypeScript SDK にクライアントサイド compaction を追加しました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1519,9 +1519,9 @@
     {
       "id": "2025-11-21-platform-november-21-2025",
       "date": "2025-11-21",
-      "title": "Search result content blocks are now generally available on Amazon Bedrock. L...",
+      "title": "Search result content blocks が Amazon Bedrock で GA",
       "titleEn": "Search result content blocks are now generally available on Amazon Bedrock. L...",
-      "description": "Search result content blocks are now generally available on Amazon Bedrock. Learn more inSearch results.",
+      "description": "Search result content blocks が Amazon Bedrock で一般提供（GA）になりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1537,9 +1537,9 @@
     {
       "id": "2025-11-19-platform-november-19-2025",
       "date": "2025-11-19",
-      "title": "We've launched anew documentation platformatplatform.claude.com/docs. Our doc...",
+      "title": "新ドキュメントプラットフォーム platform.claude.com/docs を公開",
       "titleEn": "We've launched anew documentation platformatplatform.claude.com/docs. Our doc...",
-      "description": "We've launched anew documentation platformatplatform.claude.com/docs. Our documentation now lives side by side with the Claude Console, providing a unified developer experience. The previous docs site at docs.claude.com will redirect to the new location.",
+      "description": "platform.claude.com/docs に新しいドキュメントプラットフォームを公開しました。ドキュメントが Claude Console と並んで配置され、統一された開発者体験を提供します。旧サイト docs.claude.com は新しい場所にリダイレクトされます。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1555,9 +1555,9 @@
     {
       "id": "2025-11-18-platform-november-18-2025",
       "date": "2025-11-18",
-      "title": "We've launchedClaude in Microsoft Foundry, bringing Claude models to Azure cu...",
+      "title": "Claude in Microsoft Foundry をリリース",
       "titleEn": "We've launchedClaude in Microsoft Foundry, bringing Claude models to Azure cu...",
-      "description": "We've launchedClaude in Microsoft Foundry, bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, Files API, Agent Skills, and tool use. Learn more inClaude in Microsoft Foundry.",
+      "description": "Claude in Microsoft Foundry をリリースし、Azure 顧客に Azure 課金と OAuth 認証で Claude モデルを提供します。Extended thinking、prompt caching（5分・1時間）、PDF サポート、Files API、Agent Skills、tool use を含む完全な Messages API にアクセスできます。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1573,9 +1573,9 @@
     {
       "id": "2025-11-14-platform-november-14-2025",
       "date": "2025-11-14",
-      "title": "We've launchedstructured outputsin public beta, providing guaranteed schema c...",
+      "title": "Structured outputs をパブリックベータでリリース",
       "titleEn": "We've launchedstructured outputsin public beta, providing guaranteed schema c...",
-      "description": "We've launchedstructured outputsin public beta, providing guaranteed schema conformance for Claude's responses. Use JSON outputs for structured data responses or strict tool use for validated tool inputs. Available for Claude Sonnet 4.5 and Claude Opus 4.1. To enable, use the beta headerstructured-outputs-2025-11-13.",
+      "description": "Structured outputs をパブリックベータでリリースしました。Claude のレスポンスに対してスキーマ準拠を保証します。構造化データレスポンス用の JSON outputs と検証済みツール入力用の strict tool use が利用可能。Claude Sonnet 4.5 と Claude Opus 4.1 で対応。ベータヘッダー structured-outputs-2025-11-13 で有効化できます。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1591,9 +1591,9 @@
     {
       "id": "2025-10-28-platform-october-28-2025",
       "date": "2025-10-28",
-      "title": "We announced the deprecation of the Claude Sonnet 3.7 model. Read more inMode...",
+      "title": "Claude Sonnet 3.7 非推奨化・Sonnet 3.5 廃止・Thinking block clearing",
       "titleEn": "We announced the deprecation of the Claude Sonnet 3.7 model. Read more inMode...",
-      "description": "We announced the deprecation of the Claude Sonnet 3.7 model. Read more inModel deprecations. / We've retired the Claude Sonnet 3.5 models. All requests to these models will now return an error. / We've expanded context editing with thinking block clearing (clear_thinking_20251015), enabling automatic management of thinking blocks. Learn more inContext editing.",
+      "description": "Claude Sonnet 3.7 の非推奨化を発表しました。Claude Sonnet 3.5 モデルを廃止し、リクエストはエラーを返します。Thinking block clearing（clear_thinking_20251015）によるコンテキスト編集を拡張し、thinking blocks の自動管理が可能になりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1609,9 +1609,9 @@
     {
       "id": "2025-10-16-platform-october-16-2025",
       "date": "2025-10-16",
-      "title": "We've launchedAgent Skills(skills-2025-10-02beta), a new way to extend Claude...",
+      "title": "Agent Skills をリリース",
       "titleEn": "We've launchedAgent Skills(skills-2025-10-02beta), a new way to extend Claude...",
-      "description": "We've launchedAgent Skills(skills-2025-10-02beta), a new way to extend Claude's capabilities. Skills are organized folders of instructions, scripts, and resources that Claude loads dynamically to perform specialized tasks. The initial release includes:Anthropic-managed Skills: Pre-built Skills for working with PowerPoint (.pptx), Excel (.xlsx), Word (.docx), and PDF filesCustom Skills: Upload your own Skills via the Skills API (/v1/skillsendpoints) to package domain expertise and organizational workflowsSkills require thecode execution toolto be enabledLearn more inAgent SkillsandAPI reference",
+      "description": "Agent Skills（skills-2025-10-02 ベータ）をリリースしました。Claude の機能を拡張する新しい方法です。Skills は指示、スクリプト、リソースをまとめたフォルダで、Claude が特定のタスクを実行するために動的に読み込みます。Anthropic 管理の Skills（PowerPoint、Excel、Word、PDF 用）とカスタム Skills（Skills API 経由でアップロード）が利用可能。Code execution tool の有効化が必要です。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1627,9 +1627,9 @@
     {
       "id": "2025-10-15-platform-october-15-2025",
       "date": "2025-10-15",
-      "title": "We've launchedClaude Haiku 4.5, our fastest and most intelligent Haiku model ...",
+      "title": "Claude Haiku 4.5 リリース",
       "titleEn": "We've launchedClaude Haiku 4.5, our fastest and most intelligent Haiku model ...",
-      "description": "We've launchedClaude Haiku 4.5, our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Learn more inModels overview.",
+      "description": "Claude Haiku 4.5 をリリースしました。フロンティアに近い性能を持つ最速・最高知性の Haiku モデルです。リアルタイムアプリケーション、大量処理、強力な推論が必要なコスト重視のデプロイに最適です。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1645,9 +1645,9 @@
     {
       "id": "2025-09-29-platform-september-29-2025",
       "date": "2025-09-29",
-      "title": "We've launchedClaude Sonnet 4.5, our best model for complex agents and coding...",
+      "title": "Claude Sonnet 4.5 リリース・Memory tool・Context editing 等",
       "titleEn": "We've launchedClaude Sonnet 4.5, our best model for complex agents and coding...",
-      "description": "We've launchedClaude Sonnet 4.5, our best model for complex agents and coding, with the highest intelligence across most tasks. Learn more in themodels overview. / We've introducedglobal endpoint pricingfor AWS Bedrock and Google Vertex AI. The Claude API (1P) pricing is unaffected. / We've introduced a new stop reasonmodel_context_window_exceededthat allows you to request the maximum possible tokens without calculating input size. Learn more inHandling stop reasons. / We've launched the memory tool in beta, enabling Claude to store and consult information across conversations. Learn more inMemory tool. / We've launched context editing in beta, providing strategies to automatically manage conversation context. The initial release supports clearing older tool results and calls when approaching token limits. Learn more inContext editing.",
+      "description": "Claude Sonnet 4.5 をリリースしました。複雑なエージェントとコーディングに最適で、ほとんどのタスクで最高の知性を発揮します。AWS Bedrock / Google Vertex AI 向けのグローバルエンドポイント料金を導入。新しい stop reason model_context_window_exceeded により入力サイズの計算なしで最大トークンをリクエスト可能に。Memory tool をベータリリースし、会話間で情報の保存・参照が可能に。Context editing をベータリリースし、会話コンテキストの自動管理戦略を提供します。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1663,9 +1663,9 @@
     {
       "id": "2025-09-17-platform-september-17-2025",
       "date": "2025-09-17",
-      "title": "We've launched tool helpers in beta for the Python and TypeScript SDKs, simpl...",
+      "title": "Python / TypeScript SDK に tool helpers をベータリリース",
       "titleEn": "We've launched tool helpers in beta for the Python and TypeScript SDKs, simpl...",
-      "description": "We've launched tool helpers in beta for the Python and TypeScript SDKs, simplifying tool creation and execution with type-safe input validation and a tool runner for automated tool handling in conversations. For details, see the documentation forthe Python SDKandthe TypeScript SDK.",
+      "description": "Python および TypeScript SDK 向けに tool helpers をベータリリースしました。型安全な入力バリデーションと、会話での自動ツール処理用の tool runner により、ツールの作成・実行を簡素化します。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1681,9 +1681,9 @@
     {
       "id": "2025-09-16-platform-september-16-2025",
       "date": "2025-09-16",
-      "title": "We've unified our developer offerings under the Claude brand. You should see ...",
+      "title": "開発者向けサービスを Claude ブランドに統合",
       "titleEn": "We've unified our developer offerings under the Claude brand. You should see ...",
-      "description": "We've unified our developer offerings under the Claude brand. You should see updated naming and URLs across our platform and documentation, butour developer interfaces will remain the same. Here are some notable changes:Claude Console (console.anthropic.com) → Claude Console (platform.claude.com). The console will be available at both URLs until January 12, 2026. After that date,console.anthropic.comwill automatically redirect toplatform.claude.com.Anthropic Docs (docs.claude.com) → Claude Docs (docs.claude.com)Anthropic Help Center (support.claude.com) → Claude Help Center (support.claude.com)API endpoints, headers, environment variables, and SDKs remain the same. Your existing integrations will continue working without any changes.",
+      "description": "開発者向けサービスを Claude ブランドに統合しました。Claude Console（console.anthropic.com）は platform.claude.com に移行（2026年1月12日以降自動リダイレクト）。Anthropic Docs は Claude Docs（docs.claude.com）に、Help Center は Claude Help Center（support.claude.com）に名称変更。API エンドポイント、ヘッダー、環境変数、SDK に変更はなく、既存の統合はそのまま動作します。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1699,9 +1699,9 @@
     {
       "id": "2025-09-10-platform-september-10-2025",
       "date": "2025-09-10",
-      "title": "We've launched the web fetch tool in beta, allowing Claude to retrieve full c...",
+      "title": "Web fetch tool ベータリリース・Claude Code Analytics API",
       "titleEn": "We've launched the web fetch tool in beta, allowing Claude to retrieve full c...",
-      "description": "We've launched the web fetch tool in beta, allowing Claude to retrieve full content from specified web pages and PDF documents. Learn more inWeb fetch tool. / We've launched theClaude Code Analytics API, enabling organizations to programmatically access daily aggregated usage metrics for Claude Code, including productivity metrics, tool usage statistics, and cost data.",
+      "description": "Web fetch tool をベータリリースしました。指定した Web ページや PDF ドキュメントから完全なコンテンツを取得できます。また、Claude Code Analytics API をリリースし、Claude Code の日次集計使用メトリクス（生産性指標、ツール使用統計、コストデータ）にプログラムからアクセスできるようになりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1717,9 +1717,9 @@
     {
       "id": "2025-09-08-platform-september-8-2025",
       "date": "2025-09-08",
-      "title": "We launched a beta version of theC# SDK.",
+      "title": "C# SDK ベータ版をリリース",
       "titleEn": "We launched a beta version of theC# SDK.",
-      "description": "We launched a beta version of theC# SDK.",
+      "description": "C# SDK のベータ版をリリースしました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1735,9 +1735,9 @@
     {
       "id": "2025-09-05-platform-september-5-2025",
       "date": "2025-09-05",
-      "title": "We've launchedrate limit chartsin the ConsoleUsagepage, allowing you to monit...",
+      "title": "Console にレート制限チャートを追加",
       "titleEn": "We've launchedrate limit chartsin the ConsoleUsagepage, allowing you to monit...",
-      "description": "We've launchedrate limit chartsin the ConsoleUsagepage, allowing you to monitor your API rate limit usage and caching rates over time.",
+      "description": "Console の Usage ページにレート制限チャートをリリースしました。API のレート制限使用量とキャッシュ率を時系列で監視できます。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1753,9 +1753,9 @@
     {
       "id": "2025-09-03-platform-september-3-2025",
       "date": "2025-09-03",
-      "title": "We've launched support for citable documents in client-side tool results. Lea...",
+      "title": "クライアントサイド tool results での引用可能ドキュメントをサポート",
       "titleEn": "We've launched support for citable documents in client-side tool results. Lea...",
-      "description": "We've launched support for citable documents in client-side tool results. Learn more inHow to implement tool use.",
+      "description": "クライアントサイドの tool results で引用可能ドキュメントのサポートを開始しました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1771,9 +1771,9 @@
     {
       "id": "2025-09-02-platform-september-2-2025",
       "date": "2025-09-02",
-      "title": "We've launched v2 of theCode Execution Toolin public beta, replacing the orig...",
+      "title": "Code Execution Tool v2 をパブリックベータでリリース",
       "titleEn": "We've launched v2 of theCode Execution Toolin public beta, replacing the orig...",
-      "description": "We've launched v2 of theCode Execution Toolin public beta, replacing the original Python-only tool with Bash command execution and direct file manipulation capabilities, including writing code in other languages.",
+      "description": "Code Execution Tool v2 をパブリックベータでリリースしました。従来の Python 専用ツールに代わり、Bash コマンド実行と直接のファイル操作機能を備え、他の言語でのコード記述も可能になりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1789,9 +1789,9 @@
     {
       "id": "2025-08-27-platform-august-27-2025",
       "date": "2025-08-27",
-      "title": "We launched a beta version of thePHP SDK.",
+      "title": "PHP SDK ベータ版をリリース",
       "titleEn": "We launched a beta version of thePHP SDK.",
-      "description": "We launched a beta version of thePHP SDK.",
+      "description": "PHP SDK のベータ版をリリースしました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1807,9 +1807,9 @@
     {
       "id": "2025-08-26-platform-august-26-2025",
       "date": "2025-08-26",
-      "title": "We've increased rate limits on the1M token context windowfor Claude Sonnet 4 ...",
+      "title": "1M context window のレート制限引き上げ・Vertex AI 対応",
       "titleEn": "We've increased rate limits on the1M token context windowfor Claude Sonnet 4 ...",
-      "description": "We've increased rate limits on the1M token context windowfor Claude Sonnet 4 on the Claude API. / The 1M token context window is now available on Google Cloud's Vertex AI. For more information, seeClaude on Vertex AI.",
+      "description": "Claude Sonnet 4 の 1M token context window のレート制限を Claude API で引き上げました。また、1M token context window が Google Cloud の Vertex AI でも利用可能になりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1825,9 +1825,9 @@
     {
       "id": "2025-08-19-platform-august-19-2025",
       "date": "2025-08-19",
-      "title": "Request IDs are now included directly in error response bodies alongside the ...",
+      "title": "エラーレスポンスボディに Request ID を直接含めるように変更",
       "titleEn": "Request IDs are now included directly in error response bodies alongside the ...",
-      "description": "Request IDs are now included directly in error response bodies alongside the existingrequest-idheader. Learn more inErrors.",
+      "description": "エラーレスポンスボディに既存の request-id ヘッダーに加えて Request ID が直接含まれるようになりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1843,9 +1843,9 @@
     {
       "id": "2025-08-18-platform-august-18-2025",
       "date": "2025-08-18",
-      "title": "We've released theUsage & Cost API, allowing administrators to programmatical...",
+      "title": "Usage & Cost API / 組織情報 Admin API をリリース",
       "titleEn": "We've released theUsage & Cost API, allowing administrators to programmatical...",
-      "description": "We've released theUsage & Cost API, allowing administrators to programmatically monitor their organization's usage and cost data. / We've added a new endpoint to the Admin API for retrieving organization information. For details, see theOrganization Info Admin API reference.",
+      "description": "Usage & Cost API をリリースし、管理者が組織の使用量とコストデータをプログラムで監視できるようになりました。また、Admin API に組織情報取得用の新しいエンドポイントを追加しました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1861,9 +1861,9 @@
     {
       "id": "2025-08-13-platform-august-13-2025",
       "date": "2025-08-13",
-      "title": "We announced the deprecation of the Claude Sonnet 3.5 models (claude-3-5-sonn...",
+      "title": "Claude Sonnet 3.5 非推奨化発表・1時間キャッシュ GA 化",
       "titleEn": "We announced the deprecation of the Claude Sonnet 3.5 models (claude-3-5-sonn...",
-      "description": "We announced the deprecation of the Claude Sonnet 3.5 models (claude-3-5-sonnet-20240620andclaude-3-5-sonnet-20241022). These models will be retired on October 28, 2025. We recommend migrating to Claude Sonnet 4.5 (claude-sonnet-4-5-20250929) for improved performance and capabilities. Read more inModel deprecations. / The 1-hour cache duration for prompt caching is now generally available. You can now use the extended cache TTL without a beta header. Learn more inPrompt caching.",
+      "description": "Claude Sonnet 3.5 モデル（claude-3-5-sonnet-20240620 および claude-3-5-sonnet-20241022）の非推奨化を発表しました。2025年10月28日に廃止予定です。Claude Sonnet 4.5 への移行を推奨します。また、prompt caching の1時間キャッシュ期間が GA になり、ベータヘッダー不要で利用可能になりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1879,9 +1879,9 @@
     {
       "id": "2025-08-12-platform-august-12-2025",
       "date": "2025-08-12",
-      "title": "We've launched beta support for a1M token context windowin Claude Sonnet 4 on...",
+      "title": "Claude Sonnet 4 で 1M token context window ベータ開始",
       "titleEn": "We've launched beta support for a1M token context windowin Claude Sonnet 4 on...",
-      "description": "We've launched beta support for a1M token context windowin Claude Sonnet 4 on the Claude API and Amazon Bedrock.",
+      "description": "Claude Sonnet 4 で 1M token context window のベータサポートを Claude API と Amazon Bedrock で開始しました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1897,9 +1897,9 @@
     {
       "id": "2025-08-11-platform-august-11-2025",
       "date": "2025-08-11",
-      "title": "Some customers might encounter 429 (rate_limit_error)errorsfollowing a sharp ...",
+      "title": "API 使用量急増時の 429 エラーに関する注意",
       "titleEn": "Some customers might encounter 429 (rate_limit_error)errorsfollowing a sharp ...",
-      "description": "Some customers might encounter 429 (rate_limit_error)errorsfollowing a sharp increase in API usage due to acceleration limits on the API. Previously, 529 (overloaded_error) errors would occur in similar scenarios.",
+      "description": "API 使用量の急激な増加により、一部の顧客にアクセラレーション制限による 429（rate_limit_error）エラーが発生する可能性があります。以前は同様のシナリオで 529（overloaded_error）エラーが発生していました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1915,9 +1915,9 @@
     {
       "id": "2025-08-08-platform-august-8-2025",
       "date": "2025-08-08",
-      "title": "Search result content blocks are now generally available on the Claude API an...",
+      "title": "Search result content blocks が Claude API / Vertex AI で GA",
       "titleEn": "Search result content blocks are now generally available on the Claude API an...",
-      "description": "Search result content blocks are now generally available on the Claude API and Google Cloud's Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. The beta headersearch-results-2025-06-09is no longer required. Learn more inSearch results.",
+      "description": "Search result content blocks が Claude API と Google Cloud の Vertex AI で GA になりました。RAG アプリケーション向けにソース帰属付きの自然な引用を可能にします。ベータヘッダー search-results-2025-06-09 は不要になりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1933,9 +1933,9 @@
     {
       "id": "2025-08-05-platform-august-5-2025",
       "date": "2025-08-05",
-      "title": "We've launchedClaude Opus 4.1, an incremental update to Claude Opus 4 with en...",
+      "title": "Claude Opus 4.1 リリース",
       "titleEn": "We've launchedClaude Opus 4.1, an incremental update to Claude Opus 4 with en...",
-      "description": "We've launchedClaude Opus 4.1, an incremental update to Claude Opus 4 with enhanced capabilities and performance improvements.*Learn more inModels overview.",
+      "description": "Claude Opus 4.1 をリリースしました。Claude Opus 4 のインクリメンタルアップデートで、機能とパフォーマンスが向上しています。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1951,9 +1951,9 @@
     {
       "id": "2025-07-28-platform-july-28-2025",
       "date": "2025-07-28",
-      "title": "We've releasedtext_editor_20250728, an updated text editor tool that fixes so...",
+      "title": "テキストエディタツール text_editor_20250728 をリリース",
       "titleEn": "We've releasedtext_editor_20250728, an updated text editor tool that fixes so...",
-      "description": "We've releasedtext_editor_20250728, an updated text editor tool that fixes some issues from the previous versions and adds an optionalmax_charactersparameter that allows you to control the truncation length when viewing large files.",
+      "description": "text_editor_20250728 をリリースしました。以前のバージョンの問題を修正し、大きなファイルの閲覧時に切り詰め長を制御するオプションの max_characters パラメータを追加しました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1969,9 +1969,9 @@
     {
       "id": "2025-07-24-platform-july-24-2025",
       "date": "2025-07-24",
-      "title": "We've increasedrate limitsfor Claude Opus 4 on the Claude API to give you mor...",
+      "title": "Claude Opus 4 のレート制限を引き上げ",
       "titleEn": "We've increasedrate limitsfor Claude Opus 4 on the Claude API to give you mor...",
-      "description": "We've increasedrate limitsfor Claude Opus 4 on the Claude API to give you more capacity to build and scale with Claude. For customers withusage tier 1-4 rate limits, these changes apply immediately to your account - no action needed.",
+      "description": "Claude API の Claude Opus 4 のレート制限を引き上げ、構築とスケーリングの余裕が増えました。Usage tier 1-4 のレート制限を持つ顧客には即座に適用されます。",
       "source": "platform",
       "platforms": [
         "api"
@@ -1987,9 +1987,9 @@
     {
       "id": "2025-07-21-platform-july-21-2025",
       "date": "2025-07-21",
-      "title": "We've retired the Claude 2.0, Claude 2.1, and Claude Sonnet 3 models. All req...",
+      "title": "Claude 2.0 / 2.1 / Sonnet 3 を廃止",
       "titleEn": "We've retired the Claude 2.0, Claude 2.1, and Claude Sonnet 3 models. All req...",
-      "description": "We've retired the Claude 2.0, Claude 2.1, and Claude Sonnet 3 models. All requests to these models will now return an error. Read more inModel deprecations.",
+      "description": "Claude 2.0、Claude 2.1、Claude Sonnet 3 モデルを廃止しました。これらのモデルへのリクエストはエラーを返します。",
       "source": "platform",
       "platforms": [
         "api"
@@ -2005,9 +2005,9 @@
     {
       "id": "2025-07-17-platform-july-17-2025",
       "date": "2025-07-17",
-      "title": "We've increasedrate limitsfor Claude Sonnet 4 on the Claude API to give you m...",
+      "title": "Claude Sonnet 4 のレート制限を引き上げ",
       "titleEn": "We've increasedrate limitsfor Claude Sonnet 4 on the Claude API to give you m...",
-      "description": "We've increasedrate limitsfor Claude Sonnet 4 on the Claude API to give you more capacity to build and scale with Claude. For customers withusage tier 1-4 rate limits, these changes apply immediately to your account - no action needed.",
+      "description": "Claude API の Claude Sonnet 4 のレート制限を引き上げ、構築とスケーリングの余裕が増えました。Usage tier 1-4 のレート制限を持つ顧客には即座に適用されます。",
       "source": "platform",
       "platforms": [
         "api"
@@ -2023,9 +2023,9 @@
     {
       "id": "2025-07-03-platform-july-3-2025",
       "date": "2025-07-03",
-      "title": "We've launched search result content blocks in beta, enabling natural citatio...",
+      "title": "Search result content blocks をベータリリース",
       "titleEn": "We've launched search result content blocks in beta, enabling natural citatio...",
-      "description": "We've launched search result content blocks in beta, enabling natural citations for RAG applications. Tools can now return search results with proper source attribution, and Claude will automatically cite these sources in its responses - matching the citation quality of web search. This eliminates the need for document workarounds in custom knowledge base applications. Learn more inSearch results. To enable this feature, use the beta headersearch-results-2025-06-09.",
+      "description": "Search result content blocks をベータリリースしました。RAG アプリケーション向けの自然な引用を実現します。ツールが適切なソース帰属付きの検索結果を返し、Claude が自動的にソースを引用します。ベータヘッダー search-results-2025-06-09 で有効化できます。",
       "source": "platform",
       "platforms": [
         "api"
@@ -2041,9 +2041,9 @@
     {
       "id": "2025-06-30-platform-june-30-2025",
       "date": "2025-06-30",
-      "title": "We announced the deprecation of the Claude Opus 3 model. Read more inModel de...",
+      "title": "Claude Opus 3 の非推奨化を発表",
       "titleEn": "We announced the deprecation of the Claude Opus 3 model. Read more inModel de...",
-      "description": "We announced the deprecation of the Claude Opus 3 model. Read more inModel deprecations.",
+      "description": "Claude Opus 3 モデルの非推奨化を発表しました。詳細はモデル非推奨化ページをご確認ください。",
       "source": "platform",
       "platforms": [
         "api"
@@ -2059,9 +2059,9 @@
     {
       "id": "2025-06-23-platform-june-23-2025",
       "date": "2025-06-23",
-      "title": "Console users with the Developer role can now access theCostpage. Previously,...",
+      "title": "Developer ロールで Cost ページへのアクセスが可能に",
       "titleEn": "Console users with the Developer role can now access theCostpage. Previously,...",
-      "description": "Console users with the Developer role can now access theCostpage. Previously, the Developer role allowed access to theUsagepage, but not the Cost page.",
+      "description": "Console の Developer ロールを持つユーザーが Cost ページにアクセスできるようになりました。以前は Usage ページのみアクセス可能でした。",
       "source": "platform",
       "platforms": [
         "api"
@@ -2077,9 +2077,9 @@
     {
       "id": "2025-06-11-platform-june-11-2025",
       "date": "2025-06-11",
-      "title": "We've launchedfine-grained tool streamingin public beta, a feature that enabl...",
+      "title": "Fine-grained tool streaming をパブリックベータでリリース",
       "titleEn": "We've launchedfine-grained tool streamingin public beta, a feature that enabl...",
-      "description": "We've launchedfine-grained tool streamingin public beta, a feature that enables Claude to stream tool use parameters without buffering / JSON validation. To enable fine-grained tool streaming, use thebeta headerfine-grained-tool-streaming-2025-05-14.",
+      "description": "Fine-grained tool streaming をパブリックベータでリリースしました。Claude が tool use パラメータをバッファリング/JSON バリデーションなしにストリーミングできます。ベータヘッダー fine-grained-tool-streaming-2025-05-14 で有効化します。",
       "source": "platform",
       "platforms": [
         "api"
@@ -2095,9 +2095,9 @@
     {
       "id": "2025-05-22-platform-may-22-2025",
       "date": "2025-05-22",
-      "title": "We've launchedClaude Opus 4 and Claude Sonnet 4, our latest models with exten...",
+      "title": "Claude Opus 4 / Sonnet 4 リリース・Files API・Code execution 等",
       "titleEn": "We've launchedClaude Opus 4 and Claude Sonnet 4, our latest models with exten...",
-      "description": "We've launchedClaude Opus 4 and Claude Sonnet 4, our latest models with extended thinking capabilities. Learn more inModels overview. / The default behavior ofextended thinkingin Claude 4 models returns a summary of Claude's full thinking process, with the full thinking encrypted and returned in thesignaturefield ofthinkingblock output. / We've launchedinterleaved thinkingin public beta, a feature that enables Claude to think in between tool calls. To enable interleaved thinking, use thebeta headerinterleaved-thinking-2025-05-14. / We've launched theFiles APIin public beta, enabling you to upload files and reference them in the Messages API and code execution tool. / We've launched theCode execution toolin public beta, a tool that enables Claude to execute Python code in a secure, sandboxed environment. / We've launched theMCP connectorin public beta, a feature that allows you to connect to remote MCP servers directly from the Messages API. / To increase answer quality and decrease tool errors, we've changed the default value for thetop_pnucleus samplingparameter in the Messages API from 0.999 to 0.99 for all models. To revert this change, settop_pto 0.999.\nAdditionally, when extended thinking is enabled, you can now settop_pto values between 0.95 and 1. / We've moved ourGo SDKfrom beta to GA. / We've included minute and hour level granularity to theUsagepage of Console alongside 429 error rates on the Usage page.",
+      "description": "Claude Opus 4 と Claude Sonnet 4 をリリースしました。Extended thinking 機能を搭載した最新モデルです。Claude 4 モデルの extended thinking はデフォルトで思考プロセスの要約を返し、完全な思考は暗号化されて signature フィールドに格納されます。Interleaved thinking をパブリックベータでリリースし、ツール呼び出し間での思考が可能に。Files API をパブリックベータでリリース。Code execution tool をパブリックベータでリリース。MCP connector をパブリックベータでリリース。top_p のデフォルト値を 0.999 から 0.99 に変更。Go SDK が GA に。Console の Usage ページに分・時間単位の粒度と 429 エラー率を追加しました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -2113,9 +2113,9 @@
     {
       "id": "2025-05-21-platform-may-21-2025",
       "date": "2025-05-21",
-      "title": "We've moved ourRuby SDKfrom beta to GA.",
+      "title": "Ruby SDK が GA に",
       "titleEn": "We've moved ourRuby SDKfrom beta to GA.",
-      "description": "We've moved ourRuby SDKfrom beta to GA.",
+      "description": "Ruby SDK がベータから GA（一般提供）に移行しました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -2131,9 +2131,9 @@
     {
       "id": "2025-05-07-platform-may-7-2025",
       "date": "2025-05-07",
-      "title": "We've launched a web search tool in the API, allowing Claude to access up-to-...",
+      "title": "API に Web search tool をリリース",
       "titleEn": "We've launched a web search tool in the API, allowing Claude to access up-to-...",
-      "description": "We've launched a web search tool in the API, allowing Claude to access up-to-date information from the web. Learn more inWeb search tool.",
+      "description": "API に Web search tool をリリースしました。Claude が Web から最新の情報にアクセスできるようになりました。",
       "source": "platform",
       "platforms": [
         "api"
@@ -2149,9 +2149,9 @@
     {
       "id": "2025-05-01-platform-may-1-2025",
       "date": "2025-05-01",
-      "title": "Cache control must now be specified directly in the parentcontentblock oftool...",
+      "title": "Cache control の指定方法を変更",
       "titleEn": "Cache control must now be specified directly in the parentcontentblock oftool...",
-      "description": "Cache control must now be specified directly in the parentcontentblock oftool_resultanddocument.source. For backwards compatibility, if cache control is detected on the last block intool_result.contentordocument.source.content, it will be automatically applied to the parent block instead. Cache control on any other blocks withintool_result.contentanddocument.source.contentwill result in a validation error.",
+      "description": "Cache control は tool_result および document.source の親 content ブロックに直接指定する必要があります。後方互換性のため、tool_result.content や document.source.content の最後のブロックで cache control が検出された場合は自動的に親ブロックに適用されます。それ以外のブロックでの cache control はバリデーションエラーになります。",
       "source": "platform",
       "platforms": [
         "api"
@@ -2167,9 +2167,9 @@
     {
       "id": "2026-03-23-apps-computer-use-research-preview-in-cowork-and-claude",
       "date": "2026-03-23",
-      "title": "Computer use research preview in Cowork and Claude Code + Dispatch improvements",
-      "titleEn": "",
-      "description": "Users on Pro and Max plans can give Claude access to computer use. Claude can open files, run dev tools, point, click, and navigate to what’s on your screen to perform tasks itself—with no setup required. Claude’s new computer use capability makes Dispatch even more helpful by allowing it to use your computer on your behalf while you’re away. For more information, see Let Claude use your computer in Cowork or our blog post: Put Claude to work on your computer.",
+      "title": "Cowork / Claude Code で computer use リサーチプレビュー・Dispatch 改善",
+      "titleEn": "Computer use research preview in Cowork and Claude Code + Dispatch improvements",
+      "description": "Pro・Max プランのユーザーが Claude に computer use のアクセスを付与できるようになりました。Claude がファイルを開き、開発ツールを実行し、画面上をクリック・ナビゲートしてタスクを実行します。セットアップ不要です。新しい computer use 機能により Dispatch がさらに便利になり、離席中でもユーザーに代わってコンピュータを操作できます。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2185,9 +2185,9 @@
     {
       "id": "2026-03-17-apps-control-cowork-from-your-phone-with-a-persistent-t",
       "date": "2026-03-17",
-      "title": "Control Cowork from your phone with a persistent thread (research preview for...",
-      "titleEn": "",
-      "description": "Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage tasks in Cowork. We're rolling this out to Max plans starting today, and Pro plans over the next two days. For more information, see Assign tasks to Claude from anywhere in Cowork.",
+      "title": "スマートフォンから Cowork を操作（永続スレッド、リサーチプレビュー）",
+      "titleEn": "Control Cowork from your phone with a persistent thread (research preview for...",
+      "description": "Pro・Max プランのユーザーが Claude Desktop または iOS/Android 版 Claude から永続エージェントスレッドを使って Cowork のタスクを管理できるようになりました。Max プランから順次展開し、Pro プランには2日以内にロールアウトされます。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2204,9 +2204,9 @@
     {
       "id": "2026-03-12-apps-claude-creates-interactive-charts-diagrams-and-vi",
       "date": "2026-03-12",
-      "title": "Claude creates interactive charts, diagrams and visualizations",
-      "titleEn": "",
-      "description": "Claude can now create custom charts, diagrams and other visualizations in-line in its responses. For more information, see Custom visuals in chat.",
+      "title": "Claude がインタラクティブなチャート・ダイアグラム・ビジュアライゼーションを作成",
+      "titleEn": "Claude creates interactive charts, diagrams and visualizations",
+      "description": "Claude がレスポンス内にカスタムチャート、ダイアグラム、その他のビジュアライゼーションをインラインで作成できるようになりました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2222,9 +2222,9 @@
     {
       "id": "2026-03-11-apps-work-across-excel-and-powerpoint",
       "date": "2026-03-11",
-      "title": "Work across Excel and PowerPoint",
-      "titleEn": "",
-      "description": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conversation, so every action Claude takes in one application is informed by everything that’s happened in the other. We also added support for skills in the add-ins, and the ability for Amazon Bedrock, Google Cloud’s Vertex AI, or Microsoft Foundry users to connect to them via an LLM gateway. For more information, refer to the following articles:",
+      "title": "Excel と PowerPoint の横断連携",
+      "titleEn": "Work across Excel and PowerPoint",
+      "description": "Claude for Excel と Claude for PowerPoint のアドインを改善しました。会話のコンテキスト全体を共有できるようになり、一方のアプリケーションでの操作がもう一方のすべての情報に基づいて行われます。アドインでの skills サポート、Amazon Bedrock・Vertex AI・Microsoft Foundry ユーザー向けの LLM ゲートウェイ接続機能も追加しました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2240,9 +2240,9 @@
     {
       "id": "2026-03-02-apps-memory-for-free-users",
       "date": "2026-03-02",
-      "title": "Memory for free users",
-      "titleEn": "",
-      "description": "Memory from chat history is now available for all Claude users, including free users. For more information, refer to the following articles:",
+      "title": "無料ユーザー向けメモリ機能",
+      "titleEn": "Memory for free users",
+      "description": "チャット履歴からのメモリが無料ユーザーを含むすべての Claude ユーザーに利用可能になりました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2258,9 +2258,9 @@
     {
       "id": "2026-02-25-apps-scheduled-tasks-in-cowork",
       "date": "2026-02-25",
-      "title": "Scheduled tasks in Cowork",
-      "titleEn": "",
-      "description": "We introduced the ability to create and schedule both recurring and on-demand tasks in Cowork, as well as a new Customize section in Claude Desktop that groups skills, plugins, and connectors in one place. For more information, see Schedule recurring tasks in Cowork.",
+      "title": "Cowork でのスケジュールタスク",
+      "titleEn": "Scheduled tasks in Cowork",
+      "description": "Cowork で定期・オンデマンドタスクの作成とスケジューリングが可能になりました。Claude Desktop に新しい Customize セクションが追加され、skills、plugins、connectors が一箇所にまとめられています。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2276,9 +2276,9 @@
     {
       "id": "2026-02-24-apps-cowork-plugins-and-admin-controls",
       "date": "2026-02-24",
-      "title": "Cowork plugins and admin controls",
-      "titleEn": "",
-      "description": "We launched a new plugin marketplace and admin controls for Team and Enterprise plans. For more information, refer to these articles:",
+      "title": "Cowork プラグインと管理者コントロール",
+      "titleEn": "Cowork plugins and admin controls",
+      "description": "新しいプラグインマーケットプレイスと Team・Enterprise プラン向け管理者コントロールをリリースしました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2294,9 +2294,9 @@
     {
       "id": "2026-02-17-apps-claude-sonnet-4-6-launch",
       "date": "2026-02-17",
-      "title": "Claude Sonnet 4.6 launch",
-      "titleEn": "",
-      "description": "We launched our most capable Sonnet model yet, with a full upgrade of the model’s skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Sonnet 4.6 also features a 1M token context window in beta. Read our blog post for more information: Introducing Claude Sonnet 4.6.",
+      "title": "Claude Sonnet 4.6 リリース",
+      "titleEn": "Claude Sonnet 4.6 launch",
+      "description": "コーディング、computer use、長文コンテキスト推論、エージェント計画、ナレッジワーク、デザインなど全スキルで大幅にアップグレードされた、最も高性能な Sonnet モデルをリリースしました。1M token context window（ベータ）を搭載しています。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2312,9 +2312,9 @@
     {
       "id": "2026-02-13-apps-analytics-api-for-enterprise-plans",
       "date": "2026-02-13",
-      "title": "Analytics API for Enterprise plans",
-      "titleEn": "",
-      "description": "The Enterprise Analytics API provides programmatic access to usage and engagement data for Claude and Claude Code Remote usage within your organization. Data is aggregated per organization, per day, and each endpoint returns a snapshot for a single date that you specify. For more information, see Access usage data with the Analytics API.",
+      "title": "Enterprise プラン向け Analytics API",
+      "titleEn": "Analytics API for Enterprise plans",
+      "description": "Enterprise Analytics API により、組織内の Claude および Claude Code Remote の使用状況・エンゲージメントデータにプログラムからアクセスできます。データは組織・日ごとに集計され、指定した日付のスナップショットを返します。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2330,9 +2330,9 @@
     {
       "id": "2026-02-12-apps-self-serve-enterprise-plans",
       "date": "2026-02-12",
-      "title": "Self-serve Enterprise plans",
-      "titleEn": "",
-      "description": "Previously, Enterprise plans were only available to customers working with our Sales team. Now, any organization can purchase an Enterprise plan directly on our website with no Sales conversation required. Self-serve Enterprise plans have a single seat type that includes access to Claude, Claude Code, and Cowork. For more information, refer to our blog post or What is the Enterprise plan?",
+      "title": "Enterprise プランのセルフサーブ購入が可能に",
+      "titleEn": "Self-serve Enterprise plans",
+      "description": "これまで営業チームとのやり取りが必要だった Enterprise プランが、Web サイトから直接購入できるようになりました。セルフサーブ Enterprise プランは Claude、Claude Code、Cowork へのアクセスを含む単一シートタイプです。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2348,9 +2348,9 @@
     {
       "id": "2026-02-05-apps-claude-opus-4-6-launch",
       "date": "2026-02-05",
-      "title": "Claude Opus 4.6 launch",
-      "titleEn": "",
-      "description": "We’ve upgraded our smartest model and improved its coding skills. Read our blog post for more information: Introducing Claude Opus 4.6. Introducing Claude for PowerPoint",
+      "title": "Claude Opus 4.6 リリース・Claude for PowerPoint",
+      "titleEn": "Claude Opus 4.6 launch",
+      "description": "最もスマートなモデルをアップグレードし、コーディングスキルを向上させました。また、Claude for PowerPoint を発表しました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2366,9 +2366,9 @@
     {
       "id": "2026-01-16-apps-cowork-research-preview-expanded-to-pro-plans",
       "date": "2026-01-16",
-      "title": "Cowork research preview expanded to Pro plans",
-      "titleEn": "",
-      "description": "Cowork is now available to Pro plan users on Claude Desktop (macOS only). Claude Code access added to Team plan Standard seats",
+      "title": "Cowork リサーチプレビューが Pro プランに拡大",
+      "titleEn": "Cowork research preview expanded to Pro plans",
+      "description": "Cowork が Pro プランユーザーの Claude Desktop（macOS のみ）で利用可能になりました。Team プラン Standard シートに Claude Code アクセスが追加されました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2384,9 +2384,9 @@
     {
       "id": "2026-01-12-apps-cowork-research-preview-on-claude-desktop-macos-o",
       "date": "2026-01-12",
-      "title": "Cowork research preview on Claude Desktop (macOS only) for Max plans",
-      "titleEn": "",
-      "description": "Cowork brings Claude Code's agentic capabilities to the Claude desktop app for knowledge work beyond coding. It runs locally on your computer in an isolated VM, enabling direct access to local files and MCP integrations. Refer to this article to learn more: Getting started with Cowork.",
+      "title": "Cowork リサーチプレビューが Claude Desktop で開始（Max プラン、macOS のみ）",
+      "titleEn": "Cowork research preview on Claude Desktop (macOS only) for Max plans",
+      "description": "Cowork は Claude Code のエージェント機能を Claude Desktop アプリに持ち込み、コーディング以外のナレッジワークにも対応します。ローカルコンピュータ上の隔離された VM で動作し、ローカルファイルや MCP 統合に直接アクセスできます。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2403,9 +2403,9 @@
     {
       "id": "2025-12-18-apps-skills-for-organizations-partners-and-the-ecosys",
       "date": "2025-12-18",
-      "title": "Skills for organizations, partners, and the ecosystem",
-      "titleEn": "",
-      "description": "In October, we introduced skills—a way to teach Claude repeatable workflows tailored to how you work. Skills are now easier to deploy, discover, and build with organization-wide management for Team and Enterprise plans, a directory of partner-built skills, and an open standard (Agent Skills) so skills work across AI platforms. Claude in Chrome updates",
+      "title": "組織・パートナー・エコシステム向け Skills",
+      "titleEn": "Skills for organizations, partners, and the ecosystem",
+      "description": "10月に導入された Skills が、より簡単にデプロイ・発見・構築できるようになりました。Team・Enterprise プラン向けの組織全体管理、パートナー製 Skills のディレクトリ、AI プラットフォーム間で動作するオープンスタンダード（Agent Skills）を提供します。Claude in Chrome のアップデートも含まれます。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2421,9 +2421,9 @@
     {
       "id": "2025-11-24-apps-claude-opus-4-5-launch",
       "date": "2025-11-24",
-      "title": "Claude Opus 4.5 launch",
-      "titleEn": "",
-      "description": "We released our most powerful frontier model to date. Read our blog post for more information: Introducing Claude Opus 4.5. Claude for Excel beta release",
+      "title": "Claude Opus 4.5 リリース・Claude for Excel ベータ",
+      "titleEn": "Claude Opus 4.5 launch",
+      "description": "最も強力なフロンティアモデルをリリースしました。また、Claude for Excel のベータ版も公開されました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2439,9 +2439,9 @@
     {
       "id": "2025-10-23-apps-claude-s-memory-on-max-and-pro-plans",
       "date": "2025-10-23",
-      "title": "Claude’s memory on Max and Pro plans",
-      "titleEn": "",
-      "description": "Max plan users can now access Claude’s memory capabilities. This feature will roll out to Pro plans gradually over the next two weeks.",
+      "title": "Max・Pro プランでメモリ機能が利用可能に",
+      "titleEn": "Claude's memory on Max and Pro plans",
+      "description": "Max プランユーザーが Claude のメモリ機能を利用できるようになりました。Pro プランへは今後2週間にわたり順次展開されます。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2457,9 +2457,9 @@
     {
       "id": "2025-10-15-apps-claude-haiku-4-5-launch",
       "date": "2025-10-15",
-      "title": "Claude Haiku 4.5 launch",
-      "titleEn": "",
-      "description": "We released our fastest, most cost-efficient model – Claude Haiku 4.5. Our latest small model matches Sonnet 4’s performance on coding, computer use, and agent tasks. Claude in Chrome updates",
+      "title": "Claude Haiku 4.5 リリース",
+      "titleEn": "Claude Haiku 4.5 launch",
+      "description": "最速・最もコスト効率の良いモデル Claude Haiku 4.5 をリリースしました。コーディング、computer use、エージェントタスクで Sonnet 4 と同等の性能を発揮します。Claude in Chrome のアップデートも含まれます。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2475,9 +2475,9 @@
     {
       "id": "2025-09-29-apps-claude-sonnet-4-5-launch",
       "date": "2025-09-29",
-      "title": "Claude Sonnet 4.5 launch",
-      "titleEn": "",
-      "description": "We released our newest model, Sonnet 4.5. This is the best model in the world for real-world agents, coding, and computer use. Read our blog post here: Claude Sonnet 4.5. Creating and editing files with Claude for Pro plans and mobile",
+      "title": "Claude Sonnet 4.5 リリース",
+      "titleEn": "Claude Sonnet 4.5 launch",
+      "description": "最新モデル Sonnet 4.5 をリリースしました。実世界のエージェント、コーディング、computer use で世界最高のモデルです。Pro プランとモバイル向けのファイル作成・編集機能も追加されました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2494,9 +2494,9 @@
     {
       "id": "2025-09-18-apps-claude-s-memory-on-enterprise-plans",
       "date": "2025-09-18",
-      "title": "Claude’s memory on Enterprise plans",
-      "titleEn": "",
-      "description": "Users on Enterprise plans can leverage memory; Claude can now remember relevant context from your chats and generate a memory summary. Incognito chats give you a way to exclude conversations from Claude’s memory. Refer to the following articles for more information:",
+      "title": "Enterprise プランでメモリ機能が利用可能に",
+      "titleEn": "Claude's memory on Enterprise plans",
+      "description": "Enterprise プランのユーザーがメモリ機能を利用できるようになりました。Claude がチャットから関連するコンテキストを記憶し、メモリサマリーを生成します。シークレットチャットにより特定の会話をメモリから除外できます。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2512,9 +2512,9 @@
     {
       "id": "2025-09-16-apps-claude-in-chrome-expansion",
       "date": "2025-09-16",
-      "title": "Claude in Chrome expansion",
-      "titleEn": "",
-      "description": "Claude in Chrome expanded to 10,000 Max plan users with the release of new capabilities:",
+      "title": "Claude in Chrome の拡大",
+      "titleEn": "Claude in Chrome expansion",
+      "description": "Claude in Chrome が 10,000 人の Max プランユーザーに拡大され、新機能がリリースされました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2530,9 +2530,9 @@
     {
       "id": "2025-09-11-apps-claude-s-memory-on-team-plans-and-incognito-chats",
       "date": "2025-09-11",
-      "title": "Claude’s memory on Team plans and incognito chats for free, Pro, Max, and Tea...",
-      "titleEn": "",
-      "description": "Claude can now remember relevant context from your chats and will generate a memory summary. Incognito chats give you a way to exclude conversations from Claude’s memory. Refer to the following new articles for more information:",
+      "title": "Team プランでのメモリ機能・シークレットチャット",
+      "titleEn": "Claude's memory on Team plans and incognito chats for free, Pro, Max, and Tea...",
+      "description": "Claude がチャットから関連するコンテキストを記憶し、メモリサマリーを生成するようになりました。シークレットチャットにより特定の会話をメモリから除外できます。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2548,9 +2548,9 @@
     {
       "id": "2025-09-09-apps-creating-and-editing-files-with-claude",
       "date": "2025-09-09",
-      "title": "Creating and editing files with Claude",
-      "titleEn": "",
-      "description": "Claude can now create and edit Excel spreadsheets, PowerPoint slide decks, documents, and PDFs directly in the Claude app. Refer to the following two articles for more information:",
+      "title": "Claude でのファイル作成・編集",
+      "titleEn": "Creating and editing files with Claude",
+      "description": "Claude アプリ内で Excel スプレッドシート、PowerPoint スライド、ドキュメント、PDF を直接作成・編集できるようになりました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2566,9 +2566,9 @@
     {
       "id": "2025-09-03-apps-location-maps-and-calendar-access-on-claude-for",
       "date": "2025-09-03",
-      "title": "Location, maps, and calendar access on Claude for iOS and Android",
-      "titleEn": "",
-      "description": "Claude can now connect with iOS and Android apps to draft calendar events, help you find locations, and manage reminders (iOS only). See updates to the following two articles for more information:",
+      "title": "iOS/Android 版 Claude で位置情報・地図・カレンダーアクセス",
+      "titleEn": "Location, maps, and calendar access on Claude for iOS and Android",
+      "description": "Claude が iOS/Android アプリと連携してカレンダーイベントの作成、位置情報の検索、リマインダーの管理（iOS のみ）が可能になりました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2585,9 +2585,9 @@
     {
       "id": "2025-08-27-apps-code-execution-tool",
       "date": "2025-08-27",
-      "title": "Code Execution Tool",
-      "titleEn": "",
-      "description": "A new API tool that allows Claude to execute Python code in a secure, sandboxed environment. Refer to our docs for more information: Code execution tool.",
+      "title": "Code Execution Tool — Claude がコードを実行可能に",
+      "titleEn": "Code Execution Tool",
+      "description": "Claude が安全なサンドボックス環境で Python コードを実行できる新しい API ツールです。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2603,9 +2603,9 @@
     {
       "id": "2025-08-26-apps-claude-in-chrome",
       "date": "2025-08-26",
-      "title": "Claude in Chrome",
-      "titleEn": "",
-      "description": "An experimental browser extension that allows Claude to read, click, and navigate websites alongside you. See Getting Started with Claude in Chrome.",
+      "title": "Claude in Chrome — Chrome 拡張機能として利用可能に",
+      "titleEn": "Claude in Chrome",
+      "description": "Claude が Web サイトの読み取り、クリック、ナビゲートを行える実験的なブラウザ拡張機能です。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2621,9 +2621,9 @@
     {
       "id": "2025-08-21-apps-admin-controls-for-desktop-extensions",
       "date": "2025-08-21",
-      "title": "Admin controls for desktop extensions",
-      "titleEn": "",
-      "description": "Allows Team and Enterprise plans to enable/disable public desktop extensions and upload custom extensions. See Admin Controls for Desktop Extensions. Making shared artifacts embeddable",
+      "title": "デスクトップ拡張機能の管理者コントロール",
+      "titleEn": "Admin controls for desktop extensions",
+      "description": "Team・Enterprise プランでパブリックデスクトップ拡張機能の有効化/無効化とカスタム拡張機能のアップロードが可能になりました。共有 artifacts の埋め込みにも対応しました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2639,9 +2639,9 @@
     {
       "id": "2025-08-20-apps-premium-seats-with-claude-code-for-team-and-enterp",
       "date": "2025-08-20",
-      "title": "Premium seats with Claude Code for Team and Enterprise plans",
-      "titleEn": "",
-      "description": "Introduced a premium seat tier for Team and Enterprise plans offering more usage and access to Claude Code. Refer to the following articles for more information: Extra usage for Team and Enterprise plans",
+      "title": "Team・Enterprise プランの Premium シートと Claude Code",
+      "titleEn": "Premium seats with Claude Code for Team and Enterprise plans",
+      "description": "Team・Enterprise プラン向けに、より多くの使用量と Claude Code へのアクセスを提供するプレミアムシートを導入しました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2657,9 +2657,9 @@
     {
       "id": "2025-08-15-apps-ability-to-change-monthly-team-plan-billing-to-ann",
       "date": "2025-08-15",
-      "title": "Ability to change monthly Team plan billing to annual",
-      "titleEn": "",
-      "description": "Allowing Team plan organizations with monthly billing to upgrade to annual billing. See How to change your Team plan from monthly to annual billing.",
+      "title": "Team プランの月額から年額への切り替え",
+      "titleEn": "Ability to change monthly Team plan billing to annual",
+      "description": "月額課金の Team プラン組織が年額課金にアップグレードできるようになりました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2675,9 +2675,9 @@
     {
       "id": "2025-08-12-apps-1m-token-context-window",
       "date": "2025-08-12",
-      "title": "1M token context window",
-      "titleEn": "",
-      "description": "The 1M token context window for Claude Sonnet 4 is currently in beta for API organizations in usage tier 4, or with custom rate limits. See 1M token context window in our docs for more information.",
+      "title": "1M token context window — 100万トークンのコンテキスト対応",
+      "titleEn": "1M token context window",
+      "description": "Claude Sonnet 4 の 1M token context window が、usage tier 4 またはカスタムレート制限を持つ API 組織向けにベータ提供中です。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2693,9 +2693,9 @@
     {
       "id": "2025-08-11-apps-ability-to-search-past-conversations",
       "date": "2025-08-11",
-      "title": "Ability to search past conversations",
-      "titleEn": "",
-      "description": "Users on Max, Team, Enterprise plans can prompt Claude to search over past chats, allowing finer-grained context continuation and synthesizing across topics. See Searching past chats.",
+      "title": "過去の会話検索機能",
+      "titleEn": "Ability to search past conversations",
+      "description": "Max・Team・Enterprise プランのユーザーが過去のチャットを検索し、よりきめ細かいコンテキスト継続やトピック横断の統合が可能になりました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2711,9 +2711,9 @@
     {
       "id": "2025-08-06-apps-claude-code-security-reviews",
       "date": "2025-08-06",
-      "title": "Claude Code Security Reviews",
-      "titleEn": "",
-      "description": "Two new cybersecurity features were added to Claude Code: See Automated Security Reviews in Claude Code.",
+      "title": "Claude Code セキュリティレビュー",
+      "titleEn": "Claude Code Security Reviews",
+      "description": "Claude Code に2つの新しいサイバーセキュリティ機能が追加されました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2729,9 +2729,9 @@
     {
       "id": "2025-08-05-apps-claude-opus-4-1",
       "date": "2025-08-05",
-      "title": "Claude Opus 4.1",
-      "titleEn": "",
-      "description": "Claude Opus 4.1 (an incremental update to Opus 4) brings enhanced performance as our most capable model for complex reasoning, analysis, and creative tasks.",
+      "title": "Claude Opus 4.1 リリース",
+      "titleEn": "Claude Opus 4.1",
+      "description": "Claude Opus 4.1（Opus 4 のインクリメンタルアップデート）が、複雑な推論、分析、クリエイティブタスクで最も高い性能を発揮するモデルとして強化されました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2747,9 +2747,9 @@
     {
       "id": "2025-08-01-apps-project-sharing",
       "date": "2025-08-01",
-      "title": "Project Sharing",
-      "titleEn": "",
-      "description": "Enabled project permissions and sharing for Team and Enterprise plans. See Organization-wide sharing for more information.",
+      "title": "プロジェクト共有",
+      "titleEn": "Project Sharing",
+      "description": "Team・Enterprise プラン向けにプロジェクトの権限設定と共有を有効にしました。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -2765,9 +2765,9 @@
     {
       "id": "2026-03-26-claude-code-v2-1-84",
       "date": "2026-03-26",
-      "title": "Claude Code v2.1.84",
+      "title": "Claude Code v2.1.84 — Windows 向け PowerShell ツール（opt-in プレビュー）",
       "titleEn": "Claude Code v2.1.84",
-      "description": "Added PowerShell tool for Windows as an opt-in preview. L...、Added `ANTHROPIC_DEFAULT_{OPUS,SONNET,HAIKU}_MODEL_SUPPOR...、Added `CLAUDE_STREAM_IDLE_TIMEOUT_MS` env var to configur...",
+      "description": "Windows 向けに PowerShell ツールを opt-in プレビューとして追加。ANTHROPIC_DEFAULT_{OPUS,SONNET,HAIKU}_MODEL_SUPPOR... 環境変数を追加。CLAUDE_STREAM_IDLE_TIMEOUT_MS 環境変数でストリームアイドルタイムアウトを設定可能に。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2784,9 +2784,9 @@
     {
       "id": "2026-03-25-claude-code-v2-1-83",
       "date": "2026-03-25",
-      "title": "Claude Code v2.1.83",
+      "title": "Claude Code v2.1.83 — managed-settings.d/ ドロップインディレクトリ追加",
       "titleEn": "Claude Code v2.1.83",
-      "description": "Added `managed-settings.d/` drop-in directory alongside `...、Added `CwdChanged` and `FileChanged` hook events for reac...、Added `sandbox.failIfUnavailable` setting to exit with an...",
+      "description": "managed-settings.d/ ドロップインディレクトリを追加。CwdChanged と FileChanged hook イベントを追加。sandbox.failIfUnavailable 設定でサンドボックスが利用不可の場合にエラー終了する機能を追加。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2803,9 +2803,9 @@
     {
       "id": "2026-03-19-claude-code-v2-1-80",
       "date": "2026-03-19",
-      "title": "Claude Code v2.1.80",
+      "title": "Claude Code v2.1.80 — レート制限表示・プラグインマーケットプレイスソース",
       "titleEn": "Claude Code v2.1.80",
-      "description": "Added `rate_limits` field to statusline scripts for displ...、Added `source: 'settings'` plugin marketplace source、Added CLI tool usage detection to plugin tips, in additio...",
+      "description": "statusline スクリプト用の rate_limits フィールドを追加。source: 'settings' プラグインマーケットプレイスソースを追加。CLI ツール使用検出をプラグインヒントに追加。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2822,9 +2822,9 @@
     {
       "id": "2026-03-18-claude-code-v2-1-79",
       "date": "2026-03-18",
-      "title": "Claude Code v2.1.79",
+      "title": "Claude Code v2.1.79 — claude auth login に --console フラグ追加",
       "titleEn": "Claude Code v2.1.79",
-      "description": "Added `--console` flag to `claude auth login` for Anthrop...、Added \"Show turn duration\" toggle to the `/config` menu、Fixed `claude -p` hanging when spawned as a subprocess wi...",
+      "description": "claude auth login に Anthropic 向け --console フラグを追加。/config メニューに \"Show turn duration\" トグルを追加。claude -p がサブプロセスとして起動した際にハングする問題を修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2841,9 +2841,9 @@
     {
       "id": "2026-03-17-claude-code-v2-1-78",
       "date": "2026-03-17",
-      "title": "Claude Code v2.1.78",
+      "title": "Claude Code v2.1.78 — StopFailure hook イベント・スキルのフロントマター拡張",
       "titleEn": "Claude Code v2.1.78",
-      "description": "Added `StopFailure` hook event that fires when the turn e...、Added `${CLAUDE_PLUGIN_DATA}` variable for plugin persist...、Added `effort`, `maxTurns`, and `disallowedTools` frontma...",
+      "description": "ターンがエラーで終了した際に発火する StopFailure hook イベントを追加。プラグイン永続化用の ${CLAUDE_PLUGIN_DATA} 変数を追加。スキルのフロントマターに effort、maxTurns、disallowedTools を追加。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2860,9 +2860,9 @@
     {
       "id": "2026-03-12-claude-code-v2-1-75",
       "date": "2026-03-12",
-      "title": "Claude Code v2.1.75",
+      "title": "Claude Code v2.1.75 — Opus 4.6 で 1M context window をデフォルト有効化",
       "titleEn": "Claude Code v2.1.75",
-      "description": "Added 1M context window for Opus 4.6 by default for Max, ...、Added `/color` command for all users to set a prompt-bar ...、Added session name display on the prompt bar when using `...",
+      "description": "Max、Team 等のユーザー向けに Opus 4.6 の 1M context window をデフォルトで有効化。全ユーザー向け /color コマンドでプロンプトバーの色をカスタマイズ可能に。--session 使用時にプロンプトバーにセッション名を表示。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2879,9 +2879,9 @@
     {
       "id": "2026-03-12-claude-code-v2-1-74",
       "date": "2026-03-12",
-      "title": "Claude Code v2.1.74",
+      "title": "Claude Code v2.1.74 — /context コマンドの改善・メモリリーク修正",
       "titleEn": "Claude Code v2.1.74",
-      "description": "Added actionable suggestions to `/context` command、Added `autoMemoryDirectory` setting to configure a custom...、Fixed memory leak where streaming API response buffers we...",
+      "description": "/context コマンドにアクション可能な提案を追加。autoMemoryDirectory 設定でカスタムメモリディレクトリを設定可能に。ストリーミング API レスポンスバッファのメモリリークを修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2898,9 +2898,9 @@
     {
       "id": "2026-03-11-claude-code-v2-1-73",
       "date": "2026-03-11",
-      "title": "Claude Code v2.1.73",
+      "title": "Claude Code v2.1.73 — modelOverrides 設定・CPU 100% フリーズ修正",
       "titleEn": "Claude Code v2.1.73",
-      "description": "Added `modelOverrides` setting to map model picker entrie...、Added actionable guidance when OAuth login or connectivit...、Fixed freezes and 100% CPU loops triggered by permission ...",
+      "description": "modelOverrides 設定でモデルピッカーのエントリをマッピング可能に。OAuth ログインや接続エラー時のアクション可能なガイダンスを追加。パーミッションダイアログによるフリーズと CPU 100% ループを修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2917,9 +2917,9 @@
     {
       "id": "2026-03-10-claude-code-v2-1-72",
       "date": "2026-03-10",
-      "title": "Claude Code v2.1.72",
+      "title": "Claude Code v2.1.72 — /plan への説明引数・tool search 修正",
       "titleEn": "Claude Code v2.1.72",
-      "description": "Fixed tool search to activate even with `ANTHROPIC_BASE_U...、Added `w` key in `/copy` to write the focused selection d...、Added optional description argument to `/plan` (e.g., `/p...",
+      "description": "ANTHROPIC_BASE_URL 使用時にも tool search が動作するよう修正。/copy で w キーを押すとフォーカスされた選択をファイルに書き出す機能を追加。/plan にオプションの説明引数を追加（例: /plan Add a login page）。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2936,9 +2936,9 @@
     {
       "id": "2026-03-07-claude-code-v2-1-71",
       "date": "2026-03-07",
-      "title": "Claude Code v2.1.71",
+      "title": "Claude Code v2.1.71 — /loop コマンド・cron スケジューリング",
       "titleEn": "Claude Code v2.1.71",
-      "description": "Added `/loop` command to run a prompt or slash command on...、Added cron scheduling tools for recurring prompts within ...、Added `voice:pushToTalk` keybinding to make the voice act...",
+      "description": "/loop コマンドでプロンプトやスラッシュコマンドを繰り返し実行可能に。定期プロンプト用の cron スケジューリングツールを追加。voice:pushToTalk キーバインディングで音声入力の起動をカスタマイズ可能に。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2955,9 +2955,9 @@
     {
       "id": "2026-03-06-claude-code-v2-1-70",
       "date": "2026-03-06",
-      "title": "Claude Code v2.1.70",
+      "title": "Claude Code v2.1.70 — ANTHROPIC_BASE_URL 使用時の API 400 エラー修正",
       "titleEn": "Claude Code v2.1.70",
-      "description": "Fixed API 400 errors when using `ANTHROPIC_BASE_URL` with...、Fixed `API Error: 400 This model does not support the eff...、Fixed empty model responses immediately after `ToolSearch`",
+      "description": "ANTHROPIC_BASE_URL 使用時の API 400 エラーを修正。effort パラメータ非対応モデルでの 400 エラーを修正。ToolSearch 直後にモデルレスポンスが空になる問題を修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2974,9 +2974,9 @@
     {
       "id": "2026-03-05-claude-code-v2-1-69",
       "date": "2026-03-05",
-      "title": "Claude Code v2.1.69",
+      "title": "Claude Code v2.1.69 — /claude-api スキル・テンキーサポート",
       "titleEn": "Claude Code v2.1.69",
-      "description": "Added the `/claude-api` skill for building applications w...、Added Ctrl+U on an empty bash prompt (`!`) to exit bash m...、Added numeric keypad support for selecting options in Cla...",
+      "description": "Claude API を使ったアプリケーション構築用の /claude-api スキルを追加。空の bash プロンプト（!）で Ctrl+U により bash モードを終了可能に。Claude Code のオプション選択でテンキー入力をサポート。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -2993,9 +2993,9 @@
     {
       "id": "2026-03-04-claude-code-v2-1-68",
       "date": "2026-03-04",
-      "title": "Claude Code v2.1.68",
+      "title": "Claude Code v2.1.68 — Opus 4.6 デフォルト effort を medium に変更",
       "titleEn": "Claude Code v2.1.68",
-      "description": "Opus 4.6 now defaults to medium effort for Max and Team s...、Re-introduced the \"ultrathink\" keyword to enable high eff...、Removed Opus 4 and 4.1 from Claude Code on the first-part...",
+      "description": "Max・Team サブスクリプションで Opus 4.6 のデフォルト effort を medium に変更。\"ultrathink\" キーワードで high effort を有効にする機能を再導入。ファーストパーティ API での Opus 4 / 4.1 を削除。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3012,9 +3012,9 @@
     {
       "id": "2026-03-04-claude-code-v2-1-66",
       "date": "2026-03-04",
-      "title": "Claude Code v2.1.66",
+      "title": "Claude Code v2.1.66 — 不要なエラーログの削減",
       "titleEn": "Claude Code v2.1.66",
-      "description": "Reduced spurious error logging",
+      "description": "不要なエラーログの出力を削減しました。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3031,9 +3031,9 @@
     {
       "id": "2026-02-28-claude-code-v2-1-63",
       "date": "2026-02-28",
-      "title": "Claude Code v2.1.63",
+      "title": "Claude Code v2.1.63 — /simplify・/batch コマンド追加",
       "titleEn": "Claude Code v2.1.63",
-      "description": "Added `/simplify` and `/batch` bundled slash commands、Fixed local slash command output like /cost appearing as ...、Project configs & auto memory now shared across git workt...",
+      "description": "/simplify と /batch のバンドルスラッシュコマンドを追加。/cost などのローカルスラッシュコマンド出力がユーザーメッセージとして表示される問題を修正。プロジェクト設定と自動メモリが git worktree 間で共有されるように。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3050,9 +3050,9 @@
     {
       "id": "2026-02-26-claude-code-v2-1-59",
       "date": "2026-02-26",
-      "title": "Claude Code v2.1.59",
+      "title": "Claude Code v2.1.59 — 自動メモリ保存・/copy コマンド",
       "titleEn": "Claude Code v2.1.59",
-      "description": "Claude automatically saves useful context to auto-memory....、Added `/copy` command to show an interactive picker when ...、Improved \"always allow\" prefix suggestions for compound b...",
+      "description": "Claude が有用なコンテキストを自動的に auto-memory に保存するようになりました。/copy コマンドで複数の選択候補からインタラクティブに選択可能に。複合 bash コマンドの \"always allow\" プレフィックス提案を改善。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3069,9 +3069,9 @@
     {
       "id": "2026-02-25-claude-code-v2-1-58",
       "date": "2026-02-25",
-      "title": "Claude Code v2.1.58",
+      "title": "Claude Code v2.1.58 — Remote Control の対象ユーザー拡大",
       "titleEn": "Claude Code v2.1.58",
-      "description": "Expand Remote Control to more users",
+      "description": "Remote Control をより多くのユーザーに拡大しました。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3088,9 +3088,9 @@
     {
       "id": "2026-02-25-claude-code-v2-1-56",
       "date": "2026-02-25",
-      "title": "Claude Code v2.1.56",
+      "title": "Claude Code v2.1.56 — VS Code 拡張機能のクラッシュ修正",
       "titleEn": "Claude Code v2.1.56",
-      "description": "VS Code: Fixed another cause of \"command 'claude-vscode.e...",
+      "description": "VS Code で \"command 'claude-vscode.e...\" エラーが発生する別の原因を修正しました。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3107,9 +3107,9 @@
     {
       "id": "2026-02-25-claude-code-v2-1-53",
       "date": "2026-02-25",
-      "title": "Claude Code v2.1.53",
+      "title": "Claude Code v2.1.53 — UI フリッカー修正・グレースフルシャットダウン改善",
       "titleEn": "Claude Code v2.1.53",
-      "description": "Fixed a UI flicker where user input would briefly disappe...、Fixed bulk agent kill (ctrl+f) to send a single aggregate...、Fixed graceful shutdown sometimes leaving stale sessions ...",
+      "description": "ユーザー入力が一瞬消えて再表示される UI フリッカーを修正。一括エージェント kill（Ctrl+F）が単一の集約メッセージを送信するよう修正。グレースフルシャットダウンで古いセッションが残る問題を修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3126,9 +3126,9 @@
     {
       "id": "2026-02-24-claude-code-v2-1-52",
       "date": "2026-02-24",
-      "title": "Claude Code v2.1.52",
+      "title": "Claude Code v2.1.52 — Windows での VS Code 拡張機能クラッシュ修正",
       "titleEn": "Claude Code v2.1.52",
-      "description": "VS Code: Fixed extension crash on Windows (\"command 'clau...",
+      "description": "Windows での VS Code 拡張機能クラッシュ（\"command 'clau...\" エラー）を修正しました。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3145,9 +3145,9 @@
     {
       "id": "2026-02-24-claude-code-v2-1-51",
       "date": "2026-02-24",
-      "title": "Claude Code v2.1.51",
+      "title": "Claude Code v2.1.51 — claude remote-control サブコマンド追加",
       "titleEn": "Claude Code v2.1.51",
-      "description": "Added `claude remote-control` subcommand for external bui...、Updated plugin marketplace default git timeout from 30s t...、Added support for custom npm registries and specific vers...",
+      "description": "外部ビルドツール用の claude remote-control サブコマンドを追加。プラグインマーケットプレイスのデフォルト git タイムアウトを 30 秒から 60 秒に変更。カスタム npm レジストリと特定バージョン指定をサポート。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3164,9 +3164,9 @@
     {
       "id": "2026-02-20-claude-code-v2-1-50",
       "date": "2026-02-20",
-      "title": "Claude Code v2.1.50",
-      "titleEn": "Claude Code v2.1.50",
-      "description": "Added support for `startupTimeout` configuration for LSP ...、Added `WorktreeCreate` and `WorktreeRemove` hook events, ...、Fixed a bug where resumed sessions could be invisible whe...",
+      "title": "Claude Code v2.1.50 — LSP startupTimeout・WorktreeCreate/Remove hook 追加",
+      "titleEn": "Claude Code v2.1.50 — LSP startupTimeout, WorktreeCreate/Remove hook",
+      "description": "LSP サーバーの startupTimeout 設定をサポート。WorktreeCreate と WorktreeRemove hook イベントを追加。セッション再開時に不可視になるバグを修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3183,9 +3183,9 @@
     {
       "id": "2026-02-19-claude-code-v2-1-49",
       "date": "2026-02-19",
-      "title": "Claude Code v2.1.49",
+      "title": "Claude Code v2.1.49 — MCP OAuth 改善・--worktree フラグ",
       "titleEn": "Claude Code v2.1.49",
-      "description": "Improved MCP OAuth authentication with step-up auth suppo...、Added `--worktree` (`-w`) flag to start Claude in an isol...、Subagents support `isolation: \"worktree\"` for working in ...",
+      "description": "MCP OAuth 認証でステップアップ認証をサポート。--worktree（-w）フラグで隔離された worktree で Claude を起動可能に。サブエージェントが isolation: \"worktree\" で独立した worktree での作業をサポート。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3202,9 +3202,9 @@
     {
       "id": "2026-02-18-claude-code-v2-1-47",
       "date": "2026-02-18",
-      "title": "Claude Code v2.1.47",
+      "title": "Claude Code v2.1.47 — FileWriteTool 行カウント修正・VS Code プランプレビュー改善",
       "titleEn": "Claude Code v2.1.47",
-      "description": "Fixed FileWriteTool line counting to preserve intentional...、Fixed Windows terminal rendering bugs caused by `os.EOL` ...、Improved VS Code plan preview: auto-updates as Claude ite...",
+      "description": "FileWriteTool の行カウントで意図的な空行が保持されるよう修正。Windows でのターミナルレンダリングバグ（os.EOL 起因）を修正。VS Code プランプレビューが Claude のイテレーションに合わせて自動更新されるよう改善。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3221,9 +3221,9 @@
     {
       "id": "2026-02-17-claude-code-v2-1-45",
       "date": "2026-02-17",
-      "title": "Claude Code v2.1.45",
+      "title": "Claude Code v2.1.45 — Claude Sonnet 4.6 対応",
       "titleEn": "Claude Code v2.1.45",
-      "description": "Added support for Claude Sonnet 4.6、Added support for reading `enabledPlugins` and `extraKnow...、Added `spinnerTipsOverride` setting to customize spinner ...",
+      "description": "Claude Sonnet 4.6 のサポートを追加。enabledPlugins と extraKnow... の読み取りをサポート。spinnerTipsOverride 設定でスピナーのヒントをカスタマイズ可能に。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3240,9 +3240,9 @@
     {
       "id": "2026-02-13-claude-code-v2-1-42",
       "date": "2026-02-13",
-      "title": "Claude Code v2.1.42",
+      "title": "Claude Code v2.1.42 — 起動パフォーマンス改善・Opus 4.6 effort コールアウト",
       "titleEn": "Claude Code v2.1.42",
-      "description": "Improved startup performance by deferring Zod schema cons...、Improved prompt cache hit rates by moving date out of sys...、Added one-time Opus 4.6 effort callout for eligible users",
+      "description": "Zod スキーマ構築の遅延化で起動パフォーマンスを改善。システムプロンプトから日付を移動し prompt cache ヒット率を改善。対象ユーザーへの Opus 4.6 effort コールアウトを追加。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3259,9 +3259,9 @@
     {
       "id": "2026-02-13-claude-code-v2-1-41",
       "date": "2026-02-13",
-      "title": "Claude Code v2.1.41",
+      "title": "Claude Code v2.1.41 — ネスト起動ガード・Agent Teams 修正",
       "titleEn": "Claude Code v2.1.41",
-      "description": "Added guard against launching Claude Code inside another ...、Fixed Agent Teams using wrong model identifier for Bedroc...、Fixed a crash when MCP tools return image content during ...",
+      "description": "Claude Code 内部から Claude Code を起動するのを防止するガードを追加。Agent Teams で Bedrock 用のモデル識別子が間違っていた問題を修正。MCP ツールが画像コンテンツを返す際のクラッシュを修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3278,9 +3278,9 @@
     {
       "id": "2026-02-10-claude-code-v2-1-39",
       "date": "2026-02-10",
-      "title": "Claude Code v2.1.39",
+      "title": "Claude Code v2.1.39 — ターミナルレンダリングパフォーマンス改善",
       "titleEn": "Claude Code v2.1.39",
-      "description": "Improved terminal rendering performance、Fixed fatal errors being swallowed instead of displayed、Fixed process hanging after session close",
+      "description": "ターミナルレンダリングパフォーマンスを改善。致命的エラーが表示されず飲み込まれる問題を修正。セッションクローズ後にプロセスがハングする問題を修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3297,9 +3297,9 @@
     {
       "id": "2026-02-10-claude-code-v2-1-38",
       "date": "2026-02-10",
-      "title": "Claude Code v2.1.38",
+      "title": "Claude Code v2.1.38 — VS Code ターミナルスクロール修正・Tab キー修正",
       "titleEn": "Claude Code v2.1.38",
-      "description": "Fixed VS Code terminal scroll-to-top regression introduce...、Fixed Tab key queueing slash commands instead of autocomp...、Fixed bash permission matching for commands using environ...",
+      "description": "VS Code ターミナルのスクロールトップリグレッションを修正。Tab キーがオートコンプリートではなくスラッシュコマンドをキューする問題を修正。環境変数を使用する bash コマンドのパーミッションマッチングを修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3316,9 +3316,9 @@
     {
       "id": "2026-02-07-claude-code-v2-1-36",
       "date": "2026-02-07",
-      "title": "Claude Code v2.1.36",
+      "title": "Claude Code v2.1.36 — Opus 4.6 向け fast mode が利用可能に",
       "titleEn": "Claude Code v2.1.36",
-      "description": "Fast mode is now available for Opus 4.6. Learn more at ht...",
+      "description": "Opus 4.6 向けの fast mode が利用可能になりました。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3335,9 +3335,9 @@
     {
       "id": "2026-02-06-claude-code-v2-1-33",
       "date": "2026-02-06",
-      "title": "Claude Code v2.1.33",
+      "title": "Claude Code v2.1.33 — tmux でのエージェントチームメイトセッション修正",
       "titleEn": "Claude Code v2.1.33",
-      "description": "Fixed agent teammate sessions in tmux to send and receive...、Fixed warnings about agent teams not being available on y...、Added `TeammateIdle` and `TaskCompleted` hook events for ...",
+      "description": "tmux 内でのエージェントチームメイトセッションの送受信を修正。Agent teams が利用できないことに関する警告を修正。TeammateIdle と TaskCompleted hook イベントを追加。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3354,9 +3354,9 @@
     {
       "id": "2026-02-05-claude-code-v2-1-32",
       "date": "2026-02-05",
-      "title": "Claude Code v2.1.32",
+      "title": "Claude Code v2.1.32 — Claude Opus 4.6 対応・Agent teams・自動メモリ",
       "titleEn": "Claude Code v2.1.32",
-      "description": "Claude Opus 4.6 is now available!、Added research preview agent teams feature for multi-agen...、Claude now automatically records and recalls memories as ...",
+      "description": "Claude Opus 4.6 が利用可能になりました。マルチエージェント協調用のリサーチプレビュー Agent teams 機能を追加。Claude が自動的にメモリを記録・呼び出しするようになりました。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3373,9 +3373,9 @@
     {
       "id": "2026-02-04-claude-code-v2-1-31",
       "date": "2026-02-04",
-      "title": "Claude Code v2.1.31",
+      "title": "Claude Code v2.1.31 — セッション再開ヒント・全角スペースサポート",
       "titleEn": "Claude Code v2.1.31",
-      "description": "Added session resume hint on exit, showing how to continu...、Added support for full-width (zenkaku) space input from J...、Fixed PDF too large errors permanently locking up session...",
+      "description": "終了時にセッション再開方法のヒントを表示。日本語 IME からの全角（ぜんかく）スペース入力をサポート。PDF が大きすぎるエラーでセッションが永続的にロックする問題を修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3392,9 +3392,9 @@
     {
       "id": "2026-02-03-claude-code-v2-1-30",
       "date": "2026-02-03",
-      "title": "Claude Code v2.1.30",
+      "title": "Claude Code v2.1.30 — PDF のページ指定読み取り・MCP OAuth・/debug",
       "titleEn": "Claude Code v2.1.30",
-      "description": "Added `pages` parameter to the Read tool for PDFs, allowi...、Added pre-configured OAuth client credentials for MCP ser...、Added `/debug` for Claude to help troubleshoot the curren...",
+      "description": "Read ツールに PDF 用の pages パラメータを追加し、特定ページの読み取りが可能に。MCP サーバー用の事前設定 OAuth クライアント認証情報を追加。現在のセッションのトラブルシューティング用 /debug コマンドを追加。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3411,9 +3411,9 @@
     {
       "id": "2026-01-30-claude-code-v2-1-27",
       "date": "2026-01-30",
-      "title": "Claude Code v2.1.27",
+      "title": "Claude Code v2.1.27 — --from-pr フラグ・デバッグログ改善",
       "titleEn": "Claude Code v2.1.27",
-      "description": "Added tool call failures and denials to debug logs、Fixed context management validation error for gateway use...、Added `--from-pr` flag to resume sessions linked to a spe...",
+      "description": "ツール呼び出しの失敗と拒否をデバッグログに追加。ゲートウェイユーザー向けのコンテキスト管理バリデーションエラーを修正。特定の PR にリンクされたセッションを再開する --from-pr フラグを追加。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3430,9 +3430,9 @@
     {
       "id": "2026-01-29-claude-code-v2-1-23",
       "date": "2026-01-29",
-      "title": "Claude Code v2.1.23",
+      "title": "Claude Code v2.1.23 — スピナー動詞カスタマイズ・mTLS/プロキシ修正",
       "titleEn": "Claude Code v2.1.23",
-      "description": "Added customizable spinner verbs setting (`spinnerVerbs`)、Fixed mTLS and proxy connectivity for users behind corpor...、Fixed per-user temp directory isolation to prevent permis...",
+      "description": "カスタマイズ可能なスピナー動詞設定（spinnerVerbs）を追加。企業プロキシ配下のユーザー向けに mTLS とプロキシ接続を修正。パーミッション衝突を防止するためのユーザーごと一時ディレクトリ分離を修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3449,9 +3449,9 @@
     {
       "id": "2026-01-28-claude-code-v2-1-21",
       "date": "2026-01-28",
-      "title": "Claude Code v2.1.21",
+      "title": "Claude Code v2.1.21 — 全角数字入力サポート・シェル補完修正",
       "titleEn": "Claude Code v2.1.21",
-      "description": "Added support for full-width (zenkaku) number input from ...、Fixed shell completion cache files being truncated on exit、Fixed API errors when resuming sessions that were interru...",
+      "description": "日本語 IME からの全角（ぜんかく）数字入力をサポート。終了時にシェル補完キャッシュファイルが切り詰められる問題を修正。中断されたセッションの再開時に API エラーが発生する問題を修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3468,9 +3468,9 @@
     {
       "id": "2026-01-27-claude-code-v2-1-20",
       "date": "2026-01-27",
-      "title": "Claude Code v2.1.20",
+      "title": "Claude Code v2.1.20 — vim ノーマルモードでの矢印キー履歴・PR レビューステータス",
       "titleEn": "Claude Code v2.1.20",
-      "description": "Added arrow key history navigation in vim normal mode whe...、Added external editor shortcut (Ctrl+G) to the help menu ...、Added PR review status indicator to the prompt footer, sh...",
+      "description": "vim ノーマルモードでの矢印キー履歴ナビゲーションを追加。外部エディタショートカット（Ctrl+G）をヘルプメニューに追加。PR レビューステータスインジケーターをプロンプトフッターに追加。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3487,9 +3487,9 @@
     {
       "id": "2026-03-25-apps-interactive-apps-in-claude-for-ios-and-android",
       "date": "2026-03-25",
-      "title": "Interactive apps in Claude for iOS and Android",
-      "titleEn": "",
-      "description": "The Claude mobile app can now connect to fully interactive apps. Pull up live charts, sketch diagrams, and build shareable assets, all rendered visually right in your conversation. For more information, see Use interactive connectors in Claude.",
+      "title": "iOS / Android 版 Claude でインタラクティブアプリに対応",
+      "titleEn": "Interactive apps in Claude for iOS and Android",
+      "description": "Claude モバイルアプリがインタラクティブアプリに接続できるようになりました。ライブチャート、ダイアグラムの作成、共有可能なアセットの構築が会話内でビジュアルにレンダリングされます。",
       "source": "apps",
       "platforms": [
         "claude-ai",
@@ -3506,9 +3506,9 @@
     {
       "id": "2026-03-26-claude-code-v2-1-85",
       "date": "2026-03-26",
-      "title": "Claude Code v2.1.85",
+      "title": "Claude Code v2.1.85 — hooks に条件付き if フィールド追加",
       "titleEn": "Claude Code v2.1.85",
-      "description": "Added `CLAUDE_CODE_MCP_SERVER_NAME` and `CLAUDE_CODE_MCP_...、Added conditional `if` field for hooks using permission r...、Added timestamp markers in transcripts when scheduled tas...",
+      "description": "CLAUDE_CODE_MCP_SERVER_NAME と CLAUDE_CODE_MCP_ 環境変数を追加。Hooks に permission ルールを使用する条件付き if フィールドを追加。スケジュールタスク実行時にトランスクリプトにタイムスタンプマーカーを追加。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3525,9 +3525,9 @@
     {
       "id": "2026-03-27-claude-code-v2-1-86",
       "date": "2026-03-27",
-      "title": "Claude Code v2.1.86",
+      "title": "Claude Code v2.1.86 — API リクエストにセッション ID ヘッダー追加",
       "titleEn": "Claude Code v2.1.86",
-      "description": "Added `X-Claude-Code-Session-Id` header to API requests s...、Added `.jj` and `.sl` to VCS directory exclusion lists so...、Fixed `--resume` failing with \"tool_use ids were found wi...",
+      "description": "API リクエストに X-Claude-Code-Session-Id ヘッダーを追加。.jj と .sl を VCS ディレクトリ除外リストに追加。--resume で \"tool_use ids were found wi...\" エラーが出る問題を修正。",
       "source": "code",
       "platforms": [
         "claude-code-cli",
@@ -3544,9 +3544,9 @@
     {
       "id": "2026-03-30-platform-march-30-2026",
       "date": "2026-03-30",
-      "title": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Cla...",
+      "title": "Claude Sonnet 4.5 / Sonnet 4 の 1M context window ベータ終了予告",
       "titleEn": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Cla...",
-      "description": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 onApril 30, 2026. After that date, requests that include thecontext-1m-2025-08-07beta header on these models will return a 400 error. To continue using 1M context windows, migrate toClaude Sonnet 4.6orClaude Opus 4.6, which support the full 1M token context window at standard pricing with no beta header required.",
+      "description": "Claude Sonnet 4.5 および Claude Sonnet 4 の 1M token context window ベータを2026年4月30日に終了します。この日以降、これらのモデルで context-1m-2025-08-07 ベータヘッダーを含むリクエストは 400 エラーを返します。1M context window を引き続き使用するには、Claude Sonnet 4.6 または Claude Opus 4.6 に移行してください。これらのモデルではベータヘッダー不要で標準料金にて 1M token context window を利用できます。",
       "source": "platform",
       "platforms": [
         "api"
