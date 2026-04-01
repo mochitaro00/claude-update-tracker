@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-01",
+    "lastUpdated": "2026-04-02",
     "version": "1.0.0"
   },
   "updates": [
@@ -3879,6 +3879,25 @@
         "code"
       ],
       "link": "https://claude.com/blog/preview-review-and-merge-with-claude-code"
+    },
+    {
+      "id": "2026-04-01-claude-code-v2-1-89",
+      "date": "2026-04-01",
+      "title": "クロード コード v2.1.89",
+      "titleEn": "Claude Code v2.1.89",
+      "description": "`PreToolUse` フックに `\"defer\"` 権限の決定を追加、`CLAUDE_CODE_NO_FLICKER=1` 環境変数を ... に追加、自動モード後に起動する `PermissionDenied` フックを追加 ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.89"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
