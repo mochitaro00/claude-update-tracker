@@ -405,8 +405,51 @@ def fetch_apps_notes():
 # ============================================================
 # Source 4: Claude Blog (claude.com/blog)
 # ============================================================
+def is_product_update(title):
+    """ブログ記事タイトルが製品アップデートかどうかを判定する。
+    思想系・教育系・イベント告知などを除外する。"""
+    t = title.lower()
+
+    # 製品アップデートを示すキーワード（いずれか含めばOK）
+    update_keywords = [
+        "release", "released", "launch", "launched",
+        "announcing", "announced", "introducing",
+        "now available", "generally available",
+        "now supports", "now creates", "now includes",
+        "update", "upgrade",
+        "bringing", "comes to claude",  # "Bringing X to Claude Code"
+        "donated",  # MCP donated etc.
+        "new feature", "new model",
+    ]
+    # 製品名 + 動作の組み合わせ（"Claude Code now ..." など）
+    product_action_patterns = [
+        r"claude\s+(code|desktop|mobile|gov)\b",  # Claude + 製品名
+        r"(opus|sonnet|haiku)\s+\d",  # モデル名 + バージョン
+        r"\bcowork\b",  # Cowork機能
+        r"\bmcp\b",  # MCP
+        r"\bcompliance api\b",
+        r"\bplugins?\b",
+        r"\bcode review\b",
+        r"\bcomputer use\b",
+        r"\bauto mode\b",
+        r"\b\d+[mk]\s+context\b",  # "1M context"
+        r"\bcharts?\b.*\bdiagrams?\b|\bvisualizations?\b",
+        r"\bexcel\b|\bpowerpoint\b",
+        r"\bpreview\b.*\breview\b.*\bmerge\b",
+    ]
+
+    for kw in update_keywords:
+        if kw in t:
+            return True
+    for pat in product_action_patterns:
+        if re.search(pat, t):
+            return True
+
+    return False
+
+
 def fetch_blog_posts():
-    """Claude ブログの記事一覧をスクレイピング"""
+    """Claude ブログの記事一覧をスクレイピング（製品アップデートのみ）"""
     import requests
     from bs4 import BeautifulSoup
 
@@ -427,6 +470,11 @@ def fetch_blog_posts():
             continue
         title = title_el.get_text(strip=True)
         if not title:
+            continue
+
+        # 製品アップデート以外の記事はスキップ
+        if not is_product_update(title):
+            log(f"  SKIP (非アップデート): {title}")
             continue
 
         # リンク取得
