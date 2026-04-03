@@ -4,13 +4,22 @@
   },
   "posts": [
     {
-      "id": "2038663014098899416",
-      "date": "2026-03-30",
-      "author": "@claudeai",
-      "authorName": "Claude",
-      "content": "Computer use is now in Claude Code.",
-      "url": "https://x.com/claudeai/status/2038663014098899416",
-      "tags": ["公式", "claude-code", "computer-use"]
+      "id": "2039749628737019925",
+      "date": "2026-04-02",
+      "author": "@AnthropicAI",
+      "authorName": "Anthropic",
+      "content": "New research: Emotion concepts and their function in a large language model.",
+      "url": "https://x.com/AnthropicAI/status/2039749628737019925",
+      "tags": ["公式", "研究"]
+    },
+    {
+      "id": "2039852930371588299",
+      "date": "2026-04-02",
+      "author": "@shota7180",
+      "authorName": "木内翔大＠SHIFT AI代表",
+      "content": "【朗報】Claudeの「computer use」、Windowsでも使えるように！",
+      "url": "https://x.com/shota7180/status/2039852930371588299",
+      "tags": ["ニュース", "computer-use", "windows"]
     },
     {
       "id": "2039836891508261106",
@@ -22,49 +31,31 @@
       "tags": ["公式", "computer-use", "windows"]
     },
     {
-      "id": "2038693742094246032",
-      "date": "2026-03-30",
-      "author": "@claudeai",
-      "authorName": "Claude",
-      "content": "Auto mode for Claude Code is now available on the Enterprise plan and for API users.",
-      "url": "https://x.com/claudeai/status/2038693742094246032",
-      "tags": ["公式", "claude-code"]
+      "id": "2039846779391541708",
+      "date": "2026-04-02",
+      "author": "@claudecode_lab",
+      "authorName": "Claude Code研究所",
+      "content": "Claude Cowork および Claude Code Desktop でのComputer useがついにWindowsでも利用可能に",
+      "url": "https://x.com/claudecode_lab/status/2039846779391541708",
+      "tags": ["公式", "computer-use", "windows"]
     },
     {
-      "id": "2037734820797919379",
-      "date": "2026-03-28",
-      "author": "@fladdict",
-      "authorName": "深津 貴之 / THE GUILD, note",
-      "content": "みんないちいち、SNSに流れるClaude Codeのベスプラに、一喜一憂しなくてもええんやで。",
-      "url": "https://x.com/fladdict/status/2037734820797919379",
-      "tags": ["tips", "claude-code"]
+      "id": "2039462835613520356",
+      "date": "2026-04-01",
+      "author": "@itmedia_news",
+      "authorName": "ITmedia NEWS",
+      "content": "GitHub、「Claude Code」流出コードを削除　AnthropicのDMCA申請受け複数リポジトリに対応",
+      "url": "https://x.com/itmedia_news/status/2039462835613520356",
+      "tags": ["ニュース", "claude-code", "ソースコード流出"]
     },
     {
-      "id": "2037489215341224155",
-      "date": "2026-03-27",
-      "author": "@yoshio_nocode",
-      "authorName": "スモビジ開発ラボ",
-      "content": "週末、無料でClaude Code学ぶなら『claude-howto』がお勧め。",
-      "url": "https://x.com/yoshio_nocode/status/2037489215341224155",
-      "tags": ["tips", "claude-code", "学習"]
-    },
-    {
-      "id": "2038493476506243357",
-      "date": "2026-03-30",
-      "author": "@kenn",
-      "authorName": "Kenn Ejima",
-      "content": "今最強のプログラミング言語は .md なんだよ",
-      "url": "https://x.com/kenn/status/2038493476506243357",
-      "tags": ["tips", "意見"]
-    },
-    {
-      "id": "2038798243535229069",
+      "id": "2038942688545059157",
       "date": "2026-03-31",
-      "author": "@nwiizo",
-      "authorName": "nwiizo",
-      "content": "もうパターン化されたコーディングエージェントの活用方法気持ち悪すぎるんだよ",
-      "url": "https://x.com/nwiizo/status/2038798243535229069",
-      "tags": ["意見", "claude-code"]
+      "author": "@develogon0",
+      "authorName": "デベロゴン",
+      "content": "Claude Code使って、Instagram10垢とTikTok5垢を1ミリも触れないで運営できてるけど、こりゃマジで革命だな。",
+      "url": "https://x.com/develogon0/status/2038942688545059157",
+      "tags": ["使ってみた", "claude-code"]
     },
     {
       "id": "2038989825228095799",
@@ -85,13 +76,58 @@
       "tags": ["使ってみた", "claude-code"]
     },
     {
-      "id": "2039462835613520356",
-      "date": "2026-04-01",
-      "author": "@itmedia_news",
-      "authorName": "ITmedia NEWS",
-      "content": "GitHub、「Claude Code」流出コードを削除　AnthropicのDMCA申請受け複数リポジトリに対応",
-      "url": "https://x.com/itmedia_news/status/2039462835613520356",
-      "tags": ["ニュース", "claude-code", "ソースコード流出"]
+      "id": "2038894956459290963",
+      "date": "2026-03-31",
+      "author": "@Fried_rice",
+      "authorName": "Chaofan Shou",
+      "content": "Claude code source code has been leaked via a map file in their npm registry!",
+      "url": "https://x.com/Fried_rice/status/2038894956459290963",
+      "tags": ["コミュニティ", "claude-code", "ソースコード流出"]
+    },
+    {
+      "id": "2038798243535229069",
+      "date": "2026-03-31",
+      "author": "@nwiizo",
+      "authorName": "nwiizo",
+      "content": "もうパターン化されたコーディングエージェントの活用方法気持ち悪すぎるんだよ",
+      "url": "https://x.com/nwiizo/status/2038798243535229069",
+      "tags": ["意見", "claude-code"]
+    },
+    {
+      "id": "2038663014098899416",
+      "date": "2026-03-30",
+      "author": "@claudeai",
+      "authorName": "Claude",
+      "content": "Computer use is now in Claude Code.",
+      "url": "https://x.com/claudeai/status/2038663014098899416",
+      "tags": ["公式", "claude-code", "computer-use"]
+    },
+    {
+      "id": "2038693742094246032",
+      "date": "2026-03-30",
+      "author": "@claudeai",
+      "authorName": "Claude",
+      "content": "Auto mode for Claude Code is now available on the Enterprise plan and for API users.",
+      "url": "https://x.com/claudeai/status/2038693742094246032",
+      "tags": ["公式", "claude-code"]
+    },
+    {
+      "id": "2038493476506243357",
+      "date": "2026-03-30",
+      "author": "@kenn",
+      "authorName": "Kenn Ejima",
+      "content": "今最強のプログラミング言語は .md なんだよ",
+      "url": "https://x.com/kenn/status/2038493476506243357",
+      "tags": ["tips", "意見"]
+    },
+    {
+      "id": "2037734820797919379",
+      "date": "2026-03-28",
+      "author": "@fladdict",
+      "authorName": "深津 貴之 / THE GUILD, note",
+      "content": "みんないちいち、SNSに流れるClaude Codeのベスプラに、一喜一憂しなくてもええんやで。",
+      "url": "https://x.com/fladdict/status/2037734820797919379",
+      "tags": ["tips", "claude-code"]
     },
     {
       "id": "2037715971134374297",
@@ -103,22 +139,22 @@
       "tags": ["tips", "claude-code"]
     },
     {
-      "id": "2038894956459290963",
-      "date": "2026-03-31",
-      "author": "@Fried_rice",
-      "authorName": "Chaofan Shou",
-      "content": "Claude code source code has been leaked via a map file in their npm registry!",
-      "url": "https://x.com/Fried_rice/status/2038894956459290963",
-      "tags": ["コミュニティ", "claude-code", "ソースコード流出"]
+      "id": "2037653136714993952",
+      "date": "2026-03-27",
+      "author": "@masahirochaen",
+      "authorName": "チャエン | デジライズ CEO",
+      "content": "Claude Codeを使って定型業務を自動化したい人はぜひ読んで欲しい記事です。",
+      "url": "https://x.com/masahirochaen/status/2037653136714993952",
+      "tags": ["tips", "claude-code", "自動化"]
     },
     {
-      "id": "2039846779391541708",
-      "date": "2026-04-02",
-      "author": "@claudecode_lab",
-      "authorName": "Claude Code研究所",
-      "content": "Claude Cowork および Claude Code Desktop でのComputer useがついにWindowsでも利用可能に",
-      "url": "https://x.com/claudecode_lab/status/2039846779391541708",
-      "tags": ["公式", "computer-use", "windows"]
+      "id": "2037489215341224155",
+      "date": "2026-03-27",
+      "author": "@yoshio_nocode",
+      "authorName": "スモビジ開発ラボ",
+      "content": "週末、無料でClaude Code学ぶなら『claude-howto』がお勧め。",
+      "url": "https://x.com/yoshio_nocode/status/2037489215341224155",
+      "tags": ["tips", "claude-code", "学習"]
     }
   ]
 }
