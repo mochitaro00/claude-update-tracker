@@ -14,6 +14,10 @@
   <header class="header">
     <div class="header-inner">
       <h1><span>Claude</span> Update Tracker</h1>
+      <nav class="global-nav">
+        <button class="nav-tab active" data-page="timeline">公式アップデート情報</button>
+        <button class="nav-tab" data-page="x-buzz">話題のXポスト</button>
+      </nav>
       <div class="header-meta">読み込み中...</div>
     </div>
   </header>
@@ -111,6 +115,22 @@
       </div>
     </aside>
 
+  </div>
+
+  <!-- X Buzz Page -->
+  <div class="page-x-buzz" style="display:none;">
+    <div class="x-buzz-container">
+      <div class="x-buzz-header">
+        <h2 class="x-buzz-title">X Buzz</h2>
+        <p class="x-buzz-desc">Claude に関する話題のポスト</p>
+      </div>
+      <div class="x-buzz-filters" id="x-buzz-filters"></div>
+      <div class="x-buzz-loading">
+        <div class="loading-spinner"></div>
+        <p>データを読み込んでいます...</p>
+      </div>
+      <div class="x-buzz-list" id="x-buzz-list"></div>
+    </div>
   </div>
 
   <script type="module" src="js/app.js"></script>

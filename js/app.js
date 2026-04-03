@@ -4,6 +4,7 @@
 
 import { SearchEngine } from "./search.js";
 import { FilterEngine } from "./filters.js?v=2";
+import { XBuzzPage } from "./x-buzz.js";
 
 // --- Platform Group Hierarchy ---
 const GROUPS = {
@@ -86,10 +87,12 @@ function getGroups(platforms) {
 // --- State ---
 const search = new SearchEngine();
 const filters = new FilterEngine();
+const xBuzz = new XBuzzPage();
 let allUpdates = [];
 let lastUpdated = "";
 let debounceTimer = null;
 let currentPage = 1;
+let currentPageName = "timeline";
 
 const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => document.querySelectorAll(sel);
@@ -464,14 +467,21 @@ function escapeHtml(str) {
 // --- URL Hash ---
 function updateHash() {
   const params = new URLSearchParams();
-  const state = filters.getState();
-  const query = $("#search-input").value;
 
-  if (state.groups.length) params.set("g", state.groups.join(","));
-  if (state.subs.length) params.set("s", state.subs.join(","));
-  if (state.categories.length) params.set("c", state.categories.join(","));
-  if (state.os) params.set("os", state.os);
-  if (query) params.set("q", query);
+  if (currentPageName !== "timeline") {
+    params.set("page", currentPageName);
+  }
+
+  if (currentPageName === "timeline") {
+    const state = filters.getState();
+    const query = $("#search-input").value;
+
+    if (state.groups.length) params.set("g", state.groups.join(","));
+    if (state.subs.length) params.set("s", state.subs.join(","));
+    if (state.categories.length) params.set("c", state.categories.join(","));
+    if (state.os) params.set("os", state.os);
+    if (query) params.set("q", query);
+  }
 
   const hash = params.toString();
   history.replaceState(null, "", hash ? `#${hash}` : window.location.pathname);
@@ -482,6 +492,12 @@ function restoreFromHash() {
   if (!hash) return;
 
   const params = new URLSearchParams(hash);
+
+  // Restore page
+  if (params.has("page")) {
+    navigateTo(params.get("page"));
+    return; // X Buzz page doesn't need filter restoration
+  }
 
   if (params.has("g")) {
     const groups = params.get("g").split(",");
@@ -526,9 +542,41 @@ function restoreFromHash() {
   }
 }
 
+// --- Page Navigation ---
+function navigateTo(pageName) {
+  currentPageName = pageName;
+
+  // Update tab UI
+  for (const tab of $$(".nav-tab")) {
+    tab.classList.toggle("active", tab.dataset.page === pageName);
+  }
+
+  // Toggle page visibility
+  const layout = $(".layout");
+  const xBuzzPage = $(".page-x-buzz");
+
+  if (pageName === "timeline") {
+    layout.style.display = "";
+    xBuzzPage.style.display = "none";
+  } else if (pageName === "x-buzz") {
+    layout.style.display = "none";
+    xBuzzPage.style.display = "";
+    xBuzz.init();
+  }
+
+  updateHash();
+}
+
 // --- Event Listeners ---
 document.addEventListener("DOMContentLoaded", () => {
   init();
+
+  // Nav tab clicks
+  for (const tab of $$(".nav-tab")) {
+    tab.addEventListener("click", () => {
+      navigateTo(tab.dataset.page);
+    });
+  }
 
   $("#search-input").addEventListener("input", () => {
     clearTimeout(debounceTimer);
