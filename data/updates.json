@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-04",
+    "lastUpdated": "2026-04-05",
     "version": "1.0.0"
   },
   "updates": [
@@ -3823,6 +3823,25 @@
       "tags": [
         "claude-code",
         "v2.1.91"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-04-claude-code-v2-1-92",
+      "date": "2026-04-04",
+      "title": "クロード コード v2.1.92",
+      "titleEn": "Claude Code v2.1.92",
+      "description": "`forceRemoteSettingsRefresh` ポリシー設定を追加しました: いつ...、そこからアクセスできる対話型の Bedrock セットアップ ウィザードを追加しました...、モデルごとのキャッシュ ヒットの内訳を `/cost` に追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.92"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
