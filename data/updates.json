@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-05",
+    "lastUpdated": "2026-04-08",
     "version": "1.0.0"
   },
   "updates": [
@@ -3844,6 +3844,63 @@
         "v2.1.92"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-07-claude-code-v2-1-94",
+      "date": "2026-04-07",
+      "title": "クロード コード v2.1.94",
+      "titleEn": "Claude Code v2.1.94",
+      "description": "Mantle が提供する Amazon Bedrock のサポートを追加し、「...」を設定し、API のデフォルトのエフォートレベルを中から高に変更しました...、クリック可能なコンパクトな「Slacked #channel」ヘッダーを追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.94"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-07-platform-april-7-2026",
+      "date": "2026-04-07",
+      "title": "Claude Mythos Preview がゲート付きリサーチ プレビューとして利用可能であることを発表しました...",
+      "titleEn": "We announcedClaude Mythos Previewis available as a gated research preview for...",
+      "description": "Claude Mythos Preview が、Project Glasswing の一環として防御サイバーセキュリティ作業のためのゲート型研究プレビューとして利用可能であることを発表しました。アクセスは招待制です。 / TheMessages API は、Amazon Bedrock でリサーチプレビューとして利用できるようになりました。 Amazon Bedrock エンドポイント /anthropic/v1/messages の新しい Claude は、ファーストパーティの Claude API と同じリクエスト形式を使用し、オペレーターアクセスなしで AWS 管理のインフラストラクチャ上で実行されます。 inus-east-1 が利用可能です。 Anthropic アカウント エグゼクティブに連絡してアクセスをリクエストしてください。詳細については、Amazon Bedrock の Claude をご覧ください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#april-7-2026"
+    },
+    {
+      "id": "2026-04-07-blog-how-and-when-to-use-subagents-in-claude-code",
+      "date": "2026-04-07",
+      "title": "クロード コードでサブエージェントをいつどのように使用するか",
+      "titleEn": "How and when to use subagents in Claude Code",
+      "description": "クロード コードでサブエージェントをいつどのように使用するか",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "agent",
+        "code"
+      ],
+      "link": "https://claude.com/blog/subagents-in-claude-code"
     }
   ]
 }
