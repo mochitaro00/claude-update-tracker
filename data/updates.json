@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-08",
+    "lastUpdated": "2026-04-09",
     "version": "1.0.0"
   },
   "updates": [
@@ -3901,6 +3901,43 @@
         "code"
       ],
       "link": "https://claude.com/blog/subagents-in-claude-code"
+    },
+    {
+      "id": "2026-04-08-claude-code-v2-1-97",
+      "date": "2026-04-08",
+      "title": "クロード コード v2.1.97",
+      "titleEn": "Claude Code v2.1.97",
+      "description": "`NO_FLICKER` モードでフォーカス ビューの切り替え (`Ctrl+O`) を追加しました...、再実行するための `refreshInterval` ステータス ライン設定を追加しました...、ステータス ライン JSON に `workspace.git_worktree` を追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.97"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-08-platform-april-8-2026",
+      "date": "2026-04-08",
+      "title": "フルマネージド エージェント ハーネスである Claude Managed Agents をパブリック ベータ版でリリースしました。",
+      "titleEn": "We've launchedClaude Managed Agentsin public beta, a fully managed agent harn...",
+      "description": "安全なサンドボックス、組み込みツール、およびサーバー送信イベント ストリーミングを備えた自律エージェントとしてクロードを実行するためのフルマネージド エージェント ハーネスである、Claude Managed Agents のパブリック ベータ版をリリースしました。 API を介してエージェントを作成し、コンテナを構成し、セッションを実行します。すべてのエンドポイントには、managed-agents-2026-04-01beta ヘッダーが必要です。詳細については、Claude 管理対象エージェントの概要をご覧ください。 / クロード API のコマンドライン クライアントである theantCLI をリリースしました。これにより、クロード API とのより高速な対話、クロード コードとのネイティブ統合、YAML ファイルでの API リソースのバージョン管理が可能になります。詳細については、CLI リファレンスを参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#april-8-2026"
     }
   ]
 }
