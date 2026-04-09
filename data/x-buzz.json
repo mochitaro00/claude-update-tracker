@@ -1,6 +1,9 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-09"
+    "lastUpdated": "2026-04-09",
+    "excludedAccounts": [
+      "@paji_a"
+    ]
   },
   "posts": [
     {
@@ -11,15 +14,6 @@
       "content": "Introducing Claude Managed Agents: everything you need to build and deploy agents at scale. It pairs an agent harness tuned for performance with production infrastructure, so you can go from prototype to launch in days. Now in public beta on the Claude Platform.",
       "url": "https://x.com/claudeai/status/2041927687460024721",
       "tags": ["公式", "エージェント"]
-    },
-    {
-      "id": "2041818356031091185",
-      "date": "2026-04-08",
-      "author": "@paji_a",
-      "authorName": "paji.eth",
-      "content": "いやまじClaude Mythosで人間不在の\"AIカンパニー\"来そう…",
-      "url": "https://x.com/paji_a/status/2041818356031091185",
-      "tags": ["意見", "mythos"]
     },
     {
       "id": "2041620800663683549",
