@@ -1,8 +1,80 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-06"
+    "lastUpdated": "2026-04-09"
   },
   "posts": [
+    {
+      "id": "2041927687460024721",
+      "date": "2026-04-08",
+      "author": "@claudeai",
+      "authorName": "Claude",
+      "content": "Introducing Claude Managed Agents: everything you need to build and deploy agents at scale. It pairs an agent harness tuned for performance with production infrastructure, so you can go from prototype to launch in days. Now in public beta on the Claude Platform.",
+      "url": "https://x.com/claudeai/status/2041927687460024721",
+      "tags": ["公式", "エージェント"]
+    },
+    {
+      "id": "2041818356031091185",
+      "date": "2026-04-08",
+      "author": "@paji_a",
+      "authorName": "paji.eth",
+      "content": "いやまじClaude Mythosで人間不在の\"AIカンパニー\"来そう…",
+      "url": "https://x.com/paji_a/status/2041818356031091185",
+      "tags": ["意見", "mythos"]
+    },
+    {
+      "id": "2041620800663683549",
+      "date": "2026-04-07",
+      "author": "@unusual_whales",
+      "authorName": "unusual_whales",
+      "content": "BREAKING: Anthropic's new model, Claude Mythos, is so powerful that it is not releasing it to the public. Instead, it is starting a 40-company coalition, Project Glasswing, to allow cybersecurity defenders a head start in locking down critical software.",
+      "url": "https://x.com/unusual_whales/status/2041620800663683549",
+      "tags": ["ニュース", "mythos", "glasswing"]
+    },
+    {
+      "id": "2041589742303649802",
+      "date": "2026-04-07",
+      "author": "@JoshKale",
+      "authorName": "Josh Kale",
+      "content": "This is big... Anthropic just announced a model so powerful they won't release it to the public out of fear over the damage it will cause.",
+      "url": "https://x.com/JoshKale/status/2041589742303649802",
+      "tags": ["ニュース", "mythos", "glasswing"]
+    },
+    {
+      "id": "2041578392852517128",
+      "date": "2026-04-07",
+      "author": "@AnthropicAI",
+      "authorName": "Anthropic",
+      "content": "Introducing Project Glasswing: an urgent initiative to help secure the world's most critical software. It's powered by our newest frontier model, Claude Mythos Preview, which can find software vulnerabilities better than all but the most skilled humans.",
+      "url": "https://x.com/AnthropicAI/status/2041578392852517128",
+      "tags": ["公式", "mythos", "glasswing", "セキュリティ"]
+    },
+    {
+      "id": "2041363823698014432",
+      "date": "2026-04-07",
+      "author": "@MakeAI_CEO",
+      "authorName": "mana｜株式会社MakeAI CEO",
+      "content": "これは衝撃でした！！！XがMCPサーバーを公式リリースしたらしい。Claude Codeからコマンド1行でXに接続できる。投稿もリサーチも全部ターミナルで完結する時代きた。",
+      "url": "https://x.com/MakeAI_CEO/status/2041363823698014432",
+      "tags": ["ニュース", "claude-code", "MCP"]
+    },
+    {
+      "id": "2041275561704931636",
+      "date": "2026-04-06",
+      "author": "@AnthropicAI",
+      "authorName": "Anthropic",
+      "content": "We've signed an agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity, coming online starting in 2027, to train and serve frontier Claude models.",
+      "url": "https://x.com/AnthropicAI/status/2041275561704931636",
+      "tags": ["公式", "インフラ"]
+    },
+    {
+      "id": "2041188363580141588",
+      "date": "2026-04-06",
+      "author": "@sora19ai",
+      "authorName": "そら｜AgentSkills 自動化オタク",
+      "content": "Anthropic公式が「Anthropic Academy」を無料公開した。Claude入門〜実務レベルまで全16コース。Claude Code／MCP／エージェント構築まで学べる。API講座は8時間超えのボリューム。修了証も付いてサブスク不要。",
+      "url": "https://x.com/sora19ai/status/2041188363580141588",
+      "tags": ["ニュース", "学習", "公式"]
+    },
     {
       "id": "2040811558427648357",
       "date": "2026-04-05",
@@ -49,6 +121,24 @@
       "tags": ["tips", "claude-code", "MCP"]
     },
     {
+      "id": "2040338049922728125",
+      "date": "2026-04-04",
+      "author": "@SuguruKun_ai",
+      "authorName": "すぐる | ChatGPTガチ勢",
+      "content": "Claudeが今配布してるクレジット、絶対に受け取った方がいいです！Claude Max/Proユーザー向け$200クレジット配布のTips。",
+      "url": "https://x.com/SuguruKun_ai/status/2040338049922728125",
+      "tags": ["tips", "ニュース"]
+    },
+    {
+      "id": "2039997135664648215",
+      "date": "2026-04-03",
+      "author": "@SuguruKun_ai",
+      "authorName": "すぐる | ChatGPTガチ勢",
+      "content": "Claude Codeガチ勢が自動化してること50選。SNS運用からメール、コンサル、執筆、経理、動画編集、そして健康管理まで網羅している有益記事。",
+      "url": "https://x.com/SuguruKun_ai/status/2039997135664648215",
+      "tags": ["tips", "claude-code", "自動化"]
+    },
+    {
       "id": "2039852930371588299",
       "date": "2026-04-02",
       "author": "@shota7180",
@@ -92,6 +182,15 @@
       "content": "株や為替の投資分析ツール「TradingView」をClaude CodeからAI操作できるMCPが公開されて海外で大バズ。TradingViewにはAPIがないけど、デスクトップ版はElectronで動いてるのでChrome DevTools Protocol経由で中身に触れる。",
       "url": "https://x.com/SuguruKun_ai/status/2039745101476569274",
       "tags": ["tips", "claude-code", "MCP"]
+    },
+    {
+      "id": "2039674327604576314",
+      "date": "2026-04-02",
+      "author": "@akaoniudetate",
+      "authorName": "なまお",
+      "content": "これは、、、もうみんなX自動化できるやん、、、Claude Codeエグいてぇぇえええ！！！",
+      "url": "https://x.com/akaoniudetate/status/2039674327604576314",
+      "tags": ["使ってみた", "claude-code", "自動化"]
     },
     {
       "id": "2039625354281906667",
