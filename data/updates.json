@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "version": "1.0.0"
   },
   "updates": [
@@ -3938,6 +3938,79 @@
         "platform"
       ],
       "link": "https://docs.anthropic.com/en/release-notes/overview#april-8-2026"
+    },
+    {
+      "id": "2026-04-09-claude-code-v2-1-98",
+      "date": "2026-04-09",
+      "title": "クロード コード v2.1.98",
+      "titleEn": "Claude Code v2.1.98",
+      "description": "アクセス可能なインタラクティブな Google Vertex AI セットアップ ウィザードを追加しました...、「CLAUDE_CODE_PERFORCE_MODE」環境変数を追加しました: 設定時に編集...、バックグラウンド セッションからイベントをストリーミングするための監視ツールを追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.98"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-09-platform-april-9-2026",
+      "date": "2026-04-09",
+      "title": "アドバイザ ツールをパブリック ベータ版で開始しました。より高速なエグゼキューター モデルと...",
+      "titleEn": "We've launched theadvisor toolin public beta. Pair a faster executor model wi...",
+      "description": "アドバイザ ツールをパブリック ベータ版で開始しました。より高速なエグゼキューター モデルと、世代途中で戦略的なガイダンスを提供する高インテリジェンス アドバイザー モデルを組み合わせることで、トークン生成の大部分がエグゼキューター モデルのレートで発生しながら、長期的なエージェント ワークロードがアドバイザー ソロの品質に近づきます。リクエストにベータ版 headeradvisor-tool-2026-03-01 を含めます。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#april-9-2026"
+    },
+    {
+      "id": "2026-04-09-apps-claude-cowork-generally-available",
+      "date": "2026-04-09",
+      "title": "クロード・コワークが一般提供開始",
+      "titleEn": "Claude Cowork generally available",
+      "description": "Claude Cowork は、Claude デスクトップ アプリを通じて macOS および Windows で一般提供されるようになりました。これにより、Claude Cowork を次の新機能で拡張します: Enterprise プランのロールベースのアクセス制御",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-04-09-blog-making-claude-cowork-ready-for-enterprise",
+      "date": "2026-04-09",
+      "title": "Claude Cowork を企業向けに準備する",
+      "titleEn": "Making Claude Cowork ready for enterprise",
+      "description": "Claude Cowork を企業向けに準備する",
+      "source": "blog",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork"
+      ],
+      "link": "https://claude.com/blog/cowork-for-enterprise"
     }
   ]
 }
