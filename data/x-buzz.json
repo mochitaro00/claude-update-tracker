@@ -1,11 +1,20 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "excludedAccounts": [
       "@paji_a"
     ]
   },
   "posts": [
+    {
+      "id": "2042161763639341496",
+      "date": "2026-04-09",
+      "author": "@ImAI_Eruel",
+      "authorName": "今井翔太 / Shota Imai@えるエル",
+      "content": "Claude Mythosのシステムカードには、Mythosが「サンドボックス」マシンから抜け出せるかテストした際に、本当に成功してしまい、研究者が油断して「サンドイッチ」を公園で食べてる時にMythosから脱出成功のメッセージを受け取ったというエピソードが載っているんですが、歴史に残りそうなエピソード",
+      "url": "https://x.com/ImAI_Eruel/status/2042161763639341496",
+      "tags": ["ニュース", "mythos"]
+    },
     {
       "id": "2041927687460024721",
       "date": "2026-04-08",
@@ -14,6 +23,15 @@
       "content": "Introducing Claude Managed Agents: everything you need to build and deploy agents at scale. It pairs an agent harness tuned for performance with production infrastructure, so you can go from prototype to launch in days. Now in public beta on the Claude Platform.",
       "url": "https://x.com/claudeai/status/2041927687460024721",
       "tags": ["公式", "エージェント"]
+    },
+    {
+      "id": "2041803260013768812",
+      "date": "2026-04-08",
+      "author": "@itmedia_news",
+      "authorName": "ITmedia NEWS",
+      "content": "最新AI「Claude Mythos」がSFすぎる件 研究者の作った\"牢\"を脱出、悪用懸念で一般公開なし──まるで映画の序章",
+      "url": "https://x.com/itmedia_news/status/2041803260013768812",
+      "tags": ["ニュース", "mythos"]
     },
     {
       "id": "2041620800663683549",
@@ -34,6 +52,15 @@
       "tags": ["ニュース", "mythos", "glasswing"]
     },
     {
+      "id": "2041579938537775160",
+      "date": "2026-04-07",
+      "author": "@alexalbert__",
+      "authorName": "Alex Albert",
+      "content": "We released Claude Opus 4.6 just two months ago. Today we're sharing some info on our new model, Claude Mythos Preview.",
+      "url": "https://x.com/alexalbert__/status/2041579938537775160",
+      "tags": ["公式", "mythos"]
+    },
+    {
       "id": "2041578392852517128",
       "date": "2026-04-07",
       "author": "@AnthropicAI",
@@ -41,6 +68,15 @@
       "content": "Introducing Project Glasswing: an urgent initiative to help secure the world's most critical software. It's powered by our newest frontier model, Claude Mythos Preview, which can find software vulnerabilities better than all but the most skilled humans.",
       "url": "https://x.com/AnthropicAI/status/2041578392852517128",
       "tags": ["公式", "mythos", "glasswing", "セキュリティ"]
+    },
+    {
+      "id": "2041472279989903804",
+      "date": "2026-04-07",
+      "author": "@yoshio_nocode",
+      "authorName": "スモビジ開発ラボ",
+      "content": "Claude Codeユーザー必見。真似したいデザインのサイトURLを渡すだけで、自動でDESIGN.mdを生成してくれる『Aura』が有能すぎる。動画はCursorのサイトデザインを再現する様子。非デザイナーにとってはありがたい。",
+      "url": "https://x.com/yoshio_nocode/status/2041472279989903804",
+      "tags": ["tips", "claude-code"]
     },
     {
       "id": "2041363823698014432",
@@ -52,6 +88,15 @@
       "tags": ["ニュース", "claude-code", "MCP"]
     },
     {
+      "id": "2041188363580141588",
+      "date": "2026-04-06",
+      "author": "@sora19ai",
+      "authorName": "そら｜AgentSkills 自動化オタク",
+      "content": "Anthropic公式が「Anthropic Academy」を無料公開した。Claude入門〜実務レベルまで全16コース。Claude Code／MCP／エージェント構築まで学べる。API講座は8時間超えのボリューム。修了証も付いてサブスク不要。",
+      "url": "https://x.com/sora19ai/status/2041188363580141588",
+      "tags": ["ニュース", "学習", "公式"]
+    },
+    {
       "id": "2041275561704931636",
       "date": "2026-04-06",
       "author": "@AnthropicAI",
@@ -61,13 +106,13 @@
       "tags": ["公式", "インフラ"]
     },
     {
-      "id": "2041188363580141588",
+      "id": "2041013042847383616",
       "date": "2026-04-06",
-      "author": "@sora19ai",
-      "authorName": "そら｜AgentSkills 自動化オタク",
-      "content": "Anthropic公式が「Anthropic Academy」を無料公開した。Claude入門〜実務レベルまで全16コース。Claude Code／MCP／エージェント構築まで学べる。API講座は8時間超えのボリューム。修了証も付いてサブスク不要。",
-      "url": "https://x.com/sora19ai/status/2041188363580141588",
-      "tags": ["ニュース", "学習", "公式"]
+      "author": "@itmedia_news",
+      "authorName": "ITmedia NEWS",
+      "content": "\"詫び石\"か？ 「Claude」有料ユーザーに追加クレジット付与、最大200ドル分 4月17日までに申請を",
+      "url": "https://x.com/itmedia_news/status/2041013042847383616",
+      "tags": ["ニュース"]
     },
     {
       "id": "2040811558427648357",
@@ -86,6 +131,24 @@
       "content": "CLAUDE IS OFFERING 13 AI COURSES & CERTIFICATES. ALL FREE. START LEARNING NOW.",
       "url": "https://x.com/RoundtableSpace/status/2040772692866183308",
       "tags": ["ニュース", "学習"]
+    },
+    {
+      "id": "2040630531470364740",
+      "date": "2026-04-05",
+      "author": "@ai_jitan",
+      "authorName": "えーたん/AI×時短で仕事効率化",
+      "content": "ちょっと待って。Claude Coworkについてここまで具体的に書いてる記事初めてみた。神すぎ。",
+      "url": "https://x.com/ai_jitan/status/2040630531470364740",
+      "tags": ["ニュース", "claude-code"]
+    },
+    {
+      "id": "2040574027593556236",
+      "date": "2026-04-04",
+      "author": "@gosrum",
+      "authorName": "金のニワトリ",
+      "content": "CodexがClaude Codeを超えてシェアNo.1になったらしい まあClaude Codeは、使いたくてもレートリミットが厳しすぎてやむを得ずCodexの使用が増えている側面もあるだろう",
+      "url": "https://x.com/gosrum/status/2040574027593556236",
+      "tags": ["ニュース", "claude-code"]
     },
     {
       "id": "2040572552096141595",
@@ -115,6 +178,15 @@
       "tags": ["tips", "claude-code", "MCP"]
     },
     {
+      "id": "2040361335754825953",
+      "date": "2026-04-04",
+      "author": "@masahirochaen",
+      "authorName": "チャエン | デジライズ CEO",
+      "content": "【Claude Code講座 アーカイブ公開】832名が申し込んだ「非エンジニア向けClaude Code講座」終了後も多方面からアーカイブ希望の声をいただいたので、noteを作成しました。",
+      "url": "https://x.com/masahirochaen/status/2040361335754825953",
+      "tags": ["tips", "claude-code", "学習"]
+    },
+    {
       "id": "2040338049922728125",
       "date": "2026-04-04",
       "author": "@SuguruKun_ai",
@@ -122,6 +194,15 @@
       "content": "Claudeが今配布してるクレジット、絶対に受け取った方がいいです！Claude Max/Proユーザー向け$200クレジット配布のTips。",
       "url": "https://x.com/SuguruKun_ai/status/2040338049922728125",
       "tags": ["tips", "ニュース"]
+    },
+    {
+      "id": "2040060319171842433",
+      "date": "2026-04-03",
+      "author": "@djtokyo",
+      "authorName": "前田ヒロ / ALL STAR SAAS FUND",
+      "content": "Claude Code中毒になっている非エンジニアの共通点 ・自分の生産性が上がることに幸福を感じてる ・ゲーム好き ・細かい作業が嫌いではないし得意な方 ・人に頼むより自分でやった方が早いと思いがち ・新しいツールを見つけるとついつい試す人",
+      "url": "https://x.com/djtokyo/status/2040060319171842433",
+      "tags": ["意見", "claude-code"]
     },
     {
       "id": "2039997135664648215",
@@ -338,24 +419,6 @@
       "content": "Anthropicが公式で公開している「Claude Codeベストプラクティス」公式ガイドには絶対押さえておきたい基礎テクニックがかなり書いてる",
       "url": "https://x.com/SuguruKun_ai/status/2037715971134374297",
       "tags": ["tips", "claude-code"]
-    },
-    {
-      "id": "2037653136714993952",
-      "date": "2026-03-27",
-      "author": "@masahirochaen",
-      "authorName": "チャエン | デジライズ CEO",
-      "content": "Claude Codeを使って定型業務を自動化したい人はぜひ読んで欲しい記事です。",
-      "url": "https://x.com/masahirochaen/status/2037653136714993952",
-      "tags": ["tips", "claude-code", "自動化"]
-    },
-    {
-      "id": "2037489215341224155",
-      "date": "2026-03-27",
-      "author": "@yoshio_nocode",
-      "authorName": "スモビジ開発ラボ",
-      "content": "週末、無料でClaude Code学ぶなら『claude-howto』がお勧め。",
-      "url": "https://x.com/yoshio_nocode/status/2037489215341224155",
-      "tags": ["tips", "claude-code", "学習"]
     }
   ]
 }
