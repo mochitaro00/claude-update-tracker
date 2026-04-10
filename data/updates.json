@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-10",
+    "lastUpdated": "2026-04-11",
     "version": "1.0.0"
   },
   "updates": [
@@ -4011,6 +4011,45 @@
         "cowork"
       ],
       "link": "https://claude.com/blog/cowork-for-enterprise"
+    },
+    {
+      "id": "2026-04-10-claude-code-v2-1-101",
+      "date": "2026-04-10",
+      "title": "クロード コード v2.1.101",
+      "titleEn": "Claude Code v2.1.101",
+      "description": "チームメイトを生成するための `/team-onboarding` コマンドを追加しました...、デフォルトで OS CA 証明書ストアの信頼を追加したため、Enterp...、`/ultraplan` およびその他のリモート セッション機能が自動で実行されるようになりました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.101"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-10-blog-seeing-like-an-agent-how-we-design-tools-in-claude-code",
+      "date": "2026-04-10",
+      "title": "エージェントのように見る: Claude Code でツールを設計する方法",
+      "titleEn": "Seeing like an agent: how we design tools in Claude Code",
+      "description": "エージェントのように見る: Claude Code でツールを設計する方法",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "agent",
+        "code"
+      ],
+      "link": "https://claude.com/blog/seeing-like-an-agent"
     }
   ]
 }
