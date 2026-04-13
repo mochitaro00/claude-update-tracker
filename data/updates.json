@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-11",
+    "lastUpdated": "2026-04-14",
     "version": "1.0.0"
   },
   "updates": [
@@ -4050,6 +4050,25 @@
         "code"
       ],
       "link": "https://claude.com/blog/seeing-like-an-agent"
+    },
+    {
+      "id": "2026-04-13-claude-code-v2-1-105",
+      "date": "2026-04-13",
+      "title": "クロード コード v2.1.105",
+      "titleEn": "Claude Code v2.1.105",
+      "description": "`EnterWorktree` ツールに `path` パラメーターを追加して、切り替えを行います...、PreCompact フックのサポートを追加しました: フックは compac をブロックできるようになりました...、トップ ファイルを介してプラグインのバックグラウンド モニター サポートを追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.105"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
