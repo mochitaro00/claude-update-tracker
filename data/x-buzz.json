@@ -1,11 +1,74 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-10",
+    "lastUpdated": "2026-04-13",
     "excludedAccounts": [
       "@paji_a"
     ]
   },
   "posts": [
+    {
+      "id": "2043056331264004179",
+      "date": "2026-04-11",
+      "author": "@eng_khairallah1",
+      "authorName": "Khairallah AL-Awady",
+      "content": "INSTEAD OF WATCHING NETFLIX TONIGHT. Spend 1 hour with this. Claude AI FULL COURSE that teaches you how to BUILD and AUTOMATE anything.",
+      "url": "https://x.com/eng_khairallah1/status/2043056331264004179",
+      "tags": ["学習"]
+    },
+    {
+      "id": "2042932961365115360",
+      "date": "2026-04-11",
+      "author": "@oku_hashi",
+      "authorName": "ワニ＠インスタ3億",
+      "content": "ClaudeCodeで会社を作る最強設計図 CLAUDE.md→指示書 .claude/→設定の核 skills/→手順書 agents/→AI社員 この4層を理解すると、Claude Codeが最強チームになります",
+      "url": "https://x.com/oku_hashi/status/2042932961365115360",
+      "tags": ["tips", "claude-code"]
+    },
+    {
+      "id": "2042921842533704166",
+      "date": "2026-04-11",
+      "author": "@Naoki_GPT",
+      "authorName": "なおき",
+      "content": "うちのClaude Code社員が最強すぎる、、、インスタ10垢を24時間フルで回しながら数百個のバズ垢をひたすらリサーチしまくってるw ぶっちゃけ今のAIはお金製造機。",
+      "url": "https://x.com/Naoki_GPT/status/2042921842533704166",
+      "tags": ["使ってみた", "claude-code", "自動化"]
+    },
+    {
+      "id": "2042866110568239188",
+      "date": "2026-04-11",
+      "author": "@Kaito___AI",
+      "authorName": "Kaito",
+      "content": "ヤバすぎだろ 世界最高のAIセキュリティ研究者、ニコラス・カルリーニ：「ここ数週間 Claude Mythos を使って見つけたバグの数は、これまでの人生で見つけた総数よりも多い」",
+      "url": "https://x.com/Kaito___AI/status/2042866110568239188",
+      "tags": ["ニュース", "mythos", "セキュリティ"]
+    },
+    {
+      "id": "2042670341915295865",
+      "date": "2026-04-10",
+      "author": "@claudeai",
+      "authorName": "Claude",
+      "content": "Claude for Word is now in beta. Draft, edit, and revise documents directly from the sidebar. Claude preserves your formatting, and edits appear as tracked changes. Available on Team and Enterprise plans.",
+      "url": "https://x.com/claudeai/status/2042670341915295865",
+      "tags": ["公式", "word"]
+    },
+    {
+      "id": "2042560474349527360",
+      "date": "2026-04-10",
+      "author": "@marurur",
+      "authorName": "まるた",
+      "content": "流行の Physical AI というのをやってみたくて，Claude CodeにUSB接続の Furuta Pendulum と基礎的な入出力を行うコード例，その実行方法を与えて「10秒以上倒立できるまで頑張れ！」で放置 システム同定→エネルギー法→状態フィードバックと進んで１時間ほどで10秒維持できるところまで来ました．",
+      "url": "https://x.com/marurur/status/2042560474349527360",
+      "tags": ["使ってみた", "claude-code"]
+    },
+    {
+      "id": "2042514986287927452",
+      "date": "2026-04-10",
+      "author": "@09pauai",
+      "authorName": "ぱうう",
+      "content": "Claude Codeユーザーに朗報。「すぐ使用料に到達して使えなくなる」問題を解決するツールが登場したw GitHubで48時間で46,000スター。無料。オープンソース。しかもこれ入れるとトークンの消費が減るからAPIの料金が安くなる=お金の節約にもなる。",
+      "url": "https://x.com/09pauai/status/2042514986287927452",
+      "tags": ["tips", "claude-code"]
+    },
     {
       "id": "2042161763639341496",
       "date": "2026-04-09",
@@ -14,6 +77,15 @@
       "content": "Claude Mythosのシステムカードには、Mythosが「サンドボックス」マシンから抜け出せるかテストした際に、本当に成功してしまい、研究者が油断して「サンドイッチ」を公園で食べてる時にMythosから脱出成功のメッセージを受け取ったというエピソードが載っているんですが、歴史に残りそうなエピソード",
       "url": "https://x.com/ImAI_Eruel/status/2042161763639341496",
       "tags": ["ニュース", "mythos"]
+    },
+    {
+      "id": "2041984548658147632",
+      "date": "2026-04-08",
+      "author": "@claudecode_lab",
+      "authorName": "Claude Code研究所",
+      "content": "【速報】Claude Managed Agents（ベータ版）が登場 今までは数ヶ月かかった、AIエージェント開発のための「安全な土台」が数日に。Claude Codeで作成したエージェントのインフラまで、すべてAnthropicのClaude Platformで肩代わり。",
+      "url": "https://x.com/claudecode_lab/status/2041984548658147632",
+      "tags": ["ニュース", "claude-code", "エージェント"]
     },
     {
       "id": "2041927687460024721",
@@ -32,6 +104,15 @@
       "content": "最新AI「Claude Mythos」がSFすぎる件 研究者の作った\"牢\"を脱出、悪用懸念で一般公開なし──まるで映画の序章",
       "url": "https://x.com/itmedia_news/status/2041803260013768812",
       "tags": ["ニュース", "mythos"]
+    },
+    {
+      "id": "2041715815985377699",
+      "date": "2026-04-08",
+      "author": "@ai_jitan",
+      "authorName": "えーたん/AI×時短で仕事効率化",
+      "content": "ちょっと待って。Claude CodeのSkillsについて何記事も読んだけど、圧倒的No.1のボリュームと分かりやすさ。神すぎ。",
+      "url": "https://x.com/ai_jitan/status/2041715815985377699",
+      "tags": ["tips", "claude-code"]
     },
     {
       "id": "2041620800663683549",
@@ -374,51 +455,6 @@
       "content": "もうパターン化されたコーディングエージェントの活用方法気持ち悪すぎるんだよ",
       "url": "https://x.com/nwiizo/status/2038798243535229069",
       "tags": ["意見", "claude-code"]
-    },
-    {
-      "id": "2038693742094246032",
-      "date": "2026-03-30",
-      "author": "@claudeai",
-      "authorName": "Claude",
-      "content": "Auto mode for Claude Code is now available on the Enterprise plan and for API users.",
-      "url": "https://x.com/claudeai/status/2038693742094246032",
-      "tags": ["公式", "claude-code"]
-    },
-    {
-      "id": "2038663014098899416",
-      "date": "2026-03-30",
-      "author": "@claudeai",
-      "authorName": "Claude",
-      "content": "Computer use is now in Claude Code.",
-      "url": "https://x.com/claudeai/status/2038663014098899416",
-      "tags": ["公式", "claude-code", "computer-use"]
-    },
-    {
-      "id": "2038493476506243357",
-      "date": "2026-03-30",
-      "author": "@kenn",
-      "authorName": "Kenn Ejima",
-      "content": "今最強のプログラミング言語は .md なんだよ",
-      "url": "https://x.com/kenn/status/2038493476506243357",
-      "tags": ["tips", "意見"]
-    },
-    {
-      "id": "2037734820797919379",
-      "date": "2026-03-28",
-      "author": "@fladdict",
-      "authorName": "深津 貴之 / THE GUILD, note",
-      "content": "みんないちいち、SNSに流れるClaude Codeのベスプラに、一喜一憂しなくてもええんやで。",
-      "url": "https://x.com/fladdict/status/2037734820797919379",
-      "tags": ["tips", "claude-code"]
-    },
-    {
-      "id": "2037715971134374297",
-      "date": "2026-03-28",
-      "author": "@SuguruKun_ai",
-      "authorName": "すぐる | ChatGPTガチ勢",
-      "content": "Anthropicが公式で公開している「Claude Codeベストプラクティス」公式ガイドには絶対押さえておきたい基礎テクニックがかなり書いてる",
-      "url": "https://x.com/SuguruKun_ai/status/2037715971134374297",
-      "tags": ["tips", "claude-code"]
     }
   ]
 }
