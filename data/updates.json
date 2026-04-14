@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-14",
+    "lastUpdated": "2026-04-15",
     "version": "1.0.0"
   },
   "updates": [
@@ -4069,6 +4069,102 @@
         "v2.1.105"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-14-claude-code-v2-1-108",
+      "date": "2026-04-14",
+      "title": "クロード コード v2.1.108",
+      "titleEn": "Claude Code v2.1.108",
+      "description": "1-ho... にオプトインするための `ENABLE_PROMPT_CACHING_1H` 環境変数を追加しました。...に戻るときにコンテキストを提供する要約機能を追加しました。モデルは組み込みのスラッシュ通信を検出して呼び出すことができるようになりました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.108"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-14-claude-code-v2-1-107",
+      "date": "2026-04-14",
+      "title": "クロード コード v2.1.107",
+      "titleEn": "Claude Code v2.1.107",
+      "description": "長時間の操作中に思考のヒントをすぐに表示する",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.107"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-14-platform-april-14-2026",
+      "date": "2026-04-14",
+      "title": "Claude Sonnet 4 モデル (claude-sonnet-4-20...) の廃止を発表しました。",
+      "titleEn": "We announced the deprecation of the Claude Sonnet 4 model (claude-sonnet-4-20...",
+      "description": "Claude Sonnet 4 モデル (claude-sonnet-4-20250514) と Claude Opus 4 モデル (claude-opus-4-20250514) の非推奨を発表し、Claude API の廃止は 2026 年 6 月 15 日に予定されています。それぞれ、Claude Sonnet 4.6 と Claude Opus 4.6 に移行することをお勧めします。インモデルの非推奨について詳しく読む。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#april-14-2026"
+    },
+    {
+      "id": "2026-04-14-blog-redesigning-claude-code-on-desktop-for-parallel-agents",
+      "date": "2026-04-14",
+      "title": "並列エージェント用にデスクトップ上のクロード コードを再設計する",
+      "titleEn": "Redesigning Claude Code on desktop for parallel agents",
+      "description": "並列エージェント用にデスクトップ上のクロード コードを再設計する",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "agent",
+        "code"
+      ],
+      "link": "https://claude.com/blog/claude-code-desktop-redesign"
+    },
+    {
+      "id": "2026-04-14-blog-introducing-routines-in-claude-code",
+      "date": "2026-04-14",
+      "title": "クロードコードでのルーチンの導入",
+      "titleEn": "Introducing routines in Claude Code",
+      "description": "クロードコードでのルーチンの導入",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/introducing-routines-in-claude-code"
     }
   ]
 }
