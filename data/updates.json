@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-15",
+    "lastUpdated": "2026-04-16",
     "version": "1.0.0"
   },
   "updates": [
@@ -4165,6 +4165,44 @@
         "code"
       ],
       "link": "https://claude.com/blog/introducing-routines-in-claude-code"
+    },
+    {
+      "id": "2026-04-15-claude-code-v2-1-110",
+      "date": "2026-04-15",
+      "title": "クロード コード v2.1.110",
+      "titleEn": "Claude Code v2.1.110",
+      "description": "`/tui` コマンドと `tui` 設定を追加、プッシュ通知ツールを追加、`Ctrl+O` で通常トラフィックと詳細トラフィックを切り替えるように変更...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.110"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-15-claude-code-v2-1-109",
+      "date": "2026-04-15",
+      "title": "クロード コード v2.1.109",
+      "titleEn": "Claude Code v2.1.109",
+      "description": "回転式インジケーターを備えた拡張思考インジケーターを改善しました。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.109"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
