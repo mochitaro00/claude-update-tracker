@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "version": "1.0.0"
   },
   "updates": [
@@ -4203,6 +4203,100 @@
         "v2.1.109"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-16-claude-code-v2-1-111",
+      "date": "2026-04-16",
+      "title": "クロード コード v2.1.111",
+      "titleEn": "Claude Code v2.1.111",
+      "description": "クロード オーパス 4.7 xhigh が登場しました! ... を使用するには /effort を使用します。... を使用する場合、最大加入者向けに自動モードが利用できるようになりました。Opus 4.7 に `xhigh` エフォート レベルを追加しました。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.111"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-16-platform-april-16-2026",
+      "date": "2026-04-16",
+      "title": "当社は、最も高性能な一般入手可能なモデルである Claude Opus 4.7 を発売しました...",
+      "titleEn": "We've launchedClaude Opus 4.7, our most capable generally available model for...",
+      "description": "当社は、複雑な推論とエージェント コーディング向けに最も高性能な一般入手可能なモデルである Claude Opus 4.7 を、Opus 4.6 と同じ MTok あたり 5 ドル / 25 ドルの価格で発売しました。機能の改善、新機能、更新されたトークナイザーについては、「Claude Opus 4.7 の新機能」を参照してください。 Opus 4.7 には、Opus 4.6 と比較して API の重大な変更が含まれています。アップグレードする前に、「Claude Opus 4.7 への移行」を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#april-16-2026"
+    },
+    {
+      "id": "2026-04-16-apps-claude-opus-4-7-launch",
+      "date": "2026-04-16",
+      "title": "クロード Opus 4.7 の発売",
+      "titleEn": "Claude Opus 4.7 launch",
+      "description": "当社の最新モデルである Claude Opus 4.7 は現在一般入手可能です。 Opus 4.7 では、ソフトウェア エンジニアリングと複雑で長時間実行されるコーディング タスクが改善されているほか、視覚が向上し、より高解像度で画像を表示できるようになりました。詳細については、ブログ投稿「Claude Opus 4.7 の紹介」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-04-16-blog-best-practices-for-using-claude-opus-4-7-with-claude-code",
+      "date": "2026-04-16",
+      "title": "Claude コードで Claude Opus 4.7 を使用するためのベスト プラクティス",
+      "titleEn": "Best practices for using Claude Opus 4.7 with Claude Code",
+      "description": "Claude コードで Claude Opus 4.7 を使用するためのベスト プラクティス",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode",
+        "model"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code"
+    },
+    {
+      "id": "2026-04-15-blog-using-claude-code-session-management-and-1m-context",
+      "date": "2026-04-15",
+      "title": "クロード コードの使用: セッション管理と 1M コンテキスト",
+      "titleEn": "Using Claude Code: session management and 1M context",
+      "description": "クロード コードの使用: セッション管理と 1M コンテキスト",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/using-claude-code-session-management-and-1m-context"
     }
   ]
 }
