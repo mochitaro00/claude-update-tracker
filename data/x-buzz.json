@@ -1,27 +1,90 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-13",
+    "lastUpdated": "2026-04-17",
     "excludedAccounts": [
       "@paji_a"
     ]
   },
   "posts": [
     {
-      "id": "2043056331264004179",
-      "date": "2026-04-11",
-      "author": "@eng_khairallah1",
-      "authorName": "Khairallah AL-Awady",
-      "content": "INSTEAD OF WATCHING NETFLIX TONIGHT. Spend 1 hour with this. Claude AI FULL COURSE that teaches you how to BUILD and AUTOMATE anything.",
-      "url": "https://x.com/eng_khairallah1/status/2043056331264004179",
-      "tags": ["学習"]
+      "id": "2044785261393977612",
+      "date": "2026-04-16",
+      "author": "@claudeai",
+      "authorName": "Claude",
+      "content": "Introducing Claude Opus 4.7, our most capable Opus model yet. It handles long-running tasks with more rigor, follows instructions more precisely, and verifies its own outputs before reporting back.",
+      "url": "https://x.com/claudeai/status/2044785261393977612",
+      "tags": ["公式", "opus"]
     },
     {
-      "id": "2042932961365115360",
-      "date": "2026-04-11",
-      "author": "@oku_hashi",
-      "authorName": "ワニ＠インスタ3億",
-      "content": "ClaudeCodeで会社を作る最強設計図 CLAUDE.md→指示書 .claude/→設定の核 skills/→手順書 agents/→AI社員 この4層を理解すると、Claude Codeが最強チームになります",
-      "url": "https://x.com/oku_hashi/status/2042932961365115360",
+      "id": "2043947658902155660",
+      "date": "2026-04-14",
+      "author": "@7_eito_7",
+      "authorName": "えいと",
+      "content": "Claude Codeに「永続メモリ」を追加するオープンソースが公開されました。GitHubのランキングでも1位。トークン消費95%削減、会話が途中から完全再開。もうコンテキスト制限の概念なくなります。",
+      "url": "https://x.com/7_eito_7/status/2043947658902155660",
+      "tags": ["tips", "claude-code"]
+    },
+    {
+      "id": "2043888255935168670",
+      "date": "2026-04-14",
+      "author": "@akaoniudetate",
+      "authorName": "なまお",
+      "content": "Claude Code、副業で使い始めた人に言いたいことがある。最初の15分だけ時間をくれ。これをやるかやらないかで、あとで「やらかした」ときのダメージが全然違う。",
+      "url": "https://x.com/akaoniudetate/status/2043888255935168670",
+      "tags": ["tips", "claude-code"]
+    },
+    {
+      "id": "2044138481790648323",
+      "date": "2026-04-14",
+      "author": "@AnthropicAI",
+      "authorName": "Anthropic",
+      "content": "New Anthropic Fellows research: developing an Automated Alignment Researcher. We ran an experiment to learn whether Claude Opus 4.6 could accelerate research on a key alignment problem: using a weak AI model to supervise the training of a stronger one.",
+      "url": "https://x.com/AnthropicAI/status/2044138481790648323",
+      "tags": ["公式", "研究"]
+    },
+    {
+      "id": "2044131493966909862",
+      "date": "2026-04-14",
+      "author": "@claudeai",
+      "authorName": "Claude",
+      "content": "We've redesigned Claude Code on desktop. You can now run multiple Claude sessions side by side from one window, with a new sidebar to manage them all.",
+      "url": "https://x.com/claudeai/status/2044131493966909862",
+      "tags": ["公式", "claude-code"]
+    },
+    {
+      "id": "2044093913376706655",
+      "date": "2026-04-14",
+      "author": "@noahzweben",
+      "authorName": "Noah Zweben",
+      "content": "Claude Code Routines are here! In addition to a schedule, you can now trigger templated agents via GitHub event or API – with our infra & your MCP+repos. They've changed how we do docs, backlog maintenance and more internally at Anthropic.",
+      "url": "https://x.com/noahzweben/status/2044093913376706655",
+      "tags": ["公式", "claude-code", "自動化"]
+    },
+    {
+      "id": "2043613908775363019",
+      "date": "2026-04-13",
+      "author": "@hikarun_videoai",
+      "authorName": "ひかる｜動画運用AI",
+      "content": "これはやばい。claude codeは動画制作すらできるようになった…",
+      "url": "https://x.com/hikarun_videoai/status/2043613908775363019",
+      "tags": ["使ってみた", "claude-code"]
+    },
+    {
+      "id": "2043563256825221546",
+      "date": "2026-04-13",
+      "author": "@blog_uki",
+      "authorName": "UKI",
+      "content": "これはデイトレや裁量勢も触るべき。めっちゃ勉強になる。Claude Code使えるなら導入してって指示するだけで導入できる。「昨日最も出来高が大きかった銘柄について、場中にどのようなポイントで仕掛けるべきだったか考察してください」",
+      "url": "https://x.com/blog_uki/status/2043563256825221546",
+      "tags": ["使ってみた", "claude-code", "MCP"]
+    },
+    {
+      "id": "2043479332086235243",
+      "date": "2026-04-13",
+      "author": "@so_ainsight",
+      "authorName": "そう｜Claude Codeで始めるAI自動化",
+      "content": "ガチで変わる。Claude Codeに「永続メモリ」を追加できるツールが登場。公開48時間で4.6万スターを突破。トークン消費を95%削減、コンテキスト制限を気にしにくくなる、中断したところから正確に再開。1コマンドでインストール、完全無料。",
+      "url": "https://x.com/so_ainsight/status/2043479332086235243",
       "tags": ["tips", "claude-code"]
     },
     {
@@ -34,6 +97,15 @@
       "tags": ["使ってみた", "claude-code", "自動化"]
     },
     {
+      "id": "2042932961365115360",
+      "date": "2026-04-11",
+      "author": "@oku_hashi",
+      "authorName": "ワニ＠インスタ3億",
+      "content": "ClaudeCodeで会社を作る最強設計図 CLAUDE.md→指示書 .claude/→設定の核 skills/→手順書 agents/→AI社員 この4層を理解すると、Claude Codeが最強チームになります",
+      "url": "https://x.com/oku_hashi/status/2042932961365115360",
+      "tags": ["tips", "claude-code"]
+    },
+    {
       "id": "2042866110568239188",
       "date": "2026-04-11",
       "author": "@Kaito___AI",
@@ -41,6 +113,33 @@
       "content": "ヤバすぎだろ 世界最高のAIセキュリティ研究者、ニコラス・カルリーニ：「ここ数週間 Claude Mythos を使って見つけたバグの数は、これまでの人生で見つけた総数よりも多い」",
       "url": "https://x.com/Kaito___AI/status/2042866110568239188",
       "tags": ["ニュース", "mythos", "セキュリティ"]
+    },
+    {
+      "id": "2042873851047219530",
+      "date": "2026-04-11",
+      "author": "@09pauai",
+      "authorName": "ぱうう",
+      "content": "お、Claude Codeに指示するだけで3D作品が作れたぞ。「王様ぱううの部屋を作って」って日本語で話しかけただけ。マウスでの3D操作ゼロ、制作時間15分。プログラミングも3Dの知識もいらない。",
+      "url": "https://x.com/09pauai/status/2042873851047219530",
+      "tags": ["使ってみた", "claude-code", "3D"]
+    },
+    {
+      "id": "2042811188963348577",
+      "date": "2026-04-11",
+      "author": "@7_eito_7",
+      "authorName": "えいと",
+      "content": "ClaudeをBlenderに直接接続できる「Blender MCP」が公開。すでにGitHubで1.8万スター。テキストで3Dモデル生成、シーン構築/カメラ/ライティング操作、Pythonコードまで自動実行。",
+      "url": "https://x.com/7_eito_7/status/2042811188963348577",
+      "tags": ["tips", "claude-code", "MCP"]
+    },
+    {
+      "id": "2043056331264004179",
+      "date": "2026-04-11",
+      "author": "@eng_khairallah1",
+      "authorName": "Khairallah AL-Awady",
+      "content": "INSTEAD OF WATCHING NETFLIX TONIGHT. Spend 1 hour with this. Claude AI FULL COURSE that teaches you how to BUILD and AUTOMATE anything.",
+      "url": "https://x.com/eng_khairallah1/status/2043056331264004179",
+      "tags": ["学習"]
     },
     {
       "id": "2042670341915295865",
@@ -52,12 +151,30 @@
       "tags": ["公式", "word"]
     },
     {
+      "id": "2042671370186973589",
+      "date": "2026-04-10",
+      "author": "@trq212",
+      "authorName": "Thariq",
+      "content": "New in Claude Code: /ultraplan. Claude builds an implementation plan for you on the web. You can read it and edit it, then run the plan on the web or back in your terminal. Available now in preview for all users with CC on the web enabled.",
+      "url": "https://x.com/trq212/status/2042671370186973589",
+      "tags": ["公式", "claude-code"]
+    },
+    {
       "id": "2042560474349527360",
       "date": "2026-04-10",
       "author": "@marurur",
       "authorName": "まるた",
       "content": "流行の Physical AI というのをやってみたくて，Claude CodeにUSB接続の Furuta Pendulum と基礎的な入出力を行うコード例，その実行方法を与えて「10秒以上倒立できるまで頑張れ！」で放置 システム同定→エネルギー法→状態フィードバックと進んで１時間ほどで10秒維持できるところまで来ました．",
       "url": "https://x.com/marurur/status/2042560474349527360",
+      "tags": ["使ってみた", "claude-code"]
+    },
+    {
+      "id": "2042539121017831908",
+      "date": "2026-04-10",
+      "author": "@milbon_",
+      "authorName": "みるぼん@スモビジ",
+      "content": "3ヶ月409%リターンのAI自動取引botがヤバい。GS出身者のトレード手法をAIが学習、Claudeに5つのGitHubリポジトリを食わせて構築。1時間に400市場以上を自動スキャン。初期資金30万円→+130万円（409%リターン）、正解率81%。",
+      "url": "https://x.com/milbon_/status/2042539121017831908",
       "tags": ["使ってみた", "claude-code"]
     },
     {
@@ -293,168 +410,6 @@
       "content": "Claude Codeガチ勢が自動化してること50選。SNS運用からメール、コンサル、執筆、経理、動画編集、そして健康管理まで網羅している有益記事。",
       "url": "https://x.com/SuguruKun_ai/status/2039997135664648215",
       "tags": ["tips", "claude-code", "自動化"]
-    },
-    {
-      "id": "2039852930371588299",
-      "date": "2026-04-02",
-      "author": "@shota7180",
-      "authorName": "木内翔大＠SHIFT AI代表",
-      "content": "【朗報】Claudeの「computer use」、Windowsでも使えるように！",
-      "url": "https://x.com/shota7180/status/2039852930371588299",
-      "tags": ["ニュース", "computer-use", "windows"]
-    },
-    {
-      "id": "2039846779391541708",
-      "date": "2026-04-02",
-      "author": "@claudecode_lab",
-      "authorName": "Claude Code研究所",
-      "content": "Claude Cowork および Claude Code Desktop でのComputer useがついにWindowsでも利用可能に",
-      "url": "https://x.com/claudecode_lab/status/2039846779391541708",
-      "tags": ["公式", "computer-use", "windows"]
-    },
-    {
-      "id": "2039836891508261106",
-      "date": "2026-04-02",
-      "author": "@claudeai",
-      "authorName": "Claude",
-      "content": "Computer use in Claude Cowork and Claude Code Desktop is now available on Windows.",
-      "url": "https://x.com/claudeai/status/2039836891508261106",
-      "tags": ["公式", "computer-use", "windows"]
-    },
-    {
-      "id": "2039749628737019925",
-      "date": "2026-04-02",
-      "author": "@AnthropicAI",
-      "authorName": "Anthropic",
-      "content": "New research: Emotion concepts and their function in a large language model.",
-      "url": "https://x.com/AnthropicAI/status/2039749628737019925",
-      "tags": ["公式", "研究"]
-    },
-    {
-      "id": "2039745101476569274",
-      "date": "2026-04-02",
-      "author": "@SuguruKun_ai",
-      "authorName": "すぐる | ChatGPTガチ勢",
-      "content": "株や為替の投資分析ツール「TradingView」をClaude CodeからAI操作できるMCPが公開されて海外で大バズ。TradingViewにはAPIがないけど、デスクトップ版はElectronで動いてるのでChrome DevTools Protocol経由で中身に触れる。",
-      "url": "https://x.com/SuguruKun_ai/status/2039745101476569274",
-      "tags": ["tips", "claude-code", "MCP"]
-    },
-    {
-      "id": "2039674327604576314",
-      "date": "2026-04-02",
-      "author": "@akaoniudetate",
-      "authorName": "なまお",
-      "content": "これは、、、もうみんなX自動化できるやん、、、Claude Codeエグいてぇぇえええ！！！",
-      "url": "https://x.com/akaoniudetate/status/2039674327604576314",
-      "tags": ["使ってみた", "claude-code", "自動化"]
-    },
-    {
-      "id": "2039625354281906667",
-      "date": "2026-04-02",
-      "author": "@yonkuro_awesome",
-      "authorName": "CryptoLand",
-      "content": "【激震】ClaudeがTradingViewを勝手に操作してる！ターミナルからPineScriptを自分で書いてリアルタイム市場をスキャン。チャート分析・コード作成・市場監視まで全自動。",
-      "url": "https://x.com/yonkuro_awesome/status/2039625354281906667",
-      "tags": ["使ってみた", "claude-code", "MCP"]
-    },
-    {
-      "id": "2039595691404571004",
-      "date": "2026-04-02",
-      "author": "@kenn",
-      "authorName": "Kenn Ejima",
-      "content": "他の会社なら、ソースコード51万2000行、内部モデルのコードネーム、プロダクトロードマップの全容をリークした人間は、昼までに荷物をまとめて出ていくことになる。",
-      "url": "https://x.com/kenn/status/2039595691404571004",
-      "tags": ["意見", "ソースコード流出"]
-    },
-    {
-      "id": "2039462835613520356",
-      "date": "2026-04-01",
-      "author": "@itmedia_news",
-      "authorName": "ITmedia NEWS",
-      "content": "GitHub、「Claude Code」流出コードを削除　AnthropicのDMCA申請受け複数リポジトリに対応",
-      "url": "https://x.com/itmedia_news/status/2039462835613520356",
-      "tags": ["ニュース", "claude-code", "ソースコード流出"]
-    },
-    {
-      "id": "2039159291513606357",
-      "date": "2026-04-01",
-      "author": "@keitowebai",
-      "authorName": "KEITO｜AIディレクター",
-      "content": "Claude Codeをインストールしたら「必ず」準備しておきたいこと10選。この初期セットアップをやるかどうかで、Claude Codeが「便利ツール」で終わるか「業務の中核」になるかが決まる。",
-      "url": "https://x.com/keitowebai/status/2039159291513606357",
-      "tags": ["tips", "claude-code"]
-    },
-    {
-      "id": "2038995503141065145",
-      "date": "2026-03-31",
-      "author": "@Rahatcodes",
-      "authorName": "rahat",
-      "content": "Claude Code has a regex that detects \"wtf\", \"ffs\", \"piece of shit\" etc. It doesn't change behavior...it just silently logs is_negative: true to analytics. Anthropic is tracking how often you rage at your AI.",
-      "url": "https://x.com/Rahatcodes/status/2038995503141065145",
-      "tags": ["コミュニティ", "claude-code", "ソースコード流出"]
-    },
-    {
-      "id": "2038994811467022638",
-      "date": "2026-03-31",
-      "author": "@swarm_ai_cloud",
-      "authorName": "Dai Motoki",
-      "content": "もはや神と崇められていたClaudeが、コード流出でただの機械仕掛けの紙飛行機だったことがバレてしまった。さあ、SaaS株の買い時だ。",
-      "url": "https://x.com/swarm_ai_cloud/status/2038994811467022638",
-      "tags": ["意見", "ソースコード流出"]
-    },
-    {
-      "id": "2038989825228095799",
-      "date": "2026-03-31",
-      "author": "@izutorishima",
-      "authorName": "Torishima / INTP",
-      "content": "ソースコード流出した Claude Code を Codex を使って Python で書き直したリポジトリがもう存在していて草",
-      "url": "https://x.com/izutorishima/status/2038989825228095799",
-      "tags": ["コミュニティ", "claude-code", "ソースコード流出"]
-    },
-    {
-      "id": "2038985760175505491",
-      "date": "2026-03-31",
-      "author": "@GergelyOrosz",
-      "authorName": "Gergely Orosz",
-      "content": "This is either brilliant or scary: Anthropic accidentally leaked the TS source code of Claude Code. BUT this repo rewrote the code using Python, and so it violates no copyright & cannot be taken down!",
-      "url": "https://x.com/GergelyOrosz/status/2038985760175505491",
-      "tags": ["コミュニティ", "claude-code", "ソースコード流出"]
-    },
-    {
-      "id": "2038942688545059157",
-      "date": "2026-03-31",
-      "author": "@develogon0",
-      "authorName": "デベロゴン",
-      "content": "Claude Code使って、Instagram10垢とTikTok5垢を1ミリも触れないで運営できてるけど、こりゃマジで革命だな。",
-      "url": "https://x.com/develogon0/status/2038942688545059157",
-      "tags": ["使ってみた", "claude-code"]
-    },
-    {
-      "id": "2038905930306441242",
-      "date": "2026-03-31",
-      "author": "@mocchicc",
-      "authorName": "鶴田 浩之｜CPO＠StudyPocket",
-      "content": "Claude Code（Opus4.6）完全にナーフされてて来月の課金悩むくらい。",
-      "url": "https://x.com/mocchicc/status/2038905930306441242",
-      "tags": ["使ってみた", "claude-code"]
-    },
-    {
-      "id": "2038894956459290963",
-      "date": "2026-03-31",
-      "author": "@Fried_rice",
-      "authorName": "Chaofan Shou",
-      "content": "Claude code source code has been leaked via a map file in their npm registry!",
-      "url": "https://x.com/Fried_rice/status/2038894956459290963",
-      "tags": ["コミュニティ", "claude-code", "ソースコード流出"]
-    },
-    {
-      "id": "2038798243535229069",
-      "date": "2026-03-31",
-      "author": "@nwiizo",
-      "authorName": "nwiizo",
-      "content": "もうパターン化されたコーディングエージェントの活用方法気持ち悪すぎるんだよ",
-      "url": "https://x.com/nwiizo/status/2038798243535229069",
-      "tags": ["意見", "claude-code"]
     }
   ]
 }
