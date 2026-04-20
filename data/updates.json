@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-18",
+    "lastUpdated": "2026-04-21",
     "version": "1.0.0"
   },
   "updates": [
@@ -4334,6 +4334,63 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-04-20-claude-code-v2-1-116",
+      "date": "2026-04-20",
+      "title": "クロード コード v2.1.116",
+      "titleEn": "Claude Code v2.1.116",
+      "description": "大規模なセッションでの `/resume` は大幅に高速化されます (up t...、複数の標準入出力サーバーが構成されている場合の MCP の起動が高速化...、VS Code、Cursor、および Win でのフルスクリーン スクロールがよりスムーズに...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.116"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-20-platform-april-20-2026",
+      "date": "2026-04-20",
+      "title": "Claude Haiku 3 モデル (claude-3-haiku-20240307) を廃止しました。すべてのリクエスト...",
+      "titleEn": "We've retired the Claude Haiku 3 model (claude-3-haiku-20240307). All request...",
+      "description": "Claude Haiku 3 モデル (claude-3-haiku-20240307) を廃止しました。このモデルに対するすべてのリクエストはエラーを返すようになります。 Claude Haiku 4.5 にアップグレードすることをお勧めします。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#april-20-2026"
+    },
+    {
+      "id": "2026-04-20-blog-meet-the-winners-of-our-built-with-opus-4-6-claude-code-hack",
+      "date": "2026-04-20",
+      "title": "Built with Opus 4.6 Claude Code ハカソンの勝者を紹介します",
+      "titleEn": "Meet the winners of our Built with Opus 4.6 Claude Code hackathon",
+      "description": "Built with Opus 4.6 Claude Code ハカソンの勝者を紹介します",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode",
+        "model"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon"
     }
   ]
 }
