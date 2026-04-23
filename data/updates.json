@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-23",
+    "lastUpdated": "2026-04-24",
     "version": "1.0.0"
   },
   "updates": [
@@ -4430,6 +4430,62 @@
         "agent"
       ],
       "link": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp"
+    },
+    {
+      "id": "2026-04-23-claude-code-v2-1-119",
+      "date": "2026-04-23",
+      "title": "クロード コード v2.1.119",
+      "titleEn": "Claude Code v2.1.119",
+      "description": "`/config` 設定 (テーマ、エディター モード、冗長など) いいえ...、フッター PR バッジをポイントする `prUrlTemplate` 設定を追加しました...、非表示にする `CLAUDE_CODE_HIDE_CWD` 環境変数を追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.119"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-23-claude-code-v2-1-118",
+      "date": "2026-04-23",
+      "title": "クロード コード v2.1.118",
+      "titleEn": "Claude Code v2.1.118",
+      "description": "vim ビジュアル モード (`v`) とビジュアルライン モード (`V`) を追加しました...、`/cost` と `/stats` を `/usage` にマージし、`/them... から名前付きカスタム テーマを作成して切り替えます...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.118"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-23-platform-april-23-2026",
+      "date": "2026-04-23",
+      "title": "Memoryfor Claude Managed Agents は現在、標準管理下でパブリック ベータ版です。",
+      "titleEn": "Memoryfor Claude Managed Agents is now in public beta under the standardmanag...",
+      "description": "Memoryfor Claude Managed Agents は現在、standardmanaged-agents-2026-04-01 ヘッダーの下でパブリック ベータ版です。完全な統合ガイドについては、「エージェント メモリの使用」を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#april-23-2026"
     }
   ]
 }
