@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-24",
+    "lastUpdated": "2026-04-26",
     "version": "1.0.0"
   },
   "updates": [
@@ -4486,6 +4486,24 @@
         "platform"
       ],
       "link": "https://docs.anthropic.com/en/release-notes/overview#april-23-2026"
+    },
+    {
+      "id": "2026-04-24-platform-april-24-2026",
+      "date": "2026-04-24",
+      "title": "レート制限 API をリリースしました。これにより、管理者はプログラムで...",
+      "titleEn": "We've released theRate Limits API, allowing administrators to programmaticall...",
+      "description": "レート制限 API をリリースしました。これにより、管理者は組織やワークスペースに設定されたレート制限をプログラムでクエリできるようになります。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#april-24-2026"
     }
   ]
 }
