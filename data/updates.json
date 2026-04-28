@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-26",
+    "lastUpdated": "2026-04-29",
     "version": "1.0.0"
   },
   "updates": [
@@ -4504,6 +4504,82 @@
         "platform"
       ],
       "link": "https://docs.anthropic.com/en/release-notes/overview#april-24-2026"
+    },
+    {
+      "id": "2026-04-28-claude-code-v2-1-122",
+      "date": "2026-04-28",
+      "title": "クロード コード v2.1.122",
+      "titleEn": "Claude Code v2.1.122",
+      "description": "`ANTHROPIC_BEDROCK_SERVICE_TIER` 環境変数を追加しました...、PR URL を `/resume` 検索ボックスに貼り付けると、... が検索されるようになりました、`/mcp` にはマニュアルで隠された claude.ai コネクタが表示されるようになりました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.122"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-28-claude-code-v2-1-121",
+      "date": "2026-04-28",
+      "title": "クロード コード v2.1.121",
+      "titleEn": "Claude Code v2.1.121",
+      "description": "MCP サーバー設定に `alwaysLoad` オプションを追加しました。孤立した自動インスタを削除するために `claude plugin prune` を追加しました。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.121"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-25-claude-code-v2-1-120",
+      "date": "2026-04-25",
+      "title": "クロード コード v2.1.120",
+      "titleEn": "Claude Code v2.1.120",
+      "description": "Windows: Git for Windows (Git Bash) は不要になり、`/u... を実行するための `claude Ultrareview [target]` サブコマンドが追加されました。スキルは `$... で現在のエフォート レベルを参照できるようになりました。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.120"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-04-28-blog-onboarding-claude-code-like-a-new-developer-lessons-from-17",
+      "date": "2026-04-28",
+      "title": "新しい開発者のように Claude Code をオンボーディングする: 17 年間の開発から得た教訓",
+      "titleEn": "Onboarding Claude Code like a new developer: Lessons from 17 years of development",
+      "description": "新しい開発者のように Claude Code をオンボーディングする: 17 年間の開発から得た教訓",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development"
     }
   ]
 }
