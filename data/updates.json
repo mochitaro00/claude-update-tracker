@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-29",
+    "lastUpdated": "2026-04-30",
     "version": "1.0.0"
   },
   "updates": [
@@ -4580,6 +4580,24 @@
         "code"
       ],
       "link": "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development"
+    },
+    {
+      "id": "2026-04-29-blog-deploying-claude-across-the-enterprise-with-claude-cowork",
+      "date": "2026-04-29",
+      "title": "Claude Cowork を使用して企業全体に Claude を導入する",
+      "titleEn": "Deploying Claude across the enterprise with Claude Cowork",
+      "description": "Claude Cowork を使用して企業全体に Claude を導入する",
+      "source": "blog",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork"
+      ],
+      "link": "https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork"
     }
   ]
 }
