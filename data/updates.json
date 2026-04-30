@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-30",
+    "lastUpdated": "2026-05-01",
     "version": "1.0.0"
   },
   "updates": [
@@ -4596,6 +4596,62 @@
       "tags": [
         "blog",
         "cowork"
+      ],
+      "link": "https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork"
+    },
+    {
+      "id": "2026-04-30-platform-april-30-2026",
+      "date": "2026-04-30",
+      "title": "Cl の 1M トークン コンテキスト ウィンドウ ベータ版 (context-1m-2025-08-07) を廃止しました。",
+      "titleEn": "We've retired the 1M token context window beta (context-1m-2025-08-07) for Cl...",
+      "description": "Claude Sonnet 4.5 および Claude Sonnet 4 の 1M トークン コンテキスト ウィンドウ ベータ版 (context-1m-2025-08-07) を廃止しました。ベータ ヘッダーはこれらのモデルに影響を与えなくなり、標準の 200k トークン コンテキスト ウィンドウを超えるリクエストはエラーを返します。 1M コンテキスト ウィンドウを使用するには、Claude Sonnet 4.6 または Claude Opus 4.6 に移行します。通常、ベータ ヘッダーは不要で標準価格で入手できます。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#april-30-2026"
+    },
+    {
+      "id": "2026-04-30-blog-lessons-from-building-claude-code-prompt-caching-is-everyth",
+      "date": "2026-04-30",
+      "title": "クロード コードの構築から得た教訓: 迅速なキャッシュがすべてです",
+      "titleEn": "Lessons from building Claude Code: Prompt caching is everything",
+      "description": "クロード コードの構築から得た教訓: 迅速なキャッシュがすべてです",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything"
+    },
+    {
+      "id": "2026-04-29-blog-deploying-agentic-ai-across-the-enterprise-with-claude-cowor",
+      "date": "2026-04-29",
+      "title": "Claude Cowork と協力して企業全体にエージェント AI を導入",
+      "titleEn": "Deploying agentic AI across the enterprise with Claude Cowork",
+      "description": "Claude Cowork と協力して企業全体にエージェント AI を導入",
+      "source": "blog",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork",
+        "agent"
       ],
       "link": "https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork"
     }
