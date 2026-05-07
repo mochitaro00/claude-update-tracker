@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-07",
+    "lastUpdated": "2026-05-08",
     "version": "1.0.0"
   },
   "updates": [
@@ -4767,6 +4767,24 @@
         "platform"
       ],
       "link": "https://docs.anthropic.com/en/release-notes/overview#may-6-2026"
+    },
+    {
+      "id": "2026-05-07-blog-collaborate-with-claude-across-excel-powerpoint-word-and-o",
+      "date": "2026-05-07",
+      "title": "Excel、PowerPoint、Word、Outlook でクロードと共同作業する",
+      "titleEn": "Collaborate with Claude across Excel, PowerPoint, Word and Outlook",
+      "description": "Excel、PowerPoint、Word、Outlook でクロードと共同作業する",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook"
     }
   ]
 }
