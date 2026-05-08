@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-08",
+    "lastUpdated": "2026-05-09",
     "version": "1.0.0"
   },
   "updates": [
@@ -4785,6 +4785,44 @@
         "blog"
       ],
       "link": "https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook"
+    },
+    {
+      "id": "2026-05-08-claude-code-v2-1-136",
+      "date": "2026-05-08",
+      "title": "クロード コード v2.1.136",
+      "titleEn": "Claude Code v2.1.136",
+      "description": "`CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL` を追加...、自動モード クラス用に `settings.autoMode.hard_deny` を追加...、`.mcp.json` で設定された MCP サーバー、プラグインなどを修正...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.136"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-07-claude-code-v2-1-133",
+      "date": "2026-05-07",
+      "title": "クロード コード v2.1.133",
+      "titleEn": "Claude Code v2.1.133",
+      "description": "`worktree.baseRef` 設定 (`fresh` | `head`) を ch... に追加しました...、`sandbox.bwrapPath` および `sandbox.socatPath` を管理対象に追加しました...、`parentSettingsBehavior` 管理層キー (`'first-wi...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.133"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
