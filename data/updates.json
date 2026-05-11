@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-10",
+    "lastUpdated": "2026-05-12",
     "version": "1.0.0"
   },
   "updates": [
@@ -4861,6 +4861,81 @@
         "v2.1.137"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-11-claude-code-v2-1-139",
+      "date": "2026-05-11",
+      "title": "クロード コード v2.1.139",
+      "titleEn": "Claude Code v2.1.139",
+      "description": "エージェント ビュー (リサーチ プレビュー) を追加: イブの単一リスト...、追加 `/goal` コマンド: 完了条件と Cla を設定...、マウス ホイール スクロールを調整する `/scroll-speed` コマンドを追加 ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.139"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-11-platform-may-11-2026",
+      "date": "2026-05-11",
+      "title": "私たちは AWS で Claude Platform を立ち上げ、Claude API を Anthropic-ma...",
+      "titleEn": "We've launchedClaude Platform on AWS, bringing the Claude API to Anthropic-ma...",
+      "description": "AWS で Claude Platform を開始し、AWS 請求と IAM 認証を使用して、AWS 経由でアクセスできる Anthropic が管理するインフラストラクチャに Claude API を提供します。ネイティブ AWS エンドポイントを通じて、完全なメッセージ API、ファイル API、メッセージ バッチ API、Claude 管理エージェント、エージェント スキル、コード実行、ツールの使用にアクセスします。詳細については、AWS の Claude プラットフォームをご覧ください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-11-2026"
+    },
+    {
+      "id": "2026-05-11-blog-agent-view-in-claude-code",
+      "date": "2026-05-11",
+      "title": "クロードコードのエージェントビュー",
+      "titleEn": "Agent view in Claude Code",
+      "description": "クロードコードのエージェントビュー",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "agent",
+        "code"
+      ],
+      "link": "https://claude.com/blog/agent-view-in-claude-code"
+    },
+    {
+      "id": "2026-05-11-blog-introducing-the-claude-platform-on-aws",
+      "date": "2026-05-11",
+      "title": "AWS 上の Claude プラットフォームの紹介",
+      "titleEn": "Introducing the Claude Platform on AWS",
+      "description": "AWS 上の Claude プラットフォームの紹介",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-platform-on-aws"
     }
   ]
 }
