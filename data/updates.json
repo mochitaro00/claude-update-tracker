@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-12",
+    "lastUpdated": "2026-05-13",
     "version": "1.0.0"
   },
   "updates": [
@@ -4936,6 +4936,62 @@
         "blog"
       ],
       "link": "https://claude.com/blog/claude-platform-on-aws"
+    },
+    {
+      "id": "2026-05-12-claude-code-v2-1-140",
+      "date": "2026-05-12",
+      "title": "クロード コード v2.1.140",
+      "titleEn": "Claude Code v2.1.140",
+      "description": "エージェント ツールの `subagent_type` マッチングを改善して ca... を受け入れるようにしました。エージェントのカラー パレットを更新しました。`disableAllHooks` または ... のときにサイレントにハングする `/goal` を修正しました。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.140"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-12-platform-may-12-2026",
+      "date": "2026-05-12",
+      "title": "高速モード (リサーチ プレビュー) が Claude Opus 4.7 をサポートするようになりました。 Setspeed: 「高速」...",
+      "titleEn": "Fast mode(research preview) now supports Claude Opus 4.7. Setspeed: \"fast\"wit...",
+      "description": "高速モード (リサーチ プレビュー) が Claude Opus 4.7 をサポートするようになりました。 Setspeed: \"fast\" withmodel: \"claude-opus-4-7\" および fast-mode-2026-02-01beta ヘッダーにより、プレミアム価格で出力トークンの生成が大幅に高速化されます。価格、レート制限、アクセスは Opus 4.6 高速モードと同じです。興味のあるお客様は順番待ちリストに参加してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-12-2026"
+    },
+    {
+      "id": "2026-05-12-blog-how-anthropic-s-cybersecurity-team-built-a-threat-detection",
+      "date": "2026-05-12",
+      "title": "Anthropic のサイバーセキュリティ チームが Claude Code を使用して脅威検出プラットフォームを構築した方法",
+      "titleEn": "How Anthropic's cybersecurity team built a threat detection platform with Claude Code",
+      "description": "Anthropic のサイバーセキュリティ チームが Claude Code を使用して脅威検出プラットフォームを構築した方法",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity"
     }
   ]
 }
