@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-16",
+    "lastUpdated": "2026-05-19",
     "version": "1.0.0"
   },
   "updates": [
@@ -5068,6 +5068,42 @@
         "v2.1.143"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-18-platform-may-18-2026",
+      "date": "2026-05-18",
+      "title": "Web 検索ツールでは、より豊富な SEC 申請データが返されるようになり、検索が容易になりました。",
+      "titleEn": "Theweb search toolnow returns richer SEC filing data, making it easier to gro...",
+      "description": "ウェブ検索ツールは、より豊富な SEC 申請データを返すようになり、金融調査エージェント、収益分析、およびデューデリジェンスのワークフローを引用付きの一次情報源に基づいて簡単に把握できるようになりました。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-18-2026"
+    },
+    {
+      "id": "2026-05-13-platform-may-13-2026",
+      "date": "2026-05-13",
+      "title": "パブリックベータ版でキャッシュ診断を開始しました。 Passdiagnostics.previous_messa...",
+      "titleEn": "We've launchedcache diagnosticsin public beta. Passdiagnostics.previous_messa...",
+      "description": "パブリックベータ版でキャッシュ診断を開始しました。 Passdiagnostics.previous_message_idon メッセージ リクエストと API レポート acache_miss_reason は、プロンプト キャッシュ プレフィックスが前のターンから分岐した場所を説明します。リクエストにcache-diagnosis-2026-04-07betaヘッダーを含めます。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-13-2026"
     }
   ]
 }
