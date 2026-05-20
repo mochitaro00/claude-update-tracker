@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-20",
+    "lastUpdated": "2026-05-21",
     "version": "1.0.0"
   },
   "updates": [
@@ -5199,6 +5199,24 @@
         "agent"
       ],
       "link": "https://claude.com/blog/claude-managed-agents-updates"
+    },
+    {
+      "id": "2026-05-20-blog-how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4",
+      "date": "2026-05-20",
+      "title": "人間的な営業リーダーがクロード・コワークを使って 4,000 件の取引先の帳簿を運営する方法",
+      "titleEn": "How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book",
+      "description": "人間的な営業リーダーがクロード・コワークを使って 4,000 件の取引先の帳簿を運営する方法",
+      "source": "blog",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork"
+      ],
+      "link": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book"
     }
   ]
 }
