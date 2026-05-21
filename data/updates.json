@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-21",
+    "lastUpdated": "2026-05-22",
     "version": "1.0.0"
   },
   "updates": [
@@ -5217,6 +5217,43 @@
         "cowork"
       ],
       "link": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book"
+    },
+    {
+      "id": "2026-05-21-claude-code-v2-1-147",
+      "date": "2026-05-21",
+      "title": "クロード コード v2.1.147",
+      "titleEn": "Claude Code v2.1.147",
+      "description": "決定論的なマルチエージェント用の「ワークフロー」ツールを追加しました...、固定されたバックグラウンドセッション (「クロードエージェント」の「Ctrl+T」) ...、「/simplify」の名前を「/code-review」に変更しました。現在、次のレポートが報告されています...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.147"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-21-apps-claude-now-works-with-more-security-and-compliance",
+      "date": "2026-05-21",
+      "title": "クロードは、より多くのセキュリティおよびコンプライアンス ツールを使用できるようになりました。",
+      "titleEn": "Claude now works with more security and compliance tools",
+      "description": "注目すべきセキュリティおよびコンプライアンス ツールとの Claude Compliance API 統合を導入しました。 IT チームとセキュリティ チームは、スタック内の他のアプリケーションを管理するのと同じ方法で、当社のプラットフォームと製品スイート全体で Claude を管理できるようになりました。 Claude Compliance API 統合を開始する方法を学びます。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
