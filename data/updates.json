@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-23",
+    "lastUpdated": "2026-05-24",
     "version": "1.0.0"
   },
   "updates": [
@@ -5290,6 +5290,25 @@
       "tags": [
         "claude-code",
         "v2.1.148"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-23-claude-code-v2-1-150",
+      "date": "2026-05-23",
+      "title": "クロード コード v2.1.150",
+      "titleEn": "Claude Code v2.1.150",
+      "description": "内部インフラストラクチャの改善 (ユーザー向けのチャネルがない)",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.150"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
