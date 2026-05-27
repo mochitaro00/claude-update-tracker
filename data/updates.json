@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-05-28",
     "version": "1.0.0"
   },
   "updates": [
@@ -5309,6 +5309,25 @@
       "tags": [
         "claude-code",
         "v2.1.150"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-27-claude-code-v2-1-152",
+      "date": "2026-05-27",
+      "title": "クロード コード v2.1.152",
+      "titleEn": "Claude Code v2.1.152",
+      "description": "`/code-review --fix` はレビュー結果を適用するようになりました ...、スキルとスラッシュ コマンドで `disallowed-tools` を設定できるようになりました ...、スキル ディレクトリを再スキャンするための `/reload-skills` コマンドを追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.152"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
