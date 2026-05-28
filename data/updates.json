@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-28",
+    "lastUpdated": "2026-05-29",
     "version": "1.0.0"
   },
   "updates": [
@@ -5330,6 +5330,99 @@
         "v2.1.152"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-28-claude-code-v2-1-154",
+      "date": "2026-05-28",
+      "title": "クロード コード v2.1.154",
+      "titleEn": "Claude Code v2.1.154",
+      "description": "オーパス4.8が登場！デフォルトは高エフォート · /effort x...、動的なワークフローの導入: クロードに作品の作成を依頼...、Opus 4.8 の高速モードがわずかな料金で利用できるようになりました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.154"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-28-claude-code-v2-1-153",
+      "date": "2026-05-28",
+      "title": "クロード コード v2.1.153",
+      "titleEn": "Claude Code v2.1.153",
+      "description": "`github`/`git` プラグイン マーケットプラに `skipLfs` オプションを追加しました...、クロード コードは npm glo のときに 1 回限りの通知を表示するようになりました...、ステータス ライン コマンドが `COLUMNS` と `LINES` を受け取るようになりました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.153"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-28-platform-may-28-2026",
+      "date": "2026-05-28",
+      "title": "私たちは、最も高性能な一般向けバージョンである Claude Opus 4.8(claude-opus-4-8) をリリースしました。",
+      "titleEn": "We've launchedClaude Opus 4.8(claude-opus-4-8), our most capable generally av...",
+      "description": "Claude Opus 4.8 (claude-opus-4-8) は、当社の最も高性能な一般入手可能なモデルです。Claude Opus 4.8 は、デフォルトで 1M トークン コンテキスト ウィンドウ、128k の最大出力トークン、および Claude Opus 4.7 と同じツール セットとプラットフォーム機能をサポートしています。機能の改善、新機能、移行ガイダンスについては、「Claude Opus 4.8 の新機能」を参照してください。 / 会話中のシステム メッセージを開始しました。 Claude Opus 4.8 では、メッセージ配列の最初以外の位置で role: \"system\" メッセージを送信し、長時間実行中のセッション中に命令が変更された場合にプロンプ​​ト キャッシュ ヒットを維持できます。ベータヘッダーは必要ありません。 /Claude Opus 4.8 がリクエストを拒否した場合、Messages API は stop_details で拒否カテゴリを返すようになりました。そのため、アプリケーションはさまざまなクラスの拒否を適切な次のステップにルーティングできます。ベータヘッダーは必要ありません。 「拒否カテゴリ」を参照してください。 /Claude Opus 4.8 では、Claude Code と Messages API を含むすべてのサーフェスにわたって、デフォルトで努力パラメータが高く設定されています。 /Claude Opus 4.8 では、プロンプト キャッシュのキャッシュ可能なプロンプトの最小長は 1,024 トークンで、Claude Opus 4.7 よりも短くなります。 / クロード オーパス 4.8 は適応的思考を使用して、ターンで必要な場合にのみ推論をトリガーし、同じ努力レベルのクロード オーパス 4.7 と比較して無駄な思考トークンを減らします。 / Claude Opus 4.8はClaude Opus 4.7と同様に高解像度画像入力(長辺2576ピクセルまで)に対応しています。 / タスクの予算はClaude Opus 4.8をサポートしています。 / アドバイザ ツールは、Claude Opus 4.8 をサポートするようになりました。 / コンピューターの使用がClaude Opus 4.8をサポートするようになりました。 /Claude Opus 4.8 の高速モードは、Claude API のリサーチ プレビューとしてのみ利用可能です。 / サンプリング パラメータ温度、top_p、またはtop_k をデフォルト以外の値に設定すると、Claude Opus 4.8 では Claude Opus 4.7 と同様に 400 エラーが返されます。詳細については、移行ガイドを参照してください。 / Claude Code では、長時間実行されるタスクのために自動モードをより多くのユーザーに拡張しました。クロード コードのドキュメントを参照してください。 / Claude Code では、Max プランのユーザーはデフォルトで Claude Opus 4.8 のファスト モードを選択するようになりました。クロード コードのドキュメントを参照してください。 / Claude Code では、ワークフローがリサーチ プレビューとして利用可能で、複数ステップのエージェント プランを定義して実行できます。クロード コードのドキュメントを参照してください。 / Claude Opus 4.6 の高速モードは非推奨となり、発売から約 30 日後に削除されます。 Claude Opus 4.8 または Claude Opus 4.7 の場合は高速モードに移行します。高速モードで続きを読む。 / このリリースの claude.ai、Cowork、Claude for Microsoft 365、およびその他の Claude アプリの更新については、Claude アプリのリリース ノートを参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-28-2026"
+    },
+    {
+      "id": "2026-05-28-apps-claude-opus-4-8-launch",
+      "date": "2026-05-28",
+      "title": "クロード Opus 4.8 の発売",
+      "titleEn": "Claude Opus 4.8 launch",
+      "description": "Claude Opus を新しいバージョンにアップグレードしました。クロード Opus 4.8 は、コーディング、エージェント スキル、推論、実践的な知識作業タスクにおいて、Opus 4.7 に比べて改善が見られます。  詳細については、ブログ投稿「Claude Opus 4.8 の紹介」を参照してください。エンタープライズ プランでは、カスタム ロールを使用してコネクタ アクセスを管理できます",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-05-28-blog-introducing-dynamic-workflows-in-claude-code",
+      "date": "2026-05-28",
+      "title": "Claude Code での動的ワークフローの導入",
+      "titleEn": "Introducing dynamic workflows in Claude Code",
+      "description": "Claude Code での動的ワークフローの導入",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"
     }
   ]
 }
