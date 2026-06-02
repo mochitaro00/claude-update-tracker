@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-01",
+    "lastUpdated": "2026-06-03",
     "version": "1.0.0"
   },
   "updates": [
@@ -5498,6 +5498,81 @@
         "v2.1.159"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-02-claude-code-v2-1-161",
+      "date": "2026-06-02",
+      "title": "クロード コード v2.1.161",
+      "titleEn": "Claude Code v2.1.161",
+      "description": "`OTEL_RESOURCE_ATTRIBUTES` の値がラボとして含まれるようになりました...、`claude Agents` の行には det の前に `done/total` が表示されるようになりました...、`/mcp` は今まで見たことのない claude.ai コネクタを折りたたむようになりました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.161"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-02-claude-code-v2-1-160",
+      "date": "2026-06-02",
+      "title": "クロード コード v2.1.160",
+      "titleEn": "Claude Code v2.1.160",
+      "description": "シェル起動ファイルに書き込む前にプロンプ​​トを追加しました (`.z...、`acceptEdits` モードは、ビルドツールを書き込む前にプロンプ​​トを表示するようになりました ...、編集は、ファイルを表示した後に別の読み取りを必要としなくなりました)",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.160"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-02-platform-june-2-2026",
+      "date": "2026-06-02",
+      "title": "アドバイザ ツールは、アドバイザ モデルの上限を設定する amax_tokens パラメータをサポートするようになりました。",
+      "titleEn": "Theadvisor toolnow supports amax_tokensparameter to cap the advisor model's o...",
+      "description": "アドバイザ ツールは、呼び出しごとのアドバイザ モデルの出力を制限する amax_tokens パラメータをサポートするようになり、完全長のアドバイザ応答を必要としないワークロードのレイテンシと出力トークン コストを削減します。 Settools[].max_tokenson アドバイザ ツール定義。キャッピング アドバイザの出力を参照してください。 / Claude API では、Claude が出力を生成せずに stop_reason: \"refusal\" が返された場合、リクエストに対する料金は請求されなくなりました。拒否の検出と処理については、「ストリーミング拒否」を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-2-2026"
+    },
+    {
+      "id": "2026-06-02-blog-a-harness-for-every-task-dynamic-workflows-in-claude-code",
+      "date": "2026-06-02",
+      "title": "あらゆるタスクに最適なハーネス: Claude Code の動的なワークフロー",
+      "titleEn": "A harness for every task: dynamic workflows in Claude Code",
+      "description": "あらゆるタスクに最適なハーネス: Claude Code の動的なワークフロー",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code"
     }
   ]
 }
