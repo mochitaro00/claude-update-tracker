@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-04",
+    "lastUpdated": "2026-06-05",
     "version": "1.0.0"
   },
   "updates": [
@@ -5629,6 +5629,61 @@
         "cowork"
       ],
       "link": "https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork"
+    },
+    {
+      "id": "2026-06-04-claude-code-v2-1-163",
+      "date": "2026-06-04",
+      "title": "クロード コード v2.1.163",
+      "titleEn": "Claude Code v2.1.163",
+      "description": "`requiredMinimumVersion` と `requiredMinimumVersio...、インストールされているプラ​​グインを一覧表示する `/plugin list` コマンドを追加しました...、ファイルをコピーする \"c to copy\" ショートカットを `/btw` に追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.163"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-27-platform-may-27-2026",
+      "date": "2026-05-27",
+      "title": "Messages API の応答には、usage.output_tokens_details. Thinking_to... が含まれるようになりました。",
+      "titleEn": "The Messages API response now includesusage.output_tokens_details.thinking_to...",
+      "description": "Messages API の応答には、usage.output_tokens_details. Thinking_tokens が含まれるようになり、請求された出力トークンのうち拡張思考が行われた数が報告されます。ストリーミングの場合、内訳はfinalmessage_deltaeventにのみ表示されます。ベータヘッダーは必要ありません。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-27-2026"
+    },
+    {
+      "id": "2026-06-02-apps-enterprise-plans-can-manage-admin-permissions-with",
+      "date": "2026-06-02",
+      "title": "エンタープライズ プランでは、カスタム ロールを使用して管理者権限を管理できます",
+      "titleEn": "Enterprise plans can manage admin permissions with custom roles",
+      "description": "管理者権限を追加することで、既存のカスタム ロール フレームワークを拡張しました。管理者権限により、メンバーは所有者にならずに、請求やプライバシーなどの特定の管理領域にアクセスできるようになります。詳細については、「Enterprise プランでのカスタム ロールの管理」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
