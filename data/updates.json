@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-06",
+    "lastUpdated": "2026-06-07",
     "version": "1.0.0"
   },
   "updates": [
@@ -5758,6 +5758,63 @@
         "code"
       ],
       "link": "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering"
+    },
+    {
+      "id": "2026-06-06-claude-code-v2-1-168",
+      "date": "2026-06-06",
+      "title": "クロード コード v2.1.168",
+      "titleEn": "Claude Code v2.1.168",
+      "description": "バグ修正と信頼性の向上",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.168"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-06-claude-code-v2-1-167",
+      "date": "2026-06-06",
+      "title": "クロード コード v2.1.167",
+      "titleEn": "Claude Code v2.1.167",
+      "description": "バグ修正と信頼性の向上",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.167"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-06-claude-code-v2-1-166",
+      "date": "2026-06-06",
+      "title": "クロード コード v2.1.166",
+      "titleEn": "Claude Code v2.1.166",
+      "description": "最大 3 つのファを構成するための `fallbackModel` 設定を追加しました...、拒否ルール ツール名の位置にグロブ パターンのサポートを追加しました...、強化されたクロスセッション メッセージング: `S... 経由で中継されるメッセージ",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.166"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
