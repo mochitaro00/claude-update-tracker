@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-09",
+    "lastUpdated": "2026-06-10",
     "version": "1.0.0"
   },
   "updates": [
@@ -5834,6 +5834,61 @@
         "v2.1.169"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-09-claude-code-v2-1-170",
+      "date": "2026-06-09",
+      "title": "クロード コード v2.1.170",
+      "titleEn": "Claude Code v2.1.170",
+      "description": "Claude Fable 5 の紹介: 私たちが提供する Mythos クラスのモデル...、トランスクリプトが保存されない (そして表示されない) セッションを修正しました ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.170"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-09-platform-june-9-2026",
+      "date": "2026-06-09",
+      "title": "私たちは、最も有能な広範なリリースである Claude Fable 5(claude-fable-5) をリリースしました...",
+      "titleEn": "We've launchedClaude Fable 5(claude-fable-5), our most capable widely release...",
+      "description": "私たちは、プロジェクト Glasswing 参加者向けに、Claude Mythos 5(claude-mythos-5) と並んで、広くリリースされている最も高性能なモデルである Claude Fable 5(claude-fable-5) を発売しました。どちらのモデルも、デフォルトで a1M トークン コンテキスト ウィンドウ、最大 128k の出力トークン、および常時オンの適応的思考をサポートします。機能、API の変更、および可用性については、「Claude Fable 5 および Claude Mythos 5 の紹介」を参照してください。 / Claude Fable 5 と Claude Mythos 5 は、Claude Opus 4.7 で導入されたトークナイザーを使用します。 Claude Opus 4.7 より前のモデルと比較すると、同じテキストで生成されるトークンが約 30% 増加します。トークン カウンティング API をモデル「claude-fable-5」で使用して、新しいトークナイザーでのプロンプトを測定します。 / Claude Fable 5 は、リクエスト時およびレスポンス生成中に安全性分類子を実行します。分類子がリクエストを拒否すると、メッセージ API は stop_reason: \"refusal\" を返します。出力が生成される前に拒否されたリクエストについては料金は請求されません。 opt-infallbacks パラメータ (AWS の Claude API および Claude Platform ではベータ版。メッセージ バッチ API ではサポートされていません) は、拒否されたリクエストを別のモデルで再実行し、フォールバック モデルの料金で請求されます。 「停止理由の処理」を参照してください。 / 拒否応答の stop_details.category フィールドに、Claude Fable 5 の \"reasoning_extraction\" が含まれるようになりました。これは、リバース エンジニアリングまたはモデル出力の複製に関する Anthropic の利用規約制限に基づいてリクエストがブロックされた場合に返されます。既存の「サイバー」および「バイオ」カテゴリは変更されません。ベータヘッダーは必要ありません。 / クロード寓話 5 とクロード神話 5 では、適応的思考が唯一の思考モードです: Thinking: {\"type\": \"disabled\"} はサポートされておらず、手動の拡張思考バジェットとアシスタントの事前入力はサポートされていません (どちらも 400 エラーを返します)。 「Claude Mythos Preview から Claude Mythos 5 への移行」を参照してください。 / Claude Fable 5 および Claude Mythos 5 では、 Thinking.displaydefaults が「省略」に設定されます。これは、Claude Opus 4.8、Claude Opus 4.7、および Claude Mythos Preview と同じです。 setdisplay: \"summarized\": 読みやすい思考の要約を受け取ります。生の思考の連鎖は決して戻されません。同じモデルでの複数ターンの会話で、思考ブロックを変更せずに戻します。 Claude Fable 5 および Claude Mythos 5 に関する思考の出力を参照してください。 / Claude Fable 5 は、Claude API で 30 日間のデータ保持を必要とし、データ保持がゼロの場合は利用できません。 「モデル固有のデータ保持要件」を参照してください。 / Claude 管理エージェントは、スケジュールされたデプロイメントをサポートするようになり、独自のスケジューラーを管理せずに cron スケジュールでセッションを実行できるようになりました。 / Claude 管理対象エージェントのコンテナーで環境変数の資格情報がサポートされるようになったため、CLI、SDK、および環境変数を通じて認証するその他のサービスのエージェントのサンドボックスにシークレットを安全に挿入できます。 / Thesession.thread_*webhook イベントには、イベントをトリガーしたマルチエージェント スレッドを識別する asession_thread_id フィールドが含まれるようになりました。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-9-2026"
+    },
+    {
+      "id": "2026-06-09-apps-claude-fable-5-launch",
+      "date": "2026-06-09",
+      "title": "クロード・ファブル5の発売",
+      "titleEn": "Claude Fable 5 launch",
+      "description": "私たちは、一般的な使用に安全なミトスクラスのモデルであるクロード・フェイブル 5 を発売しました。詳細については、ブログ投稿「Claude Fable 5 および Claude Mythos 5」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
