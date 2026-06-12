@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-11",
+    "lastUpdated": "2026-06-13",
     "version": "1.0.0"
   },
   "updates": [
@@ -5908,6 +5908,81 @@
         "v2.1.172"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-12-claude-code-v2-1-176",
+      "date": "2026-06-12",
+      "title": "クロード コード v2.1.176",
+      "titleEn": "Claude Code v2.1.176",
+      "description": "セッション タイトルはあなたの言語で生成されるようになりました...、正規表現と一致したリンクの `footerLinksRegexes` 設定を追加しました...、Bedrock 認証情報のキャッシュを改善しました: `aw... からの認証情報",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.176"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-12-claude-code-v2-1-175",
+      "date": "2026-06-12",
+      "title": "クロード コード v2.1.175",
+      "titleEn": "Claude Code v2.1.175",
+      "description": "「enforceAvailableModels」管理設定を追加しました",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.175"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-12-claude-code-v2-1-174",
+      "date": "2026-06-12",
+      "title": "クロード コード v2.1.174",
+      "titleEn": "Claude Code v2.1.174",
+      "description": "無効にする `wheelScrollAccelerationEnabled` 設定を追加しました...、モデル ファミリを非表示にする `/model` ピッカーを修正しました...、ハードコードされた Sonnet バージョンを表示する `/model` ピッカーを修正しました ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.174"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-10-platform-june-10-2026",
+      "date": "2026-06-10",
+      "title": "GET /v1/environments/{id}/workendpoint、これは自分自身の保留中の作業をリストします...",
+      "titleEn": "TheGET /v1/environments/{id}/workendpoint, which lists pending work for aself...",
+      "description": "自己ホスト型サンドボックスの保留中の作業をリストする GET /v1/environments/{id}/workendpoint が、AWS の Claude Platform で利用できるようになりました。これを許可する GetEnvironment アクションについては、AWS 上の Claude Platform の IAM アクションを参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-10-2026"
     }
   ]
 }
