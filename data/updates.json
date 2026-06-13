@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-13",
+    "lastUpdated": "2026-06-14",
     "version": "1.0.0"
   },
   "updates": [
@@ -5983,6 +5983,24 @@
         "platform"
       ],
       "link": "https://docs.anthropic.com/en/release-notes/overview#june-10-2026"
+    },
+    {
+      "id": "2026-06-12-apps-we-ve-suspended-access-to-claude-fable-5-and-claud",
+      "date": "2026-06-12",
+      "title": "クロード・ファブル 5 とクロード・ミトス 5 へのアクセスを一時停止しました。再開を目指しています。",
+      "titleEn": "We've suspended access to Claude Fable 5 and Claude Mythos 5. We aim to retur...",
+      "description": "クロード寓話 5 とクロード神話 5 へのアクセスを一時停止しました。できるだけ早くアクセスを再開することを目指しています。詳細については、当社の声明をご覧ください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
