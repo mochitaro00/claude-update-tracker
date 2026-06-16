@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-16",
+    "lastUpdated": "2026-06-17",
     "version": "1.0.0"
   },
   "updates": [
@@ -6044,6 +6044,26 @@
       "date": "2026-06-15",
       "title": "Built with Opus 4.7 Claude Code ハカソンの勝者を紹介します",
       "titleEn": "Meet the winners of Built with Opus 4.7 Claude Code hackathon",
+      "description": "Built with Opus 4.7 Claude Code ハカソンの勝者を紹介します",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode",
+        "model"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon"
+    },
+    {
+      "id": "2026-06-15-blog-meet-the-winners-of-the-built-with-opus-4-7-claude-code-hack",
+      "date": "2026-06-15",
+      "title": "Built with Opus 4.7 Claude Code ハカソンの勝者を紹介します",
+      "titleEn": "Meet the winners of the Built with Opus 4.7 Claude Code hackathon",
       "description": "Built with Opus 4.7 Claude Code ハカソンの勝者を紹介します",
       "source": "blog",
       "platforms": [
