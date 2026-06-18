@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-18",
+    "lastUpdated": "2026-06-19",
     "version": "1.0.0"
   },
   "updates": [
@@ -6114,6 +6114,64 @@
         "blog"
       ],
       "link": "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon"
+    },
+    {
+      "id": "2026-06-18-blog-steering-claude-code-claude-md-files-skills-hooks-rules",
+      "date": "2026-06-18",
+      "title": "ステアリング クロード コード: CLAUDE.md ファイル、スキル、フック、ルール、サブエージェントなど",
+      "titleEn": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+      "description": "ステアリング クロード コード: CLAUDE.md ファイル、スキル、フック、ルール、サブエージェントなど",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "agent",
+        "code"
+      ],
+      "link": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more"
+    },
+    {
+      "id": "2026-06-18-blog-centrally-manage-authorization-for-mcp-connectors",
+      "date": "2026-06-18",
+      "title": "MCP コネクタの認証を一元管理する",
+      "titleEn": "Centrally manage authorization for MCP connectors",
+      "description": "MCP コネクタの認証を一元管理する",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "mcp"
+      ],
+      "link": "https://claude.com/blog/enterprise-managed-auth"
+    },
+    {
+      "id": "2026-06-18-blog-claude-code-now-supports-artifacts",
+      "date": "2026-06-18",
+      "title": "クロードコードがアーティファクトをサポートするようになりました",
+      "titleEn": "Claude Code now supports artifacts",
+      "description": "クロードコードがアーティファクトをサポートするようになりました",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/artifacts-in-claude-code"
     }
   ]
 }
