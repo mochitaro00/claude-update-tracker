@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-20",
+    "lastUpdated": "2026-06-21",
     "version": "1.0.0"
   },
   "updates": [
@@ -6209,6 +6209,25 @@
         "platform"
       ],
       "link": "https://docs.anthropic.com/en/release-notes/overview#june-11-2026"
+    },
+    {
+      "id": "2026-06-20-claude-code-v2-1-185",
+      "date": "2026-06-20",
+      "title": "クロード コード v2.1.185",
+      "titleEn": "Claude Code v2.1.185",
+      "description": "ストリーム停止のヒントには「API 応答を待機しています...」と表示されるようになりました。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.185"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
