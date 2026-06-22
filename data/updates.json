@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-21",
+    "lastUpdated": "2026-06-23",
     "version": "1.0.0"
   },
   "updates": [
@@ -6228,6 +6228,42 @@
         "v2.1.185"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-22-claude-code-v2-1-186",
+      "date": "2026-06-22",
+      "title": "クロード コード v2.1.186",
+      "titleEn": "Claude Code v2.1.186",
+      "description": "`claude mcp login <name>` と `claude mcp logout <n...、ステータス フィルタリング (`f` を押す) を `/workflows` ag... に追加...、「Skills」セクションを `/plugin` の [Installed] タブに追加",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.186"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-22-blog-the-full-claude-desktop-experience-on-aws-google-cloud-and",
+      "date": "2026-06-22",
+      "title": "AWS、Google Cloud、Microsoft Foundry での完全な Claude デスクトップ エクスペリエンス",
+      "titleEn": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
+      "description": "AWS、Google Cloud、Microsoft Foundry での完全な Claude デスクトップ エクスペリエンス",
+      "source": "blog",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry"
     }
   ]
 }
