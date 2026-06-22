@@ -1,100 +1,100 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-29",
+    "lastUpdated": "2026-06-22",
     "excludedAccounts": [
       "@paji_a"
     ]
   },
   "posts": [
     {
-      "id": "2060099075752821189",
-      "date": "2026-05-28",
-      "author": "@masahirochaen",
-      "authorName": "チャエン | デジライズ CEO",
-      "content": "【⚡️Breaking】Claude Opus 4.8登場。Opus 4.7のハイエンド版で価格据え置き。コードのバグ見逃し率が4.7比で約1/4に低減。ただし体感はやや遅め。SWE-Bench Pro 69.2%（首位）、Knowledge Worker GDPval-AA 1890（GPT-5.5の1769を圧倒）、Computer operation 83.4%、Financial 53.9%（いずれも首位）。Fast modeは約2.5倍速・3倍安。ベンチマーク6勝1敗の堅実進化。",
-      "url": "https://x.com/masahirochaen/status/2060099075752821189",
-      "tags": ["公式", "ニュース", "ベンチマーク"]
+      "id": "2067671912038240487",
+      "date": "2026-06-18",
+      "author": "@claudeai",
+      "authorName": "Claude",
+      "content": "New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link. Available in beta on Team and Enterprise plans.",
+      "url": "https://x.com/claudeai/status/2067671912038240487",
+      "tags": ["公式", "ニュース", "claude-code"]
     },
     {
-      "id": "2060056572286701752",
-      "date": "2026-05-28",
-      "author": "@MLBear2",
-      "authorName": "ML_Bear",
-      "content": "Claude公式プロンプトエンジニアリングガイドがOpus 4.8向けに更新された。",
-      "url": "https://x.com/MLBear2/status/2060056572286701752",
-      "tags": ["公式", "tips", "学習"]
+      "id": "2067651699486200091",
+      "date": "2026-06-18",
+      "author": "@AnthropicAI",
+      "authorName": "Anthropic",
+      "content": "New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog. Opus 4.7, on its own, was ~20x faster than last year's best human team aided by Opus 4.1. (The robodog, alas, still failed to fetch a beach ball.)",
+      "url": "https://x.com/AnthropicAI/status/2067651699486200091",
+      "tags": ["公式", "ニュース", "リサーチ"]
     },
     {
-      "id": "2060080813153341784",
-      "date": "2026-05-28",
-      "author": "@masahiroitosugi",
-      "authorName": "糸杉柾宏",
-      "content": "Claude（Anthropic）で2週間ハマった話。①ログイン用Gmailが突然Google凍結→有料Claude Maxにアクセス不能。②Claudeのログインはメールマジックリンクのみ、パスワード・SMS・リカバリーコードなし、メールが死んだら詰む。③サポートはAIボット（Fin）の自動返信ループで人間からの返事ゼロ。④幸い別ブラウザのアクティブセッションでキャンセル成功。教訓：単一メール依存のサービスは要注意。",
-      "url": "https://x.com/masahiroitosugi/status/2060080813153341784",
-      "tags": ["体験談", "注意喚起"]
+      "id": "2066769708641042571",
+      "date": "2026-06-16",
+      "author": "@mikenevermiss",
+      "authorName": "MIKE",
+      "content": "Anthropic engineer: \"you're not supposed to prompt Claude. you're supposed to build a system that prompts itself [loops].\" メモリファイル・サブエージェント・停止条件を組んで自走させるワークフロー解説。1日1プロンプトが一番遅い、と。",
+      "url": "https://x.com/mikenevermiss/status/2066769708641042571",
+      "tags": ["tips", "claude-code", "意見"]
     },
     {
-      "id": "2060137483334254843",
-      "date": "2026-05-28",
-      "author": "@AI_masaou",
-      "authorName": "AI_masaou",
-      "content": "Claude使いの皆さん「Opus4.8でコレならMythosはどうなっちまうんや・・・😂」",
-      "url": "https://x.com/AI_masaou/status/2060137483334254843",
-      "tags": ["意見", "コミュニティ"]
+      "id": "2068694249957396877",
+      "date": "2026-06-21",
+      "author": "@anujcodes_21",
+      "authorName": "Anuj",
+      "content": "🚨Anthropic just showed a 24-minute workshop on how to actually do prompts for Claude. Taught by the people who built it. Free. No registration. No paywall. I've seen $300 courses that don't cover what they teach in the first 8 minutes.",
+      "url": "https://x.com/anujcodes_21/status/2068694249957396877",
+      "tags": ["tips", "学習", "コミュニティ"]
     },
     {
-      "id": "2060062822604935362",
-      "date": "2026-05-28",
-      "author": "@ds_nakajima",
-      "authorName": "なかじ / 中島大介",
-      "content": "また動画出しますが、Claude Opus4.8、こいつとんでもないです！ふつうにイかれてますwwww",
-      "url": "https://x.com/ds_nakajima/status/2060062822604935362",
-      "tags": ["使ってみた", "意見"]
+      "id": "2067876261901525030",
+      "date": "2026-06-19",
+      "author": "@_avichawla",
+      "authorName": "Avi Chawla",
+      "content": "Claude Code's architecture, explained visually (bookmark this). Claude Code is a lot more than a CLI — 6層（Input / Knowledge / Execution / Integration / Multi-agent / Observability）で図解。",
+      "url": "https://x.com/_avichawla/status/2067876261901525030",
+      "tags": ["tips", "claude-code", "学習"]
     },
     {
-      "id": "2060096270430027814",
-      "date": "2026-05-28",
-      "author": "@daniel_mac8",
-      "authorName": "Dan McAteer",
-      "content": "New in Claude Code (research preview): dynamic workflows. Claude writes an orchestration script on the fly, then spins up a large fleet of coordinated subagents in parallel to take on your most complex tasks. Use the word \"workflow\" in a prompt to get started.",
-      "url": "https://x.com/daniel_mac8/status/2060096270430027814",
-      "tags": ["ニュース", "claude-code"]
-    },
-    {
-      "id": "2060106494742516218",
-      "date": "2026-05-28",
-      "author": "@NickADobos",
-      "authorName": "Nick Dobos",
-      "content": "Claude code's new dynamic workflows update is absurd. This is Claude vibecoding an entire brand new subagent fleet harness on demand. RLM on agent harnesses. This is basically a new scaling law dimension: Base Model Compute x Inference time Thinking Compute x Inference time generated Harness Compute. HUGE step forward on the path of AI.",
-      "url": "https://x.com/NickADobos/status/2060106494742516218",
-      "tags": ["意見", "claude-code"]
-    },
-    {
-      "id": "2060114425776869813",
-      "date": "2026-05-28",
-      "author": "@BHolmesDev",
-      "authorName": "Ben Holmes",
-      "content": "The /handoff skill is so great. I use it to plan with Claude Code using /grill-me, and delegate that plan to multiple worktrees running Codex.",
-      "url": "https://x.com/BHolmesDev/status/2060114425776869813",
+      "id": "2068837895524507930",
+      "date": "2026-06-21",
+      "author": "@akira_papa_IT",
+      "authorName": "あきらパパ【生成AI活用エンジニア&３児のパパ】",
+      "content": "Claude Codeを\"自分仕様\"に育てる7つの指示方法。CLAUDE.mdに何でも書くのはもう卒業。①常駐＝強いがコスト高（CLAUDE.md/Rules/Output Styles）②必要時だけ＝軽い（サブ階層・Skills・Subagents）③確実な強制力（Hooks）。「毎回必ずYして」はHook、「絶対するな」は権限で物理ブロック、30行の手順はSkillへ。",
+      "url": "https://x.com/akira_papa_IT/status/2068837895524507930",
       "tags": ["tips", "claude-code"]
     },
     {
-      "id": "2060098885561778341",
-      "date": "2026-05-28",
-      "author": "@emollick",
-      "authorName": "Ethan Mollick",
-      "content": "I had Opus 4.8 in Claude Code write a sophisticated, if minor, academic paper from a archive of hundreds of de-identified research files from years ago. I had to use GPT-5.5 Pro as a reviewer, it spotted one major error & some minor points. Opus corrected.",
-      "url": "https://x.com/emollick/status/2060098885561778341",
-      "tags": ["使ってみた", "claude-code"]
+      "id": "2068837488077201424",
+      "date": "2026-06-21",
+      "author": "@it__garlic",
+      "authorName": "いた｜HR Tech CTO",
+      "content": "「Claudeのデザインが変」という感想をよく見るが、その前にデザインシステムを渡したか、という話。AIはコンテキストなしならデフォルトを返す機械。Claude Codeのコード品質も同じで、CLAUDE.mdも受け入れ基準もなしで「なぜまともなコードが出ない」と言う。DESIGN.mdやCLAUDE.mdは「何が良いかをAIに教える設計書」。",
+      "url": "https://x.com/it__garlic/status/2068837488077201424",
+      "tags": ["意見", "claude-code", "tips"]
     },
     {
-      "id": "2060135090131448209",
-      "date": "2026-05-28",
-      "author": "@theo",
-      "authorName": "Theo",
-      "content": "Never change, Claude Code. Never change.",
-      "url": "https://x.com/theo/status/2060135090131448209",
+      "id": "2068839884119552049",
+      "date": "2026-06-21",
+      "author": "@moriyorihayash1",
+      "authorName": "林拓海｜株式会社honkoma代表",
+      "content": "モデルはあなたが寝てても賢くなる。だが会社のデータを放置している限り活用できない。50人以下の会社ならnotionの管理で十分。全員がnotion MCPでclaude codeからアクセスして仕事するだけで生産性が上がる。いまAIに来月の売上見込みを聞いて出てこない会社は焦った方がいい。",
+      "url": "https://x.com/moriyorihayash1/status/2068839884119552049",
       "tags": ["意見", "claude-code"]
+    },
+    {
+      "id": "2068846040934211853",
+      "date": "2026-06-21",
+      "author": "@nihongo_momo",
+      "authorName": "ももいろ先生🍑AI×日本語教師",
+      "content": "ジグソーリーディング、授業でやってみたことはありますか？市販教材を使わず1から準備するのは大変。今回はClaudeと一緒にジグソーリーディング教材を一式作った実例をご紹介。記事の最後でSkillsを無料ダウンロードできます。",
+      "url": "https://x.com/nihongo_momo/status/2068846040934211853",
+      "tags": ["使ってみた", "tips"]
+    },
+    {
+      "id": "2068837373627220072",
+      "date": "2026-06-21",
+      "author": "@MalwareBibleJP",
+      "authorName": "「マルウエアの教科書」著者 | 吉川孝志",
+      "content": "JPモルガン・チェースとゴールドマン・サックスが、香港拠点の従業員によるAnthropicのClaudeへのアクセスを相次いで停止したと報じられています。Claudeは香港を正式な対応地域としておらず、契約条件の厳格解釈の結果、承認済みモデル一覧からClaudeが削除。GeminiやChatGPTは引き続き利用可能とされています。",
+      "url": "https://x.com/MalwareBibleJP/status/2068837373627220072",
+      "tags": ["ニュース", "意見"]
     }
   ]
 }
