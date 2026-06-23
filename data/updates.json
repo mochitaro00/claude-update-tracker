@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-23",
+    "lastUpdated": "2026-06-24",
     "version": "1.0.0"
   },
   "updates": [
@@ -6264,6 +6264,61 @@
         "blog"
       ],
       "link": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry"
+    },
+    {
+      "id": "2026-06-23-claude-code-v2-1-187",
+      "date": "2026-06-23",
+      "title": "クロード コード v2.1.187",
+      "titleEn": "Claude Code v2.1.187",
+      "description": "サンドボックス化された共有をブロックするための `sandbox.credentials` 設定を追加しました...、モデル選択に組織構成のモデル制限を追加しました...、メニューを選択するためのマウス クリックのサポートを追加しました (権限プロ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.187"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-05-04-platform-may-4-2026",
+      "date": "2026-05-04",
+      "title": "Workload Identity Federation が一般提供されるようになりました。ワークロードを認証します...",
+      "titleEn": "Workload Identity Federationis now generally available. Authenticate workload...",
+      "description": "Workload Identity Federation が一般提供されるようになりました。有効期間の長い静的 API キーではなく、独自の ID プロバイダー (AWS IAM、Google Cloud、GitHub Actions、Kubernetes、Microsoft Entra ID、Okta、SPIFFE など) からの有効期間の短い OIDC トークンを使用して、Claude API に対するワークロードを認証します。クロード コンソールで発行者とフェデレーション ルールを構成すると、SDK がトークンの交換と更新を自動的に処理します。 「認証」を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#may-4-2026"
+    },
+    {
+      "id": "2026-04-29-platform-april-29-2026",
+      "date": "2026-04-29",
+      "title": "クロードに提供するオープンソースのエージェント スキルであるクロード API スキルをリリースしました。",
+      "titleEn": "We've released theClaude API skill, an open-sourceAgent Skillthat gives Claud...",
+      "description": "クロード API スキルをリリースしました。これは、8 言語にわたるメッセージ API およびクロード管理エージェントを構築するための最新の参考資料をクロードに提供するオープンソースのエージェント スキルです。このスキルは Claude Code にバンドルされており、Anthropic スキル リポジトリで利用できます。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#april-29-2026"
     }
   ]
 }
