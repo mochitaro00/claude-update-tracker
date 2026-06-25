@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-25",
+    "lastUpdated": "2026-06-26",
     "version": "1.0.0"
   },
   "updates": [
@@ -6357,6 +6357,79 @@
         "v2.1.190"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-25-claude-code-v2-1-193",
+      "date": "2026-06-25",
+      "title": "クロード コード v2.1.193",
+      "titleEn": "Claude Code v2.1.193",
+      "description": "すべての Ba をルーティングする `autoMode.classifyAllShell` 設定を追加しました...、トランスクリプト、デントに自動モード拒否の理由を追加しました...、`claude_code.assistant_response` OpenTelemetry ログを追加しました ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.193"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-18-platform-june-18-2026",
+      "date": "2026-06-18",
+      "title": "Python、TypeScript、Go、Java、Ruby、PHP、および C# SDK には、サポートが含まれるようになりました。",
+      "titleEn": "The Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now include support ...",
+      "description": "Python、TypeScript、Go、Java、Ruby、PHP、および C# SDK には、REPL 状態の永続性を追加し、プログラム ツール呼び出しの最小バージョンであるコード実行ツールのバージョンである code_execution_20260120 のサポートが含まれるようになりました。これを採用するには、ツールのタイプを code_execution_20260120 に設定します。ベータヘッダーは必要ありません。これは、Claude Fable 5、Claude Mythos 5、Claude Opus 4.5 以降、および Claude Sonnet 4.5 以降で利用できます。モデル互換性表を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-18-2026"
+    },
+    {
+      "id": "2026-06-25-apps-enable-trusted-devices-for-remote-control",
+      "date": "2026-06-25",
+      "title": "信頼できるデバイスのリモート制御を有効にする",
+      "titleEn": "Enable Trusted Devices for Remote Control",
+      "description": "チーム プランとエンタープライズ プランの管理者は、ローカルのクロード コード セッションをリモートで表示または操作する前に、メンバーにデバイスの確認を要求できるようになりました。詳細については、「信頼できるデバイス」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-06-23-apps-delegate-work-to-claude-in-slack-with-claude-tag",
+      "date": "2026-06-23",
+      "title": "Claude タグを使用して Slack でクロードに作業を委任する",
+      "titleEn": "Delegate work to Claude in Slack with Claude Tag",
+      "description": "チーム プランとエンタープライズ プランでは、Slack の会話でクロードに直接タグ付けして、他の作業に集中している間にタスクを委任できるようになりました。詳細については、ブログ投稿「Claude Tag の紹介」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
