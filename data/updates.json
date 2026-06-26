@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-26",
+    "lastUpdated": "2026-06-27",
     "version": "1.0.0"
   },
   "updates": [
@@ -6430,6 +6430,61 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-06-26-claude-code-v2-1-195",
+      "date": "2026-06-26",
+      "title": "クロード コード v2.1.195",
+      "titleEn": "Claude Code v2.1.195",
+      "description": "マウスを無効にする `CLAUDE_CODE_DISABLE_MOUSE_CLICKS` を追加しました...、ハイフンでつながれた識別子を持つフック マッチャーを修正しました (例: `co...、長い沈黙をキャプチャする macOS の音声ディクテーションを修正しました...)",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.195"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-26-platform-june-26-2026",
+      "date": "2026-06-26",
+      "title": "Claude API 全体のレート制限を引き上げました。クロード ソネットおよびクロード俳句 ...",
+      "titleEn": "We've raisedrate limitsacross the Claude API. Claude Sonnet and Claude Haiku ...",
+      "description": "Claude API 全体のレート制限を引き上げました。 Claude Sonnet と Claude Haiku のレート制限は、すべての使用レベルで Claude Opus と一致するようになり、使用レベルは Start、Build、Scale の 3 つに統合されました。ほとんどの組織は上位層に移行し、以前よりも低い制限を受ける組織はなく、アクションは必要ありません。 Claude Console でレベルと現在の制限を表示できます。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-26-2026"
+    },
+    {
+      "id": "2026-06-25-platform-june-25-2026",
+      "date": "2026-06-25",
+      "title": "Claude Opus 4.7 の高速モードは非推奨となり、2026 年 7 月 24 日に削除されます。",
+      "titleEn": "We've deprecatedfast modefor Claude Opus 4.7, with removal on July 24, 2026. ...",
+      "description": "Claude Opus 4.7 の高速モードは非推奨となり、2026 年 7 月 24 日に削除されました。削除後、toclaude-opus-4-7withspeed: \"fast\" へのリクエストはエラーを返します。 Claude Opus 4.8 の高速モードに移行します。高速モードで続きを読む。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-25-2026"
     }
   ]
 }
