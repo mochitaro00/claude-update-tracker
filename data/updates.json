@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-27",
+    "lastUpdated": "2026-06-30",
     "version": "1.0.0"
   },
   "updates": [
@@ -6485,6 +6485,60 @@
         "platform"
       ],
       "link": "https://docs.anthropic.com/en/release-notes/overview#june-25-2026"
+    },
+    {
+      "id": "2026-06-29-platform-june-29-2026",
+      "date": "2026-06-29",
+      "title": "Claude Opus 4.6 の高速モードを削除しました。クロード作品 4-6withspee へのリクエスト...",
+      "titleEn": "We've removedfast modefor Claude Opus 4.6. Requests toclaude-opus-4-6withspee...",
+      "description": "Claude Opus 4.6 の高速モードを削除しました。 Requests toclaude-opus-4-6withspeed: \"fast\"no longer run at fast speed or premium pricing: they run at standard speed, are billed at standard rates, and do not return an error.応答のsusage.speedフィールドは、使用された速度を報告します。高速モードを引き続き使用するには、Claude Opus 4.8 に移行してください。高速モードで続きを読む。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-29-2026"
+    },
+    {
+      "id": "2026-06-29-blog-introducing-the-claude-apps-gateway-for-amazon-bedrock-and-g",
+      "date": "2026-06-29",
+      "title": "Amazon Bedrock と Google Cloud 用の Claude アプリ ゲートウェイの紹介",
+      "titleEn": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+      "description": "Amazon Bedrock と Google Cloud 用の Claude アプリ ゲートウェイの紹介",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/introducing-the-claude-apps-gateway"
+    },
+    {
+      "id": "2026-06-29-blog-claude-in-microsoft-foundry-is-now-generally-available",
+      "date": "2026-06-29",
+      "title": "Microsoft Foundry の Claude が一般提供になりました",
+      "titleEn": "Claude in Microsoft Foundry is now generally available",
+      "description": "Microsoft Foundry の Claude が一般提供になりました",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-in-microsoft-foundry"
     }
   ]
 }
