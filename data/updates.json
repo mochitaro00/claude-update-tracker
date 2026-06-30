@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-30",
+    "lastUpdated": "2026-07-01",
     "version": "1.0.0"
   },
   "updates": [
@@ -6539,6 +6539,98 @@
         "blog"
       ],
       "link": "https://claude.com/blog/claude-in-microsoft-foundry"
+    },
+    {
+      "id": "2026-06-30-claude-code-v2-1-197",
+      "date": "2026-06-30",
+      "title": "クロード コード v2.1.197",
+      "titleEn": "Claude Code v2.1.197",
+      "description": "Claude Sonnet 5 の紹介: Claude Sonnet 5 のデフォルト モデルになりました。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.197"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-29-claude-code-v2-1-196",
+      "date": "2026-06-29",
+      "title": "クロード コード v2.1.196",
+      "titleEn": "Claude Code v2.1.196",
+      "description": "組織のデフォルト モデルのサポートを追加、開始時や作成時のセッションに読み取り可能なデフォルト名を追加、チャットでクリック可能な添付ファイルを追加",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.196"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-06-30-platform-june-30-2026",
+      "date": "2026-06-30",
+      "title": "当社は、次世代の So...",
+      "titleEn": "We've launchedClaude Sonnet 5(claude-sonnet-5), the next generation of our So...",
+      "description": "Sonnet モデル ファミリの次世代である Claude Sonnet 5(claude-sonnet-5) を、2026 年 8 月 31 日まで MTok あたり 2 ドル / 10 ドルの初回価格で発売しました (その後は標準 3 ドル / 15 ドル)。 Claude Sonnet 5 は、1M トークン コンテキスト ウィンドウ、128k の最大出力トークン、および Claude Sonnet 4.6 と同じツールとプラットフォーム機能のセットをサポートしていますが、Priority Tier は除きます。Claude Sonnet 5 では利用できません。移行時に 3 つの動作変更が適用されます。適応的思考がデフォルトでオンになりました。手動拡張思考 (思考: {type: \"enabled\", Budget_tokens: N}) が削除され、400 エラーが返されます (Sonnet 4.6 では非推奨になりました)。また、サンプリング パラメータ (温度、top_p、top_k) をデフォルト以外の値に設定すると、400 エラーが返されます。 Claude Sonnet 5 では、同じテキストに対して約 30% 多くのトークンを生成する新しいトークナイザーも使用されています。詳細と移行ガイダンスについては、「Claude Sonnet 5 の新機能」を参照してください。 / Claude 管理対象エージェントのセッション イベント ストリームがイベント デルタをサポートするようになりました。 GET /v1/sessions/{session_id}/events/stream でevent_deltas[]クエリ パラメータを使用してオプトインします。 event_start およびevent_deltaevents は、completeagent.message イベントが到着する前に、生成されたエージェント メッセージのテキストをプレビューします。 / Claude 管理対象エージェントのセッションのリスト表示では、後方ページネーションがサポートされるようになりました。GET /v1/sessionsreturns aprev_pagecursor according tonext_page;前のページに戻るには、それをpageパラメータとして渡します。ページネーションを参照してください。 / クロード管理エージェント セッションを作成するときに、そのセッションのエージェントの設定を上書きできるようになりました。 Passagentwithtype: \"agent_with_overrides\" は、単一セッションのモデル、システム プロンプト、ツール、MCP サーバー、またはスキルを置き換えます。エージェント自体は変更されません。 / Claude 管理対象エージェントのコンテナーは、injection_locationsetting 1 つの環境変数資格情報 (「環境変数」タブ) をサポートするようになりました。これは、資格情報の値を出力時にエージェントの送信リクエスト ヘッダー、リクエスト本文、またはその両方に置き換えるかどうかを制御します。 / Claude 管理対象エージェントの Webhook は、エージェント、デプロイメント、およびデプロイメント実行ライフサイクルをカバーするようになりました。ポーリングを行わずに、新しく公開されたエージェントのバージョン、一時停止された展開、または失敗したスケジュールされた実行に対応できます。 「Webhook のサブスクライブ」の「エージェント イベント」、「デプロイメント イベント」、および「デプロイメント実行イベント」タブを参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-30-2026"
+    },
+    {
+      "id": "2026-06-22-platform-june-22-2026",
+      "date": "2026-06-22",
+      "title": "MCP トンネル (リサーチ プレビュー): 管理 API は /v1/organizations から移動されました...",
+      "titleEn": "MCP tunnels(research preview): the management API moved from/v1/organizations...",
+      "description": "MCP トンネル (リサーチ プレビュー): 管理 API は、Admin API の /v1/organizations/tunnel から Claude API の /v1/tunnel に移動されました。新しいサーフェスは、anthropic-beta: mcp-tunnels-2026-06-22 ヘッダーと workspace:manage_tunnelsWIF スコープを使用します。以前のサーフェスは、移行期間中も引き続き使用できます。トンネル API リファレンスを参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#june-22-2026"
+    },
+    {
+      "id": "2026-06-30-apps-claude-sonnet-5-launch",
+      "date": "2026-06-30",
+      "title": "クロード・ソネット5の発売",
+      "titleEn": "Claude Sonnet 5 launch",
+      "description": "クロード ソネット 5 は、これまでで最もエージェント的なソネット モデルであり、推論、ツールの使用、コーディング、ナレッジ ワークにおいて Sonnet 4.6 から大幅に改善されました。詳細については、ブログ投稿「Claude Sonnet 5 の紹介」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
