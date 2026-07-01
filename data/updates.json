@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-01",
+    "lastUpdated": "2026-07-02",
     "version": "1.0.0"
   },
   "updates": [
@@ -6620,6 +6620,79 @@
       "title": "クロード・ソネット5の発売",
       "titleEn": "Claude Sonnet 5 launch",
       "description": "クロード ソネット 5 は、これまでで最もエージェント的なソネット モデルであり、推論、ツールの使用、コーディング、ナレッジ ワークにおいて Sonnet 4.6 から大幅に改善されました。詳細については、ブログ投稿「Claude Sonnet 5 の紹介」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-07-01-claude-code-v2-1-198",
+      "date": "2026-07-01",
+      "title": "クロード コード v2.1.198",
+      "titleEn": "Claude Code v2.1.198",
+      "description": "Chrome の Claude が一般公開されました。「claude エージェント」にバックグラウンド エージェント通知が追加されました。グラフとダッシュボードのデザイン GUI に「/dataviz」スキルが追加されました。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.198"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-01-platform-july-1-2026",
+      "date": "2026-07-01",
+      "title": "Claude Fable 5 と Claude Mythos 5 へのアクセスを復元しました。声明をご覧ください...",
+      "titleEn": "We've restored access to Claude Fable 5 and Claude Mythos 5. Seeour statement...",
+      "description": "Claude Fable 5 と Claude Mythos 5 へのアクセスを復元しました。詳細については、声明を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-1-2026"
+    },
+    {
+      "id": "2026-07-01-apps-access-to-claude-fable-5-and-claude-mythos-5-resto",
+      "date": "2026-07-01",
+      "title": "クロード・ファブル 5 とクロード・ミトス 5 へのアクセスが復元されましたアクセスを復元しています...",
+      "titleEn": "Access to Claude Fable 5 and Claude Mythos 5 restoredWe are restoring access ...",
+      "description": "Enterprise プランのモデル資格 (ベータ版) Enterprise プランの管理者は、ユーザーがどのモデルにアクセスできるか、およびどのエフォート レベル設定を使用できるかを制御できるようになりました。詳細については、「組織のモデル アクセスの管理」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-06-12-apps-access-to-claude-fable-5-and-claude-mythos-5-suspe",
+      "date": "2026-06-12",
+      "title": "クロード・ファブル 5 およびクロード・ミトス 5 へのアクセスが停止されました",
+      "titleEn": "Access to Claude Fable 5 and Claude Mythos 5 suspended",
+      "description": "クロード寓話 5 とクロード神話 5 へのアクセスを一時停止しました。できるだけ早くアクセスを再開することを目指しています。詳細については、当社の声明をご覧ください。クロードの下書きをその場で編集",
       "source": "apps",
       "platforms": [
         "claude-ai",
