@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-04",
+    "lastUpdated": "2026-07-05",
     "version": "1.0.0"
   },
   "updates": [
@@ -6740,6 +6740,25 @@
       "tags": [
         "claude-code",
         "v2.1.200"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-03-claude-code-v2-1-201",
+      "date": "2026-07-03",
+      "title": "クロード コード v2.1.201",
+      "titleEn": "Claude Code v2.1.201",
+      "description": "クロード ソネット 5 セッションでは、会話中の会話を使用しなくなりました。",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.201"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
