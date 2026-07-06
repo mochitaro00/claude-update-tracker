@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-05",
+    "lastUpdated": "2026-07-07",
     "version": "1.0.0"
   },
   "updates": [
@@ -6759,6 +6759,25 @@
       "tags": [
         "claude-code",
         "v2.1.201"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-06-claude-code-v2-1-202",
+      "date": "2026-07-06",
+      "title": "クロード コード v2.1.202",
+      "titleEn": "Claude Code v2.1.202",
+      "description": "... の `/config` に「動的ワークフロー サイズ」設定を追加しました。 `workflow.run_id` と `workflow.name` OpenTelemetry を追加しました。...、AC 時のインライン Ctrl+R 履歴検索のクラッシュを修正しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.202"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
