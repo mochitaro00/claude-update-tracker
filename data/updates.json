@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-07",
+    "lastUpdated": "2026-07-08",
     "version": "1.0.0"
   },
   "updates": [
@@ -6780,6 +6780,122 @@
         "v2.1.202"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-07-claude-code-v2-1-203",
+      "date": "2026-07-07",
+      "title": "クロード コード v2.1.203",
+      "titleEn": "Claude Code v2.1.203",
+      "description": "ログインの有効期限が近づいている場合の警告を追加しました...、手動許可の場合にフッターに灰色の ⏸ バッジを追加しました...、セッションの追加の作業ディレクトリを MCP に追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.203"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-07-apps-claude-cowork-on-web-and-mobile",
+      "date": "2026-07-07",
+      "title": "ウェブとモバイル上のクロード・コワーク",
+      "titleEn": "Claude Cowork on web and mobile",
+      "description": "Claude Cowork は、デスクトップに加えて Web とモバイルでも利用できるようになりました。この機能は、Max プランから始めて今後数週間かけて展開され、さらに多くのプランが続く予定です。 Cowork はセッションをリモート (ベータ版) で実行するため、セッションとファイルは Claude アカウントに保存され、どこにいても、どのデバイスでも使用できます。ラップトップを閉じても作業は続行され、デバイスがオンラインになっていない状態でもスケジュールされたタスクが実行されます。また、Chat と Cowork は 1 つのホームを共有し、両方のプロジェクトと成果物を 1 つの場所で保管できるようになりました。詳細については、「Web、デスクトップ、モバイルでの Claude Cowork の使用」を参照してください。 Microsoft 365 コネクタ用の作成ツール",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop",
+        "mobile"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-07-07-blog-bringing-claude-code-and-claude-cowork-to-government",
+      "date": "2026-07-07",
+      "title": "クロード・コードとクロード・コワークを政府に持ち込む",
+      "titleEn": "Bringing Claude Code and Claude Cowork to government",
+      "description": "クロード・コードとクロード・コワークを政府に持ち込む",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork",
+        "code"
+      ],
+      "link": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government"
+    },
+    {
+      "id": "2026-07-07-blog-choosing-a-claude-model-and-effort-level-in-claude-code",
+      "date": "2026-07-07",
+      "title": "Claude Code でのクロード モデルとエフォート レベルの選択",
+      "titleEn": "Choosing a Claude model and effort level in Claude Code",
+      "description": "Claude Code でのクロード モデルとエフォート レベルの選択",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode",
+        "model"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code"
+    },
+    {
+      "id": "2026-07-07-blog-claude-cowork-is-coming-to-mobile-and-web",
+      "date": "2026-07-07",
+      "title": "Claude Cowork がモバイルとウェブに登場",
+      "titleEn": "Claude Cowork is coming to mobile and web",
+      "description": "Claude Cowork がモバイルとウェブに登場",
+      "source": "blog",
+      "platforms": [
+        "desktop",
+        "mobile"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork"
+      ],
+      "link": "https://claude.com/blog/cowork-web-mobile"
+    },
+    {
+      "id": "2026-07-07-blog-how-people-are-using-claude-cowork",
+      "date": "2026-07-07",
+      "title": "クロード・コワークの利用状況",
+      "titleEn": "How people are using Claude Cowork",
+      "description": "クロード・コワークの利用状況",
+      "source": "blog",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork"
+      ],
+      "link": "https://claude.com/blog/how-people-are-using-claude-cowork"
     }
   ]
 }
