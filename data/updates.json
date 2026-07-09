@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-09",
+    "lastUpdated": "2026-07-10",
     "version": "1.0.0"
   },
   "updates": [
@@ -6953,6 +6953,24 @@
         "code"
       ],
       "link": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more"
+    },
+    {
+      "id": "2026-07-09-apps-a-new-way-to-reflect-with-claude",
+      "date": "2026-07-09",
+      "title": "クロードと一緒に考える新しい方法",
+      "titleEn": "A new way to reflect with Claude",
+      "description": "毎月の要約は、[設定] > [設定] にある新機能です。これには、あなたが時間を費やしたトピック、最も活動的な日とピーク時間、およびクロードとの作業方法に関する観察が表示されます。 Web および Claude Desktop の Free、Pro、および Max プランではベータ版であり、メモリがオンになっている必要があります。横にある [設定] > [設定]時間と集中力を使用すると、オプションの休憩リマインダーと静かな時間を設定できます。詳細については、「毎月の要約を確認する」と「休憩リマインダーと静かな時間を設定する」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
