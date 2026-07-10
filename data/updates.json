@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-10",
+    "lastUpdated": "2026-07-11",
     "version": "1.0.0"
   },
   "updates": [
@@ -6971,6 +6971,79 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-07-09-claude-code-v2-1-206",
+      "date": "2026-07-09",
+      "title": "クロード コード v2.1.206",
+      "titleEn": "Claude Code v2.1.206",
+      "description": "`/add... に一致するディレクトリ パスの提案を `/cd` に追加しました。チェックインのトリミングを提案する `/doctor` チェックを追加しました...、`/commit-push-pr` はリポジトリへの `git Push` を自動的に許可するようになりました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.206"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-10-platform-july-10-2026",
+      "date": "2026-07-10",
+      "title": "cmek_preserve イベントのアクセスの透明性に関するドキュメントを拡張しました...",
+      "titleEn": "We've expanded theAccess Transparencydocumentation ofcmek_preserveevents with...",
+      "description": "cmek_preserveevents のアクセスの透明性に関するドキュメントを拡張し、フィルターの例、イベント ペイロードの例、および 2 つの保存理由コード (policy_violation_investigation、csae_report) を追加しました。ドキュメントでは、保存が人間のレビュー担当者によって開始されたか、自動化された安全パイプラインによって開始されたかに関係なく、保存イベントが記述されることも明確になりました。 「CMEK コンテンツの保存」を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-10-2026"
+    },
+    {
+      "id": "2026-07-08-platform-july-8-2026",
+      "date": "2026-07-08",
+      "title": "API キーまたは管理 API キーを作成するときに有効期限を設定できるようになりました。",
+      "titleEn": "You can now set an expiration when you create an API key or an Admin API key ...",
+      "description": "Claude コンソールで API キーまたは管理 API キーを作成するときに有効期限を設定できるようになりました。プリセット、カスタム期間、または「なし」を選択します。少なくとも 7 日間の有効期間を持つキーの場合、Anthropic は有効期限が切れる前に作成者にメールを送信します。既存のキーは影響を受けません。 Admin API は、expires_at フィールドで各キーの有効期限を報告します。 「認証」を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-8-2026"
+    },
+    {
+      "id": "2026-07-02-platform-july-2-2026",
+      "date": "2026-07-02",
+      "title": "theagent-memory-2026-07-22beta ヘッダーを追加しました。これにより、ハウリスト モードが変更されます。",
+      "titleEn": "We've added theagent-memory-2026-07-22beta header, which changes howlisting m...",
+      "description": "agent-memory-2026-07-22beta ヘッダーを追加しました。これにより、メモリのリスト作成 (GET /v1/memory_stores/{memory_store_id}/memories) の動作が変更されます。結果は安定したサーバー定義の順序で返され、order_byandorder パラメーターは無視されます。深さは 0、1 または省略のみを受け入れます (他の値は a400error を返します)。 andpath_prefix は /and で終わる必要があり、部分文字列ではなくパス セグメント全体と一致します。ヘッダーなしで発行されたページ カーソルはヘッダーでは無効であるため、ヘッダーを採用する場合は最初のページから再開してください。メモリ ストア エンドポイントでは、agent-memory-2026-07-22 が管理対象エージェント-2026-04-01 を置き換えます。両方を送信すると、400error が返されます。 2026 年 7 月 22 日、managed-agents-2026-04-01 ヘッダーは同じリスト動作を採用します。 「ベータヘッダー」を参照してください。 / Python (0.116.0)、TypeScript (0.110.0)、Go (1.56.0)、Java (2.48.0)、Ruby (1.55.0)、PHP (0.36.0)、C# (12.35.0)、および CLI (1.16.0) SDK は、すべてのメモリ ストア呼び出しで代わりに sendagent-memory-2026-07-22 を実行するようになりました。管理対象エージェントの2026-04-01。コードがメモリ ストア呼び出しで明示的に betas を渡す場合は、2 番目の値を追加するのではなく、managed-agents-2026-04-01 をagent-memory-2026-07-22 に置き換えます。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-2-2026"
     }
   ]
 }
