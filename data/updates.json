@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-12",
+    "lastUpdated": "2026-07-15",
     "version": "1.0.0"
   },
   "updates": [
@@ -7063,6 +7063,61 @@
         "v2.1.207"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-14-claude-code-v2-1-208",
+      "date": "2026-07-14",
+      "title": "クロード コード v2.1.208",
+      "titleEn": "Claude Code v2.1.208",
+      "description": "スクリーン リーダー モードの追加: オプトイン プレーンテキスト レンダリング...、`vimInsertModeRemaps` 設定の追加: マップ 2 キー挿入-m...、`CLAUDE_CODE_PROCESS_WRAPPER`: エージェント ビューと b... の追加",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.208"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-14-platform-july-14-2026",
+      "date": "2026-07-14",
+      "title": "Claude Enterprise(claude.ai) 組織内の従業員を管理できるようになりました。",
+      "titleEn": "You can now manage the people in yourClaude Enterprise(claude.ai) organizatio...",
+      "description": "すべての Claude Enterprise 組織向けのベータ版である Admin API を使用して、Claude Enterprise (claude.ai) 組織内のユーザーを管理できるようになりました。メンバーのリストと電子メール アドレスによる検索、メンバーの役割の変更、メンバーの削除、招待の送信と取り消し、グループとそのメンバーシップの管理、カスタム ロールの読み取りが可能です。グループおよびカスタムロールのリクエストには、anthropic-beta: ce-user-management-2026-07-13beta ヘッダーが必要です。メンバーリクエストと招待リクエストにはベータヘッダーがありません。 read:org_auditscope を持つ Admin API キーは、すべての user-managementGET エンドポイントを呼び出すこともできます。 「ユーザー管理」を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-14-2026"
+    },
+    {
+      "id": "2026-07-14-apps-hipaa-configuration-for-your-claude-organizations",
+      "date": "2026-07-14",
+      "title": "Claude 組織の HIPAA 構成がセルフサービスになりました",
+      "titleEn": "HIPAA configuration for your Claude organizations is now self-serve",
+      "description": "Claude 組織の HIPAA への対応状況を自分で管理できるようになりました。これは、Claude Enterprise と Claude Platform (API) の両方に適用されます。各製品で、資格のある管理者は、業務提携契約 (BAA) を確認し、実装ガイドをダウンロードし、単一のフローで HIPAA 構成を有効にすることができます。詳細については、「HIPAA 対応エンタープライズ プラン」および「Claude API の HIPAA 対応状況」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
