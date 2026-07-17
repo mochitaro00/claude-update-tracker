@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-17",
+    "lastUpdated": "2026-07-18",
     "version": "1.0.0"
   },
   "updates": [
@@ -7229,6 +7229,25 @@
         "cowork"
       ],
       "link": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork"
+    },
+    {
+      "id": "2026-07-17-claude-code-v2-1-212",
+      "date": "2026-07-17",
+      "title": "クロード コード v2.1.212",
+      "titleEn": "Claude Code v2.1.212",
+      "description": "`/fork` は会話を新しい背景にコピーするようになりました...、デフォルトの自動モードを復元するために `claude auto-mode restart` を追加しました...、WebSearch ツールの呼び出しにセッション全体の制限を追加しました (デフォルト...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.212"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
