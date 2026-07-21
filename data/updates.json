@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-20",
+    "lastUpdated": "2026-07-22",
     "version": "1.0.0"
   },
   "updates": [
@@ -7286,6 +7286,81 @@
         "v2.1.215"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-21-claude-code-v2-1-217",
+      "date": "2026-07-21",
+      "title": "クロード コード v2.1.217",
+      "titleEn": "Claude Code v2.1.217",
+      "description": "プロンプト入力に絵文字ショートコードのオートコンプリートを追加しました: t...、トランスクリプトの書き込みが失敗した場合の警告を追加しました (例: d...、切り捨てられた MCP ツールの出力が保持されるメモリ リークを修正しました...)",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.217"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-20-claude-code-v2-1-216",
+      "date": "2026-07-20",
+      "title": "クロード コード v2.1.216",
+      "titleEn": "Claude Code v2.1.216",
+      "description": "ファイルをスキップするための `sandbox.filesystem.disabled` 設定を追加しました...、メッセージが正規化される長いセッションでの速度低下を修正しました...、「HTTP 401」分類でコマンドを拒否する自動モードを修正しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.216"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-17-platform-july-17-2026",
+      "date": "2026-07-17",
+      "title": "クロード コンソールの LegacyWorkbench(platform.claude.com/workbench) は...",
+      "titleEn": "The legacyWorkbench(platform.claude.com/workbench) in the Claude Console is b...",
+      "description": "Claude Console の LegacyWorkbench(platform.claude.com/workbench) は、2026 年 8 月 17 日にアクセス終了に伴い廃止されます。保存されたプロンプト、変数、評価値は、updatedWorkbench ではサポートされていません。保持したいデータはバナーから、または組織設定でエクスポートできます。詳細については、Claude ヘルプセンターの「ワークベンチの使用方法」を参照してください。 / プロンプトを生成、改善、テンプレート化するための実験用プロンプト ツール API (/v1/experimental/generate_prompt、/v1/experimental/improve_prompt、および/v1/experimental/templatize_prompt) は、2026 年 8 月 17 日にワークベンチとともに廃止されます。削除後、これらのエンドポイントへのリクエストはエラーを返します。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-17-2026"
+    },
+    {
+      "id": "2026-07-21-blog-how-datadog-built-a-universal-machine-tool-for-claude-code",
+      "date": "2026-07-21",
+      "title": "Datadog がどのようにして Claude Code 用の「万能工作機械」を構築したか",
+      "titleEn": "How Datadog built a “universal machine tool” for Claude Code",
+      "description": "Datadog がどのようにして Claude Code 用の「万能工作機械」を構築したか",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code"
     }
   ]
 }
