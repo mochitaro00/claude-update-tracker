@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-22",
+    "lastUpdated": "2026-07-23",
     "version": "1.0.0"
   },
   "updates": [
@@ -7361,6 +7361,44 @@
         "code"
       ],
       "link": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code"
+    },
+    {
+      "id": "2026-07-22-claude-code-v2-1-218",
+      "date": "2026-07-22",
+      "title": "クロード コード v2.1.218",
+      "titleEn": "Claude Code v2.1.218",
+      "description": "バックグラウンド サブエージェントとして実行するように `/code-review` を変更しました...、削除されたテキストのスクリーン リーダー アナウンスを追加しました...、`\\u` プレフィックスが付いたセグメント (`C:... など) を含む Windows パスを修正しました",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.218"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-22-blog-building-verification-loops-in-claude-code-with-skills",
+      "date": "2026-07-22",
+      "title": "スキルを使用して Claude Code で検証ループを構築する",
+      "titleEn": "Building verification loops in Claude Code with skills",
+      "description": "スキルを使用して Claude Code で検証ループを構築する",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills"
     }
   ]
 }
