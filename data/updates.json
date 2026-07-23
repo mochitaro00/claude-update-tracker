@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-23",
+    "lastUpdated": "2026-07-24",
     "version": "1.0.0"
   },
   "updates": [
@@ -7399,6 +7399,24 @@
         "code"
       ],
       "link": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills"
+    },
+    {
+      "id": "2026-07-22-platform-july-22-2026",
+      "date": "2026-07-22",
+      "title": "クロード管理エージェントのエージェントのモデル構成にエフォートレベルを設定できるようになりました...",
+      "titleEn": "You can now set aneffortlevel on a Claude Managed Agents agent's model config...",
+      "description": "クロード管理エージェントのエージェントのモデル構成にエフォートレベルを設定できるようになりました。エージェントを作成するときは、モデル オブジェクト内でパスを実行してください。各レベルの内容については、「努力レベル」を参照してください。 / Claude 管理エージェントの Webhook は、環境とメモリ ストアのライフサイクル (4 つのenvironment.*event タイプと 3 つのmemory_store.*event タイプ) をカバーするようになりました。ポーリングを行わずに、環境およびメモリ ストアのライフサイクルの変更に対応できます。 「Webhook のサブスクライブ」の「環境イベント」タブと「メモリー ストア イベント」タブを参照してください。 / クロード管理エージェント セッションを作成するときに、初期イベントをシードできるようになりました。 POST /v1/sessions に最大 50 個の user.message および user.define_outcome イベントを含む initial_events を渡します。空でないリストは同じ通話内でエージェント ループを開始するため、作業を開始するために別のイベント送信リクエストを行う必要はありません。 / クロード管理エージェント エージェントを更新する場合、バージョン フィールドはオプションになりました。楽観的な同時実行のためにこれを指定するか (不一致がある場合は 409 エラーを返します)、無条件に更新を適用するために省略します。 「更新セマンティクス」を参照してください。 / Claude 管理対象エージェントのセッション スレッド イベント ストリームは、event deltas.GET /v1/sessions/{session_id}/threads/{thread_id}/stream をサポートするようになり、セッション レベルのストリームと同じevent_deltas[]query パラメーターを受け入れるため、モデルが生成するサブエージェントのテキストをプレビューできます。接続では、読み取っているスレッドのみがプレビューされます。 「セッション スレッド イベントのプレビュー」を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-22-2026"
     }
   ]
 }
