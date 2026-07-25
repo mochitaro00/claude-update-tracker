@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-24",
+    "lastUpdated": "2026-07-26",
     "version": "1.0.0"
   },
   "updates": [
@@ -7417,6 +7417,80 @@
         "platform"
       ],
       "link": "https://docs.anthropic.com/en/release-notes/overview#july-22-2026"
+    },
+    {
+      "id": "2026-07-25-claude-code-v2-1-220",
+      "date": "2026-07-25",
+      "title": "クロード コード v2.1.220",
+      "titleEn": "Claude Code v2.1.220",
+      "description": "バグ修正と信頼性の向上",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.220"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-24-claude-code-v2-1-219",
+      "date": "2026-07-24",
+      "title": "クロード コード v2.1.219",
+      "titleEn": "Claude Code v2.1.219",
+      "description": "Claude Opus 5 (`claude-opus-5`) を追加し、現在はデフォルトの Op...、n を拒否する `sandbox.network.strictAllowlist` 設定を追加...、`/add-dir` の後に起動する `DirectoryAdded` フックを追加...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.219"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-07-24-platform-july-24-2026",
+      "date": "2026-07-24",
+      "title": "Claude Opus 5 (claude-opus-5) をリリースしました。これは、Cl を大幅に改良したものです。",
+      "titleEn": "We've launchedClaude Opus 5(claude-opus-5), a step-change improvement over Cl...",
+      "description": "Claude Opus 4.8 を大幅に改良した Claude Opus 5(claude-opus-5) をリリースしました。 Claude Opus 5 は、1M トークン コンテキスト ウィンドウ (デフォルトと最大の両方)、最大 128,000 の出力トークンをサポートしており、デフォルトでは MTok あたり 5 ドル / 25 ドルで、Claude Opus 4.8 と同じ価格設定と考えられます。これは、Claude API、Amazon Bedrock の Claude、Google Cloud の Claude、および Microsoft Foundry の Claude で利用できます。新機能、動作の変更、移行ガイダンスについては「Claude Opus 5 の新機能」を、完全な仕様については「モデルの概要」を参照してください。 / Claude Opus 5 では、思考の無効化は、efforthigh または以下の場合にのみ許可されます: Thinking: {\"type\": \"disabled\"}witheffortxhighormax は 400 エラーを返します。これは、Claude Opus 4.8 からの重大な変更です。 Claude Opus 5 の新機能を参照してください。 / Effortis は、Claude Opus 5 をステアリングするための主要な制御です。このモデルは、能力が重要な作業用に最大のラダー (低、中、高、高、最大) をサポートします。 / 会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストに themid-conversation-tool-changes-2026-07-01beta ヘッダーを含めます。 / fallbacks パラメータは、拒否カテゴリごとに Anthropic が推奨するフォールバック モデルを適用する「デフォルト」モードをサポートするようになりました。サーバー側フォールバックはベータ版であり、「デフォルト」モードにはserver-side-fallback-2026-07-01beta ヘッダーが必要です。 「拒否とフォールバック」を参照してください。 / Claude Opus 4.7 の高速モードを削除しました。 clude-opus-4-7withspeed: \"fast\" へのリクエストはエラーを返すようになりました。 Claude Opus 4.6 とは異なり、標準速度に戻りません。 Claude Opus 4.7 自体は引き続き標準速度で利用できます。高速モードを引き続き使用するには、Claude Opus 5 または Claude Opus 4.8 に移行してください。高速モードで続きを読む。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#july-24-2026"
+    },
+    {
+      "id": "2026-07-24-apps-claude-opus-5-launch",
+      "date": "2026-07-24",
+      "title": "クロード オーパス 5 発売",
+      "titleEn": "Claude Opus 5 launch",
+      "description": "クロード・オーパス 5 は、クロード・ファブル 5 のフロンティア・インテリジェンスに迫る思慮深く積極的なモデルで、半額で発売されました。詳細については、ブログ投稿「Claude Opus 5」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
