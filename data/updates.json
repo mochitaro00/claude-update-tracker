@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-29",
     "version": "1.0.0"
   },
   "updates": [
@@ -7491,6 +7491,25 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-07-28-blog-bringing-mcp-2026-07-28-to-claude",
+      "date": "2026-07-28",
+      "title": "MCP 2026-07-28 をクロードにもたらす",
+      "titleEn": "Bringing MCP 2026-07-28 to Claude",
+      "description": "MCP 2026-07-28 をクロードにもたらす",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "mcp"
+      ],
+      "link": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude"
     }
   ]
 }
