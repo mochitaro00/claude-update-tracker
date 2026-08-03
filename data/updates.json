@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-29",
+    "lastUpdated": "2026-08-04",
     "version": "1.0.0"
   },
   "updates": [
@@ -7510,6 +7510,24 @@
         "mcp"
       ],
       "link": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude"
+    },
+    {
+      "id": "2026-08-01-platform-august-1-2026",
+      "date": "2026-08-01",
+      "title": "Dreams (リサーチ プレビュー) は、Claude Opus 5 をサポートするようになりました。「サポートされるモデル」を参照してください。",
+      "titleEn": "Dreams(research preview) now supports Claude Opus 5. SeeSupported models.",
+      "description": "Dreams (リサーチ プレビュー) は、Claude Opus 5 をサポートするようになりました。「サポートされるモデル」を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-1-2026"
     }
   ]
 }
