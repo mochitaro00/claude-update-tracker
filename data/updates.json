@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-04",
+    "lastUpdated": "2026-08-05",
     "version": "1.0.0"
   },
   "updates": [
@@ -7528,6 +7528,44 @@
         "platform"
       ],
       "link": "https://docs.anthropic.com/en/release-notes/overview#august-1-2026"
+    },
+    {
+      "id": "2026-08-04-claude-code-v2-1-222",
+      "date": "2026-08-04",
+      "title": "クロード コード v2.1.222",
+      "titleEn": "Claude Code v2.1.222",
+      "description": "ワークツリーで分離されたセッションとそのサブエージェントを修正しました...、ツール制限をバイパスする PreToolUse 自動許可フックを修正しました...、チームとエンタープライズで「yo...」と表示される `/usage-credits` を修正しました",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.222"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-04-claude-code-v2-1-221",
+      "date": "2026-08-04",
+      "title": "クロード コード v2.1.221",
+      "titleEn": "Claude Code v2.1.221",
+      "description": "[VSCode] フォーカス ビューを追加しました: 非表示にするチャット メニュー トグル ...、Linu のサンドボックス資格情報ファイル用の `mode: \"mask\"` を追加しました...、マーケットプレイ時の `claude plugin validate` に警告を追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.221"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
