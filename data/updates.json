@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-05",
+    "lastUpdated": "2026-08-06",
     "version": "1.0.0"
   },
   "updates": [
@@ -7566,6 +7566,24 @@
         "v2.1.221"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-05-platform-august-5-2026",
+      "date": "2026-08-05",
+      "title": "推論フックは現在、Claude Enterprise 組織向けのベータ版です。ポイントクラ...",
+      "titleEn": "Inference hooksare now in beta for Claude Enterprise organizations. Point Cla...",
+      "description": "推論フックは現在、Claude Enterprise 組織向けのベータ版です。 Claude を組織の AI セキュリティ サーバーに指定すると、claude.ai、Cowork、および Claude Code にわたる各管理されたプロンプトが、推論が進む前にサーバーの許可または拒否の判定が保留されます。リクエストは署名され、失敗処理は構成可能であり、すべての拒否は ComplianceActivity フィードに記録されます。 「推論フック」を参照してください。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-5-2026"
     }
   ]
 }
