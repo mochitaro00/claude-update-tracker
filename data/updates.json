@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-07",
+    "lastUpdated": "2026-08-08",
     "version": "1.0.0"
   },
   "updates": [
@@ -7621,6 +7621,99 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-08-07-claude-code-v2-1-224",
+      "date": "2026-08-07",
+      "title": "クロード コード v2.1.224",
+      "titleEn": "Claude Code v2.1.224",
+      "description": "セルフホスト環境を追加: `claude self-hosted-runne...、`archive` プラグイン ソースを追加: zip からプラグインをインストール...、利用できないものを削除するときのキャンセルと確認のステップを追加...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.224"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-07-platform-august-7-2026",
+      "date": "2026-08-07",
+      "title": "クロード管理エージェント セッションに予算を設定できるようになりました。予算にはハード キャップが設定されています。",
+      "titleEn": "You can now set a budget on a Claude Managed Agents session: a hard cap on th...",
+      "description": "クロード管理エージェント セッションに予算を設定できるようになりました。これは、セッションの支出に対するハード キャップであり、価格は公開リスト料金で設定されます。予算に達したセッションは、新しいモデルリクエストを開始する代わりに、budget_reachedstop 理由で一時停止します。予算を変更または削除すると、予算が再開されます。デプロイメントは同じバジェットを受け入れ、それを開始する各セッションに適用します。 「セッションの予算」を参照してください。 / クロード管理エージェント セッションにアドバイザーを与えることができるようになりました。これは、セッションのプライマリ スレッドがターン中に戦略的なガイダンスを参照できる、少なくともエージェント自身と同等の能力を持つモデルです。これをエージェントのマルチエージェント名簿の{\"type\": \"advisor\"}エントリとして設定し、相談するモデルに名前を付けます。 「セッションにアドバイザーを付ける」を参照してください。 / クロード管理対象エージェント エージェントに対してモデル推論を実行する場所を制御できるようになりました。エージェントを作成するときに、model オブジェクト内に inference_geo を設定するか、単一セッションに対してオーバーライドします。利用可能な地域と料金については、「データの所在地」を参照してください。 / Claude 管理対象エージェント セッションでは、GitHub リポジトリからスキルをロードできるようになりました。セッションがリポジトリをマウントすると、root.claude/skills ディレクトリ内のスキルはセッション開始時に自動的に検出され、そのセッションのエージェントが使用できるようになります。",
+      "source": "platform",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "api",
+        "platform"
+      ],
+      "link": "https://docs.anthropic.com/en/release-notes/overview#august-7-2026"
+    },
+    {
+      "id": "2026-08-07-blog-auto-mode-is-now-the-default-in-claude-code-for-pro-max-an",
+      "date": "2026-08-07",
+      "title": "Pro、Max、Team プランの Claude Code では自動モードがデフォルトになりました",
+      "titleEn": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "description": "Pro、Max、Team プランの Claude Code では自動モードがデフォルトになりました",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/auto-mode-default-in-claude-code"
+    },
+    {
+      "id": "2026-08-07-blog-running-auto-mode-in-production",
+      "date": "2026-08-07",
+      "title": "本番環境で自動モードを実行する",
+      "titleEn": "Running auto mode in production",
+      "description": "本番環境で自動モードを実行する",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/auto-mode-in-production"
+    },
+    {
+      "id": "2026-08-06-blog-run-claude-code-sessions-on-your-own-compute",
+      "date": "2026-08-06",
+      "title": "自分のコンピューティングでクロード コード セッションを実行する",
+      "titleEn": "Run Claude Code sessions on your own compute",
+      "description": "自分のコンピューティングでクロード コード セッションを実行する",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute"
     }
   ]
 }
