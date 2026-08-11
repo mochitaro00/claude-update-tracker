@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-09",
+    "lastUpdated": "2026-08-12",
     "version": "1.0.0"
   },
   "updates": [
@@ -7752,6 +7752,66 @@
         "v2.1.225"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-11-claude-code-v2-1-228",
+      "date": "2026-08-11",
+      "title": "クロード コード v2.1.228",
+      "titleEn": "Claude Code v2.1.228",
+      "description": "全体の再描画を停止する可能性がある対話型セッションを修正しました...、Cl... のときに Windows で `git` / Git Bash が見つからないのを修正しました...、セッションを以前のモデルに戻す `/tui` を修正しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.228"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-10-claude-code-v2-1-227",
+      "date": "2026-08-10",
+      "title": "クロード コード v2.1.227",
+      "titleEn": "Claude Code v2.1.227",
+      "description": "ユーザーの su なしで評価される機能フラグを修正...、`claude-code-actio で失敗するすべての Bash コマンドを修正...、会話された会話を戻す `/tui` を修正...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.227"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-11-blog-compliance-api-coverage-extends-to-claude-cowork-and-claude",
+      "date": "2026-08-11",
+      "title": "コンプライアンス API の対象範囲が Claude Cowork と Claude Code にまで拡大",
+      "titleEn": "Compliance API coverage extends to Claude Cowork and Claude Code",
+      "description": "コンプライアンス API の対象範囲が Claude Cowork と Claude Code にまで拡大",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode",
+        "desktop",
+        "api"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork",
+        "code"
+      ],
+      "link": "https://claude.com/blog/compliance-api-cowork-and-claude-code"
     }
   ]
 }
