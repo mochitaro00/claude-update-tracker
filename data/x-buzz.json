@@ -1,145 +1,118 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-08-13",
     "excludedAccounts": [
       "@paji_a"
     ]
   },
   "posts": [
     {
-      "id": "2081318358491009427",
-      "date": "2026-07-26",
-      "author": "@koder_dev",
-      "authorName": "Koder",
-      "content": "Claude Code開発者のThariq氏が公開したFableの使いこなしガイドが参考になった！「地図は現地ではない」という名言の通り、指示と実際のコードには必ずズレがある。そのズレを「既知・未知」の4象限で整理する考え方、次のプロンプトから試したい。",
-      "url": "https://x.com/koder_dev/status/2081318358491009427",
-      "tags": ["tips", "claude-code"]
-    },
-    {
-      "id": "2081144973639193024",
-      "date": "2026-07-25",
-      "author": "@opensourcelab9",
-      "authorName": "オープンソース研究所",
-      "content": "【速報】AnthropicがOpus 5を公開、Claude Codeでは今日からもう使えます。効いてくるのは、ターミナル上で任せっぱなしにする作業の成績。・エージェント型のコーディング指標で43.3%、Fable 5の33.7%を上回った ・別のコード指標ではFable 5と同等を半額で ・Claude Codeでは最初から高い思考量が既定 ・Fast modeは約2.5倍速（価格は2倍）。長い工程を任せても脱線しにくくなった、というのが公式の言い分です。",
-      "url": "https://x.com/opensourcelab9/status/2081144973639193024",
-      "tags": ["ニュース", "claude-code"]
-    },
-    {
-      "id": "2080953201948324004",
-      "date": "2026-07-25",
-      "author": "@L_go_mrk",
-      "authorName": "AI駆動塾",
-      "content": "Anthropic公式のclaude-code-setupはまだまだ知られて欲しい公式プラグイン。プロジェクトを分析して、hooks・skills・MCPサーバー・サブエージェントのうちどれを有効化すべきかを提案し、設定手順までステップバイステップで教えてくれる代物。`/plugin install claude-code-setup@claude-plugins-official` を打ち込むだけで入れられる。",
-      "url": "https://x.com/L_go_mrk/status/2080953201948324004",
-      "tags": ["tips", "claude-code"]
-    },
-    {
-      "id": "2080855407883592008",
-      "date": "2026-07-25",
-      "author": "@itarutomy",
-      "authorName": "Itaru Tomita / 冨田到",
-      "content": "Anthropicが7/24にClaude Opus 5をリリースし、同時にコンテキストエンジニアリングの新ルールも公開。象徴的なのが、Claude Codeのシステムプロンプトを80%以上削減したのにコーディング評価で劣化が観測されなかったという事実。新ルールでは、システムプロンプトに残すべきものを「情報」「好み」「最小限のルール」の3つに絞り、「モデルが既に知っている一般指示」「ツール使用の詳細例」「出力フォーマットの過度な指定」「冗長な禁止事項リスト」を削るよう推奨する。命令で細かく縛るより、判断力を信じて背景だけ渡したほうが良い結果が出るというのは、人材育成の話とも重なる。",
-      "url": "https://x.com/itarutomy/status/2080855407883592008",
-      "tags": ["tips", "claude-code", "意見"]
-    },
-    {
-      "id": "2080699495453528290",
-      "date": "2026-07-24",
+      "id": "2087635262390026525",
+      "date": "2026-08-12",
       "author": "@claudeai",
       "authorName": "Claude",
-      "content": "Introducing Claude Opus 5. It's a thoughtful and proactive model that comes close to the frontier intelligence of Fable 5 at half the price.",
-      "url": "https://x.com/claudeai/status/2080699495453528290",
+      "content": "Your Claude in Chrome sessions now carry over to desktop, web, and mobile. Conversations are saved, and your skills and connectors work in the browser. Available on Max and Team today, rolling out to Pro in the coming weeks.",
+      "url": "https://x.com/claudeai/status/2087635262390026525",
       "tags": ["公式", "ニュース"]
     },
     {
-      "id": "2080699515271528827",
-      "date": "2026-07-24",
+      "id": "2087353450925264971",
+      "date": "2026-08-12",
+      "author": "@gigazine",
+      "authorName": "GIGAZINE(ギガジン)",
+      "content": "Claudeの生成した文章に「目に見えない透かし」を埋め込むとAnthropicが発表、日本を含めた全世界で適用される予定",
+      "url": "https://x.com/gigazine/status/2087353450925264971",
+      "tags": ["ニュース"]
+    },
+    {
+      "id": "2086999927411065084",
+      "date": "2026-08-11",
+      "author": "@ai_database",
+      "authorName": "AIDB",
+      "content": "「私の意見に賛成する立場で答えて」とお願いされると、LLMは高い確率でユーザーの言い分に沿った答えを返し、数学や物理のはっきりした事実でさえ曲げてしまう傾向にあるとのこと。「三角形の内角の和は180度ですか？」という当たり前の質問にすら、頼み方ひとつで「いいえ」と答えてしまうことが実験で示された。一方「私は〇〇だと信じています」と意見を添えるだけなら影響はぐっと弱まる。モデルによる差もあり、Geminiが最も流されやすく、Claudeが最も流されにくいという結果。じっくり考えさせる設定にしてもこの流されやすさはほとんど変わらず、賢くなれば直る問題ではないことも示された。",
+      "url": "https://x.com/ai_database/status/2086999927411065084",
+      "tags": ["リサーチ", "ニュース"]
+    },
+    {
+      "id": "2086891169217122586",
+      "date": "2026-08-10",
       "author": "@claudeai",
       "authorName": "Claude",
-      "content": "Opus 5 is available today on all paid plans and the Claude API, priced the same as Opus 4.8. It's the default model on Claude Max, and the strongest on Claude Pro. It's also offered in Fast mode, which runs around 2.5× the default speed.",
-      "url": "https://x.com/claudeai/status/2080699515271528827",
+      "content": "We're making Claude Sonnet 5's introductory pricing permanent. We launched Sonnet 5 in June at $2 per million input tokens and $10 per million output tokens through August 31, and that price will remain unchanged.",
+      "url": "https://x.com/claudeai/status/2086891169217122586",
       "tags": ["公式", "ニュース"]
     },
     {
-      "id": "2080699504576045299",
-      "date": "2026-07-24",
-      "author": "@claudeai",
-      "authorName": "Claude",
-      "content": "On ARC-AGI-3, an evaluation where AI models must solve novel problems, Opus 5's score is three times as high as the next best model.",
-      "url": "https://x.com/claudeai/status/2080699504576045299",
+      "id": "2086867246073401655",
+      "date": "2026-08-10",
+      "author": "@AnthropicAI",
+      "authorName": "Anthropic",
+      "content": "We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis. It didn't solve it, but it did make strides on a related problem: it increased the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis from 41.6% to 67.2%.",
+      "url": "https://x.com/AnthropicAI/status/2086867246073401655",
       "tags": ["公式", "リサーチ"]
     },
     {
-      "id": "2080699508401328462",
-      "date": "2026-07-24",
-      "author": "@claudeai",
-      "authorName": "Claude",
-      "content": "According to our automated behavioral audit, Opus 5 is our most aligned model to date. Compared to our other models, it shows the lowest rates of reckless or deceptive behavior, and the strongest adherence to Claude's Constitution.",
-      "url": "https://x.com/claudeai/status/2080699508401328462",
-      "tags": ["公式", "リサーチ"]
-    },
-    {
-      "id": "2080457537720295627",
-      "date": "2026-07-24",
-      "author": "@kawai_design",
-      "authorName": "KAWAI",
-      "content": "私は間違っていました。Claudeを提供するAnthropicで、mdよりもhtml形式のドキュメントを採用しています。私はそれを一度否定しました。「トークンがもったいない。人を中心に考えた古い方法だ」と。しかし最近htmlで企画書やブランドガイドラインを作ることが増えてきました。理由は「Codexのトークンがなかなか減らない」「出力スピードの差を感じない」に加え、「自分の判断が重要なタイミングではとても有効」。やはりビジュアルは強い。ただ全部のファイルをhtmlにする必要はない。あくまで自分が入るタイミングのみ。9割はAI駆動、テキスト駆動で設計するのが良いと考えています。",
-      "url": "https://x.com/kawai_design/status/2080457537720295627",
-      "tags": ["意見", "tips"]
-    },
-    {
-      "id": "2080427709092827297",
-      "date": "2026-07-23",
-      "author": "@connect24h",
-      "authorName": "connect24h",
-      "content": "これはCLAUDE.mdの手直し地獄を終わらせる設計図だ。Claude Code向けに、個人スクリプト、中規模Web、モノレポのルートとパッケージ別、コードレビュー、テスト生成、リファクタリングまで7テンプレートを使い分ける。個人なら10〜20行、中規模は40〜80行。全部盛りではなく、依存方向と禁止事項、実行コマンドを絞って渡すのが肝だ。現場で効くのは長いプロンプトより、配置先と越えてはいけない境界の固定。まず既存のCLAUDE.mdを7型のどれかに寄せ、300行超なら階層化する。",
-      "url": "https://x.com/connect24h/status/2080427709092827297",
-      "tags": ["tips", "claude-code"]
-    },
-    {
-      "id": "2079867785585529047",
-      "date": "2026-07-22",
-      "author": "@claudecode84",
-      "authorName": "Claude code研究ラボ",
-      "content": "Claude Code × Obsidianで、セッションを超えて記憶するAIを作る方法。ObsidianをMCP経由で連携すれば、プロジェクトの知識を蓄積し続ける「長期メモリ」として活用できます。セットアップは、ObsidianのVaultをプロジェクト内に配置→MCPで接続→architecture.mdを生成→主要サービスごとにノート作成→依存関係をナレッジグラフでリンク。運用は朝「active_context.mdを読み込み、昨日どこまで進めたか教えて」、開発中「今回の重要な設計判断を保存して」、終了時「今日完了した内容、次にやること、課題を更新して」の3プロンプトだけ。数か月後でも「なぜこの設計にしたのか？」を追跡できます。",
-      "url": "https://x.com/claudecode84/status/2079867785585529047",
-      "tags": ["tips", "claude-code", "使ってみた"]
-    },
-    {
-      "id": "2079749181682663899",
-      "date": "2026-07-22",
-      "author": "@samuraibrass",
-      "authorName": "しょーご@しょーごログ運営",
-      "content": "WordPress公式の「MCP Adapter」、Web制作・保守・SEO業務の自動化がかなり進みそう。ClaudeやCursorなどのAIからWordPressの機能を呼び出せるため、記事や固定ページの下書き作成、テキストやリンクの一括修正、内部リンク不足の記事抽出、古い記事やリンク切れの監査、SEO改善点の洗い出しと修正案作成までを自然言語から実行できるように。「記事を書くAI」ではなく、WordPressサイトを継続的に制作・監査・改善するAIを作るための基盤という印象。誤更新を防ぐため、公開済みページの変更は承認制、削除は禁止など権限設計は必須。",
-      "url": "https://x.com/samuraibrass/status/2079749181682663899",
-      "tags": ["ニュース", "tips"]
-    },
-    {
-      "id": "2079705481405477149",
-      "date": "2026-07-21",
-      "author": "@sumika45379",
-      "authorName": "すみか@Skillsオタク",
-      "content": "【保存版】「Claudeを会社にする」やつ、ついに42 skillsの組織図まで進化してた。部門ごとにskillを割り当てて、まるごと1社ぶん。①開発部→Superpowers / Context7 / Skill Creator / MCP Builder ②デザイン部→UI UX Pro Max / Taste / Frontend Design ③マーケ部→コピーからSEO、リードマグネットまで ④管理部門→経理・スモールビジネス・法務。Claudeに何でも屋を1人でやらせるんじゃなくて、部門skillを入れて仕事ごとに専門家を呼ぶ、が今の正解。",
-      "url": "https://x.com/sumika45379/status/2079705481405477149",
+      "id": "2086803506745471148",
+      "date": "2026-08-10",
+      "author": "@ClaudeCode_UT",
+      "authorName": "東大ClaudeCode研究所",
+      "content": "「Claudeをずっと間違って使っていた」と気づいたという投稿が話題。投稿者はAnthropicの無料2時間コースを受け、途中で考えが変わったと書いている。使い方を見直すときは、まず公式の学習コンテンツを一度通してみる。プロンプトの書き方より前に、できることと任せ方の理解が変わるかもしれない。",
+      "url": "https://x.com/ClaudeCode_UT/status/2086803506745471148",
       "tags": ["コミュニティ", "tips"]
     },
     {
-      "id": "2079256626771665098",
-      "date": "2026-07-20",
-      "author": "@AnthropicAI",
-      "authorName": "Anthropic",
-      "content": "We're offering grants of up to $50,000 in Claude usage credits to researchers accelerating cures for rare diseases. This is our first focused call within AI for Science, our program supporting scientists using Claude to speed up discovery.",
-      "url": "https://x.com/AnthropicAI/status/2079256626771665098",
-      "tags": ["公式", "ニュース", "リサーチ"]
+      "id": "2086772154994135206",
+      "date": "2026-08-10",
+      "author": "@aitech_komoriya",
+      "authorName": "小森谷祐太｜AITECH代表",
+      "content": "Claudeを使っている人は必ず保存しておいてください。モデルの使い分けから、プロンプト設計、Claude Code、MCP、Skills、Hooksまで、Claude活用に必要な知識を1枚にまとめました。特に押さえておきたいのが、プロンプトの基本構成／そのまま使える指示例／MCPとコネクタの仕組み／Claude Codeの活用法／SkillsとHooksの違い／作業効率を上げる実践テクニック。この画像を見るだけで「Claudeに何をどう頼むか」が全て整理できます。",
+      "url": "https://x.com/aitech_komoriya/status/2086772154994135206",
+      "tags": ["tips", "claude-code"]
     },
     {
-      "id": "2079202260832129421",
-      "date": "2026-07-20",
-      "author": "@hello__sakai",
-      "authorName": "酒井 / Hello",
-      "content": "最近開発ツールで良かったのがArgentで、React Native / ネイティブアプリをClaude Code/Codexからタップして操作させたり、スクショ撮ったりAccessibility Treeを見てデバッグさせたりできる。最近はAGENTS.mdなど細かく書くより、AIが操作できる範囲を増やすツールを入れる方がレバレッジ効くなと思う。",
-      "url": "https://x.com/hello__sakai/status/2079202260832129421",
-      "tags": ["tips", "使ってみた"]
+      "id": "2086662115759472949",
+      "date": "2026-08-10",
+      "author": "@Shin_Engineer",
+      "authorName": "Shin@プログラミングチュートリアル",
+      "content": "地味だけど、僕の最近のClaude Codeの使い方。①毎会話、必ずレビューする。コードではなく「Claude Codeが何を計画して、これから何を実装しようとしているか、結果がどうなったのか」をレビューする。疎かにすると「AIが頭が悪くなった」とAIのせいにしてしまう。②機能毎にセッションを分ける。1セッションに複数機能を詰めるとコンテキスト汚染に繋がる。③曖昧な判断は「やって」ではなく「どう思う？」と質問する。要件が曖昧なまま実装を任せると大抵変な方向にいく。④/insightsコマンドで自分のClaude Codeの使い方をレビューしてもらい、改善策をCLAUDE.mdに書いておく。ハーネス/ループ設計を極めれば全自動で良いアプリが作れる、は今のところ幻想。まだHuman in the loopが必要。",
+      "url": "https://x.com/Shin_Engineer/status/2086662115759472949",
+      "tags": ["tips", "claude-code", "意見"]
+    },
+    {
+      "id": "2086429422224396296",
+      "date": "2026-08-09",
+      "author": "@Kohaku_NFT",
+      "authorName": "こはく",
+      "content": "もう、映画予告つくれるやん。絵コンテ→Claude Code、世界観→GPT Image 2、動画→Seedance 2.5、作詞作曲→Claude Code、音楽→Suno v5.5、編集→Claude Code。制作時間：実測30分。コツは「最初の3秒で世界観を固定する」これだけ。",
+      "url": "https://x.com/Kohaku_NFT/status/2086429422224396296",
+      "tags": ["使ってみた", "claude-code"]
+    },
+    {
+      "id": "2086400069461487807",
+      "date": "2026-08-09",
+      "author": "@kotetsu_0321",
+      "authorName": "こてつ | AI×コンサルワーク",
+      "content": "Claude CodeのHTML出力がダサすぎる問題。これを終わらせるために、HTML出力を「そのまま会議に出せるクオリティ」に自動で整えるskillsを作ったのでシェアします。表・KPI・矢羽根・ロードマップ・滝グラフまで「コンサルの型」で出て、A4印刷でそのまま配布OK。仕組みはシンプルで、原因はAIが構造を「線と箱」で作ること。コンサル資料は「余白と文字の階層」で作る。このスキルは枠・グラデ・絵文字を禁止し、完成済みCSSを一字も変えずに使わせて、出力の瞬間にデザインを矯正する。ポイントは「デザインルールを言葉で指示せず、CSSごと渡す」こと。",
+      "url": "https://x.com/kotetsu_0321/status/2086400069461487807",
+      "tags": ["tips", "claude-code"]
+    },
+    {
+      "id": "2085966934907240526",
+      "date": "2026-08-08",
+      "author": "@ClaudeCode_love",
+      "authorName": "Claude Code Studio",
+      "content": "【速報】Claude Code、ついに「AI同士を連絡させる新機能」＝セッション間メッセージが登場。別々に立ち上げたClaude同士が、わかったことを送り合えます。・/list-agents で届く相手が一覧で出る ・Claudeが宛先を自分で選んで送る ・渡すのは要約1本（履歴もファイルも渡らない） ・受け取る側はツールの合間に読む＝作業を止めない ・待機中の相手ならその場で動き出す ・別のパソコンやWebの自分にも返信できる。つまりClaude Codeが「1つの窓で1個の仕事をするツール」から、担当同士が引き継ぐチームに近づいている。v2.1.224以降・macOSとLinuxで提供開始。",
+      "url": "https://x.com/ClaudeCode_love/status/2085966934907240526",
+      "tags": ["ニュース", "claude-code", "tips"]
+    },
+    {
+      "id": "2085563808773189680",
+      "date": "2026-08-07",
+      "author": "@claudeai",
+      "authorName": "Claude",
+      "content": "We're updating Claude Fable 5's biology safeguards to reduce false positives. In our testing, this update reduced biology-related fallbacks by about 85% across our product surfaces. Fable can now assist on a wider range of everyday health and educational questions. Fable will continue to fallback to Opus 5 for requests we consider dual-use—including virology, toxicology, and molecular design.",
+      "url": "https://x.com/claudeai/status/2085563808773189680",
+      "tags": ["公式", "ニュース"]
     }
   ]
 }
