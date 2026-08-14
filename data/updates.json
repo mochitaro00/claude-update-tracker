@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-13",
+    "lastUpdated": "2026-08-15",
     "version": "1.0.0"
   },
   "updates": [
@@ -7849,6 +7849,63 @@
         "cowork"
       ],
       "link": "https://claude.com/blog/cowork-chrome-side-panel"
+    },
+    {
+      "id": "2026-08-14-claude-code-v2-1-233",
+      "date": "2026-08-14",
+      "title": "クロード コード v2.1.233",
+      "titleEn": "Claude Code v2.1.233",
+      "description": "GitLab マージ リクエスト URL サポートを `--worktree に追加しました...、オプトイン `forward_user_identity` アプリ ゲートウェイ セットを追加しました...、Bash ツール コマンドのオプトイン メモリ cgroup サポートを追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.233"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-13-claude-code-v2-1-232",
+      "date": "2026-08-13",
+      "title": "クロード コード v2.1.232",
+      "titleEn": "Claude Code v2.1.232",
+      "description": "サブエージェントのフォークがデフォルトでオンになりました: a `subagent_type: ...、プロンプトに `@` と入力して別の Claude セッションを言及します ...、`SendMessage` は正確に名前を送信します...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.232"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-14-blog-maximizing-the-value-of-your-claude-code-sessions",
+      "date": "2026-08-14",
+      "title": "クロードコードセッションの価値を最大化する",
+      "titleEn": "Maximizing the value of your Claude Code sessions",
+      "description": "クロードコードセッションの価値を最大化する",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions"
     }
   ]
 }
