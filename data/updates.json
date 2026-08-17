@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-15",
+    "lastUpdated": "2026-08-18",
     "version": "1.0.0"
   },
   "updates": [
@@ -7906,6 +7906,25 @@
         "code"
       ],
       "link": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions"
+    },
+    {
+      "id": "2026-08-17-claude-code-v2-1-234",
+      "date": "2026-08-17",
+      "title": "クロード コード v2.1.234",
+      "titleEn": "Claude Code v2.1.234",
+      "description": "オプションの `CLAUDE_CODE_PROJECT_DIR_NAME` 環境を追加しました...、`selection:clear` キーバインド アクションを追加したため、キー c...、GitLab マージ リクエスト バッジをフッターとステータスに追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.234"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
