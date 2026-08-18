@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-18",
+    "lastUpdated": "2026-08-19",
     "version": "1.0.0"
   },
   "updates": [
@@ -7923,6 +7923,25 @@
       "tags": [
         "claude-code",
         "v2.1.234"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-18-claude-code-v2-1-235",
+      "date": "2026-08-18",
+      "title": "クロード コード v2.1.235",
+      "titleEn": "Claude Code v2.1.235",
+      "description": "mi に下線を引くオプションの `spellcheck` 設定を追加しました...、言語設定時のプロンプト全体のキャッシュの無効化を修正しました...、深さ 3+ で位置がずれているネストされたマークダウン リスト項目を修正しました ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.235"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
