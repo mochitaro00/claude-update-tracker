@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-20",
+    "lastUpdated": "2026-08-21",
     "version": "1.0.0"
   },
   "updates": [
@@ -7963,6 +7963,81 @@
         "v2.1.236"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-20-claude-code-v2-1-238",
+      "date": "2026-08-20",
+      "title": "クロード コード v2.1.238",
+      "titleEn": "Claude Code v2.1.238",
+      "description": "`keybindingFlavor` 設定を追加しました: `\"readline\" に設定します...、プラグイン マーケットプレイス: URL マーケットプレイスの `headersHelper`...、カタログ エントリの `headersHelper` は、インストールされた場合にのみ実行されます...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.238"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-20-claude-code-v2-1-237",
+      "date": "2026-08-20",
+      "title": "クロード コード v2.1.237",
+      "titleEn": "Claude Code v2.1.237",
+      "description": "LLM ゲートウェイを使用したセッションのプロンプト キャッシュを修正しました。または...、組み込みの「簡潔」出力スタイルを追加しました: クロードがウィットをリードします...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.237"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-20-blog-the-claude-code-guide-for-startups",
+      "date": "2026-08-20",
+      "title": "スタートアップのための Claude Code ガイド",
+      "titleEn": "The Claude Code guide for startups",
+      "description": "スタートアップのための Claude Code ガイド",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/claude-code-guide-for-startups"
+    },
+    {
+      "id": "2026-08-20-blog-build-production-agents-with-computer-use-the-skills-api-a",
+      "date": "2026-08-20",
+      "title": "コンピューター、スキル API、およびファイル API を使用して実稼働エージェントを構築する",
+      "titleEn": "Build production agents with computer use, the Skills API, and the Files API",
+      "description": "コンピューター、スキル API、およびファイル API を使用して実稼働エージェントを構築する",
+      "source": "blog",
+      "platforms": [
+        "api"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "agent"
+      ],
+      "link": "https://claude.com/blog/computer-use-skills-api-files-api"
     }
   ]
 }
