@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-24",
+    "lastUpdated": "2026-08-25",
     "version": "1.0.0"
   },
   "updates": [
@@ -8113,6 +8113,25 @@
         "v2.1.241"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-24-blog-how-an-anthropic-field-marketer-uses-claude-code-to-send-wee",
+      "date": "2026-08-24",
+      "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "titleEn": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "description": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep"
     }
   ]
 }
