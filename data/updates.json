@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-26",
     "version": "1.0.0"
   },
   "updates": [
@@ -8132,6 +8132,62 @@
         "code"
       ],
       "link": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep"
+    },
+    {
+      "id": "2026-08-25-claude-code-v2-1-246",
+      "date": "2026-08-25",
+      "title": "Claude Code v2.1.246",
+      "titleEn": "Claude Code v2.1.246",
+      "description": "Added a startup warning for Bash allow rules with a wildc...、Added an Auto mode tab to `/permissions` for viewing and ...、Added the turn's completion time to the end-of-turn durat...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.246"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-24-claude-code-v2-1-243",
+      "date": "2026-08-24",
+      "title": "Claude Code v2.1.243",
+      "titleEn": "Claude Code v2.1.243",
+      "description": "Added a Loops breakdown to `/usage`: per-loop run count, ...、Added `modelPicker` setting: curate the `/model` picker w...、Added `promptCacheTtl` and `subagentPromptCacheTtl` setti...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.243"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-25-apps-memory-in-claude-cowork-editable-topics-and-a-se",
+      "date": "2026-08-25",
+      "title": "Memory in Claude Cowork, editable topics, and a sensitive topics setting",
+      "titleEn": "Memory in Claude Cowork, editable topics, and a sensitive topics setting",
+      "description": "Memory now works across chat and Cowork in the cloud. Everything Claude remembers is listed under Topics in Settings &gt; Memory, where you can edit or delete any item. Topics such as health or beliefs stay out of memory unless you turn on Include sensitive topics in memory. Memory is on by default for Free, Pro, and Max plans and off by default for Team and Enterprise organizations. See Use Claude's chat search and memory to build on previous context.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
