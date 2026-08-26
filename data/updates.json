@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-26",
+    "lastUpdated": "2026-08-27",
     "version": "1.0.0"
   },
   "updates": [
@@ -8188,6 +8188,42 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-08-26-blog-claude-in-chrome-is-generally-available",
+      "date": "2026-08-26",
+      "title": "Claude in Chrome is generally available",
+      "titleEn": "Claude in Chrome is generally available",
+      "description": "Claude in Chrome is generally available",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-in-chrome-generally-available"
+    },
+    {
+      "id": "2026-08-26-blog-claude-gets-its-own-browser-in-cowork",
+      "date": "2026-08-26",
+      "title": "Claude gets its own browser in Cowork",
+      "titleEn": "Claude gets its own browser in Cowork",
+      "description": "Claude gets its own browser in Cowork",
+      "source": "blog",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork"
+      ],
+      "link": "https://claude.com/blog/cowork-built-in-browser"
     }
   ]
 }
