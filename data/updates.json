@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-28",
+    "lastUpdated": "2026-08-29",
     "version": "1.0.0"
   },
   "updates": [
@@ -8262,6 +8262,62 @@
         "v2.1.247"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-28-claude-code-v2-1-251",
+      "date": "2026-08-28",
+      "title": "Claude Code v2.1.251",
+      "titleEn": "Claude Code v2.1.251",
+      "description": "Added `PreModelSwitch` and `PostModelSwitch` hook events ...、Added live streaming of a foreground subagent's tool call...、Added a Spend limit bar to `/usage` and a `rate_limits.sp...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.251"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-28-claude-code-v2-1-250",
+      "date": "2026-08-28",
+      "title": "Claude Code v2.1.250",
+      "titleEn": "Claude Code v2.1.250",
+      "description": "Bug fixes and reliability improvements",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.250"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-08-28-blog-claude-for-teachers-now-available-for-schools-and-districts",
+      "date": "2026-08-28",
+      "title": "Claude for Teachers, now available for schools and districts",
+      "titleEn": "Claude for Teachers, now available for schools and districts",
+      "description": "Claude for Teachers, now available for schools and districts",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts"
     }
   ]
 }
