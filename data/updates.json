@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-29",
+    "lastUpdated": "2026-08-30",
     "version": "1.0.0"
   },
   "updates": [
@@ -8307,6 +8307,24 @@
       "title": "Claude for Teachers, now available for schools and districts",
       "titleEn": "Claude for Teachers, now available for schools and districts",
       "description": "Claude for Teachers, now available for schools and districts",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts"
+    },
+    {
+      "id": "2026-08-28-blog-claude-for-teachers-now-available-for-u-s-k-12-schools-and",
+      "date": "2026-08-28",
+      "title": "Claude for Teachers、米国の幼稚園から高等学校までの学校および学区で利用可能になりました",
+      "titleEn": "Claude for Teachers, now available for U.S. K-12 schools and districts",
+      "description": "Claude for Teachers、米国の幼稚園から高等学校までの学校および学区で利用可能になりました",
       "source": "blog",
       "platforms": [
         "claude-ai",
