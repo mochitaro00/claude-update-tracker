@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-30",
+    "lastUpdated": "2026-09-02",
     "version": "1.0.0"
   },
   "updates": [
@@ -8336,6 +8336,62 @@
         "blog"
       ],
       "link": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts"
+    },
+    {
+      "id": "2026-09-01-claude-code-v2-1-258",
+      "date": "2026-09-01",
+      "title": "クロード コード v2.1.258",
+      "titleEn": "Claude Code v2.1.258",
+      "description": "macOS 12 (Monterey...) でクロード コードの起動に失敗する問題を修正、「user me...」で失敗するリモートおよびスケジュールされたセッションを修正",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.258"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-01-claude-code-v2-1-257",
+      "date": "2026-09-01",
+      "title": "クロード コード v2.1.257",
+      "titleEn": "Claude Code v2.1.257",
+      "description": "Claude Fable 5.1 (`claude-fable-5-1`) を追加し、デフォルトになりました...、「時間形式」(`timeFormat`) と `timeZone` 設定を追加しました...、クラウドに適合するように自動モードに Containment Escape ルールを追加しました...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.257"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-01-apps-claude-fable-5-1-and-claude-mythos-5-1-launch",
+      "date": "2026-09-01",
+      "title": "Claude Fable 5.1 および Claude Mythos 5.1 のリリース",
+      "titleEn": "Claude Fable 5.1 and Claude Mythos 5.1 launch",
+      "description": "私たちは、コーディングとナレッジ ワークのための世界で最も先進的なモデルである Claude Fable 5.1 と Claude Mythos 5.1 をリリースしました。詳細については、ブログ投稿「Claude Fable 5.1 および Mythos 5.1」を参照してください。",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
