@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-03",
+    "lastUpdated": "2026-09-05",
     "version": "1.0.0"
   },
   "updates": [
@@ -8409,6 +8409,44 @@
       "tags": [
         "claude-code",
         "v2.1.259"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-04-claude-code-v2-1-261",
+      "date": "2026-09-04",
+      "title": "Claude Code v2.1.261",
+      "titleEn": "Claude Code v2.1.261",
+      "description": "Added an \"Organization policy\" line to `/status` and `cla...、Added `bashOutputMaxChars` and `taskOutputMaxChars` setti...、Added `--append-subagent-system-prompt-file` to read the ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.261"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-03-claude-code-v2-1-260",
+      "date": "2026-09-03",
+      "title": "Claude Code v2.1.260",
+      "titleEn": "Claude Code v2.1.260",
+      "description": "Added a diff panel that opens beside the conversation in ...、Added a likely cause for prompt-cache misses (e.g. tool d...、Added `/reload-plugins` to headless sessions, so it appea...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.260"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
