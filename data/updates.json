@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-05",
+    "lastUpdated": "2026-09-07",
     "version": "1.0.0"
   },
   "updates": [
@@ -8447,6 +8447,25 @@
       "tags": [
         "claude-code",
         "v2.1.260"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-06-claude-code-v2-1-263",
+      "date": "2026-09-06",
+      "title": "クロード コード v2.1.263",
+      "titleEn": "Claude Code v2.1.263",
+      "description": "バグ修正と信頼性の向上",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.263"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
