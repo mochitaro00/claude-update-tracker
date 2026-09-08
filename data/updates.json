@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-07",
+    "lastUpdated": "2026-09-09",
     "version": "1.0.0"
   },
   "updates": [
@@ -8466,6 +8466,25 @@
       "tags": [
         "claude-code",
         "v2.1.263"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-08-claude-code-v2-1-265",
+      "date": "2026-09-08",
+      "title": "クロード コード v2.1.265",
+      "titleEn": "Claude Code v2.1.265",
+      "description": "`user.email` と `user.groups` をテレメトリ Cla に追加しました...、... のフォルダーで `--plugin-dir` をポイントするためのサポートを追加しました、ディスクに保存されるツール結果に 1 GB の上限を追加しました。インコ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.265"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
