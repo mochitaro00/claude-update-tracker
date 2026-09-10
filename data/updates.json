@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-10",
+    "lastUpdated": "2026-09-11",
     "version": "1.0.0"
   },
   "updates": [
@@ -8506,6 +8506,43 @@
         "v2.1.267"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-10-claude-code-v2-1-268",
+      "date": "2026-09-10",
+      "title": "Claude Code v2.1.268",
+      "titleEn": "Claude Code v2.1.268",
+      "description": "Added to the Claude apps gateway: with `pricing:` set in ...、Added a startup warning for gateways when `access_control...、Added the `gatewayInternalNetworks` managed setting, lett...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.268"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-10-apps-smart-reports-beta",
+      "date": "2026-09-10",
+      "title": "Smart reports (beta)",
+      "titleEn": "Smart reports (beta)",
+      "description": "We’ve launched smart reports, which analyze how a team uses Claude and report on the work getting done, what it costs, where sessions run into friction, and which repeated patterns are worth packaging as shared skills. Smart reports are available in beta on Claude Enterprise plans. Learn more in Get started with smart reports.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
