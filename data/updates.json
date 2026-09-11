@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "version": "1.0.0"
   },
   "updates": [
@@ -8543,6 +8543,25 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-09-11-claude-code-v2-1-269",
+      "date": "2026-09-11",
+      "title": "Claude Code v2.1.269",
+      "titleEn": "Claude Code v2.1.269",
+      "description": "Added `claude plugin eval`: run a plugin's eval suite aga...、Added `/output-style [name]` to list and switch output st...、Added a diff of the files a Bash command changed to the B...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.269"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
