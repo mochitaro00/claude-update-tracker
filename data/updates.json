@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-12",
+    "lastUpdated": "2026-09-16",
     "version": "1.0.0"
   },
   "updates": [
@@ -8562,6 +8562,117 @@
         "v2.1.269"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-15-claude-code-v2-1-273",
+      "date": "2026-09-15",
+      "title": "Claude Code v2.1.273",
+      "titleEn": "Claude Code v2.1.273",
+      "description": "Added `x-claude-code-request-class`, `x-claude-code-agent...、Added a notification when an MCP server disconnects mid-s...、Added forking a session started with `claude --remote-con...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.273"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-15-claude-code-v2-1-272",
+      "date": "2026-09-15",
+      "title": "Claude Code v2.1.272",
+      "titleEn": "Claude Code v2.1.272",
+      "description": "Bug fixes and reliability improvements",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.272"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-14-claude-code-v2-1-271",
+      "date": "2026-09-14",
+      "title": "Claude Code v2.1.271",
+      "titleEn": "Claude Code v2.1.271",
+      "description": "Added fast mode in Claude Code Remote sessions (cloud and...、Added mouse support to the `/config` panel in fullscreen ...、Added `claude self-hosted-runner --drain-marker-file <pat...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.271"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-15-apps-launching-salesforce-in-claude-beta",
+      "date": "2026-09-15",
+      "title": "Launching Salesforce in Claude (beta)",
+      "titleEn": "Launching Salesforce in Claude (beta)",
+      "description": "We've launched Salesforce in Claude, a plugin that brings a seller’s accounts, opportunities, and pipeline into Claude with 37 pre-built sales skills. Prep a call, review a deal, create a pipeline dashboard, and send your forecast all from Claude. It’s now available in beta on all paid plans for organizations Salesforce approves through its beta sign-up. For more information, see our blog post: Bringing Salesforce into Claude.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-09-15-blog-bringing-salesforce-into-claude",
+      "date": "2026-09-15",
+      "title": "Bringing Salesforce into Claude",
+      "titleEn": "Bringing Salesforce into Claude",
+      "description": "Bringing Salesforce into Claude",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/salesforce-in-claude"
+    },
+    {
+      "id": "2026-09-15-blog-claude-for-small-business-launches-new-workflows-integratio",
+      "date": "2026-09-15",
+      "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+      "titleEn": "Claude for Small Business launches new workflows, integrations, and training programs",
+      "description": "Claude for Small Business launches new workflows, integrations, and training programs",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"
     }
   ]
 }
