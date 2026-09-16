@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-16",
+    "lastUpdated": "2026-09-17",
     "version": "1.0.0"
   },
   "updates": [
@@ -8673,6 +8673,24 @@
         "blog"
       ],
       "link": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"
+    },
+    {
+      "id": "2026-09-16-blog-claude-cowork-and-chat-are-now-one-claude",
+      "date": "2026-09-16",
+      "title": "Claude Cowork and chat are now one Claude",
+      "titleEn": "Claude Cowork and chat are now one Claude",
+      "description": "Claude Cowork and chat are now one Claude",
+      "source": "blog",
+      "platforms": [
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "cowork"
+      ],
+      "link": "https://claude.com/blog/cowork-is-now-claude"
     }
   ]
 }
