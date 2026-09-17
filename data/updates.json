@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-17",
+    "lastUpdated": "2026-09-18",
     "version": "1.0.0"
   },
   "updates": [
@@ -8691,6 +8691,44 @@
         "cowork"
       ],
       "link": "https://claude.com/blog/cowork-is-now-claude"
+    },
+    {
+      "id": "2026-09-17-claude-code-v2-1-275",
+      "date": "2026-09-17",
+      "title": "Claude Code v2.1.275",
+      "titleEn": "Claude Code v2.1.275",
+      "description": "Added the signed-in account to Claude apps gateway sign-i...、Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that ...、Added a startup warning when a configured `otelHeadersHel...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.275"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-17-claude-code-v2-1-274",
+      "date": "2026-09-17",
+      "title": "Claude Code v2.1.274",
+      "titleEn": "Claude Code v2.1.274",
+      "description": "Added a visible warning when memory usage is critical, wi...、Added `CLAUDE_CODE_MCP_STARTUP_WAIT_MS` to bound how long...、Added `effort` attribute to the `claude_code.llm_request`...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.274"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
