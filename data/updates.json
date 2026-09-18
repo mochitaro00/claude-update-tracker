@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-18",
+    "lastUpdated": "2026-09-19",
     "version": "1.0.0"
   },
   "updates": [
@@ -8727,6 +8727,25 @@
       "tags": [
         "claude-code",
         "v2.1.274"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-18-claude-code-v2-1-277",
+      "date": "2026-09-18",
+      "title": "Claude Code v2.1.277",
+      "titleEn": "Claude Code v2.1.277",
+      "description": "Added AGENTS.md support: in a project with no CLAUDE.md, ...、Added `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1` for Cla...、Added an optional `headers:` map on Claude apps gateway u...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.277"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
