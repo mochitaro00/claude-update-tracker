@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-20",
+    "lastUpdated": "2026-09-23",
     "version": "1.0.0"
   },
   "updates": [
@@ -8767,6 +8767,60 @@
         "v2.1.278"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-22-claude-code-v2-1-280",
+      "date": "2026-09-22",
+      "title": "Claude Code v2.1.280",
+      "titleEn": "Claude Code v2.1.280",
+      "description": "Added Claude Opus 5.5 (`claude-opus-5-5`), now the defaul...、Added mouse support to more lists in fullscreen mode: the...、Added `CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH` to change ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.280"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-22-apps-claude-opus-5-5-launch",
+      "date": "2026-09-22",
+      "title": "Claude Opus 5.5 launch",
+      "titleEn": "Claude Opus 5.5 launch",
+      "description": "We just launched Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. For more information, see our blog post: Introducing Claude Opus 5.5.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-09-22-blog-what-a-task-costs-on-opus-5-5",
+      "date": "2026-09-22",
+      "title": "What a task costs on Opus 5.5",
+      "titleEn": "What a task costs on Opus 5.5",
+      "description": "What a task costs on Opus 5.5",
+      "source": "blog",
+      "platforms": [
+        "model"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/what-a-task-costs-on-opus-5-5"
     }
   ]
 }
