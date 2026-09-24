@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-24",
+    "lastUpdated": "2026-09-25",
     "version": "1.0.0"
   },
   "updates": [
@@ -8859,6 +8859,79 @@
         "agent"
       ],
       "link": "https://claude.com/blog/claude-marketplace"
+    },
+    {
+      "id": "2026-09-24-claude-code-v2-1-282",
+      "date": "2026-09-24",
+      "title": "Claude Code v2.1.282",
+      "titleEn": "Claude Code v2.1.282",
+      "description": "Added a `maxProseWidth` setting that caps the width of Cl...、Added a startup notice, and `/status` and `claude doctor`...、Added the `allowClaudeInChromeWithManagedMcp` managed set...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.282"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-16-apps-claude-cowork-comes-to-every-conversation",
+      "date": "2026-09-16",
+      "title": "Claude Cowork comes to every conversation",
+      "titleEn": "Claude Cowork comes to every conversation",
+      "description": "We're rolling out a new Claude experience that makes everything Claude Cowork does available from any conversation. Ask a quick question or hand Claude a bigger task, like a report, spreadsheet, or presentation, without choosing a mode first. Your chats, Cowork tasks, projects, connectors, and skills carry over. The new experience is rolling out gradually to Pro and Max plans on web, desktop, and mobile. Learn more in Claude Cowork and chat are one Claude. Create designs, decks, and docs in any conversation",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop",
+        "mobile"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-09-24-blog-claude-tag-now-supports-personal-connectors-in-channels",
+      "date": "2026-09-24",
+      "title": "Claude Tag now supports personal connectors in channels",
+      "titleEn": "Claude Tag now supports personal connectors in channels",
+      "description": "Claude Tag now supports personal connectors in channels",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels"
+    },
+    {
+      "id": "2026-09-24-blog-coding-sessions-are-longer-and-use-more-context-claude-opus",
+      "date": "2026-09-24",
+      "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "titleEn": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "description": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "source": "blog",
+      "platforms": [
+        "model"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context"
     }
   ]
 }
