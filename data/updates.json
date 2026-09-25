@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-25",
+    "lastUpdated": "2026-09-26",
     "version": "1.0.0"
   },
   "updates": [
@@ -8932,6 +8932,61 @@
         "blog"
       ],
       "link": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context"
+    },
+    {
+      "id": "2026-09-25-claude-code-v2-1-283",
+      "date": "2026-09-25",
+      "title": "Claude Code v2.1.283",
+      "titleEn": "Claude Code v2.1.283",
+      "description": "Added `x-claude-code-prompt-id` to the gateway hint heade...、Added `availableModelsMatch` managed setting: with `\"exac...、Added `deniedModels` managed setting to block specific mo...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.283"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-09-25-apps-build-plugins-for-claude",
+      "date": "2026-09-25",
+      "title": "Build plugins for Claude",
+      "titleEn": "Build plugins for Claude",
+      "description": "You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live. For more information, see our blog post: Build plugins for Claude.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-09-25-blog-build-plugins-for-claude",
+      "date": "2026-09-25",
+      "title": "Build plugins for Claude",
+      "titleEn": "Build plugins for Claude",
+      "description": "Build plugins for Claude",
+      "source": "blog",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog"
+      ],
+      "link": "https://claude.com/blog/build-plugins-for-claude"
     }
   ]
 }
