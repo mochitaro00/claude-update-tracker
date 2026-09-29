@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-29",
+    "lastUpdated": "2026-09-30",
     "version": "1.0.0"
   },
   "updates": [
@@ -9024,6 +9024,25 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-09-29-claude-code-v2-1-285",
+      "date": "2026-09-29",
+      "title": "Claude Code v2.1.285",
+      "titleEn": "Claude Code v2.1.285",
+      "description": "Added `CLAUDE_CODE_DISABLE_WEB_FETCH` environment variabl...、Added `claude --desktop` to open the Claude desktop app o...、Added `claude plugin configure <plugin>` to show a plugin...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.285"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
