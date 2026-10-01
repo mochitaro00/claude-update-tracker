@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-01",
+    "lastUpdated": "2026-10-02",
     "version": "1.0.0"
   },
   "updates": [
@@ -9080,6 +9080,44 @@
         "blog"
       ],
       "link": "https://claude.com/blog/claude-for-government-is-now-generally-available"
+    },
+    {
+      "id": "2026-10-01-claude-code-v2-1-287",
+      "date": "2026-10-01",
+      "title": "Claude Code v2.1.287",
+      "titleEn": "Claude Code v2.1.287",
+      "description": "Added Claude Mods: plugins may now modify deeper behavior、Added You should know, a built-in mod where a side agent ...、Added an `n:<text>` filter to the agents view that matche...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.287"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-01-blog-customize-claude-code-with-mods",
+      "date": "2026-10-01",
+      "title": "Customize Claude Code with mods",
+      "titleEn": "Customize Claude Code with mods",
+      "description": "Customize Claude Code with mods",
+      "source": "blog",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "major",
+      "tags": [
+        "blog",
+        "code"
+      ],
+      "link": "https://claude.com/blog/claude-code-mods"
     }
   ]
 }
