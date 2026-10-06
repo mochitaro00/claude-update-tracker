@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-05",
+    "lastUpdated": "2026-10-07",
     "version": "1.0.0"
   },
   "updates": [
@@ -9154,6 +9154,44 @@
       "tags": [
         "claude-code",
         "v2.1.289"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-06-claude-code-v2-1-292",
+      "date": "2026-10-06",
+      "title": "Claude Code v2.1.292",
+      "titleEn": "Claude Code v2.1.292",
+      "description": "Added `--marketplace <source>` to `claude plugin install`...、Added an `effort` parameter to the Agent tool, so Claude ...、Added `CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS` enviro...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.292"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-05-claude-code-v2-1-290",
+      "date": "2026-10-05",
+      "title": "Claude Code v2.1.290",
+      "titleEn": "Claude Code v2.1.290",
+      "description": "Added `serverToolUses` to the result of a mod's `turn.ste...、Added `agentId` to the `tool.check` event of plugin hooks...、Added `ceiling` to the question and verdict a mod's `tool...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.290"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
