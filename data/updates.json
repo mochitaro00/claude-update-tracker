@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-08",
+    "lastUpdated": "2026-10-09",
     "version": "1.0.0"
   },
   "updates": [
@@ -9231,6 +9231,44 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-10-08-claude-code-v2-1-295",
+      "date": "2026-10-08",
+      "title": "Claude Code v2.1.295",
+      "titleEn": "Claude Code v2.1.295",
+      "description": "Added `onFailure: \"block\"` for command and HTTP hooks: a ...、Added Program Status Protocol (OSC 7501) support: termina...、Added quoted text to the `/copy` picker, so a drafted mes...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.295"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-08-claude-code-v2-1-294",
+      "date": "2026-10-08",
+      "title": "Claude Code v2.1.294",
+      "titleEn": "Claude Code v2.1.294",
+      "description": "Fixed `prompt` and `agent` hooks written as instructions ...、Improved how `prompt` hooks on Stop and SubagentStop writ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.294"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
