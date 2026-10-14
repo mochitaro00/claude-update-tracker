@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-15",
     "version": "1.0.0"
   },
   "updates": [
@@ -9286,6 +9286,44 @@
       "tags": [
         "claude-code",
         "v2.1.296"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-14-claude-code-v2-1-300",
+      "date": "2026-10-14",
+      "title": "Claude Code v2.1.300",
+      "titleEn": "Claude Code v2.1.300",
+      "description": "Added `virtualText` to a mod's prompt decorations: text d...、Added `cache_creation_5m_tokens` and `cache_creation_1h_t...、Added `$.ui.view({ agentId })` for mods: shows an agent's...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.300"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-14-claude-code-v2-1-299",
+      "date": "2026-10-14",
+      "title": "Claude Code v2.1.299",
+      "titleEn": "Claude Code v2.1.299",
+      "description": "Added `CLAUDE_CODE_DISABLE_FILE_MENTIONS` environment var...、Added idle compaction in the terminal: a 200K+ token conv...、Added `CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS` to change idl...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.299"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
