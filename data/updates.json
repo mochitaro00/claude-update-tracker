@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-15",
+    "lastUpdated": "2026-10-16",
     "version": "1.0.0"
   },
   "updates": [
@@ -9324,6 +9324,25 @@
       "tags": [
         "claude-code",
         "v2.1.299"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-15-claude-code-v2-1-301",
+      "date": "2026-10-15",
+      "title": "Claude Code v2.1.301",
+      "titleEn": "Claude Code v2.1.301",
+      "description": "Added `CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS...、Added OpenTelemetry tracing guidance to the `claude-api` ...、Added the `%` motion to vim mode: jump to the matching br...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.301"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
