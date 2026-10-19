@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-19",
+    "lastUpdated": "2026-10-20",
     "version": "1.0.0"
   },
   "updates": [
@@ -9381,6 +9381,25 @@
       "tags": [
         "claude-code",
         "v2.1.303"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-19-claude-code-v2-1-304",
+      "date": "2026-10-19",
+      "title": "Claude Code v2.1.304",
+      "titleEn": "Claude Code v2.1.304",
+      "description": "Added a transcript line when a plugin that runs first ski...、Added `decider: \"person\"` to a mod's `tool.check` answer:...、Added `e.isReadOnly` to a mod's `tool.check` event, set w...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.304"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
