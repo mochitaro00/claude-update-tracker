@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-20",
+    "lastUpdated": "2026-10-21",
     "version": "1.0.0"
   },
   "updates": [
@@ -9400,6 +9400,25 @@
       "tags": [
         "claude-code",
         "v2.1.304"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-20-claude-code-v2-1-305",
+      "date": "2026-10-20",
+      "title": "Claude Code v2.1.305",
+      "titleEn": "Claude Code v2.1.305",
+      "description": "Added `sandbox.allowNestedUserNamespaces` so sandboxed co...、Added `CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS`...、Fixed every request failing on Vertex, Bedrock and other ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.305"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
