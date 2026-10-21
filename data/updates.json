@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-21",
+    "lastUpdated": "2026-10-22",
     "version": "1.0.0"
   },
   "updates": [
@@ -9421,6 +9421,43 @@
         "v2.1.305"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-21-claude-code-v2-1-307",
+      "date": "2026-10-21",
+      "title": "Claude Code v2.1.307",
+      "titleEn": "Claude Code v2.1.307",
+      "description": "Added `/claude-api api-version` to move Claude API code t...、Added the `claude_code.safety_event` OpenTelemetry event ...、Fixed requests failing with a model-not-found error when ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.307"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-21-apps-claude-duet-research-preview-for-pro-and-max-plans",
+      "date": "2026-10-21",
+      "title": "Claude Duet research preview for Pro and Max plans",
+      "titleEn": "Claude Duet research preview for Pro and Max plans",
+      "description": "We just opened a research preview for users on Pro and Max plans: Claude Duet, a new app where Claude works as a proactive agent. For more information, see our blog post: Introducing Claude Duet.",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
