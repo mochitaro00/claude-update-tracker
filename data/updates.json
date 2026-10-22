@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-22",
+    "lastUpdated": "2026-10-23",
     "version": "1.0.0"
   },
   "updates": [
@@ -9458,6 +9458,44 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-10-22-claude-code-v2-1-309",
+      "date": "2026-10-22",
+      "title": "Claude Code v2.1.309",
+      "titleEn": "Claude Code v2.1.309",
+      "description": "Fixed sandboxed Bash commands on macOS and Linux running ...、Fixed macOS sandbox `denyWrite` glob patterns not applyin...、Fixed sandboxed commands and auto-accepted edits being ab...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.309"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-22-claude-code-v2-1-308",
+      "date": "2026-10-22",
+      "title": "Claude Code v2.1.308",
+      "titleEn": "Claude Code v2.1.308",
+      "description": "Bug fixes and reliability improvements",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "improvement",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.308"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
