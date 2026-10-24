@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-23",
+    "lastUpdated": "2026-10-25",
     "version": "1.0.0"
   },
   "updates": [
@@ -9494,6 +9494,25 @@
       "tags": [
         "claude-code",
         "v2.1.308"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-23-claude-code-v2-1-310",
+      "date": "2026-10-23",
+      "title": "Claude Code v2.1.310",
+      "titleEn": "Claude Code v2.1.310",
+      "description": "Added the Monitor tool and plugin monitors on Bedrock, Ve...、Fixed requests failing behind some gateways and compatibl...、Fixed background cleanup deleting some recent files, such...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.310"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
