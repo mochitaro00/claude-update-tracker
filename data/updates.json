@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-25",
+    "lastUpdated": "2026-10-27",
     "version": "1.0.0"
   },
   "updates": [
@@ -9513,6 +9513,25 @@
       "tags": [
         "claude-code",
         "v2.1.310"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-26-claude-code-v2-1-311",
+      "date": "2026-10-26",
+      "title": "Claude Code v2.1.311",
+      "titleEn": "Claude Code v2.1.311",
+      "description": "Added `--hold-idle-file` and `--max-hold-min` to `self-ho...、Added a tip for the Explanatory output style, shown when ...、Fixed long freezes at startup and after reading or editin...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.311"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
