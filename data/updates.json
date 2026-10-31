@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-31",
+    "lastUpdated": "2026-11-01",
     "version": "1.0.0"
   },
   "updates": [
@@ -9570,6 +9570,25 @@
       "tags": [
         "claude-code",
         "v2.1.314"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-10-31-claude-code-v2-1-316",
+      "date": "2026-10-31",
+      "title": "Claude Code v2.1.316",
+      "titleEn": "Claude Code v2.1.316",
+      "description": "Added `CLAUDE_CODE_DISABLE_ULTRATHINK`, which turns the `...、Added pooled group budgets to the Claude apps gateway: on...、Added `CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP` to kee...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.316"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
