@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-05",
+    "lastUpdated": "2026-11-06",
     "version": "1.0.0"
   },
   "updates": [
@@ -9629,6 +9629,24 @@
         "v2.1.318"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-11-05-apps-new-security-and-admin-controls-for-enterprise-pla",
+      "date": "2026-11-05",
+      "title": "New security and admin controls for Enterprise plans",
+      "titleEn": "New security and admin controls for Enterprise plans",
+      "description": "Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, and additional access controls, several in beta. For more information, see our blog post: More visibility and control over Claude Enterprise for security teams. Personal Finance in Claude",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
