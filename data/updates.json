@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-06",
+    "lastUpdated": "2026-11-07",
     "version": "1.0.0"
   },
   "updates": [
@@ -9636,6 +9636,43 @@
       "title": "New security and admin controls for Enterprise plans",
       "titleEn": "New security and admin controls for Enterprise plans",
       "description": "Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, and additional access controls, several in beta. For more information, see our blog post: More visibility and control over Claude Enterprise for security teams. Personal Finance in Claude",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-11-06-claude-code-v2-1-319",
+      "date": "2026-11-06",
+      "title": "Claude Code v2.1.319",
+      "titleEn": "Claude Code v2.1.319",
+      "description": "Changed auto mode with telemetry or feature flags off, in...、Changed auto mode behind an LLM gateway: `CLAUDE_CODE_AUT...、Added support for MCP tasks in the terminal: when an MCP ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.319"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-11-06-apps-track-spend-by-cost-code-with-project-tags-beta",
+      "date": "2026-11-06",
+      "title": "Track spend by cost code with project tags (beta)",
+      "titleEn": "Track spend by cost code with project tags (beta)",
+      "description": "Eligible Enterprise organizations can now tag projects with the codes they already use, like a charge code or client-matter number, and see most spend in those projects by tag. This feature is available in beta. For more information, see Track spend by cost code with project tags.",
       "source": "apps",
       "platforms": [
         "claude-ai",
