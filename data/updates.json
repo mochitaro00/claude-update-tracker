@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-19",
+    "lastUpdated": "2026-11-20",
     "version": "1.0.0"
   },
   "updates": [
@@ -9850,6 +9850,44 @@
       "tags": [
         "claude-code",
         "v2.1.327"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-11-19-claude-code-v2-1-329",
+      "date": "2026-11-19",
+      "title": "Claude Code v2.1.329",
+      "titleEn": "Claude Code v2.1.329",
+      "description": "Added a trust dialog warning that says where a folder's h...、Added a warning in the conversation, in Claude Desktop an...、Added this session's scheduled tasks, `/loop` wakeups, th...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.329"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-11-19-claude-code-v2-1-328",
+      "date": "2026-11-19",
+      "title": "Claude Code v2.1.328",
+      "titleEn": "Claude Code v2.1.328",
+      "description": "Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Ama...、Added `\"onFailure\": \"block\"` for `mcp_tool` hooks, as for...、Added a warning when a message from a session that skips ...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.328"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
