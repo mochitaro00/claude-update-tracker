@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-24",
+    "lastUpdated": "2026-11-25",
     "version": "1.0.0"
   },
   "updates": [
@@ -9966,6 +9966,25 @@
         "v2.1.331"
       ],
       "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "2026-11-24-apps-monthly-recap-is-out-of-beta",
+      "date": "2026-11-24",
+      "title": "Monthly recap is out of beta",
+      "titleEn": "Monthly recap is out of beta",
+      "description": "The monthly recap (Reflect, in Settings) is now out of beta for Free, Pro, Max, and Ultra plans on the web, Claude Desktop, and Claude for iOS and Android. Recaps can now draw on your Claude Code sessions and Claude Cowork tasks in the cloud, and you can delete your stored recaps from the page. For more information, see See your monthly recap. Install artifacts as apps (beta)",
+      "source": "apps",
+      "platforms": [
+        "claude-ai",
+        "desktop",
+        "mobile"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "apps"
+      ],
+      "link": "https://support.claude.com/en/articles/12138966-release-notes"
     }
   ]
 }
