@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-25",
+    "lastUpdated": "2026-11-26",
     "version": "1.0.0"
   },
   "updates": [
@@ -9985,6 +9985,25 @@
         "apps"
       ],
       "link": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "id": "2026-11-25-claude-code-v2-1-332",
+      "date": "2026-11-25",
+      "title": "Claude Code v2.1.332",
+      "titleEn": "Claude Code v2.1.332",
+      "description": "Added skills from MCP servers (beta). They show as `serve...、Added a `PreSkillShellCommand` hook event that can refuse...、Added \"Always deliver\" to the prompt for held messages fr...",
+      "source": "code",
+      "platforms": [
+        "claude-code-cli",
+        "claude-code-vscode"
+      ],
+      "category": "feature",
+      "importance": "minor",
+      "tags": [
+        "claude-code",
+        "v2.1.332"
+      ],
+      "link": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
